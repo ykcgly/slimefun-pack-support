@@ -967,12 +967,12 @@
       ],
       "fallback": {
         "type": "model",
-        "model": "item/diamond_pickaxe"
+        "model": "item/netherite_pickaxe"
       }
     },
     "fallback": {
       "type": "model",
-      "model": "item/diamond_pickaxe"
+      "model": "item/netherite_pickaxe"
     }
   }
 }

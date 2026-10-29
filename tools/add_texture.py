@@ -728,6 +728,29 @@ def ask_resource_dir(pack: Pack, ns: str) -> str:
 
 
 # --------------------------------------------------------------------- verify --
+def overlay_fallback_problems(pack: Pack) -> list[str]:
+    """overlay 中物品定义的顶层回退必须是它自己，否则原版物品会显示成别的材质。"""
+    problems: list[str] = []
+    if not pack.overlay_items.is_dir():
+        return problems
+    for path in sorted(pack.overlay_items.glob("*.json")):
+        try:
+            node = json.loads(path.read_text(encoding="utf-8")).get("model")
+        except (json.JSONDecodeError, OSError) as exc:
+            problems.append(f"[x] overlay {path.name}: 解析失败（{exc}）")
+            continue
+        if not isinstance(node, dict):
+            continue
+        fallback = node.get("fallback")
+        if not isinstance(fallback, dict) or str(fallback.get("type", "")).split(":")[-1] != "model":
+            continue
+        ref = fallback.get("model")
+        expected = f"item/{path.stem}"
+        if isinstance(ref, str) and ref.startswith("item/") and ref != expected:
+            problems.append(f"[x] overlay {path.name}: 顶层回退 {ref} 应为 {expected}")
+    return problems
+
+
 def verify(pack: Pack) -> int:
     bad = 0
     checked = 0
@@ -753,6 +776,9 @@ def verify(pack: Pack) -> int:
             if not ov_target.exists() or ov_target.read_text(encoding="utf-8").replace("\r\n", "\n") != json.dumps(ov_doc, indent=2, ensure_ascii=False):
                 print("[x] player_head: overlay 产物与清单不一致")
                 bad += 1
+    for line in overlay_fallback_problems(pack):
+        print(line)
+        bad += 1
     print(f"verify: 检查 {checked} 个可重建基底，异常 {bad} 个")
     return 0 if bad == 0 else 1
 
