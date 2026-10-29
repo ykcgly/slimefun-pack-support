@@ -1,0 +1,14 @@
+{
+  "base": "cocoa_beans",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_RED_BEANS",
+      "model": "gastronomicon:ingredient/gn_red_beans"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/cocoa_beans"
+  }
+}

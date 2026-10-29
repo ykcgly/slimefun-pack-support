@@ -1,0 +1,14 @@
+{
+  "base": "mutton",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_RAW_CHEVON",
+      "model": "gastronomicon:ingredient/gn_raw_chevon"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/mutton"
+  }
+}

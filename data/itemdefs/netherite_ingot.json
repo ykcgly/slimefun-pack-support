@@ -1,0 +1,54 @@
+{
+  "base": "netherite_ingot",
+  "generated": true,
+  "entries": [
+    {
+      "id": "VOID_INGOT",
+      "model": "infinityexpansion:materials/void_ingot"
+    },
+    {
+      "id": "CARBONADO_PORTABLE_CHARGER",
+      "model": "fluffymachines:portable_chargers/carbonado_portable_charger"
+    },
+    {
+      "id": "NEODYMIUM_INGOT",
+      "model": "slimefunwarfare:resources/neodymium_ingot"
+    },
+    {
+      "id": "DYSPROSIUM_INGOT",
+      "model": "slimefunwarfare:resources/dysprosium_ingot"
+    },
+    {
+      "id": "NDFEB_ALLOY",
+      "model": "slimefunwarfare:general/ndfeb_alloy"
+    },
+    {
+      "id": "IE_VOID_INGOT",
+      "model": "infinityexpansion2:materials/void_ingot"
+    },
+    {
+      "id": "IE_UNKNOWN_SMITHING_TEMPLATE",
+      "model": "infinityexpansion2:materials/unknown_smithing_template"
+    },
+    {
+      "id": "SUPREME_ALLOY_ADAMANTIUM",
+      "model": "supreme:components/supreme_alloy_adamantium"
+    },
+    {
+      "id": "SUPREME_THORNIUM_CARBONADO",
+      "model": "supreme:components/supreme_thornium_carbonado"
+    },
+    {
+      "id": "SUPREME_THORNIUM_ENERGIZED",
+      "model": "supreme:components/supreme_thornium_energized"
+    },
+    {
+      "id": "SUPREME_THORNERITE",
+      "model": "supreme:components/supreme_thornerite"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/netherite_ingot"
+  }
+}

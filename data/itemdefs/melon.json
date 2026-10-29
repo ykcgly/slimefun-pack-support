@@ -1,0 +1,22 @@
+{
+  "base": "melon",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_SQUASH",
+      "model": "gastronomicon:ingredient/gn_squash"
+    },
+    {
+      "id": "GN_CANTALOUPE",
+      "model": "gastronomicon:ingredient/gn_cantaloupe"
+    },
+    {
+      "id": "GN_HONEYDEW_MELON",
+      "model": "gastronomicon:ingredient/gn_honeydew_melon"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/melon"
+  }
+}

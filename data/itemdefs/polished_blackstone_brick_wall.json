@@ -1,0 +1,14 @@
+{
+  "base": "polished_blackstone_brick_wall",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SPOUT",
+      "model": "slimetinker:materials/spout"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/polished_blackstone_brick_wall_inventory"
+  }
+}

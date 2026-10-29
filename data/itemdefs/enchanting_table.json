@@ -1,0 +1,62 @@
+{
+  "base": "enchanting_table",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ANCIENT_ALTAR",
+      "model": "slimefun:slimefun/magical_gadgets/ancient_altar"
+    },
+    {
+      "id": "AUTO_ENCHANTER",
+      "model": "slimefun:slimefun/energy/auto_enchanter"
+    },
+    {
+      "id": "AUTO_DISENCHANTER",
+      "model": "slimefun:slimefun/energy/auto_disenchanter"
+    },
+    {
+      "id": "AUTO_ENCHANTER_2",
+      "model": "slimefun:slimefun/energy/auto_enchanter_2"
+    },
+    {
+      "id": "AUTO_DISENCHANTER_2",
+      "model": "slimefun:slimefun/energy/auto_disenchanter_2"
+    },
+    {
+      "id": "ADVANCED_ENCHANTER",
+      "model": "infinityexpansion:machines/advanced_enchanter"
+    },
+    {
+      "id": "ADVANCED_DISENCHANTER",
+      "model": "infinityexpansion:machines/advanced_disenchanter"
+    },
+    {
+      "id": "INFINITY_ENCHANTER",
+      "model": "infinityexpansion:machines/infinity_enchanter"
+    },
+    {
+      "id": "INFINITY_DISENCHANTER",
+      "model": "infinityexpansion:machines/infinity_disenchanter"
+    },
+    {
+      "id": "IE_ADVANCED_ENCHANTER",
+      "model": "infinityexpansion2:sf_expansion/advanced_enchanter"
+    },
+    {
+      "id": "IE_INFINITY_ENCHANTER",
+      "model": "infinityexpansion2:sf_expansion/infinity_enchanter"
+    },
+    {
+      "id": "IE_ADVANCED_DISENCHANTER",
+      "model": "infinityexpansion2:sf_expansion/advanced_disenchanter"
+    },
+    {
+      "id": "IE_INFINITY_DISENCHANTER",
+      "model": "infinityexpansion2:sf_expansion/infinity_disenchanter"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/enchanting_table"
+  }
+}

@@ -1,0 +1,1305 @@
+{
+  "base": "player_head",
+  "generated": true,
+  "entries": [
+    {
+      "id": "PORTABLE_CRAFTER",
+      "model": "slimefun:slimefun/items/portable_crafter"
+    },
+    {
+      "id": "PORTABLE_DUSTBIN",
+      "model": "slimefun:slimefun/items/portable_dustbin"
+    },
+    {
+      "id": "ENDER_BACKPACK",
+      "model": "slimefun:slimefun/magical_gadgets/ender_backpack"
+    },
+    {
+      "id": "BATTERY",
+      "model": "slimefun:slimefun/technical_components/battery"
+    },
+    {
+      "id": "SYNTHETIC_SAPPHIRE",
+      "model": "slimefun:slimefun/resources/valuables/synthetic_sapphire"
+    },
+    {
+      "id": "RAW_CARBONADO",
+      "model": "slimefun:slimefun/resources/valuables/raw_carbonado"
+    },
+    {
+      "id": "CARBONADO",
+      "model": "slimefun:slimefun/resources/valuables/carbonado"
+    },
+    {
+      "id": "CARBON",
+      "model": "slimefun:slimefun/resources/valuables/carbon"
+    },
+    {
+      "id": "COMPRESSED_CARBON",
+      "model": "slimefun:slimefun/resources/valuables/compressed_carbon"
+    },
+    {
+      "id": "CARBON_CHUNK",
+      "model": "slimefun:slimefun/resources/valuables/carbon_chunk"
+    },
+    {
+      "id": "POWER_CRYSTAL",
+      "model": "slimefun:slimefun/technical_components/power_crystal"
+    },
+    {
+      "id": "STONE_CHUNK",
+      "model": "slimefun:slimefun/miscellaneous/stone_chunk"
+    },
+    {
+      "id": "LAVA_CRYSTAL",
+      "model": "slimefun:slimefun/magical_items/lava_crystal"
+    },
+    {
+      "id": "CHEESE",
+      "model": "slimefun:slimefun/miscellaneous/cheese"
+    },
+    {
+      "id": "BUTTER",
+      "model": "slimefun:slimefun/miscellaneous/butter"
+    },
+    {
+      "id": "TINY_URANIUM",
+      "model": "slimefun:slimefun/miscellaneous/tiny_uranium"
+    },
+    {
+      "id": "SMALL_URANIUM",
+      "model": "slimefun:slimefun/miscellaneous/small_uranium"
+    },
+    {
+      "id": "URANIUM",
+      "model": "slimefun:slimefun/resources/radioactive_materials/uranium"
+    },
+    {
+      "id": "CAN",
+      "model": "slimefun:slimefun/miscellaneous/can"
+    },
+    {
+      "id": "SMALL_BACKPACK",
+      "model": "slimefun:slimefun/items/small_backpack"
+    },
+    {
+      "id": "MEDIUM_BACKPACK",
+      "model": "slimefun:slimefun/items/medium_backpack"
+    },
+    {
+      "id": "LARGE_BACKPACK",
+      "model": "slimefun:slimefun/items/large_backpack"
+    },
+    {
+      "id": "WOVEN_BACKPACK",
+      "model": "slimefun:slimefun/items/woven_backpack"
+    },
+    {
+      "id": "GILDED_BACKPACK",
+      "model": "slimefun:slimefun/items/gilded_backpack"
+    },
+    {
+      "id": "RADIANT_BACKPACK",
+      "model": "slimefun:slimefun/items/radiant_backpack"
+    },
+    {
+      "id": "RESTORED_BACKPACK",
+      "model": "slimefun:slimefun/items/restored_backpack"
+    },
+    {
+      "id": "MAGNET",
+      "model": "slimefun:slimefun/technical_components/magnet"
+    },
+    {
+      "id": "INFUSED_MAGNET",
+      "model": "slimefun:slimefun/magical_gadgets/infused_magnet"
+    },
+    {
+      "id": "NECROTIC_SKULL",
+      "model": "slimefun:slimefun/magical_items/necrotic_skull"
+    },
+    {
+      "id": "BOUND_BACKPACK",
+      "model": "slimefun:slimefun/magical_gadgets/bound_backpack"
+    },
+    {
+      "id": "ELECTRO_MAGNET",
+      "model": "slimefun:slimefun/technical_components/electro_magnet"
+    },
+    {
+      "id": "ELECTRIC_MOTOR",
+      "model": "slimefun:slimefun/technical_components/electric_motor"
+    },
+    {
+      "id": "HEATING_COIL",
+      "model": "slimefun:slimefun/technical_components/heating_coil"
+    },
+    {
+      "id": "CHRISTMAS_PRESENT",
+      "model": "slimefun:slimefun/christmas/christmas_present"
+    },
+    {
+      "id": "COOLING_UNIT",
+      "model": "slimefun:slimefun/technical_components/cooling_unit"
+    },
+    {
+      "id": "COOLER",
+      "model": "slimefun:slimefun/items/cooler"
+    },
+    {
+      "id": "ENERGY_REGULATOR",
+      "model": "slimefun:slimefun/energy/energy_regulator"
+    },
+    {
+      "id": "DUCT_TAPE",
+      "model": "slimefun:slimefun/miscellaneous/duct_tape"
+    },
+    {
+      "id": "SMALL_CAPACITOR",
+      "model": "slimefun:slimefun/energy/small_capacitor"
+    },
+    {
+      "id": "MEDIUM_CAPACITOR",
+      "model": "slimefun:slimefun/energy/medium_capacitor"
+    },
+    {
+      "id": "BIG_CAPACITOR",
+      "model": "slimefun:slimefun/energy/big_capacitor"
+    },
+    {
+      "id": "LARGE_CAPACITOR",
+      "model": "slimefun:slimefun/energy/large_capacitor"
+    },
+    {
+      "id": "CARBONADO_EDGED_CAPACITOR",
+      "model": "slimefun:slimefun/energy/carbonado_edged_capacitor"
+    },
+    {
+      "id": "COAL_GENERATOR",
+      "model": "slimefun:slimefun/energy/coal_generator"
+    },
+    {
+      "id": "COAL_GENERATOR_2",
+      "model": "slimefun:slimefun/energy/coal_generator_2"
+    },
+    {
+      "id": "ELECTRIC_PRESS",
+      "model": "slimefun:slimefun/energy/electric_press"
+    },
+    {
+      "id": "ELECTRIC_PRESS_2",
+      "model": "slimefun:slimefun/energy/electric_press_2"
+    },
+    {
+      "id": "MAGNESIUM_GENERATOR",
+      "model": "slimefun:slimefun/energy/magnesium_generator"
+    },
+    {
+      "id": "ANDROID_MEMORY_CORE",
+      "model": "slimefun:slimefun/technical_components/android_memory_core"
+    },
+    {
+      "id": "GPS_TRANSMITTER",
+      "model": "slimefun:slimefun/gps/gps_transmitter"
+    },
+    {
+      "id": "GPS_TRANSMITTER_2",
+      "model": "slimefun:slimefun/gps/gps_transmitter_2"
+    },
+    {
+      "id": "GPS_TRANSMITTER_3",
+      "model": "slimefun:slimefun/gps/gps_transmitter_3"
+    },
+    {
+      "id": "GPS_TRANSMITTER_4",
+      "model": "slimefun:slimefun/gps/gps_transmitter_4"
+    },
+    {
+      "id": "GPS_CONTROL_PANEL",
+      "model": "slimefun:slimefun/gps/gps_control_panel"
+    },
+    {
+      "id": "GPS_EMERGENCY_TRANSMITTER",
+      "model": "slimefun:slimefun/gps/gps_emergency_transmitter"
+    },
+    {
+      "id": "PROGRAMMABLE_ANDROID",
+      "model": "slimefun:slimefun/androids/android/normal"
+    },
+    {
+      "id": "PROGRAMMABLE_ANDROID_MINER",
+      "model": "slimefun:slimefun/androids/android/programmable_android_miner"
+    },
+    {
+      "id": "PROGRAMMABLE_ANDROID_FARMER",
+      "model": "slimefun:slimefun/androids/android/farmer"
+    },
+    {
+      "id": "PROGRAMMABLE_ANDROID_WOODCUTTER",
+      "model": "slimefun:slimefun/androids/android/programmable_android_woodcutter"
+    },
+    {
+      "id": "PROGRAMMABLE_ANDROID_FISHERMAN",
+      "model": "slimefun:slimefun/androids/android/fisherman"
+    },
+    {
+      "id": "PROGRAMMABLE_ANDROID_BUTCHER",
+      "model": "slimefun:slimefun/androids/android/butcher"
+    },
+    {
+      "id": "PROGRAMMABLE_ANDROID_2",
+      "model": "slimefun:slimefun/androids/android2/normal"
+    },
+    {
+      "id": "PROGRAMMABLE_ANDROID_2_FISHERMAN",
+      "model": "slimefun:slimefun/androids/android2/fisherman"
+    },
+    {
+      "id": "PROGRAMMABLE_ANDROID_2_BUTCHER",
+      "model": "slimefun:slimefun/androids/android2/butcher"
+    },
+    {
+      "id": "PROGRAMMABLE_ANDROID_2_FARMER",
+      "model": "slimefun:slimefun/androids/android2/farmer"
+    },
+    {
+      "id": "PROGRAMMABLE_ANDROID_3",
+      "model": "slimefun:slimefun/androids/android3/normal"
+    },
+    {
+      "id": "PROGRAMMABLE_ANDROID_3_FISHERMAN",
+      "model": "slimefun:slimefun/androids/android3/fisherman"
+    },
+    {
+      "id": "PROGRAMMABLE_ANDROID_3_BUTCHER",
+      "model": "slimefun:slimefun/androids/android3/butcher"
+    },
+    {
+      "id": "GPS_GEO_SCANNER",
+      "model": "slimefun:slimefun/gps/gps_geo_scanner"
+    },
+    {
+      "id": "OIL_PUMP",
+      "model": "slimefun:slimefun/gps/oil_pump"
+    },
+    {
+      "id": "GEO_MINER",
+      "model": "slimefun:slimefun/gps/geo_miner"
+    },
+    {
+      "id": "BUCKET_OF_OIL",
+      "model": "slimefun:slimefun/resources/fuel/bucket_of_oil"
+    },
+    {
+      "id": "BUCKET_OF_FUEL",
+      "model": "slimefun:slimefun/resources/fuel/bucket_of_fuel"
+    },
+    {
+      "id": "NETHER_ICE",
+      "model": "slimefun:slimefun/resources/valuables/nether_ice"
+    },
+    {
+      "id": "LAVA_GENERATOR",
+      "model": "slimefun:slimefun/energy/lava_generator"
+    },
+    {
+      "id": "LAVA_GENERATOR_2",
+      "model": "slimefun:slimefun/energy/lava_generator_2"
+    },
+    {
+      "id": "COMBUSTION_REACTOR",
+      "model": "slimefun:slimefun/energy/combustion_reactor"
+    },
+    {
+      "id": "ENRICHED_NETHER_ICE",
+      "model": "slimefun:slimefun/resources/valuables/enriched_nether_ice"
+    },
+    {
+      "id": "ORGANIC_FOOD_WHEAT",
+      "model": "slimefun:slimefun/miscellaneous/organic_food/organic_food_wheat"
+    },
+    {
+      "id": "ORGANIC_FOOD_CARROT",
+      "model": "slimefun:slimefun/miscellaneous/organic_food/organic_food_carrot"
+    },
+    {
+      "id": "ORGANIC_FOOD_POTATO",
+      "model": "slimefun:slimefun/miscellaneous/organic_food/organic_food_potato"
+    },
+    {
+      "id": "ORGANIC_FOOD_SEEDS",
+      "model": "slimefun:slimefun/miscellaneous/organic_food/organic_food_seeds"
+    },
+    {
+      "id": "ORGANIC_FOOD_BEETROOT",
+      "model": "slimefun:slimefun/miscellaneous/organic_food/organic_food_beetroot"
+    },
+    {
+      "id": "ORGANIC_FOOD_MELON",
+      "model": "slimefun:slimefun/miscellaneous/organic_food/organic_food_melon"
+    },
+    {
+      "id": "ORGANIC_FOOD_APPLE",
+      "model": "slimefun:slimefun/miscellaneous/organic_food/organic_food_apple"
+    },
+    {
+      "id": "ORGANIC_FOOD_SWEET_BERRIES",
+      "model": "slimefun:slimefun/miscellaneous/organic_food/organic_food_sweet_berries"
+    },
+    {
+      "id": "ORGANIC_FOOD_KELP",
+      "model": "slimefun:slimefun/miscellaneous/organic_food/organic_food_kelp"
+    },
+    {
+      "id": "ORGANIC_FOOD_COCOA",
+      "model": "slimefun:slimefun/miscellaneous/organic_food/organic_food_cocoa"
+    },
+    {
+      "id": "XP_COLLECTOR",
+      "model": "slimefun:slimefun/energy/xp_collector"
+    },
+    {
+      "id": "FERTILIZER_WHEAT",
+      "model": "slimefun:slimefun/miscellaneous/organic_fertilizer/fertilizer_wheat"
+    },
+    {
+      "id": "FERTILIZER_CARROT",
+      "model": "slimefun:slimefun/miscellaneous/organic_fertilizer/fertilizer_carrot"
+    },
+    {
+      "id": "FERTILIZER_POTATO",
+      "model": "slimefun:slimefun/miscellaneous/organic_fertilizer/fertilizer_potato"
+    },
+    {
+      "id": "FERTILIZER_SEEDS",
+      "model": "slimefun:slimefun/miscellaneous/organic_fertilizer/fertilizer_seeds"
+    },
+    {
+      "id": "FERTILIZER_BEETROOT",
+      "model": "slimefun:slimefun/miscellaneous/organic_fertilizer/fertilizer_beetroot"
+    },
+    {
+      "id": "FERTILIZER_MELON",
+      "model": "slimefun:slimefun/miscellaneous/organic_fertilizer/fertilizer_melon"
+    },
+    {
+      "id": "FERTILIZER_APPLE",
+      "model": "slimefun:slimefun/miscellaneous/organic_fertilizer/fertilizer_apple"
+    },
+    {
+      "id": "FERTILIZER_SWEET_BERRIES",
+      "model": "slimefun:slimefun/miscellaneous/organic_fertilizer/fertilizer_sweet_berries"
+    },
+    {
+      "id": "FERTILIZER_KELP",
+      "model": "slimefun:slimefun/miscellaneous/organic_fertilizer/fertilizer_kelp"
+    },
+    {
+      "id": "FERTILIZER_COCOA",
+      "model": "slimefun:slimefun/miscellaneous/organic_fertilizer/fertilizer_cocoa"
+    },
+    {
+      "id": "REACTOR_COLLANT_CELL",
+      "model": "slimefun:slimefun/technical_components/reactor_collant_cell"
+    },
+    {
+      "id": "NETHER_ICE_COOLANT_CELL",
+      "model": "slimefun:slimefun/technical_components/nether_ice_coolant_cell"
+    },
+    {
+      "id": "NEPTUNIUM",
+      "model": "slimefun:slimefun/resources/radioactive_materials/neptunium"
+    },
+    {
+      "id": "PLUTONIUM",
+      "model": "slimefun:slimefun/resources/radioactive_materials/plutonium"
+    },
+    {
+      "id": "BOOSTED_URANIUM",
+      "model": "slimefun:slimefun/resources/radioactive_materials/boosted_uranium"
+    },
+    {
+      "id": "NUCLEAR_REACTOR",
+      "model": "slimefun:slimefun/energy/nuclear_reactor"
+    },
+    {
+      "id": "NETHERSTAR_REACTOR",
+      "model": "slimefun:slimefun/energy/netherstar_reactor"
+    },
+    {
+      "id": "CARGO_MOTOR",
+      "model": "slimefun:slimefun/cargo/cargo_motor"
+    },
+    {
+      "id": "CARGO_MANAGER",
+      "model": "slimefun:slimefun/cargo/cargo_manager"
+    },
+    {
+      "id": "CARGO_NODE",
+      "model": "slimefun:slimefun/cargo/cargo_node"
+    },
+    {
+      "id": "CARGO_NODE_INPUT",
+      "model": "slimefun:slimefun/cargo/cargo_node_input"
+    },
+    {
+      "id": "CARGO_NODE_OUTPUT",
+      "model": "slimefun:slimefun/cargo/cargo_node_output"
+    },
+    {
+      "id": "CARGO_NODE_OUTPUT_ADVANCED",
+      "model": "slimefun:slimefun/cargo/cargo_node_output_advanced"
+    },
+    {
+      "id": "AUTOMATED_CRAFTING_CHAMBER",
+      "model": "slimefun:slimefun/energy/automated_crafting_chamber"
+    },
+    {
+      "id": "TRASH_CAN_BLOCK",
+      "model": "slimefun:slimefun/cargo/trash_can_block"
+    },
+    {
+      "id": "TAPE_MEASURE",
+      "model": "slimefun:slimefun/items/tape_measure"
+    },
+    {
+      "id": "ENERGIZED_CAPACITOR",
+      "model": "slimefun:slimefun/energy/energized_capacitor"
+    },
+    {
+      "id": "ENERGY_CONNECTOR",
+      "model": "slimefun:slimefun/energy/energy_connector"
+    },
+    {
+      "id": "CRAFTING_MOTOR",
+      "model": "slimefun:slimefun/cargo/crafting_motor"
+    },
+    {
+      "id": "VANILLA_AUTO_CRAFTER",
+      "model": "slimefun:slimefun/cargo/vanilla_auto_crafter"
+    },
+    {
+      "id": "ENHANCED_AUTO_CRAFTER",
+      "model": "slimefun:slimefun/cargo/enhanced_auto_crafter"
+    },
+    {
+      "id": "ARMOR_AUTO_CRAFTER",
+      "model": "slimefun:slimefun/cargo/armor_auto_crafter"
+    },
+    {
+      "id": "ORGANIC_FOOD_SEAGRASS",
+      "model": "slimefun:slimefun/miscellaneous/organic_food/seagrass"
+    },
+    {
+      "id": "FERTILIZER_SEAGRASS",
+      "model": "slimefun:slimefun/miscellaneous/organic_fertilizer/seagrass"
+    },
+    {
+      "id": "INFINITY_CAPACITOR",
+      "model": "infinityexpansion:machines/infinity_capacitor"
+    },
+    {
+      "id": "VOID_CAPACITOR",
+      "model": "infinityexpansion:machines/void_capacitor"
+    },
+    {
+      "id": "ADVANCED_GEO_MINER",
+      "model": "infinityexpansion:machines/advanced_geo_miner"
+    },
+    {
+      "id": "ADVANCED_NETHER_STAR_REACTOR",
+      "model": "infinityexpansion:machines/advanced_nether_star_reactor"
+    },
+    {
+      "id": "AMBER",
+      "model": "slimy_tree_taps:materials/amber"
+    },
+    {
+      "id": "WATERING_CAN",
+      "model": "fluffymachines:tools/watering_can"
+    },
+    {
+      "id": "ENDER_CHEST_INSERTION_NODE",
+      "model": "fluffymachines:cargo/ender_chest_insertion_node"
+    },
+    {
+      "id": "SUPREME_SUPREME_NUGGET",
+      "model": "supreme:components/supreme_supreme_nugget"
+    },
+    {
+      "id": "SUPREME_SUPREME",
+      "model": "supreme:components/supreme_supreme"
+    },
+    {
+      "id": "SUPREME_CORE_OF_BLOCK",
+      "model": "supreme:components/supreme_core_of_block"
+    },
+    {
+      "id": "SUPREME_CORE_OF_DEATH",
+      "model": "supreme:components/supreme_core_of_death"
+    },
+    {
+      "id": "SUPREME_CORE_OF_LIFE",
+      "model": "supreme:components/supreme_core_of_life"
+    },
+    {
+      "id": "SUPREME_CORE_OF_COLOR",
+      "model": "supreme:components/supreme_core_of_color"
+    },
+    {
+      "id": "SUPREME_CORE_OF_NATURE",
+      "model": "supreme:components/supreme_core_of_nature"
+    },
+    {
+      "id": "SUPREME_CORE_OF_ALLOY",
+      "model": "supreme:components/supreme_core_of_alloy"
+    },
+    {
+      "id": "SUPREME_CETRUS_LUMIUM",
+      "model": "supreme:components/supreme_cetrus_lumium"
+    },
+    {
+      "id": "SUPREME_CETRUS_LUX",
+      "model": "supreme:components/supreme_cetrus_lux"
+    },
+    {
+      "id": "SUPREME_CETRUS_VENTUS",
+      "model": "supreme:components/supreme_cetrus_ventus"
+    },
+    {
+      "id": "SUPREME_CETRUS_AQUA",
+      "model": "supreme:components/supreme_cetrus_aqua"
+    },
+    {
+      "id": "SUPREME_CETRUS_IGNIS",
+      "model": "supreme:components/supreme_cetrus_ignis"
+    },
+    {
+      "id": "SUPREME_ATTRIBUTE_MAGIC",
+      "model": "supreme:components/supreme_attribute_magic"
+    },
+    {
+      "id": "SUPREME_ATTRIBUTE_BOMB",
+      "model": "supreme:components/supreme_attribute_bomb"
+    },
+    {
+      "id": "SUPREME_ATTRIBUTE_FORTUNE",
+      "model": "supreme:components/supreme_attribute_fortune"
+    },
+    {
+      "id": "SUPREME_ATTRIBUTE_IMPETUS",
+      "model": "supreme:components/supreme_attribute_impetus"
+    },
+    {
+      "id": "DYED_SMALL_BACKPACK_WHITE",
+      "model": "dyedbackpacks:small/dyed_small_backpack_white"
+    },
+    {
+      "id": "DYED_SMALL_BACKPACK_ORANGE",
+      "model": "dyedbackpacks:small/dyed_small_backpack_orange"
+    },
+    {
+      "id": "DYED_SMALL_BACKPACK_MAGENTA",
+      "model": "dyedbackpacks:small/dyed_small_backpack_magenta"
+    },
+    {
+      "id": "DYED_SMALL_BACKPACK_LIGHT_BLUE",
+      "model": "dyedbackpacks:small/dyed_small_backpack_light_blue"
+    },
+    {
+      "id": "DYED_SMALL_BACKPACK_YELLOW",
+      "model": "dyedbackpacks:small/dyed_small_backpack_yellow"
+    },
+    {
+      "id": "DYED_SMALL_BACKPACK_LIME",
+      "model": "dyedbackpacks:small/dyed_small_backpack_lime"
+    },
+    {
+      "id": "DYED_SMALL_BACKPACK_PINK",
+      "model": "dyedbackpacks:small/dyed_small_backpack_pink"
+    },
+    {
+      "id": "DYED_SMALL_BACKPACK_DARK_GRAY",
+      "model": "dyedbackpacks:small/dyed_small_backpack_dark_gray"
+    },
+    {
+      "id": "DYED_SMALL_BACKPACK_LIGHT_GRAY",
+      "model": "dyedbackpacks:small/dyed_small_backpack_light_gray"
+    },
+    {
+      "id": "DYED_SMALL_BACKPACK_CYAN",
+      "model": "dyedbackpacks:small/dyed_small_backpack_cyan"
+    },
+    {
+      "id": "DYED_SMALL_BACKPACK_PURPLE",
+      "model": "dyedbackpacks:small/dyed_small_backpack_purple"
+    },
+    {
+      "id": "DYED_SMALL_BACKPACK_BLUE",
+      "model": "dyedbackpacks:small/dyed_small_backpack_blue"
+    },
+    {
+      "id": "DYED_SMALL_BACKPACK_BROWN",
+      "model": "dyedbackpacks:small/dyed_small_backpack_brown"
+    },
+    {
+      "id": "DYED_SMALL_BACKPACK_GREEN",
+      "model": "dyedbackpacks:small/dyed_small_backpack_green"
+    },
+    {
+      "id": "DYED_SMALL_BACKPACK_RED",
+      "model": "dyedbackpacks:small/dyed_small_backpack_red"
+    },
+    {
+      "id": "DYED_SMALL_BACKPACK_BLACK",
+      "model": "dyedbackpacks:small/dyed_small_backpack_black"
+    },
+    {
+      "id": "DYED_MEDIUM_BACKPACK_WHITE",
+      "model": "dyedbackpacks:medium/dyed_medium_backpack_white"
+    },
+    {
+      "id": "DYED_MEDIUM_BACKPACK_ORANGE",
+      "model": "dyedbackpacks:medium/dyed_medium_backpack_orange"
+    },
+    {
+      "id": "DYED_MEDIUM_BACKPACK_MAGENTA",
+      "model": "dyedbackpacks:medium/dyed_medium_backpack_magenta"
+    },
+    {
+      "id": "DYED_MEDIUM_BACKPACK_LIGHT_BLUE",
+      "model": "dyedbackpacks:medium/dyed_medium_backpack_light_blue"
+    },
+    {
+      "id": "DYED_MEDIUM_BACKPACK_YELLOW",
+      "model": "dyedbackpacks:medium/dyed_medium_backpack_yellow"
+    },
+    {
+      "id": "DYED_MEDIUM_BACKPACK_LIME",
+      "model": "dyedbackpacks:medium/dyed_medium_backpack_lime"
+    },
+    {
+      "id": "DYED_MEDIUM_BACKPACK_PINK",
+      "model": "dyedbackpacks:medium/dyed_medium_backpack_pink"
+    },
+    {
+      "id": "DYED_MEDIUM_BACKPACK_DARK_GRAY",
+      "model": "dyedbackpacks:medium/dyed_medium_backpack_dark_gray"
+    },
+    {
+      "id": "DYED_MEDIUM_BACKPACK_LIGHT_GRAY",
+      "model": "dyedbackpacks:medium/dyed_medium_backpack_light_gray"
+    },
+    {
+      "id": "DYED_MEDIUM_BACKPACK_CYAN",
+      "model": "dyedbackpacks:medium/dyed_medium_backpack_cyan"
+    },
+    {
+      "id": "DYED_MEDIUM_BACKPACK_PURPLE",
+      "model": "dyedbackpacks:medium/dyed_medium_backpack_purple"
+    },
+    {
+      "id": "DYED_MEDIUM_BACKPACK_BLUE",
+      "model": "dyedbackpacks:medium/dyed_medium_backpack_blue"
+    },
+    {
+      "id": "DYED_MEDIUM_BACKPACK_BROWN",
+      "model": "dyedbackpacks:medium/dyed_medium_backpack_brown"
+    },
+    {
+      "id": "DYED_MEDIUM_BACKPACK_GREEN",
+      "model": "dyedbackpacks:medium/dyed_medium_backpack_green"
+    },
+    {
+      "id": "DYED_MEDIUM_BACKPACK_RED",
+      "model": "dyedbackpacks:medium/dyed_medium_backpack_red"
+    },
+    {
+      "id": "DYED_MEDIUM_BACKPACK_BLACK",
+      "model": "dyedbackpacks:medium/dyed_medium_backpack_black"
+    },
+    {
+      "id": "DYED_LARGE_BACKPACK_WHITE",
+      "model": "dyedbackpacks:large/dyed_large_backpack_white"
+    },
+    {
+      "id": "DYED_LARGE_BACKPACK_ORANGE",
+      "model": "dyedbackpacks:large/dyed_large_backpack_orange"
+    },
+    {
+      "id": "DYED_LARGE_BACKPACK_MAGENTA",
+      "model": "dyedbackpacks:large/dyed_large_backpack_magenta"
+    },
+    {
+      "id": "DYED_LARGE_BACKPACK_LIGHT_BLUE",
+      "model": "dyedbackpacks:large/dyed_large_backpack_light_blue"
+    },
+    {
+      "id": "DYED_LARGE_BACKPACK_YELLOW",
+      "model": "dyedbackpacks:large/dyed_large_backpack_yellow"
+    },
+    {
+      "id": "DYED_LARGE_BACKPACK_LIME",
+      "model": "dyedbackpacks:large/dyed_large_backpack_lime"
+    },
+    {
+      "id": "DYED_LARGE_BACKPACK_PINK",
+      "model": "dyedbackpacks:large/dyed_large_backpack_pink"
+    },
+    {
+      "id": "DYED_LARGE_BACKPACK_DARK_GRAY",
+      "model": "dyedbackpacks:large/dyed_large_backpack_dark_gray"
+    },
+    {
+      "id": "DYED_LARGE_BACKPACK_LIGHT_GRAY",
+      "model": "dyedbackpacks:large/dyed_large_backpack_light_gray"
+    },
+    {
+      "id": "DYED_LARGE_BACKPACK_CYAN",
+      "model": "dyedbackpacks:large/dyed_large_backpack_cyan"
+    },
+    {
+      "id": "DYED_LARGE_BACKPACK_PURPLE",
+      "model": "dyedbackpacks:large/dyed_large_backpack_purple"
+    },
+    {
+      "id": "DYED_LARGE_BACKPACK_BLUE",
+      "model": "dyedbackpacks:large/dyed_large_backpack_blue"
+    },
+    {
+      "id": "DYED_LARGE_BACKPACK_BROWN",
+      "model": "dyedbackpacks:large/dyed_large_backpack_brown"
+    },
+    {
+      "id": "DYED_LARGE_BACKPACK_GREEN",
+      "model": "dyedbackpacks:large/dyed_large_backpack_green"
+    },
+    {
+      "id": "DYED_LARGE_BACKPACK_RED",
+      "model": "dyedbackpacks:large/dyed_large_backpack_red"
+    },
+    {
+      "id": "DYED_LARGE_BACKPACK_BLACK",
+      "model": "dyedbackpacks:large/dyed_large_backpack_black"
+    },
+    {
+      "id": "DYED_WOVEN_BACKPACK_WHITE",
+      "model": "dyedbackpacks:woven/dyed_woven_backpack_white"
+    },
+    {
+      "id": "DYED_WOVEN_BACKPACK_ORANGE",
+      "model": "dyedbackpacks:woven/dyed_woven_backpack_orange"
+    },
+    {
+      "id": "DYED_WOVEN_BACKPACK_MAGENTA",
+      "model": "dyedbackpacks:woven/dyed_woven_backpack_magenta"
+    },
+    {
+      "id": "DYED_WOVEN_BACKPACK_LIGHT_BLUE",
+      "model": "dyedbackpacks:woven/dyed_woven_backpack_light_blue"
+    },
+    {
+      "id": "DYED_WOVEN_BACKPACK_YELLOW",
+      "model": "dyedbackpacks:woven/dyed_woven_backpack_yellow"
+    },
+    {
+      "id": "DYED_WOVEN_BACKPACK_LIME",
+      "model": "dyedbackpacks:woven/dyed_woven_backpack_lime"
+    },
+    {
+      "id": "DYED_WOVEN_BACKPACK_PINK",
+      "model": "dyedbackpacks:woven/dyed_woven_backpack_pink"
+    },
+    {
+      "id": "DYED_WOVEN_BACKPACK_DARK_GRAY",
+      "model": "dyedbackpacks:woven/dyed_woven_backpack_dark_gray"
+    },
+    {
+      "id": "DYED_WOVEN_BACKPACK_LIGHT_GRAY",
+      "model": "dyedbackpacks:woven/dyed_woven_backpack_light_gray"
+    },
+    {
+      "id": "DYED_WOVEN_BACKPACK_CYAN",
+      "model": "dyedbackpacks:woven/dyed_woven_backpack_cyan"
+    },
+    {
+      "id": "DYED_WOVEN_BACKPACK_PURPLE",
+      "model": "dyedbackpacks:woven/dyed_woven_backpack_purple"
+    },
+    {
+      "id": "DYED_WOVEN_BACKPACK_BLUE",
+      "model": "dyedbackpacks:woven/dyed_woven_backpack_blue"
+    },
+    {
+      "id": "DYED_WOVEN_BACKPACK_BROWN",
+      "model": "dyedbackpacks:woven/dyed_woven_backpack_brown"
+    },
+    {
+      "id": "DYED_WOVEN_BACKPACK_GREEN",
+      "model": "dyedbackpacks:woven/dyed_woven_backpack_green"
+    },
+    {
+      "id": "DYED_WOVEN_BACKPACK_RED",
+      "model": "dyedbackpacks:woven/dyed_woven_backpack_red"
+    },
+    {
+      "id": "DYED_WOVEN_BACKPACK_BLACK",
+      "model": "dyedbackpacks:woven/dyed_woven_backpack_black"
+    },
+    {
+      "id": "DYED_GILDED_BACKPACK_WHITE",
+      "model": "dyedbackpacks:gilded/dyed_gilded_backpack_white"
+    },
+    {
+      "id": "DYED_GILDED_BACKPACK_ORANGE",
+      "model": "dyedbackpacks:gilded/dyed_gilded_backpack_orange"
+    },
+    {
+      "id": "DYED_GILDED_BACKPACK_MAGENTA",
+      "model": "dyedbackpacks:gilded/dyed_gilded_backpack_magenta"
+    },
+    {
+      "id": "DYED_GILDED_BACKPACK_LIGHT_BLUE",
+      "model": "dyedbackpacks:gilded/dyed_gilded_backpack_light_blue"
+    },
+    {
+      "id": "DYED_GILDED_BACKPACK_YELLOW",
+      "model": "dyedbackpacks:gilded/dyed_gilded_backpack_yellow"
+    },
+    {
+      "id": "DYED_GILDED_BACKPACK_LIME",
+      "model": "dyedbackpacks:gilded/dyed_gilded_backpack_lime"
+    },
+    {
+      "id": "DYED_GILDED_BACKPACK_PINK",
+      "model": "dyedbackpacks:gilded/dyed_gilded_backpack_pink"
+    },
+    {
+      "id": "DYED_GILDED_BACKPACK_DARK_GRAY",
+      "model": "dyedbackpacks:gilded/dyed_gilded_backpack_dark_gray"
+    },
+    {
+      "id": "DYED_GILDED_BACKPACK_LIGHT_GRAY",
+      "model": "dyedbackpacks:gilded/dyed_gilded_backpack_light_gray"
+    },
+    {
+      "id": "DYED_GILDED_BACKPACK_CYAN",
+      "model": "dyedbackpacks:gilded/dyed_gilded_backpack_cyan"
+    },
+    {
+      "id": "DYED_GILDED_BACKPACK_PURPLE",
+      "model": "dyedbackpacks:gilded/dyed_gilded_backpack_purple"
+    },
+    {
+      "id": "DYED_GILDED_BACKPACK_BLUE",
+      "model": "dyedbackpacks:gilded/dyed_gilded_backpack_blue"
+    },
+    {
+      "id": "DYED_GILDED_BACKPACK_BROWN",
+      "model": "dyedbackpacks:gilded/dyed_gilded_backpack_brown"
+    },
+    {
+      "id": "DYED_GILDED_BACKPACK_GREEN",
+      "model": "dyedbackpacks:gilded/dyed_gilded_backpack_green"
+    },
+    {
+      "id": "DYED_GILDED_BACKPACK_RED",
+      "model": "dyedbackpacks:gilded/dyed_gilded_backpack_red"
+    },
+    {
+      "id": "DYED_GILDED_BACKPACK_BLACK",
+      "model": "dyedbackpacks:gilded/dyed_gilded_backpack_black"
+    },
+    {
+      "id": "DYED_RADIANT_BACKPACK_WHITE",
+      "model": "dyedbackpacks:radiant/dyed_radiant_backpack_white"
+    },
+    {
+      "id": "DYED_RADIANT_BACKPACK_ORANGE",
+      "model": "dyedbackpacks:radiant/dyed_radiant_backpack_orange"
+    },
+    {
+      "id": "DYED_RADIANT_BACKPACK_MAGENTA",
+      "model": "dyedbackpacks:radiant/dyed_radiant_backpack_magenta"
+    },
+    {
+      "id": "DYED_RADIANT_BACKPACK_LIGHT_BLUE",
+      "model": "dyedbackpacks:radiant/dyed_radiant_backpack_light_blue"
+    },
+    {
+      "id": "DYED_RADIANT_BACKPACK_YELLOW",
+      "model": "dyedbackpacks:radiant/dyed_radiant_backpack_yellow"
+    },
+    {
+      "id": "DYED_RADIANT_BACKPACK_LIME",
+      "model": "dyedbackpacks:radiant/dyed_radiant_backpack_lime"
+    },
+    {
+      "id": "DYED_RADIANT_BACKPACK_PINK",
+      "model": "dyedbackpacks:radiant/dyed_radiant_backpack_pink"
+    },
+    {
+      "id": "DYED_RADIANT_BACKPACK_DARK_GRAY",
+      "model": "dyedbackpacks:radiant/dyed_radiant_backpack_dark_gray"
+    },
+    {
+      "id": "DYED_RADIANT_BACKPACK_LIGHT_GRAY",
+      "model": "dyedbackpacks:radiant/dyed_radiant_backpack_light_gray"
+    },
+    {
+      "id": "DYED_RADIANT_BACKPACK_CYAN",
+      "model": "dyedbackpacks:radiant/dyed_radiant_backpack_cyan"
+    },
+    {
+      "id": "DYED_RADIANT_BACKPACK_PURPLE",
+      "model": "dyedbackpacks:radiant/dyed_radiant_backpack_purple"
+    },
+    {
+      "id": "DYED_RADIANT_BACKPACK_BLUE",
+      "model": "dyedbackpacks:radiant/dyed_radiant_backpack_blue"
+    },
+    {
+      "id": "DYED_RADIANT_BACKPACK_BROWN",
+      "model": "dyedbackpacks:radiant/dyed_radiant_backpack_brown"
+    },
+    {
+      "id": "DYED_RADIANT_BACKPACK_GREEN",
+      "model": "dyedbackpacks:radiant/dyed_radiant_backpack_green"
+    },
+    {
+      "id": "DYED_RADIANT_BACKPACK_RED",
+      "model": "dyedbackpacks:radiant/dyed_radiant_backpack_red"
+    },
+    {
+      "id": "DYED_RADIANT_BACKPACK_BLACK",
+      "model": "dyedbackpacks:radiant/dyed_radiant_backpack_black"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_BLAZE",
+      "model": "electricspawners:electric_spawner_blaze"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_CAVE_SPIDER",
+      "model": "electricspawners:electric_spawner_cave_spider"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_CHICKEN",
+      "model": "electricspawners:electric_spawner_chicken"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_COW",
+      "model": "electricspawners:electric_spawner_cow"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_CREEPER",
+      "model": "electricspawners:electric_spawner_creeper"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_ENDERMAN",
+      "model": "electricspawners:electric_spawner_enderman"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_ENDERMITE",
+      "model": "electricspawners:electric_spawner_endermite"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_GHAST",
+      "model": "electricspawners:electric_spawner_ghast"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_GUARDIAN",
+      "model": "electricspawners:electric_spawner_guardian"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_HORSE",
+      "model": "electricspawners:electric_spawner_horse"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_IRON_GOLEM",
+      "model": "electricspawners:electric_spawner_iron_golem"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_MAGMA_CUBE",
+      "model": "electricspawners:electric_spawner_magma_cube"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_MUSHROOM_COW",
+      "model": "electricspawners:electric_spawner_mushroom_cow"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_OCELOT",
+      "model": "electricspawners:electric_spawner_ocelot"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_PIG",
+      "model": "electricspawners:electric_spawner_pig"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_RABBIT",
+      "model": "electricspawners:electric_spawner_rabbit"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_SHEEP",
+      "model": "electricspawners:electric_spawner_sheep"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_SILVERFISH",
+      "model": "electricspawners:electric_spawner_silverfish"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_SKELETON",
+      "model": "electricspawners:electric_spawner_skeleton"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_SLIME",
+      "model": "electricspawners:electric_spawner_slime"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_SPIDER",
+      "model": "electricspawners:electric_spawner_spider"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_SQUID",
+      "model": "electricspawners:electric_spawner_squid"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_VILLAGER",
+      "model": "electricspawners:electric_spawner_villager"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_WITHER_SKELETON",
+      "model": "electricspawners:electric_spawner_wither_skeleton"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_WITCH",
+      "model": "electricspawners:electric_spawner_witch"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_WOLF",
+      "model": "electricspawners:electric_spawner_wolf"
+    },
+    {
+      "id": "ELECTRIC_SPAWNER_ZOMBIE",
+      "model": "electricspawners:electric_spawner_zombie"
+    },
+    {
+      "id": "CLT_APRICOT",
+      "model": "cultivation:products/clt_apricot"
+    },
+    {
+      "id": "CLT_ARTICHOKE",
+      "model": "cultivation:products/clt_artichoke"
+    },
+    {
+      "id": "CLT_ASPARAGUS",
+      "model": "cultivation:products/clt_asparagus"
+    },
+    {
+      "id": "CLT_AUBERGINE",
+      "model": "cultivation:products/clt_aubergine"
+    },
+    {
+      "id": "CLT_AVOCADO",
+      "model": "cultivation:products/clt_avocado"
+    },
+    {
+      "id": "CLT_BANANA",
+      "model": "cultivation:products/clt_banana"
+    },
+    {
+      "id": "CLT_BELL_PEPPER",
+      "model": "cultivation:products/clt_bell_pepper"
+    },
+    {
+      "id": "CLT_BROCCOLI",
+      "model": "cultivation:products/clt_broccoli"
+    },
+    {
+      "id": "CLT_BRUSSELS_SPROUTS",
+      "model": "cultivation:products/clt_brussels_sprouts"
+    },
+    {
+      "id": "CLT_CABBAGE",
+      "model": "cultivation:products/clt_cabbage"
+    },
+    {
+      "id": "CLT_CAULIFLOWER",
+      "model": "cultivation:products/clt_cauliflower"
+    },
+    {
+      "id": "CLT_CAYENNE_PEPPER",
+      "model": "cultivation:products/clt_cayenne_pepper"
+    },
+    {
+      "id": "CLT_CELERIAC",
+      "model": "cultivation:products/clt_celeriac"
+    },
+    {
+      "id": "CLT_CHERRY",
+      "model": "cultivation:products/clt_cherry"
+    },
+    {
+      "id": "CLT_CHESTNUT",
+      "model": "cultivation:products/clt_chestnut"
+    },
+    {
+      "id": "CLT_CHILLY_PEPPER",
+      "model": "cultivation:products/clt_chilly_pepper"
+    },
+    {
+      "id": "CLT_GARLIC",
+      "model": "cultivation:products/clt_garlic"
+    },
+    {
+      "id": "CLT_GRAPE",
+      "model": "cultivation:products/clt_grape"
+    },
+    {
+      "id": "CLT_GREEN_APPLE",
+      "model": "cultivation:products/clt_green_apple"
+    },
+    {
+      "id": "CLT_GREEN_ONION",
+      "model": "cultivation:products/clt_green_onion"
+    },
+    {
+      "id": "CLT_HAZELNUT",
+      "model": "cultivation:products/clt_hazelnut"
+    },
+    {
+      "id": "CLT_JALAPENO",
+      "model": "cultivation:products/clt_jalapeno"
+    },
+    {
+      "id": "CLT_KALE",
+      "model": "cultivation:products/clt_kale"
+    },
+    {
+      "id": "CLT_KIWI",
+      "model": "cultivation:products/clt_kiwi"
+    },
+    {
+      "id": "CLT_LEEK",
+      "model": "cultivation:products/clt_leek"
+    },
+    {
+      "id": "CLT_LEMON",
+      "model": "cultivation:products/clt_lemon"
+    },
+    {
+      "id": "CLT_LETTUCE",
+      "model": "cultivation:products/clt_lettuce"
+    },
+    {
+      "id": "CLT_LIME",
+      "model": "cultivation:products/clt_lime"
+    },
+    {
+      "id": "CLT_MANGO",
+      "model": "cultivation:products/clt_mango"
+    },
+    {
+      "id": "CLT_MARROW",
+      "model": "cultivation:products/clt_marrow"
+    },
+    {
+      "id": "CLT_OKRA",
+      "model": "cultivation:products/clt_okra"
+    },
+    {
+      "id": "CLT_ONION",
+      "model": "cultivation:products/clt_onion"
+    },
+    {
+      "id": "CLT_ORANGE",
+      "model": "cultivation:products/clt_orange"
+    },
+    {
+      "id": "CLT_PARSNIP",
+      "model": "cultivation:products/clt_parsnip"
+    },
+    {
+      "id": "CLT_PEA",
+      "model": "cultivation:products/clt_pea"
+    },
+    {
+      "id": "CLT_PEACH",
+      "model": "cultivation:products/clt_peach"
+    },
+    {
+      "id": "CLT_PEANUT",
+      "model": "cultivation:products/clt_peanut"
+    },
+    {
+      "id": "CLT_PEAR",
+      "model": "cultivation:products/clt_pear"
+    },
+    {
+      "id": "CLT_PECAN",
+      "model": "cultivation:products/clt_pecan"
+    },
+    {
+      "id": "CLT_PEPPER",
+      "model": "cultivation:products/clt_pepper"
+    },
+    {
+      "id": "CLT_PINEAPPLE",
+      "model": "cultivation:products/clt_pineapple"
+    },
+    {
+      "id": "CLT_RADDISH",
+      "model": "cultivation:products/clt_raddish"
+    },
+    {
+      "id": "CLT_RADICCHIO",
+      "model": "cultivation:products/clt_radicchio"
+    },
+    {
+      "id": "CLT_RHUBARB",
+      "model": "cultivation:products/clt_rhubarb"
+    },
+    {
+      "id": "CLT_RICE",
+      "model": "cultivation:products/clt_rice"
+    },
+    {
+      "id": "CLT_RUTABAGA",
+      "model": "cultivation:products/clt_rutabaga"
+    },
+    {
+      "id": "CLT_SHALLOT",
+      "model": "cultivation:products/clt_shallot"
+    },
+    {
+      "id": "CLT_STRAWBERRY",
+      "model": "cultivation:products/clt_strawberry"
+    },
+    {
+      "id": "CLT_SWEETCORN",
+      "model": "cultivation:products/clt_sweetcorn"
+    },
+    {
+      "id": "CLT_TOMATO",
+      "model": "cultivation:products/clt_tomato"
+    },
+    {
+      "id": "CLT_TURNIP",
+      "model": "cultivation:products/clt_turnip"
+    }
+  ],
+  "tail": {
+    "type": "minecraft:special",
+    "base": "minecraft:item/template_skull",
+    "model": {
+      "type": "minecraft:head",
+      "kind": "player"
+    }
+  },
+  "tail_overlay": {
+    "type": "minecraft:special",
+    "base": "minecraft:item/template_skull",
+    "model": {
+      "type": "minecraft:player_head"
+    }
+  }
+}

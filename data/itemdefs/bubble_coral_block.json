@@ -1,0 +1,14 @@
+{
+  "base": "bubble_coral_block",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SUPREME_BLEND_MACHINE",
+      "model": "supreme:components/supreme_blend_machine"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/bubble_coral_block"
+  }
+}

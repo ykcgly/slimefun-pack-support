@@ -1,0 +1,54 @@
+{
+  "base": "gunpowder",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SIFTED_ORE",
+      "model": "slimefun:slimefun/miscellaneous/sifted_ore"
+    },
+    {
+      "id": "IRON_DUST",
+      "model": "slimefun:slimefun/resources/dusts/iron_dust"
+    },
+    {
+      "id": "LEAD_DUST",
+      "model": "slimefun:slimefun/resources/dusts/lead_dust"
+    },
+    {
+      "id": "CRUSHED_ORE",
+      "model": "slimefun:slimefun/miscellaneous/crushed_ore"
+    },
+    {
+      "id": "PULVERIZED_ORE",
+      "model": "slimefun:slimefun/miscellaneous/pulverized_ore"
+    },
+    {
+      "id": "PURE_ORE_CLUSTER",
+      "model": "slimefun:slimefun/miscellaneous/pure_ore_cluster"
+    },
+    {
+      "id": "ESSENCE_OF_AFTERLIFE",
+      "model": "slimefun:slimefun/magical_items/essence_of_afterlife"
+    },
+    {
+      "id": "VOID_DUST",
+      "model": "infinityexpansion:materials/void_dust"
+    },
+    {
+      "id": "ARSENIC",
+      "model": "slimefunwarfare:explosives/arsenic"
+    },
+    {
+      "id": "IE_VOID_DUST",
+      "model": "infinityexpansion2:materials/void_dust"
+    },
+    {
+      "id": "SUPREME_THORNIUM_DUST",
+      "model": "supreme:components/supreme_thornium_dust"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/gunpowder"
+  }
+}

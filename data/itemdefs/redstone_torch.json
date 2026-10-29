@@ -1,0 +1,18 @@
+{
+  "base": "redstone_torch",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GPS_MARKER_TOOL",
+      "model": "slimefun:slimefun/gps/gps_marker_tool"
+    },
+    {
+      "id": "RADIO",
+      "model": "slimefunwarfare:general/radio"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/redstone_torch"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "base": "poppy",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CLT_CLOVE",
+      "model": "cultivation:products/clt_clove"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/poppy"
+  }
+}

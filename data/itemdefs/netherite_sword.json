@@ -1,0 +1,58 @@
+{
+  "base": "netherite_sword",
+  "generated": true,
+  "entries": [
+    {
+      "id": "INFINITY_BLADE",
+      "model": "infinityexpansion:tools/infinity_blade"
+    },
+    {
+      "id": "ELUCIDATOR",
+      "model": "foxymachines:weapons/elucidator"
+    },
+    {
+      "id": "IE_INFINITY_SWORD",
+      "model": "infinityexpansion2:gear/infinity_sword"
+    },
+    {
+      "id": "SUPREME_TITANIUM_SWORD",
+      "model": "supreme:weapons/sword/supreme_titanium_sword"
+    },
+    {
+      "id": "SUPREME_AURUM_SWORD",
+      "model": "supreme:weapons/sword/supreme_aurum_sword"
+    },
+    {
+      "id": "SUPREME_ADAMANTIUM_SWORD",
+      "model": "supreme:weapons/sword/supreme_adamantium_sword"
+    },
+    {
+      "id": "SUPREME_SWORD_THORNIUM",
+      "model": "supreme:weapons/sword/supreme_sword_thornium"
+    },
+    {
+      "id": "SUPREME_SWORD_MAGIC",
+      "model": "supreme:weapons/sword/supreme_sword_magic"
+    },
+    {
+      "id": "SUPREME_SWORD_RARE",
+      "model": "supreme:weapons/sword/supreme_sword_rare"
+    },
+    {
+      "id": "SUPREME_SWORD_EPIC",
+      "model": "supreme:weapons/sword/supreme_sword_epic"
+    },
+    {
+      "id": "SUPREME_SWORD_LEGENDARY",
+      "model": "supreme:weapons/sword/supreme_sword_legendary"
+    },
+    {
+      "id": "SUPREME_SWORD_SUPREME",
+      "model": "supreme:weapons/sword/supreme_sword_supreme"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/netherite_sword"
+  }
+}

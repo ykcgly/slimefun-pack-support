@@ -1,0 +1,18 @@
+{
+  "base": "light_blue_glazed_terracotta",
+  "generated": true,
+  "entries": [
+    {
+      "id": "INFINITE_PANEL",
+      "model": "infinityexpansion:machines/infinity_panel"
+    },
+    {
+      "id": "IE_INFINITY_PANEL",
+      "model": "infinityexpansion2:generators/infinity_panel"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/light_blue_glazed_terracotta"
+  }
+}

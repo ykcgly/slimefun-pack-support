@@ -1,0 +1,14 @@
+{
+  "base": "orange_stained_glass_pane",
+  "generated": true,
+  "entries": [
+    {
+      "id": "RAINBOW_GLASS_PANE_HALLOWEEN",
+      "model": "slimefun:slimefun/halloween/rainbow_glass_pane_halloween"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/orange_stained_glass_pane"
+  }
+}

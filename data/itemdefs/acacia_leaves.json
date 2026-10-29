@@ -1,0 +1,20 @@
+{
+  "base": "acacia_leaves",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CLT_PARSLEY",
+      "model": "cultivation:products/clt_parsley"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "minecraft:block/acacia_leaves",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": -12012264
+      }
+    ]
+  }
+}

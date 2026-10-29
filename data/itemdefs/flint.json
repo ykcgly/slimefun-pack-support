@@ -1,0 +1,14 @@
+{
+  "base": "flint",
+  "generated": true,
+  "entries": [
+    {
+      "id": "HOOK",
+      "model": "slimefun:slimefun/miscellaneous/hook"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/flint"
+  }
+}

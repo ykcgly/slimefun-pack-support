@@ -1,0 +1,18 @@
+{
+  "base": "apple",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CHRISTMAS_CARAMEL_APPLE",
+      "model": "slimefun:slimefun/christmas/christmas_caramel_apple"
+    },
+    {
+      "id": "CHRISTMAS_CHOCOLATE_APPLE",
+      "model": "slimefun:slimefun/christmas/christmas_chocolate_apple"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/apple"
+  }
+}

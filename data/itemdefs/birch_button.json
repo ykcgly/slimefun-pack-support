@@ -1,0 +1,14 @@
+{
+  "base": "birch_button",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_TOFU",
+      "model": "gastronomicon:food/gn_tofu"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/birch_button_inventory"
+  }
+}

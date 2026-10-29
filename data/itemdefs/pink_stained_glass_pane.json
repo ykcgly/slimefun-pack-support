@@ -1,0 +1,14 @@
+{
+  "base": "pink_stained_glass_pane",
+  "generated": true,
+  "entries": [
+    {
+      "id": "RAINBOW_GLASS_PANE_VALENTINE",
+      "model": "slimefun:slimefun/valentine/rainbow_glass_pane_valentine"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/pink_stained_glass_pane"
+  }
+}

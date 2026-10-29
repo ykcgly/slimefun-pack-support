@@ -1,0 +1,14 @@
+{
+  "base": "dead_tube_coral_block",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SUPREME_PETRIFIER_MACHINE",
+      "model": "supreme:components/supreme_petrifier_machine"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/dead_tube_coral_block"
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "base": "oak_sapling",
+  "generated": true,
+  "entries": [
+    {
+      "id": "OAK_APPLE_SAPLING",
+      "model": "exotic_garden:fruits/oak_apple_sapling"
+    },
+    {
+      "id": "BLACK_PEPPER_BUSH",
+      "model": "exotic_garden:fruits/black_pepper_bush"
+    },
+    {
+      "id": "BLACKBERRY_BUSH",
+      "model": "exotic_garden:fruits/blackberry_bush"
+    },
+    {
+      "id": "BLUEBERRY_BUSH",
+      "model": "exotic_garden:fruits/blueberry_bush"
+    },
+    {
+      "id": "CABBAGE_BUSH",
+      "model": "exotic_garden:fruits/cabbage_bush"
+    },
+    {
+      "id": "CHERRY_SAPLING",
+      "model": "exotic_garden:fruits/cherry_sapling"
+    },
+    {
+      "id": "CILANTRO_BUSH",
+      "model": "exotic_garden:fruits/cilantro_bush"
+    },
+    {
+      "id": "COCONUT_SAPLING",
+      "model": "exotic_garden:fruits/coconut_sapling"
+    },
+    {
+      "id": "CORN_BUSH",
+      "model": "exotic_garden:fruits/corn_bush"
+    },
+    {
+      "id": "COWBERRY_BUSH",
+      "model": "exotic_garden:fruits/cowberry_bush"
+    },
+    {
+      "id": "CRANBERRY_BUSH",
+      "model": "exotic_garden:fruits/cranberry_bush"
+    },
+    {
+      "id": "CURRY_LEAF_BUSH",
+      "model": "exotic_garden:fruits/curry_leaf_bush"
+    },
+    {
+      "id": "DRAGON_FRUIT_SAPLING",
+      "model": "exotic_garden:fruits/dragon_fruit_sapling"
+    },
+    {
+      "id": "ELDERBERRY_BUSH",
+      "model": "exotic_garden:fruits/elderberry_bush"
+    },
+    {
+      "id": "GARLIC_BUSH",
+      "model": "exotic_garden:fruits/garlic_bush"
+    },
+    {
+      "id": "GRAPE_BUSH",
+      "model": "exotic_garden:fruits/grape_bush"
+    },
+    {
+      "id": "LEMON_SAPLING",
+      "model": "exotic_garden:fruits/lemon_sapling"
+    },
+    {
+      "id": "LETTUCE_BUSH",
+      "model": "exotic_garden:fruits/lettuce_bush"
+    },
+    {
+      "id": "LIME_SAPLING",
+      "model": "exotic_garden:fruits/lime_sapling"
+    },
+    {
+      "id": "MUSTARD_SEED_BUSH",
+      "model": "exotic_garden:fruits/mustard_seed_bush"
+    },
+    {
+      "id": "ONION_BUSH",
+      "model": "exotic_garden:fruits/onion_bush"
+    },
+    {
+      "id": "ORANGE_SAPLING",
+      "model": "exotic_garden:fruits/orange_sapling"
+    },
+    {
+      "id": "PEACH_SAPLING",
+      "model": "exotic_garden:fruits/peach_sapling"
+    },
+    {
+      "id": "PEAR_SAPLING",
+      "model": "exotic_garden:fruits/pear_sapling"
+    },
+    {
+      "id": "PINEAPPLE_BUSH",
+      "model": "exotic_garden:fruits/pineapple_bush"
+    },
+    {
+      "id": "PLUM_SAPLING",
+      "model": "exotic_garden:fruits/plum_sapling"
+    },
+    {
+      "id": "POMEGRANATE_SAPLING",
+      "model": "exotic_garden:fruits/pomegranate_sapling"
+    },
+    {
+      "id": "RASPBERRY_BUSH",
+      "model": "exotic_garden:fruits/raspberry_bush"
+    },
+    {
+      "id": "STRAWBERRY_BUSH",
+      "model": "exotic_garden:fruits/strawberry_bush"
+    },
+    {
+      "id": "SWEET_POTATO_BUSH",
+      "model": "exotic_garden:fruits/sweet_potato_bush"
+    },
+    {
+      "id": "TEA_LEAF_BUSH",
+      "model": "exotic_garden:fruits/tea_leaf_bush"
+    },
+    {
+      "id": "TOMATO_BUSH",
+      "model": "exotic_garden:fruits/tomato_bush"
+    },
+    {
+      "id": "COAL_PLANT",
+      "model": "exotic_garden:plants/coal_plant"
+    },
+    {
+      "id": "DIAMOND_PLANT",
+      "model": "exotic_garden:plants/diamond_plant"
+    },
+    {
+      "id": "EMERALD_PLANT",
+      "model": "exotic_garden:plants/emerald_plant"
+    },
+    {
+      "id": "ENDER_PLANT",
+      "model": "exotic_garden:plants/ender_plant"
+    },
+    {
+      "id": "GLOWSTONE_PLANT",
+      "model": "exotic_garden:plants/glowstone_plant"
+    },
+    {
+      "id": "GOLD_PLANT",
+      "model": "exotic_garden:plants/gold_plant"
+    },
+    {
+      "id": "IRON_PLANT",
+      "model": "exotic_garden:plants/iron_plant"
+    },
+    {
+      "id": "LAPIS_PLANT",
+      "model": "exotic_garden:plants/lapis_plant"
+    },
+    {
+      "id": "OBSIDIAN_PLANT",
+      "model": "exotic_garden:plants/obsidian_plant"
+    },
+    {
+      "id": "ALUMINUM_PLANT",
+      "model": "exotic_garden:plants/aluminum_plant"
+    },
+    {
+      "id": "COPPER_PLANT",
+      "model": "exotic_garden:plants/copper_plant"
+    },
+    {
+      "id": "LEAD_PLANT",
+      "model": "exotic_garden:plants/lead_plant"
+    },
+    {
+      "id": "SILVER_PLANT",
+      "model": "exotic_garden:plants/silver_plant"
+    },
+    {
+      "id": "TIN_PLANT",
+      "model": "exotic_garden:plants/tin_plant"
+    },
+    {
+      "id": "QUARTZ_PLANT",
+      "model": "exotic_garden:plants/quartz_plant"
+    },
+    {
+      "id": "REDSTONE_PLANT",
+      "model": "exotic_garden:plants/redstone_plant"
+    },
+    {
+      "id": "SLIME_PLANT",
+      "model": "exotic_garden:plants/slime_plant"
+    },
+    {
+      "id": "RED_BELL_PEPPER_BUSH",
+      "model": "exotic_garden:fruits/red_bell_pepper_bush"
+    },
+    {
+      "id": "DIRT_PLANT",
+      "model": "exotic_garden:plants/dirt_plant"
+    },
+    {
+      "id": "NETHERITE_PLANT",
+      "model": "exotic_garden:plants/netherite_plant"
+    },
+    {
+      "id": "GN_BROCCOLI",
+      "model": "gastronomicon:ingredient/gn_broccoli"
+    },
+    {
+      "id": "GN_LYCHEE_SAPLING",
+      "model": "gastronomicon:ingredient/gn_lychee_sapling"
+    },
+    {
+      "id": "GN_BANANA_SAPLING",
+      "model": "gastronomicon:ingredient/gn_banana_sapling"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/oak_sapling"
+  }
+}

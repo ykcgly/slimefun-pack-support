@@ -1,0 +1,18 @@
+{
+  "base": "spawner",
+  "generated": true,
+  "entries": [
+    {
+      "id": "BROKEN_SPAWNER",
+      "model": "slimefun:slimefun/magical_items/broken_spawner"
+    },
+    {
+      "id": "REINFORCED_SPAWNER",
+      "model": "slimefun:slimefun/magical_items/reinforced_spawner"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/spawner"
+  }
+}

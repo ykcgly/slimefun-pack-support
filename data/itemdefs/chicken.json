@@ -1,0 +1,14 @@
+{
+  "base": "chicken",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_RAW_TURKEY",
+      "model": "gastronomicon:ingredient/gn_raw_turkey"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/chicken"
+  }
+}

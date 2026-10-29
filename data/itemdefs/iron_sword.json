@@ -1,0 +1,118 @@
+{
+  "base": "iron_sword",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SWORD_OF_BEHEADING",
+      "model": "slimefun:slimefun/weapons/sword_of_beheading"
+    },
+    {
+      "id": "ALUMINUM_BRASS_SWORD",
+      "model": "extra_gear:swords/aluminum_brass_sword"
+    },
+    {
+      "id": "ALUMINUM_BRONZE_SWORD",
+      "model": "extra_gear:swords/aluminum_bronze_sword"
+    },
+    {
+      "id": "ALUMINUM_SWORD",
+      "model": "extra_gear:swords/aluminum_sword"
+    },
+    {
+      "id": "BILLON_SWORD",
+      "model": "extra_gear:swords/billon_sword"
+    },
+    {
+      "id": "BRASS_SWORD",
+      "model": "extra_gear:swords/brass_sword"
+    },
+    {
+      "id": "BRONZE_SWORD",
+      "model": "extra_gear:swords/bronze_sword"
+    },
+    {
+      "id": "COBALT_SWORD",
+      "model": "extra_gear:swords/cobalt_sword"
+    },
+    {
+      "id": "COPPER_SWORD",
+      "model": "extra_gear:swords/copper_sword"
+    },
+    {
+      "id": "CORINTHIAN_BRONZE_SWORD",
+      "model": "extra_gear:swords/corinthian_bronze_sword"
+    },
+    {
+      "id": "DAMASCUS_STEEL_SWORD",
+      "model": "extra_gear:swords/damascus_steel_sword"
+    },
+    {
+      "id": "DURALUMIN_SWORD",
+      "model": "extra_gear:swords/duralumin_sword"
+    },
+    {
+      "id": "FERROSILICON_SWORD",
+      "model": "extra_gear:swords/ferrosilicon_sword"
+    },
+    {
+      "id": "HARDENED_METAL",
+      "model": "extra_gear:swords/hardened_sword"
+    },
+    {
+      "id": "LEAD_SWORD",
+      "model": "extra_gear:swords/lead_sword"
+    },
+    {
+      "id": "MAGNESIUM_SWORD",
+      "model": "extra_gear:swords/magnesium_sword"
+    },
+    {
+      "id": "NICKEL_SWORD",
+      "model": "extra_gear:swords/nickel_sword"
+    },
+    {
+      "id": "REINFORCED_SWORD",
+      "model": "extra_gear:swords/reinforced_sword"
+    },
+    {
+      "id": "SILVER_SWORD",
+      "model": "extra_gear:swords/silver_sword"
+    },
+    {
+      "id": "SOLDER_SWORD",
+      "model": "extra_gear:swords/solder_sword"
+    },
+    {
+      "id": "STEEL_SWORD",
+      "model": "extra_gear:swords/steel_sword"
+    },
+    {
+      "id": "TIN_SWORD",
+      "model": "extra_gear:swords/tin_sword"
+    },
+    {
+      "id": "ZINC_SWORD",
+      "model": "extra_gear:swords/zinc_sword"
+    },
+    {
+      "id": "SOUL_SWORD",
+      "model": "bump:magical_weapons/soul_sword"
+    },
+    {
+      "id": "DEVIL_SWORD",
+      "model": "bump:magical_weapons/devil_sword"
+    },
+    {
+      "id": "OSMIUM_SWORD",
+      "model": "slimefunwarfare:melee_weapons/osmium_sword"
+    },
+    {
+      "id": "GN_KITCHEN_KNIFE",
+      "model": "gastronomicon:tools/gn_kitchen_knife"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/iron_sword"
+  }
+}

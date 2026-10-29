@@ -1,0 +1,28 @@
+{
+  "base": "nether_wart",
+  "generated": true,
+  "entries": [
+    {
+      "id": "MAGICAL_ZOMBIE_PILLS",
+      "model": "slimefun:slimefun/magical_gadgets/magical_zombie_pills"
+    }
+  ],
+  "tail": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "*": "VITAMINS"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "item/nether_wart"
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/items/vitamins"
+    }
+  }
+}

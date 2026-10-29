@@ -1,0 +1,14 @@
+{
+  "base": "gray_carpet",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_FRYING_PAN",
+      "model": "gastronomicon:tools/gn_frying_pan"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/gray_carpet"
+  }
+}

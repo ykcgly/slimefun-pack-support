@@ -1,0 +1,14 @@
+{
+  "base": "azalea_leaves",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CLT_NETTLES",
+      "model": "cultivation:products/clt_nettles"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/azalea_leaves"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "base": "pink_dye",
+  "generated": true,
+  "entries": [
+    {
+      "id": "NUGGET_CAST_FONDNESS",
+      "model": "slimetinker:materials/nuggets/nugget_cast_fondness"
+    },
+    {
+      "id": "NUGGET_CAST_DEVOTION",
+      "model": "slimetinker:materials/nuggets/nugget_cast_devotion"
+    },
+    {
+      "id": "NUGGET_CAST_PASSION",
+      "model": "slimetinker:materials/nuggets/nugget_cast_passion"
+    },
+    {
+      "id": "NUGGET_CAST_LOVE",
+      "model": "slimetinker:materials/nuggets/nugget_cast_love"
+    },
+    {
+      "id": "BLOCK_CAST_LOVE",
+      "model": "slimetinker:materials/blocks/block_cast_love"
+    },
+    {
+      "id": "SUPREME_SYNTHETIC_RUBY",
+      "model": "supreme:components/supreme_synthetic_ruby"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/pink_dye"
+  }
+}

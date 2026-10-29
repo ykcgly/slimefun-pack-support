@@ -1,0 +1,170 @@
+{
+  "base": "iron_ingot",
+  "generated": true,
+  "entries": [
+    {
+      "id": "REINFORCED_ALLOY_INGOT",
+      "model": "slimefun:slimefun/resources/ingots/reinforced_alloy_ingot"
+    },
+    {
+      "id": "HARDENED_METAL_INGOT",
+      "model": "slimefun:slimefun/resources/ingots/hardened_metal_ingot"
+    },
+    {
+      "id": "DAMASCUS_STEEL_INGOT",
+      "model": "slimefun:slimefun/resources/ingots/damascus_steel_ingot"
+    },
+    {
+      "id": "STEEL_INGOT",
+      "model": "slimefun:slimefun/resources/ingots/steel_ingot"
+    },
+    {
+      "id": "DURALUMIN_INGOT",
+      "model": "slimefun:slimefun/resources/ingots/duralumin_ingot"
+    },
+    {
+      "id": "BILLON_INGOT",
+      "model": "slimefun:slimefun/resources/ingots/billon_ingot"
+    },
+    {
+      "id": "SOLDER_INGOT",
+      "model": "slimefun:slimefun/resources/ingots/solder_ingot"
+    },
+    {
+      "id": "NICKEL_INGOT",
+      "model": "slimefun:slimefun/resources/ingots/nickel_ingot"
+    },
+    {
+      "id": "COBALT_INGOT",
+      "model": "slimefun:slimefun/resources/ingots/cobalt_ingot"
+    },
+    {
+      "id": "FERROSILICON",
+      "model": "slimefun:slimefun/resources/ingots/ferrosilicon"
+    },
+    {
+      "id": "TIN_INGOT",
+      "model": "slimefun:slimefun/resources/ingots/tin_ingot"
+    },
+    {
+      "id": "SILVER_INGOT",
+      "model": "slimefun:slimefun/resources/ingots/silver_ingot"
+    },
+    {
+      "id": "LEAD_INGOT",
+      "model": "slimefun:slimefun/resources/ingots/lead_ingot"
+    },
+    {
+      "id": "ALUMINUM_INGOT",
+      "model": "slimefun:slimefun/resources/ingots/aluminum_ingot"
+    },
+    {
+      "id": "ZINC_INGOT",
+      "model": "slimefun:slimefun/resources/ingots/zinc_ingot"
+    },
+    {
+      "id": "MAGNESIUM_INGOT",
+      "model": "slimefun:slimefun/resources/ingots/magnesium_ingot"
+    },
+    {
+      "id": "INFINITE_INGOT",
+      "model": "infinityexpansion:materials/infinite_ingot"
+    },
+    {
+      "id": "MYTHRIL",
+      "model": "infinityexpansion:materials/mythril"
+    },
+    {
+      "id": "TITANIUM",
+      "model": "infinityexpansion:materials/titanium"
+    },
+    {
+      "id": "MEDIUM_PORTABLE_CHARGER",
+      "model": "fluffymachines:portable_chargers/medium_portable_charger"
+    },
+    {
+      "id": "SLIMESTEEL_INGOT",
+      "model": "slimefunwarfare:resources/slimesteel_ingot"
+    },
+    {
+      "id": "REINFORCED_SLIMESTEEL_INGOT",
+      "model": "slimefunwarfare:resources/reinforced_slimesteel_ingot"
+    },
+    {
+      "id": "OSMIUM_SUPERALLOY",
+      "model": "slimefunwarfare:general/osmium_superalloy"
+    },
+    {
+      "id": "OSMIUM_INGOT",
+      "model": "slimefunwarfare:resources/osmium_ingot"
+    },
+    {
+      "id": "LANTHANUM_INGOT",
+      "model": "slimefunwarfare:resources/lanthanum_ingot"
+    },
+    {
+      "id": "GADOLINIUM_INGOT",
+      "model": "slimefunwarfare:resources/gadolinium_ingot"
+    },
+    {
+      "id": "TERBIUM_INGOT",
+      "model": "slimefunwarfare:resources/terbium_ingot"
+    },
+    {
+      "id": "ERBIUM_INGOT",
+      "model": "slimefunwarfare:resources/erbium_ingot"
+    },
+    {
+      "id": "YTTERBIUM_INGOT",
+      "model": "slimefunwarfare:resources/ytterbium_ingot"
+    },
+    {
+      "id": "TERFENOL_D",
+      "model": "slimefunwarfare:general/terfenol_d"
+    },
+    {
+      "id": "INGOT_CAST_SEFIRITE",
+      "model": "slimetinker:materials/ingots/ingot_cast_sefirite"
+    },
+    {
+      "id": "INGOT_CAST_CRINGLEIUM",
+      "model": "slimetinker:materials/ingots/ingot_cast_cringleium"
+    },
+    {
+      "id": "INGOT_CAST_SMITHIUM",
+      "model": "slimetinker:materials/ingots/ingot_cast_smithium"
+    },
+    {
+      "id": "IE_MYTHRIL",
+      "model": "infinityexpansion2:materials/mythril"
+    },
+    {
+      "id": "IE_TITANIUM",
+      "model": "infinityexpansion2:materials/titanium"
+    },
+    {
+      "id": "IE_INFINITY_INGOT",
+      "model": "infinityexpansion2:materials/infinity_ingot"
+    },
+    {
+      "id": "SUPREME_ALLOY_ZIRCONIUM",
+      "model": "supreme:components/supreme_alloy_zirconium"
+    },
+    {
+      "id": "SUPREME_ALLOY_TITANIUM",
+      "model": "supreme:components/supreme_alloy_titanium"
+    },
+    {
+      "id": "SUPREME_ALLOY_IRIDIUM",
+      "model": "supreme:components/supreme_alloy_iridium"
+    },
+    {
+      "id": "SUPREME_THORNIUM_INGOT",
+      "model": "supreme:components/supreme_thornium_ingot"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/iron_ingot"
+  }
+}

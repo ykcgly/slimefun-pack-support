@@ -1,0 +1,22 @@
+{
+  "base": "bucket",
+  "generated": true,
+  "entries": [
+    {
+      "id": "STEEL_THRUSTER",
+      "model": "slimefun:slimefun/technical_components/steel_thruster"
+    },
+    {
+      "id": "GN_BLENDER",
+      "model": "gastronomicon:tools/gn_blender"
+    },
+    {
+      "id": "GN_STEEL_BOWL",
+      "model": "gastronomicon:tools/gn_steel_bowl"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/bucket"
+  }
+}

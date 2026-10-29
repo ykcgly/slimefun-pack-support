@@ -1,0 +1,18 @@
+{
+  "base": "purple_stained_glass",
+  "generated": true,
+  "entries": [
+    {
+      "id": "WITHER_PROOF_GLASS",
+      "model": "slimefun:slimefun/technical_components/wither_proof_glass"
+    },
+    {
+      "id": "GPS_TELEPORTER_PYLON",
+      "model": "slimefun:slimefun/gps/gps_teleporter_pylon"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/purple_stained_glass"
+  }
+}

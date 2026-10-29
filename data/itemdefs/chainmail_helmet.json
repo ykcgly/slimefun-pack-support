@@ -1,0 +1,50 @@
+{
+  "base": "chainmail_helmet",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ENDER_HELMET",
+      "model": "slimefun:slimefun/magical_armor/ender_armor/ender_helmet"
+    },
+    {
+      "id": "SLIME_HELMET",
+      "model": "slimefun:slimefun/magical_armor/slime_armor/slime_helmet"
+    },
+    {
+      "id": "GLOWSTONE_HELMET",
+      "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_helmet"
+    },
+    {
+      "id": "CACTUS_HELMET",
+      "model": "slimefun:slimefun/armor/cactus_armor/cactus_helmet"
+    },
+    {
+      "id": "SCUBA_HELMET",
+      "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_helmet"
+    },
+    {
+      "id": "NIGHT_VISION_GOGGLES",
+      "model": "slimefun:slimefun/technical_gadgets/night_vision_goggles"
+    },
+    {
+      "id": "ELYTRA_CAP",
+      "model": "slimefun:slimefun/magical_armor/elytra_cap/elytra_cap"
+    },
+    {
+      "id": "RAINBOW_HELMET",
+      "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_helmet"
+    },
+    {
+      "id": "COPPER_HELMET",
+      "model": "extra_gear:armor/copper/copper_helmet"
+    },
+    {
+      "id": "GN_CHEFS_HAT",
+      "model": "gastronomicon:tools/gn_chefs_hat"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/chainmail_helmet"
+  }
+}

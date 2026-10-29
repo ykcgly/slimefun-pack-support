@@ -1,0 +1,30 @@
+{
+  "base": "kelp",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_BASIL",
+      "model": "gastronomicon:ingredient/gn_basil"
+    },
+    {
+      "id": "CLT_CURRY_LEAF",
+      "model": "cultivation:products/clt_curry_leaf"
+    },
+    {
+      "id": "CLT_KAFFIR_LIME",
+      "model": "cultivation:products/clt_kaffir_lime"
+    },
+    {
+      "id": "CLT_SPINACH",
+      "model": "cultivation:products/clt_spinach"
+    },
+    {
+      "id": "CLT_RUNNER_BEANS",
+      "model": "cultivation:products/clt_runner_beans"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/kelp"
+  }
+}

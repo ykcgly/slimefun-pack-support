@@ -1,0 +1,26 @@
+{
+  "base": "diamond_block",
+  "generated": true,
+  "entries": [
+    {
+      "id": "DIAMOND_SINGULARITY",
+      "model": "infinityexpansion:singularities/diamond_singularity"
+    },
+    {
+      "id": "INFINITE_MACHINE_CORE",
+      "model": "infinityexpansion:materials/infinite_machine_core"
+    },
+    {
+      "id": "IE_INFINITY_MACHINE_CORE",
+      "model": "infinityexpansion2:materials/infinity_machine_core"
+    },
+    {
+      "id": "IE_DIAMOND_SINGULARITY",
+      "model": "infinityexpansion2:singularities/diamond_singularity"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/diamond_block"
+  }
+}

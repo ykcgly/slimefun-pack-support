@@ -1,0 +1,18 @@
+{
+  "base": "prismarine_crystals",
+  "generated": true,
+  "entries": [
+    {
+      "id": "OLD_CPU",
+      "model": "bump:magical_items/old_cpu"
+    },
+    {
+      "id": "GN_TAPIOCA_PEARLS",
+      "model": "gastronomicon:food/gn_tapioca_pearls"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/prismarine_crystals"
+  }
+}

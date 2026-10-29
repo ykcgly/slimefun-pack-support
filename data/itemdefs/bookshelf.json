@@ -1,0 +1,14 @@
+{
+  "base": "bookshelf",
+  "generated": true,
+  "entries": [
+    {
+      "id": "BOOK_BINDER",
+      "model": "slimefun:slimefun/energy/book_binder"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/bookshelf"
+  }
+}

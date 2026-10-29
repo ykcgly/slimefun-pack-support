@@ -1,0 +1,14 @@
+{
+  "base": "lodestone",
+  "generated": true,
+  "entries": [
+    {
+      "id": "LARGE_FLUFFY_BARREL",
+      "model": "fluffymachines:barrels/large_fluffy_barrel"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/lodestone"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "base": "lapis_block",
+  "generated": true,
+  "entries": [
+    {
+      "id": "LAPIS_SINGULARITY",
+      "model": "infinityexpansion:singularities/lapis_singularity"
+    },
+    {
+      "id": "IE_LAPIS_SINGULARITY",
+      "model": "infinityexpansion2:singularities/lapis_singularity"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/lapis_block"
+  }
+}

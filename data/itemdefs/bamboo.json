@@ -1,0 +1,26 @@
+{
+  "base": "bamboo",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_ASPARAGUS",
+      "model": "gastronomicon:ingredient/gn_asparagus"
+    },
+    {
+      "id": "CLT_CELERY",
+      "model": "cultivation:products/clt_celery"
+    },
+    {
+      "id": "CLT_COURGETTE",
+      "model": "cultivation:products/clt_courgette"
+    },
+    {
+      "id": "CLT_CUCUMBER",
+      "model": "cultivation:products/clt_cucumber"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/bamboo"
+  }
+}

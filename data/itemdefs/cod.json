@@ -1,0 +1,38 @@
+{
+  "base": "cod",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_RAW_MACKEREL",
+      "model": "gastronomicon:ingredient/gn_raw_mackerel"
+    },
+    {
+      "id": "GN_RAW_TROUT",
+      "model": "gastronomicon:ingredient/gn_raw_trout"
+    },
+    {
+      "id": "GN_RAW_BASS",
+      "model": "gastronomicon:ingredient/gn_raw_bass"
+    },
+    {
+      "id": "GN_RAW_CARP",
+      "model": "gastronomicon:ingredient/gn_raw_carp"
+    },
+    {
+      "id": "GN_RAW_PIKE",
+      "model": "gastronomicon:ingredient/gn_raw_pike"
+    },
+    {
+      "id": "GN_RAW_TUNA",
+      "model": "gastronomicon:ingredient/gn_raw_tuna"
+    },
+    {
+      "id": "GN_SHRIMP",
+      "model": "gastronomicon:ingredient/gn_shrimp"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/cod"
+  }
+}

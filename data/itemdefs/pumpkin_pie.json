@@ -1,0 +1,30 @@
+{
+  "base": "pumpkin_pie",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CHRISTMAS_FRUIT_CAKE",
+      "model": "slimefun:slimefun/christmas/christmas_fruit_cake"
+    },
+    {
+      "id": "CHRISTMAS_APPLE_PIE",
+      "model": "slimefun:slimefun/christmas/christmas_apple_pie"
+    },
+    {
+      "id": "CHRISTMAS_CAKE",
+      "model": "slimefun:slimefun/christmas/christmas_cake"
+    },
+    {
+      "id": "CARROT_PIE",
+      "model": "slimefun:slimefun/easter/carrot_pie"
+    },
+    {
+      "id": "EASTER_APPLE_PIE",
+      "model": "slimefun:slimefun/easter/easter_apple_pie"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/pumpkin_pie"
+  }
+}

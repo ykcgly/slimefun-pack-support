@@ -1,0 +1,265 @@
+{
+  "base": "diamond_helmet",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ENDER_HELMET",
+      "model": "slimefun:slimefun/magical_armor/ender_armor/ender_helmet"
+    },
+    {
+      "id": "SLIME_HELMET",
+      "model": "slimefun:slimefun/magical_armor/slime_armor/slime_helmet"
+    },
+    {
+      "id": "GLOWSTONE_HELMET",
+      "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_helmet"
+    },
+    {
+      "id": "DAMASCUS_STEEL_HELMET",
+      "model": "slimefun:slimefun/armor/damascus_armor/damascus_helmet"
+    },
+    {
+      "id": "REINFORCED_HELMET",
+      "model": "slimefun:slimefun/armor/reinforced_armor/reinforced_helmet"
+    },
+    {
+      "id": "CACTUS_HELMET",
+      "model": "slimefun:slimefun/armor/cactus_armor/cactus_helmet"
+    },
+    {
+      "id": "SOLAR_HELMET",
+      "model": "slimefun:slimefun/technical_gadgets/solar_helmet"
+    },
+    {
+      "id": "GILDED_IRON_HELMET",
+      "model": "slimefun:slimefun/armor/gilded_iron_armor/gilded_iron_helmet"
+    },
+    {
+      "id": "SCUBA_HELMET",
+      "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_helmet"
+    },
+    {
+      "id": "GOLD_12K_HELMET",
+      "model": "slimefun:slimefun/armor/gold_12k_armor/gold_12k_helmet"
+    },
+    {
+      "id": "NIGHT_VISION_GOGGLES",
+      "model": "slimefun:slimefun/technical_gadgets/night_vision_goggles"
+    },
+    {
+      "id": "SLIME_STEEL_HELMET",
+      "model": "slimefun:slimefun/magical_armor/slime_armor_steel/slime_steel_helmet"
+    },
+    {
+      "id": "SOULBOUND_HELMET",
+      "model": "slimefun:slimefun/magical_armor/soulbound_armor/soulbound_helmet"
+    },
+    {
+      "id": "BEE_HELMET",
+      "model": "slimefun:slimefun/magical_armor/bee_armor/bee_helmet"
+    },
+    {
+      "id": "ELYTRA_CAP",
+      "model": "slimefun:slimefun/magical_armor/elytra_cap/elytra_cap"
+    },
+    {
+      "id": "RAINBOW_HELMET",
+      "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_helmet"
+    },
+    {
+      "id": "ALUMINUM_HELMET",
+      "model": "extra_gear:armor/aluminum/aluminum_helmet"
+    },
+    {
+      "id": "COBALT_HELMET",
+      "model": "extra_gear:armor/cobalt/cobalt_helmet"
+    },
+    {
+      "id": "COPPER_HELMET",
+      "model": "extra_gear:armor/copper/copper_helmet"
+    },
+    {
+      "id": "LEAD_HELMET",
+      "model": "extra_gear:armor/lead/lead_helmet"
+    },
+    {
+      "id": "MAGNESIUM_HELMET",
+      "model": "extra_gear:armor/magnesium/magnesium_helmet"
+    },
+    {
+      "id": "SILVER_HELMET",
+      "model": "extra_gear:armor/silver/silver_helmet"
+    },
+    {
+      "id": "STEEL_HELMET",
+      "model": "extra_gear:armor/steel/steel_helmet"
+    },
+    {
+      "id": "TIN_HELMET",
+      "model": "extra_gear:armor/tin/tin_helmet"
+    },
+    {
+      "id": "ZINC_HELMET",
+      "model": "extra_gear:armor/zinc/zinc_helmet"
+    }
+  ],
+  "tail": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "bump:appraisable": 1,
+        "slimefun:slimefun_item": "RANDOM_HELMET"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "GN_CHEFS_HAT"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_TITANIUM_HELMET"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "SUPREME_AURUM_HELMET"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "SUPREME_ADAMANTIUM_HELMET"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "SUPREME_HELMET_THORNIUM"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "SUPREME_HELMET_MAGIC"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "SUPREME_HELMET_RARE"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "SUPREME_HELMET_EPIC"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "SUPREME_HELMET_LEGENDARY"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "SUPREME_HELMET_SUPREME"
+                          }
+                        },
+                        "on_false": {
+                          "type": "model",
+                          "model": "item/diamond_helmet"
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "supreme:armor/helmet/supreme_helmet_supreme"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "supreme:armor/helmet/supreme_helmet_legendary"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "supreme:armor/helmet/supreme_helmet_epic"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "supreme:armor/helmet/supreme_helmet_rare"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "supreme:armor/helmet/supreme_helmet_magic"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "supreme:armor/helmet/supreme_helmet_thornium"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "supreme:armor/helmet/supreme_adamantium_helmet"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "supreme:armor/helmet/supreme_aurum_helmet"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "supreme:armor/helmet/supreme_titanium_helmet"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "gastronomicon:tools/gn_chefs_hat"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "bump:armors/random_helmet"
+    }
+  }
+}

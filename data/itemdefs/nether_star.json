@@ -1,0 +1,54 @@
+{
+  "base": "nether_star",
+  "generated": true,
+  "entries": [
+    {
+      "id": "EARTH_SINGULARITY",
+      "model": "infinityexpansion:singularities/earth_singularity"
+    },
+    {
+      "id": "FORTUNE_SINGULARITY",
+      "model": "infinityexpansion:singularities/fortune_singularity"
+    },
+    {
+      "id": "INFINITY_MATRIX",
+      "model": "infinityexpansion:materials/infinity_matrix"
+    },
+    {
+      "id": "MAGIC_SINGULARITY",
+      "model": "infinityexpansion:singularities/magic_singularity"
+    },
+    {
+      "id": "METAL_SINGULARITY",
+      "model": "infinityexpansion:singularities/metal_singularity"
+    },
+    {
+      "id": "CLT_STAR_ANISE",
+      "model": "cultivation:products/clt_star_anise"
+    },
+    {
+      "id": "IE_EARTH_SINGULARITY",
+      "model": "infinityexpansion2:singularities/earth_singularity"
+    },
+    {
+      "id": "IE_FORTUNE_SINGULARITY",
+      "model": "infinityexpansion2:singularities/fortune_singularity"
+    },
+    {
+      "id": "IE_MAGIC_SINGULARITY",
+      "model": "infinityexpansion2:singularities/magic_singularity"
+    },
+    {
+      "id": "IE_METAL_SINGULARITY",
+      "model": "infinityexpansion2:singularities/metal_singularity"
+    },
+    {
+      "id": "IE_INFINITY_MATRIX",
+      "model": "infinityexpansion2:tools/infinity_matrix"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/nether_star"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "base": "tube_coral_block",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SUPREME_CRYSTALLIZER_MACHINE",
+      "model": "supreme:components/supreme_crystallizer_machine"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/tube_coral_block"
+  }
+}

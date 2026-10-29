@@ -1,0 +1,34 @@
+{
+  "base": "terracotta",
+  "generated": true,
+  "entries": [
+    {
+      "id": "BLOCK_CAST_COPPER",
+      "model": "slimetinker:materials/blocks/block_cast_copper"
+    },
+    {
+      "id": "BLOCK_CAST_BRONZE",
+      "model": "slimetinker:materials/blocks/block_cast_bronze"
+    },
+    {
+      "id": "BLOCK_CAST_ALU_BRONZE",
+      "model": "slimetinker:materials/blocks/block_cast_alu_bronze"
+    },
+    {
+      "id": "BLOCK_CAST_COR_BRONZE",
+      "model": "slimetinker:materials/blocks/block_cast_cor_bronze"
+    },
+    {
+      "id": "BLOCK_CAST_REDSTONE_ALLOY",
+      "model": "slimetinker:materials/blocks/block_cast_redstone_alloy"
+    },
+    {
+      "id": "BLOCK_CAST_BOOMERITE",
+      "model": "slimetinker:materials/blocks/block_cast_boomerite"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/terracotta"
+  }
+}

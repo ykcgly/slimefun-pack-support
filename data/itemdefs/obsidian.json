@@ -1,0 +1,22 @@
+{
+  "base": "obsidian",
+  "generated": true,
+  "entries": [
+    {
+      "id": "WITHER_PROOF_OBSIDIAN",
+      "model": "slimefun:slimefun/technical_components/wither_proof_obsidian"
+    },
+    {
+      "id": "WITHER_ASSEMBLER",
+      "model": "slimefun:slimefun/energy/wither_assembler"
+    },
+    {
+      "id": "MOD_PLATE",
+      "model": "slimetinker:materials/mod_plate"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/obsidian"
+  }
+}

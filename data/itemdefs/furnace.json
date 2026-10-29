@@ -1,0 +1,102 @@
+{
+  "base": "furnace",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SMELTERY",
+      "model": "slimefun:slimefun/basic_machines/smeltery"
+    },
+    {
+      "id": "ENHANCED_FURNACE",
+      "model": "slimefun:slimefun/basic_machines/enhanced_furnace"
+    },
+    {
+      "id": "ENHANCED_FURNACE_2",
+      "model": "slimefun:slimefun/basic_machines/enhanced_furnace_2"
+    },
+    {
+      "id": "ENHANCED_FURNACE_3",
+      "model": "slimefun:slimefun/basic_machines/enhanced_furnace_3"
+    },
+    {
+      "id": "ENHANCED_FURNACE_4",
+      "model": "slimefun:slimefun/basic_machines/enhanced_furnace_4"
+    },
+    {
+      "id": "ENHANCED_FURNACE_5",
+      "model": "slimefun:slimefun/basic_machines/enhanced_furnace_5"
+    },
+    {
+      "id": "ENHANCED_FURNACE_6",
+      "model": "slimefun:slimefun/basic_machines/enhanced_furnace_6"
+    },
+    {
+      "id": "ENHANCED_FURNACE_7",
+      "model": "slimefun:slimefun/basic_machines/enhanced_furnace_7"
+    },
+    {
+      "id": "ENHANCED_FURNACE_8",
+      "model": "slimefun:slimefun/basic_machines/enhanced_furnace_8"
+    },
+    {
+      "id": "ENHANCED_FURNACE_9",
+      "model": "slimefun:slimefun/basic_machines/enhanced_furnace_9"
+    },
+    {
+      "id": "ENHANCED_FURNACE_10",
+      "model": "slimefun:slimefun/basic_machines/enhanced_furnace_10"
+    },
+    {
+      "id": "ENHANCED_FURNACE_11",
+      "model": "slimefun:slimefun/basic_machines/enhanced_furnace_11"
+    },
+    {
+      "id": "REINFORCED_FURNACE",
+      "model": "slimefun:slimefun/basic_machines/reinforced_furnace"
+    },
+    {
+      "id": "CARBONADO_EDGED_FURNACE",
+      "model": "slimefun:slimefun/basic_machines/carbonado_edged_furnace"
+    },
+    {
+      "id": "ELECTRIC_FURNACE",
+      "model": "slimefun:slimefun/energy/electric_furnace"
+    },
+    {
+      "id": "ELECTRIC_FURNACE_2",
+      "model": "slimefun:slimefun/energy/electric_furnace_2"
+    },
+    {
+      "id": "ELECTRIC_FURNACE_3",
+      "model": "slimefun:slimefun/energy/electric_furnace_3"
+    },
+    {
+      "id": "ELECTRIC_ORE_GRINDER",
+      "model": "slimefun:slimefun/energy/electric_ore_grinder"
+    },
+    {
+      "id": "ELECTRIC_ORE_GRINDER_2",
+      "model": "slimefun:slimefun/energy/electric_ore_grinder_2"
+    },
+    {
+      "id": "ELECTRIC_INGOT_PULVERIZER",
+      "model": "slimefun:slimefun/energy/electric_ingot_pulverizer"
+    },
+    {
+      "id": "ELECTRIC_SMELTERY",
+      "model": "slimefun:slimefun/energy/electric_smeltery"
+    },
+    {
+      "id": "ELECTRIC_SMELTERY_2",
+      "model": "slimefun:slimefun/energy/electric_smeltery_2"
+    },
+    {
+      "id": "ELECTRIC_ORE_GRINDER_3",
+      "model": "slimefun:slimefun/energy/electric_ore_grinder_3"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/furnace"
+  }
+}

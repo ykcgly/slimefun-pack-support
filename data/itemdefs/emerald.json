@@ -1,0 +1,184 @@
+{
+  "base": "emerald",
+  "generated": true,
+  "entries": [
+    {
+      "id": "COMMON_TALISMAN",
+      "model": "slimefun:slimefun/magical_items/common_talisman"
+    },
+    {
+      "id": "ANVIL_TALISMAN",
+      "model": "slimefun:slimefun/talisman1/anvil"
+    },
+    {
+      "id": "ENDER_ANVIL_TALISMAN",
+      "model": "slimefun:slimefun/talisman2/anvil"
+    },
+    {
+      "id": "MINER_TALISMAN",
+      "model": "slimefun:slimefun/talisman1/miner"
+    },
+    {
+      "id": "ENDER_MINER_TALISMAN",
+      "model": "slimefun:slimefun/talisman2/miner"
+    },
+    {
+      "id": "HUNTER_TALISMAN",
+      "model": "slimefun:slimefun/talisman1/hunter"
+    },
+    {
+      "id": "ENDER_HUNTER_TALISMAN",
+      "model": "slimefun:slimefun/talisman2/hunter"
+    },
+    {
+      "id": "LAVA_TALISMAN",
+      "model": "slimefun:slimefun/talisman1/lava_walker"
+    },
+    {
+      "id": "ENDER_LAVA_TALISMAN",
+      "model": "slimefun:slimefun/talisman2/lava_walker"
+    },
+    {
+      "id": "WATER_TALISMAN",
+      "model": "slimefun:slimefun/talisman1/water_breather"
+    },
+    {
+      "id": "ENDER_WATER_TALISMAN",
+      "model": "slimefun:slimefun/talisman2/water_breather"
+    },
+    {
+      "id": "ANGEL_TALISMAN",
+      "model": "slimefun:slimefun/talisman1/angel"
+    },
+    {
+      "id": "ENDER_ANGEL_TALISMAN",
+      "model": "slimefun:slimefun/talisman2/angel"
+    },
+    {
+      "id": "FIRE_TALISMAN",
+      "model": "slimefun:slimefun/talisman1/firefighter"
+    },
+    {
+      "id": "ENDER_FIRE_TALISMAN",
+      "model": "slimefun:slimefun/talisman2/firefighter"
+    },
+    {
+      "id": "MAGICIAN_TALISMAN",
+      "model": "slimefun:slimefun/talisman1/magican"
+    },
+    {
+      "id": "ENDER_MAGICIAN_TALISMAN",
+      "model": "slimefun:slimefun/talisman2/magican"
+    },
+    {
+      "id": "TRAVELLER_TALISMAN",
+      "model": "slimefun:slimefun/talisman1/traveller"
+    },
+    {
+      "id": "ENDER_TRAVELLER_TALISMAN",
+      "model": "slimefun:slimefun/talisman2/traveller"
+    },
+    {
+      "id": "WARRIOR_TALISMAN",
+      "model": "slimefun:slimefun/talisman1/warrior"
+    },
+    {
+      "id": "ENDER_WARRIOR_TALISMAN",
+      "model": "slimefun:slimefun/talisman2/warrior"
+    },
+    {
+      "id": "KNIGHT_TALISMAN",
+      "model": "slimefun:slimefun/talisman1/knight"
+    },
+    {
+      "id": "ENDER_KNIGHT_TALISMAN",
+      "model": "slimefun:slimefun/talisman2/knight"
+    },
+    {
+      "id": "SYNTHETIC_EMERALD",
+      "model": "slimefun:slimefun/resources/valuables/synthetic_emerald"
+    },
+    {
+      "id": "WHIRLWIND_TALISMAN",
+      "model": "slimefun:slimefun/talisman1/whirlwind"
+    },
+    {
+      "id": "ENDER_WHIRLWIND_TALISMAN",
+      "model": "slimefun:slimefun/talisman2/whirlwind"
+    },
+    {
+      "id": "WIZARD_TALISMAN",
+      "model": "slimefun:slimefun/talisman1/wizard"
+    },
+    {
+      "id": "ENDER_WIZARD_TALISMAN",
+      "model": "slimefun:slimefun/talisman2/wizard"
+    },
+    {
+      "id": "CAVEMAN_TALISMAN",
+      "model": "slimefun:slimefun/talisman1/caveman"
+    },
+    {
+      "id": "ENDER_CAVEMAN_TALISMAN",
+      "model": "slimefun:slimefun/talisman2/caveman"
+    },
+    {
+      "id": "WISE_TALISMAN",
+      "model": "slimefun:slimefun/talisman1/wise"
+    },
+    {
+      "id": "ENDER_WISE_TALISMAN",
+      "model": "slimefun:slimefun/talisman2/wise"
+    },
+    {
+      "id": "ENDER_TALISMAN",
+      "model": "slimefun:slimefun/talisman2/0_default"
+    },
+    {
+      "id": "FARMER_TALISMAN",
+      "model": "slimefun:slimefun/talisman1/farmer"
+    },
+    {
+      "id": "ENDER_FARMER_TALISMAN",
+      "model": "slimefun:slimefun/talisman2/farmer"
+    },
+    {
+      "id": "QUARRY_OSCILLATOR_EMERALD",
+      "model": "infinityexpansion:materials/quarry_oscillator_emerald"
+    }
+  ],
+  "tail": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "infinityexpansion2:oscillator_target": "EMERALD",
+        "slimefun:slimefun_item": "IE_OSCILLATOR_EMERALD"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "infinityexpansion2:oscillator_target": "EMERALD",
+          "slimefun:slimefun_item": "IE_OSCILLATOR"
+        }
+      },
+      "on_false": {
+        "type": "model",
+        "model": "item/emerald"
+      },
+      "on_true": {
+        "type": "model",
+        "model": "infinityexpansion2:tools/oscillator_emerald"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion2:tools/oscillator_emerald"
+    }
+  }
+}

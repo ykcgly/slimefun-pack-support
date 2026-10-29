@@ -1,0 +1,28 @@
+{
+  "base": "mangrove_leaves",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CLT_CILANTRO",
+      "model": "cultivation:products/clt_cilantro"
+    },
+    {
+      "id": "CLT_MINT",
+      "model": "cultivation:products/clt_mint"
+    },
+    {
+      "id": "CLT_SHISO",
+      "model": "cultivation:products/clt_shiso"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/mangrove_leaves",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": -7158200
+      }
+    ]
+  }
+}

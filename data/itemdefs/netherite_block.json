@@ -1,0 +1,30 @@
+{
+  "base": "netherite_block",
+  "generated": true,
+  "entries": [
+    {
+      "id": "NETHERITE_SINGULARITY",
+      "model": "infinityexpansion:singularities/netherite_singularity"
+    },
+    {
+      "id": "NDFEB_ALLOY_BLOCK",
+      "model": "slimefunwarfare:general/ndfeb_alloy_block"
+    },
+    {
+      "id": "IE_VOID_BLOCK",
+      "model": "infinityexpansion2:materials/void_block"
+    },
+    {
+      "id": "IE_NETHERITE_SINGULARITY",
+      "model": "infinityexpansion2:singularities/netherite_singularity"
+    },
+    {
+      "id": "SUPREME_ADAMANTIUM_PLATE",
+      "model": "supreme:components/supreme_adamantium_plate"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/netherite_block"
+  }
+}

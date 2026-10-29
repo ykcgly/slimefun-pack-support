@@ -1,0 +1,78 @@
+{
+  "base": "chainmail_chestplate",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ENDER_CHESTPLATE",
+      "model": "slimefun:slimefun/magical_armor/ender_armor/ender_chestplate"
+    },
+    {
+      "id": "SLIME_CHESTPLATE",
+      "model": "slimefun:slimefun/magical_armor/slime_armor/slime_chestplate"
+    },
+    {
+      "id": "GLOWSTONE_CHESTPLATE",
+      "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_chestplate"
+    },
+    {
+      "id": "CACTUS_CHESTPLATE",
+      "model": "slimefun:slimefun/armor/cactus_armor/cactus_chestplate"
+    },
+    {
+      "id": "DURALUMIN_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/duralumin_jetpack"
+    },
+    {
+      "id": "SOLDER_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/solder_jetpack"
+    },
+    {
+      "id": "BILLON_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/billon_jetpack"
+    },
+    {
+      "id": "STEEL_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/steel_jetpack"
+    },
+    {
+      "id": "DAMASCUS_STEEL_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/damascus_steel_jetpack"
+    },
+    {
+      "id": "REINFORCED_ALLOY_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/reinforced_alloy_jetpack"
+    },
+    {
+      "id": "CARBONADO_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/carbonado_jetpack"
+    },
+    {
+      "id": "PARACHUTE",
+      "model": "slimefun:slimefun/technical_gadgets/parachute"
+    },
+    {
+      "id": "HAZMAT_CHESTPLATE",
+      "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_chestplate"
+    },
+    {
+      "id": "RAINBOW_CHESTPLATE",
+      "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_chestplate"
+    },
+    {
+      "id": "EMPTY_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/empty_data_card"
+    },
+    {
+      "id": "COPPER_CHESTPLATE",
+      "model": "extra_gear:armor/copper/copper_chestplate"
+    },
+    {
+      "id": "IE_MOB_DATA_CARD_EMPTY",
+      "model": "infinityexpansion2:mob_simulation/empty_data_card"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/chainmail_chestplate"
+  }
+}

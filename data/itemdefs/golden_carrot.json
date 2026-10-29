@@ -1,0 +1,14 @@
+{
+  "base": "golden_carrot",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CORN_ON_THE_COB",
+      "model": "exotic_garden:foods/corn_on_the_cob"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/golden_carrot"
+  }
+}

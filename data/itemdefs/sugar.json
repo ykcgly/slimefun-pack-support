@@ -1,0 +1,82 @@
+{
+  "base": "sugar",
+  "generated": true,
+  "entries": [
+    {
+      "id": "MAGIC_SUGAR",
+      "model": "slimefun:slimefun/food/magic_sugar"
+    },
+    {
+      "id": "TIN_DUST",
+      "model": "slimefun:slimefun/resources/dusts/tin_dust"
+    },
+    {
+      "id": "SILVER_DUST",
+      "model": "slimefun:slimefun/resources/dusts/silver_dust"
+    },
+    {
+      "id": "ALUMINUM_DUST",
+      "model": "slimefun:slimefun/resources/dusts/aluminum_dust"
+    },
+    {
+      "id": "ZINC_DUST",
+      "model": "slimefun:slimefun/resources/dusts/zinc_dust"
+    },
+    {
+      "id": "MAGNESIUM_DUST",
+      "model": "slimefun:slimefun/resources/dusts/magnesium_dust"
+    },
+    {
+      "id": "WHEAT_FLOUR",
+      "model": "slimefun:slimefun/miscellaneous/wheat_flour"
+    },
+    {
+      "id": "SALT",
+      "model": "slimefun:slimefun/miscellaneous/salt"
+    },
+    {
+      "id": "MAGNESIUM_SALT",
+      "model": "slimefun:slimefun/resources/valuables/magnesium_salt"
+    },
+    {
+      "id": "CORNMEAL",
+      "model": "exotic_garden:misc/cornmeal"
+    },
+    {
+      "id": "KOUXIANGTANG",
+      "model": "bump:foods/kouxiangtang"
+    },
+    {
+      "id": "WATER_SUGAR",
+      "model": "bump:magical_items/water_sugar"
+    },
+    {
+      "id": "OSMIUM_DUST",
+      "model": "slimefunwarfare:resources/osmium_dust"
+    },
+    {
+      "id": "GN_COOKED_RICE",
+      "model": "gastronomicon:food/gn_cooked_rice"
+    },
+    {
+      "id": "GN_BARLEY_FLOUR",
+      "model": "gastronomicon:food/gn_barley_flour"
+    },
+    {
+      "id": "GN_SORGHUM_FLOUR",
+      "model": "gastronomicon:food/gn_sorghum_flour"
+    },
+    {
+      "id": "GN_RYE_FLOUR",
+      "model": "gastronomicon:food/gn_rye_flour"
+    },
+    {
+      "id": "GN_TAPIOCA_STARCH",
+      "model": "gastronomicon:food/gn_tapioca_starch"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/sugar"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "base": "glow_berries",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CLT_JUNIPER_BERRY",
+      "model": "cultivation:products/clt_juniper_berry"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/glow_berries"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "base": "powered_rail",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ADVANCED_CIRCUIT_BOARD",
+      "model": "slimefun:slimefun/technical_components/advanced_circuit_board"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/powered_rail"
+  }
+}

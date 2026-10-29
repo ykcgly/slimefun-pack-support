@@ -1,0 +1,38 @@
+{
+  "base": "cauldron",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ORE_WASHER",
+      "model": "slimefun:slimefun/basic_machines/ore_washer"
+    },
+    {
+      "id": "COMPOSTER",
+      "model": "slimefun:slimefun/basic_machines/composter"
+    },
+    {
+      "id": "CRUCIBLE",
+      "model": "slimefun:slimefun/basic_machines/crucible"
+    },
+    {
+      "id": "KITCHEN",
+      "model": "exotic_garden:misc/kitchen"
+    },
+    {
+      "id": "GN_STEEL_POT",
+      "model": "gastronomicon:tools/gn_steel_pot"
+    },
+    {
+      "id": "GN_DISTILLATION_CHAMBER",
+      "model": "gastronomicon:tools/gn_distillation_chamber"
+    },
+    {
+      "id": "GN_MILL",
+      "model": "gastronomicon:basic_machines/gn_mill"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/cauldron"
+  }
+}

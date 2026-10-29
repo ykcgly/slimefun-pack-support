@@ -1,0 +1,18 @@
+{
+  "base": "mangrove_propagule",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_BOK_CHOY",
+      "model": "gastronomicon:ingredient/gn_bok_choy"
+    },
+    {
+      "id": "GN_GREEN_ONION",
+      "model": "gastronomicon:ingredient/gn_green_onion"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/mangrove_propagule"
+  }
+}

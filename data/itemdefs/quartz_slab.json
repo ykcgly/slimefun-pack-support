@@ -1,0 +1,14 @@
+{
+  "base": "quartz_slab",
+  "generated": true,
+  "entries": [
+    {
+      "id": "HOLOGRAM_PROJECTOR",
+      "model": "slimefun:slimefun/technical_gadgets/hologram_projector"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/quartz_slab"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "base": "chainmail_leggings",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ENDER_LEGGINGS",
+      "model": "slimefun:slimefun/magical_armor/ender_armor/ender_leggings"
+    },
+    {
+      "id": "SLIME_LEGGINGS",
+      "model": "slimefun:slimefun/magical_armor/slime_armor/slime_leggings"
+    },
+    {
+      "id": "GLOWSTONE_LEGGINGS",
+      "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_leggings"
+    },
+    {
+      "id": "CACTUS_LEGGINGS",
+      "model": "slimefun:slimefun/armor/cactus_armor/cactus_leggings"
+    },
+    {
+      "id": "HAZMAT_LEGGINGS",
+      "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_leggings"
+    },
+    {
+      "id": "RAINBOW_LEGGINGS",
+      "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_leggings"
+    },
+    {
+      "id": "COPPER_LEGGINGS",
+      "model": "extra_gear:armor/copper/copper_leggings"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/chainmail_leggings"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "base": "brick",
+  "generated": true,
+  "entries": [
+    {
+      "id": "BRONZE_INGOT",
+      "model": "slimefun:slimefun/resources/ingots/bronze_ingot"
+    },
+    {
+      "id": "COPPER_INGOT",
+      "model": "slimefun:slimefun/resources/ingots/copper_ingot"
+    },
+    {
+      "id": "REDSTONE_ALLOY",
+      "model": "slimefun:slimefun/resources/ingots/redstone_alloy"
+    },
+    {
+      "id": "CHRISTMAS_CARAMEL",
+      "model": "slimefun:slimefun/christmas/christmas_caramel"
+    },
+    {
+      "id": "ADAMANTITE",
+      "model": "infinityexpansion:materials/adamantite"
+    },
+    {
+      "id": "MAGSTEEL",
+      "model": "infinityexpansion:materials/magsteel"
+    },
+    {
+      "id": "SMALL_PORTABLE_CHARGER",
+      "model": "fluffymachines:portable_chargers/small_portable_charger"
+    },
+    {
+      "id": "HOLMIUM_INGOT",
+      "model": "slimefunwarfare:resources/holmium_ingot"
+    },
+    {
+      "id": "SEARED_BRICK",
+      "model": "slimetinker:materials/seared_brick"
+    },
+    {
+      "id": "INGOT_CAST_BOOMERITE",
+      "model": "slimetinker:materials/ingots/ingot_cast_boomerite"
+    },
+    {
+      "id": "INGOT_CAST_FONDNESS",
+      "model": "slimetinker:materials/ingots/ingot_cast_fondness"
+    },
+    {
+      "id": "INGOT_CAST_DEVOTION",
+      "model": "slimetinker:materials/ingots/ingot_cast_devotion"
+    },
+    {
+      "id": "INGOT_CAST_PASSION",
+      "model": "slimetinker:materials/ingots/ingot_cast_passion"
+    },
+    {
+      "id": "INGOT_CAST_LOVE",
+      "model": "slimetinker:materials/ingots/ingot_cast_love"
+    },
+    {
+      "id": "IE_ADAMANTITE",
+      "model": "infinityexpansion2:materials/adamantite"
+    },
+    {
+      "id": "IE_MAGSTEEL",
+      "model": "infinityexpansion2:materials/magsteel"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/brick"
+  }
+}

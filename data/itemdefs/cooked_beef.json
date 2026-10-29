@@ -1,0 +1,18 @@
+{
+  "base": "cooked_beef",
+  "generated": true,
+  "entries": [
+    {
+      "id": "BEEF_JERKY",
+      "model": "slimefun:slimefun/food/beef_jerky"
+    },
+    {
+      "id": "IE_COSMIC_MEATBALLS",
+      "model": "infinityexpansion2:food/cosmic_meatballs"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/cooked_beef"
+  }
+}

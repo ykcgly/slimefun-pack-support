@@ -1,0 +1,46 @@
+{
+  "base": "beetroot_seeds",
+  "generated": true,
+  "entries": [
+    {
+      "id": "KSF_STUFF",
+      "model": "bump:magical_items/ksf_stuff"
+    },
+    {
+      "id": "GN_OATS",
+      "model": "gastronomicon:ingredient/gn_oats"
+    },
+    {
+      "id": "GN_SOYBEANS",
+      "model": "gastronomicon:ingredient/gn_soybeans"
+    },
+    {
+      "id": "GN_SORGHUM_SEEDS",
+      "model": "gastronomicon:ingredient/gn_sorghum_seeds"
+    },
+    {
+      "id": "GN_SPINACH_SEEDS",
+      "model": "gastronomicon:ingredient/gn_spinach_seeds"
+    },
+    {
+      "id": "GN_BEANS",
+      "model": "gastronomicon:ingredient/gn_beans"
+    },
+    {
+      "id": "GN_BAKED_BEANS",
+      "model": "gastronomicon:food/gn_baked_beans"
+    },
+    {
+      "id": "CLT_CHICKPEAS",
+      "model": "cultivation:products/clt_chickpeas"
+    },
+    {
+      "id": "SUPREME_DUST_AMETHYST",
+      "model": "supreme:components/supreme_dust_amethyst"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/beetroot_seeds"
+  }
+}

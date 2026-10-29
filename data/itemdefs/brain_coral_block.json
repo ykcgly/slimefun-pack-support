@@ -1,0 +1,14 @@
+{
+  "base": "brain_coral_block",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SUPREME_STAINLESS_MACHINE",
+      "model": "supreme:components/supreme_stainless_machine"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/brain_coral_block"
+  }
+}

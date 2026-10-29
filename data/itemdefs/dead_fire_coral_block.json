@@ -1,0 +1,14 @@
+{
+  "base": "dead_fire_coral_block",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SUPREME_INDUCTIVE_MACHINE",
+      "model": "supreme:components/supreme_inductive_machine"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/dead_fire_coral_block"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "base": "rabbit_hide",
+  "generated": true,
+  "entries": [
+    {
+      "id": "RAINBOW_LEATHER",
+      "model": "slimefun:slimefun/magical_items/rainbow_leather"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/rabbit_hide"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "base": "netherite_pickaxe",
+  "generated": true,
+  "entries": [
+    {
+      "id": "INFINITY_PICKAXE",
+      "model": "infinityexpansion:tools/world_breaker"
+    },
+    {
+      "id": "PAXEL",
+      "model": "fluffymachines:tools/netherite_paxel"
+    },
+    {
+      "id": "IE_INFINITY_PICKAXE",
+      "model": "infinityexpansion2:tools/infinity_pickaxe"
+    },
+    {
+      "id": "SUPREME_TITANIUM_PICKAXE",
+      "model": "supreme:weapons/pickaxe/supreme_titanium_pickaxe"
+    },
+    {
+      "id": "SUPREME_AURUM_PICKAXE",
+      "model": "supreme:weapons/pickaxe/supreme_aurum_pickaxe"
+    },
+    {
+      "id": "SUPREME_ADAMANTIUM_PICKAXE",
+      "model": "supreme:weapons/pickaxe/supreme_adamantium_pickaxe"
+    },
+    {
+      "id": "SUPREME_PICKAXE_THORNIUM",
+      "model": "supreme:weapons/pickaxe/supreme_pickaxe_thornium"
+    },
+    {
+      "id": "SUPREME_PICKAXE_MAGIC",
+      "model": "supreme:weapons/pickaxe/supreme_pickaxe_magic"
+    },
+    {
+      "id": "SUPREME_PICKAXE_RARE",
+      "model": "supreme:weapons/pickaxe/supreme_pickaxe_rare"
+    },
+    {
+      "id": "SUPREME_PICKAXE_EPIC",
+      "model": "supreme:weapons/pickaxe/supreme_pickaxe_epic"
+    },
+    {
+      "id": "SUPREME_PICKAXE_LEGENDARY",
+      "model": "supreme:weapons/pickaxe/supreme_pickaxe_legendary"
+    },
+    {
+      "id": "SUPREME_PICKAXE_SUPREME",
+      "model": "supreme:weapons/pickaxe/supreme_pickaxe_supreme"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/netherite_pickaxe"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "base": "bone_meal",
+  "generated": true,
+  "entries": [
+    {
+      "id": "INFERNAL_BONEMEAL",
+      "model": "slimefun:slimefun/magical_gadgets/infernal_bonemeal"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/bone_meal"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "base": "shulker_shell",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SYNTHETIC_SHULKER_SHELL",
+      "model": "slimefun:slimefun/magical_items/synthetic_shulker_shell"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/shulker_shell"
+  }
+}

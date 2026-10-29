@@ -1,0 +1,14 @@
+{
+  "base": "gravel",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GROUT",
+      "model": "slimetinker:materials/grout"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/gravel"
+  }
+}

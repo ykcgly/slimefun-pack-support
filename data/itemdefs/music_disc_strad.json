@@ -1,0 +1,74 @@
+{
+  "base": "music_disc_strad",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SUPREME_CARD_STONE",
+      "model": "supreme:machine_cards/card_stone"
+    },
+    {
+      "id": "SUPREME_CARD_GRANITE",
+      "model": "supreme:machine_cards/card_granite"
+    },
+    {
+      "id": "SUPREME_CARD_DIORITE",
+      "model": "supreme:machine_cards/card_diorite"
+    },
+    {
+      "id": "SUPREME_CARD_ANDESITE",
+      "model": "supreme:machine_cards/card_andesite"
+    },
+    {
+      "id": "SUPREME_CARD_GRAVEL",
+      "model": "supreme:machine_cards/card_gravel"
+    },
+    {
+      "id": "SUPREME_CARD_SAND",
+      "model": "supreme:machine_cards/card_sand"
+    },
+    {
+      "id": "SUPREME_CARD_ENDSTONE",
+      "model": "supreme:machine_cards/card_end_stone"
+    },
+    {
+      "id": "SUPREME_CARD_CLAY",
+      "model": "supreme:machine_cards/card_clay"
+    },
+    {
+      "id": "SUPREME_CARD_SNOW",
+      "model": "supreme:machine_cards/card_snow"
+    },
+    {
+      "id": "SUPREME_CARD_APPLE",
+      "model": "supreme:machine_cards/card_apple"
+    },
+    {
+      "id": "SUPREME_CARD_NETHER_STAR",
+      "model": "supreme:machine_cards/card_nether_star"
+    },
+    {
+      "id": "SUPREME_CARD_WITHER_ROSE",
+      "model": "supreme:machine_cards/card_wither_rose"
+    },
+    {
+      "id": "SUPREME_CARD_SLIME_BALL",
+      "model": "supreme:machine_cards/card_slime_ball"
+    },
+    {
+      "id": "SUPREME_CARD_INK_SAC",
+      "model": "supreme:machine_cards/card_ink_sac"
+    },
+    {
+      "id": "SUPREME_CARD_GLOW_INK_SAC",
+      "model": "supreme:machine_cards/card_glow_ink_sac"
+    },
+    {
+      "id": "SUPREME_CARD_HONEY_BOTTLE",
+      "model": "supreme:machine_cards/card_honey_bottle"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/music_disc_strad"
+  }
+}

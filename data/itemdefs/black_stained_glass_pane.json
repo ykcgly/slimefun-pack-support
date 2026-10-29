@@ -1,0 +1,18 @@
+{
+  "base": "black_stained_glass_pane",
+  "generated": true,
+  "entries": [
+    {
+      "id": "_UI_PREVIOUS_INACTIVE",
+      "model": "slimefun:slimefun/gui/_ui_previous_inactive"
+    },
+    {
+      "id": "_UI_NEXT_INACTIVE",
+      "model": "slimefun:slimefun/gui/_ui_next_inactive"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/black_stained_glass_pane"
+  }
+}

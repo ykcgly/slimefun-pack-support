@@ -1,0 +1,94 @@
+{
+  "base": "blaze_powder",
+  "generated": true,
+  "entries": [
+    {
+      "id": "END_ESSENCE",
+      "model": "infinityexpansion:materials/end_essence"
+    },
+    {
+      "id": "COAL_ESSENCE",
+      "model": "exotic_garden:plants/coal_essence"
+    },
+    {
+      "id": "DIAMOND_ESSENCE",
+      "model": "exotic_garden:plants/diamond_essence"
+    },
+    {
+      "id": "EMERALD_ESSENCE",
+      "model": "exotic_garden:plants/emerald_essence"
+    },
+    {
+      "id": "ENDER_ESSENCE",
+      "model": "exotic_garden:plants/ender_essence"
+    },
+    {
+      "id": "ALUMINUM_ESSENCE",
+      "model": "exotic_garden:plants/aluminum_essence"
+    },
+    {
+      "id": "COPPER_ESSENCE",
+      "model": "exotic_garden:plants/copper_essence"
+    },
+    {
+      "id": "LEAD_ESSENCE",
+      "model": "exotic_garden:plants/lead_essence"
+    },
+    {
+      "id": "SILVER_ESSENCE",
+      "model": "exotic_garden:plants/silver_essence"
+    },
+    {
+      "id": "TIN_ESSENCE",
+      "model": "exotic_garden:plants/tin_essence"
+    },
+    {
+      "id": "GLOWSTONE_ESSENCE",
+      "model": "exotic_garden:plants/glowstone_essence"
+    },
+    {
+      "id": "GOLD_ESSENCE",
+      "model": "exotic_garden:plants/gold_essence"
+    },
+    {
+      "id": "IRON_ESSENCE",
+      "model": "exotic_garden:plants/iron_essence"
+    },
+    {
+      "id": "LAPIS_ESSENCE",
+      "model": "exotic_garden:plants/lapis_essence"
+    },
+    {
+      "id": "OBSIDIAN_ESSENCE",
+      "model": "exotic_garden:plants/obsidian_essence"
+    },
+    {
+      "id": "QUARTZ_ESSENCE",
+      "model": "exotic_garden:plants/quartz_essence"
+    },
+    {
+      "id": "REDSTONE_ESSENCE",
+      "model": "exotic_garden:plants/redstone_essence"
+    },
+    {
+      "id": "SLIME_ESSENCE",
+      "model": "exotic_garden:plants/slime_essence"
+    },
+    {
+      "id": "DIRT_ESSENCE",
+      "model": "exotic_garden:plants/dirt_essence"
+    },
+    {
+      "id": "NETHERITE_ESSENCE",
+      "model": "exotic_garden:plants/netherite_essence"
+    },
+    {
+      "id": "IE_ENDER_ESSENCE",
+      "model": "infinityexpansion2:materials/ender_essence"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/blaze_powder"
+  }
+}

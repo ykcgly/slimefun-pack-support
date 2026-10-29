@@ -1,0 +1,46 @@
+{
+  "base": "music_disc_mellohi",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SUPREME_CARD_IRON_DUST",
+      "model": "supreme:machine_cards/card_iron_dust"
+    },
+    {
+      "id": "SUPREME_CARD_LEAD_DUST",
+      "model": "supreme:machine_cards/card_lead_dust"
+    },
+    {
+      "id": "SUPREME_CARD_GOLD_DUST",
+      "model": "supreme:machine_cards/card_gold_dust"
+    },
+    {
+      "id": "SUPREME_CARD_COPPER_DUST",
+      "model": "supreme:machine_cards/card_copper_dust"
+    },
+    {
+      "id": "SUPREME_CARD_MAGNESIUM_DUST",
+      "model": "supreme:machine_cards/card_magnesium_dust"
+    },
+    {
+      "id": "SUPREME_CARD_ALUMINUM_DUST",
+      "model": "supreme:machine_cards/card_aluminum_dust"
+    },
+    {
+      "id": "SUPREME_CARD_SILVER_DUST",
+      "model": "supreme:machine_cards/card_silver_dust"
+    },
+    {
+      "id": "SUPREME_CARD_TIN_DUST",
+      "model": "supreme:machine_cards/card_tin_dust"
+    },
+    {
+      "id": "SUPREME_CARD_ZINC_DUST",
+      "model": "supreme:machine_cards/card_zinc_dust"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/music_disc_mellohi"
+  }
+}

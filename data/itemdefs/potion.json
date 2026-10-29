@@ -1,0 +1,244 @@
+{
+  "base": "potion",
+  "generated": true,
+  "entries": [
+    {
+      "id": "MEDICINE",
+      "model": "slimefun:slimefun/items/medicine"
+    },
+    {
+      "id": "APPLE_JUICE",
+      "model": "slimefun:slimefun/food/apple_juice"
+    },
+    {
+      "id": "CARROT_JUICE",
+      "model": "slimefun:slimefun/food/carrot_juice"
+    },
+    {
+      "id": "MELON_JUICE",
+      "model": "slimefun:slimefun/food/melon_juice"
+    },
+    {
+      "id": "PUMPKIN_JUICE",
+      "model": "slimefun:slimefun/food/pumpkin_juice"
+    },
+    {
+      "id": "SWEET_BERRY_JUICE",
+      "model": "slimefun:slimefun/food/sweet_berry_juice"
+    },
+    {
+      "id": "GOLDEN_APPLE_JUICE",
+      "model": "slimefun:slimefun/food/golden_apple_juice"
+    },
+    {
+      "id": "CHRISTMAS_MILK",
+      "model": "slimefun:slimefun/christmas/christmas_milk"
+    },
+    {
+      "id": "CHRISTMAS_CHOCOLATE_MILK",
+      "model": "slimefun:slimefun/christmas/christmas_chocolate_milk"
+    },
+    {
+      "id": "CHRISTMAS_EGG_NOG",
+      "model": "slimefun:slimefun/christmas/christmas_egg_nog"
+    },
+    {
+      "id": "CHRISTMAS_APPLE_CIDER",
+      "model": "slimefun:slimefun/christmas/christmas_apple_cider"
+    },
+    {
+      "id": "CHRISTMAS_HOT_CHOCOLATE",
+      "model": "slimefun:slimefun/christmas/christmas_hot_chocolate"
+    },
+    {
+      "id": "GLOW_BERRY_JUICE",
+      "model": "slimefun:slimefun/food/glow_berry_juice"
+    },
+    {
+      "id": "BLACKBERRY_JUICE",
+      "model": "exotic_garden:drinks/blackberry_juice"
+    },
+    {
+      "id": "BLACKBERRY_SMOOTHIE",
+      "model": "exotic_garden:drinks/blackberry_smoothie"
+    },
+    {
+      "id": "BLUEBERRY_JUICE",
+      "model": "exotic_garden:drinks/blueberry_juice"
+    },
+    {
+      "id": "BLUEBERRY_SMOOTHIE",
+      "model": "exotic_garden:drinks/blueberry_smoothie"
+    },
+    {
+      "id": "CHERRY_ICED_TEA",
+      "model": "exotic_garden:drinks/cherry_iced_tea"
+    },
+    {
+      "id": "CHERRY_JUICE",
+      "model": "exotic_garden:drinks/cherry_juice"
+    },
+    {
+      "id": "COCONUT_MILK",
+      "model": "exotic_garden:drinks/coconut_milk"
+    },
+    {
+      "id": "COWBERRY_JUICE",
+      "model": "exotic_garden:drinks/cowberry_juice"
+    },
+    {
+      "id": "COWBERRY_SMOOTHIE",
+      "model": "exotic_garden:drinks/cowberry_smoothie"
+    },
+    {
+      "id": "CRANBERRY_JUICE",
+      "model": "exotic_garden:drinks/cranberry_juice"
+    },
+    {
+      "id": "CRANBERRY_SMOOTHIE",
+      "model": "exotic_garden:drinks/cranberry_smoothie"
+    },
+    {
+      "id": "DRAGON_FRUIT_JUICE",
+      "model": "exotic_garden:drinks/dragon_fruit_juice"
+    },
+    {
+      "id": "ELDERBERRY_JUICE",
+      "model": "exotic_garden:drinks/elderberry_juice"
+    },
+    {
+      "id": "ELDERBERRY_SMOOTHIE",
+      "model": "exotic_garden:drinks/elderberry_smoothie"
+    },
+    {
+      "id": "GRAPE_JUICE",
+      "model": "exotic_garden:drinks/grape_juice"
+    },
+    {
+      "id": "GRAPE_SMOOTHIE",
+      "model": "exotic_garden:drinks/grape_smoothie"
+    },
+    {
+      "id": "LEMON_ICED_TEA",
+      "model": "exotic_garden:drinks/lemon_iced_tea"
+    },
+    {
+      "id": "LEMON_JUICE",
+      "model": "exotic_garden:drinks/lemon_juice"
+    },
+    {
+      "id": "LEMONADE",
+      "model": "exotic_garden:drinks/lemonade"
+    },
+    {
+      "id": "LIME_JUICE",
+      "model": "exotic_garden:drinks/lime_juice"
+    },
+    {
+      "id": "LIME_SMOOTHIE",
+      "model": "exotic_garden:drinks/lime_smoothie"
+    },
+    {
+      "id": "OAK_APPLE_JUICE",
+      "model": "exotic_garden:drinks/oak_apple_juice"
+    },
+    {
+      "id": "ORANGE_JUICE",
+      "model": "exotic_garden:drinks/orange_juice"
+    },
+    {
+      "id": "PEACH_ICED_TEA",
+      "model": "exotic_garden:drinks/peach_iced_tea"
+    },
+    {
+      "id": "PEACH_JUICE",
+      "model": "exotic_garden:drinks/peach_juice"
+    },
+    {
+      "id": "PEAR_JUICE",
+      "model": "exotic_garden:drinks/pear_juice"
+    },
+    {
+      "id": "PINEAPPLE_JUICE",
+      "model": "exotic_garden:drinks/pineapple_juice"
+    },
+    {
+      "id": "PINEAPPLE_SMOOTHIE",
+      "model": "exotic_garden:drinks/pineapple_smoothie"
+    },
+    {
+      "id": "PLUM_JUICE",
+      "model": "exotic_garden:drinks/plum_juice"
+    },
+    {
+      "id": "POMEGRANATE_JUICE",
+      "model": "exotic_garden:drinks/pomegranate_juice"
+    },
+    {
+      "id": "RASPBERRY_ICED_TEA",
+      "model": "exotic_garden:drinks/raspberry_iced_tea"
+    },
+    {
+      "id": "RASPBERRY_JUICE",
+      "model": "exotic_garden:drinks/raspberry_juice"
+    },
+    {
+      "id": "RASPBERRY_SMOOTHIE",
+      "model": "exotic_garden:drinks/raspberry_smoothie"
+    },
+    {
+      "id": "STRAWBERRY_ICED_TEA",
+      "model": "exotic_garden:drinks/strawberry_iced_tea"
+    },
+    {
+      "id": "STRAWBERRY_JUICE",
+      "model": "exotic_garden:drinks/strawberry_juice"
+    },
+    {
+      "id": "STRAWBERRY_SMOOTHIE",
+      "model": "exotic_garden:drinks/strawberry_smoothie"
+    },
+    {
+      "id": "THAI_TEA",
+      "model": "exotic_garden:drinks/thai_tea"
+    },
+    {
+      "id": "TOMATO_JUICE",
+      "model": "exotic_garden:drinks/tomato_juice"
+    },
+    {
+      "id": "WINE",
+      "model": "exotic_garden:drinks/wine"
+    },
+    {
+      "id": "XUEBI",
+      "model": "bump:foods/xuebi"
+    },
+    {
+      "id": "KELE",
+      "model": "bump:foods/kele"
+    },
+    {
+      "id": "GN_PEANUT_BUTTER",
+      "model": "gastronomicon:food/gn_peanut_butter"
+    },
+    {
+      "id": "GN_KETCHUP",
+      "model": "gastronomicon:food/gn_ketchup"
+    },
+    {
+      "id": "GN_SOY_SAUCE",
+      "model": "gastronomicon:food/gn_soy_sauce"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "minecraft:item/potion",
+    "tints": [
+      {
+        "type": "minecraft:potion",
+        "default": -13083194
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "base": "music_disc_blocks",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SUPREME_CARD_SOLDER",
+      "model": "supreme:machine_cards/card_solder"
+    },
+    {
+      "id": "SUPREME_CARD_BILLON",
+      "model": "supreme:machine_cards/card_billon"
+    },
+    {
+      "id": "SUPREME_CARD_BRONZE",
+      "model": "supreme:machine_cards/card_bronze"
+    },
+    {
+      "id": "SUPREME_CARD_BRASS",
+      "model": "supreme:machine_cards/card_brass"
+    },
+    {
+      "id": "SUPREME_CARD_SULFATE",
+      "model": "supreme:machine_cards/card_sulfate"
+    },
+    {
+      "id": "SUPREME_CARD_CARBON",
+      "model": "supreme:machine_cards/card_carbon"
+    },
+    {
+      "id": "SUPREME_CARD_SILICON",
+      "model": "supreme:machine_cards/card_silicon"
+    },
+    {
+      "id": "SUPREME_CARD_STEEL",
+      "model": "supreme:machine_cards/card_steel"
+    },
+    {
+      "id": "SUPREME_CARD_NICKEL",
+      "model": "supreme:machine_cards/card_nickel"
+    },
+    {
+      "id": "SUPREME_CARD_DURALUMIN",
+      "model": "supreme:machine_cards/card_duralumin"
+    },
+    {
+      "id": "SUPREME_CARD_FERROSILICON",
+      "model": "supreme:machine_cards/card_ferrosilicon"
+    },
+    {
+      "id": "SUPREME_CARD_DAMASCUS",
+      "model": "supreme:machine_cards/card_damascus_steel"
+    },
+    {
+      "id": "SUPREME_CARD_COBALT",
+      "model": "supreme:machine_cards/card_cobalt"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/music_disc_blocks"
+  }
+}

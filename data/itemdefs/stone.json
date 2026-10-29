@@ -1,0 +1,26 @@
+{
+  "base": "stone",
+  "generated": true,
+  "entries": [
+    {
+      "id": "COMPRESSED_COBBLESTONE_3",
+      "model": "infinityexpansion:materials/compressed_cobblestone_3"
+    },
+    {
+      "id": "COMPRESSED_COBBLESTONE_4",
+      "model": "infinityexpansion:materials/compressed_cobblestone_4"
+    },
+    {
+      "id": "IE_COMPRESSED_COBBLESTONE_4",
+      "model": "infinityexpansion2:materials/compressed_cobblestone_4"
+    },
+    {
+      "id": "IE_COMPRESSED_COBBLESTONE_5",
+      "model": "infinityexpansion2:materials/compressed_cobblestone_5"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/stone"
+  }
+}

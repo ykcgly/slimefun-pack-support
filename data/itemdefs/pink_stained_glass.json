@@ -1,0 +1,14 @@
+{
+  "base": "pink_stained_glass",
+  "generated": true,
+  "entries": [
+    {
+      "id": "RAINBOW_GLASS_VALENTINE",
+      "model": "slimefun:slimefun/valentine/rainbow_glass_valentine"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/pink_stained_glass"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "base": "music_disc_chirp",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SUPREME_CARD_ALUMINUM_BRONZE",
+      "model": "supreme:machine_cards/card_aluminum_bronze"
+    },
+    {
+      "id": "SUPREME_CARD_ALUMINUM_BRASS",
+      "model": "supreme:machine_cards/card_aluminum_brass"
+    },
+    {
+      "id": "SUPREME_CARD_CORINTHIAN_BRONZE",
+      "model": "supreme:machine_cards/card_corinthian_bronze"
+    },
+    {
+      "id": "SUPREME_CARD_GOLD24K",
+      "model": "supreme:machine_cards/card_gold24k"
+    },
+    {
+      "id": "SUPREME_CARD_CARBON_PRESS",
+      "model": "supreme:machine_cards/card_compressed_carbon"
+    },
+    {
+      "id": "SUPREME_CARD_BATTERY",
+      "model": "supreme:machine_cards/card_battery"
+    },
+    {
+      "id": "SUPREME_CARD_MAGNET",
+      "model": "supreme:machine_cards/card_magnet"
+    },
+    {
+      "id": "SUPREME_CARD_PLASTIC_SHEET",
+      "model": "supreme:machine_cards/card_plastic_sheet"
+    },
+    {
+      "id": "SUPREME_CARD_HARDENED_METAL",
+      "model": "supreme:machine_cards/card_hardened_metal"
+    },
+    {
+      "id": "SUPREME_CARD_REDSTONE_ALLOY",
+      "model": "supreme:machine_cards/card_redstone_alloy"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/music_disc_chirp"
+  }
+}

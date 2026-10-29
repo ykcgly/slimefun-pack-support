@@ -1,0 +1,14 @@
+{
+  "base": "salmon",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_RAW_EEL",
+      "model": "gastronomicon:ingredient/gn_raw_eel"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/salmon"
+  }
+}

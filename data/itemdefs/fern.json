@@ -1,0 +1,25 @@
+{
+  "base": "fern",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_MINT",
+      "model": "gastronomicon:ingredient/gn_mint"
+    },
+    {
+      "id": "GN_FIDDLEHEADS",
+      "model": "gastronomicon:ingredient/gn_fiddleheads"
+    }
+  ],
+  "tail": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/fern",
+    "tints": [
+      {
+        "type": "minecraft:grass",
+        "downfall": 1.0,
+        "temperature": 0.5
+      }
+    ]
+  }
+}

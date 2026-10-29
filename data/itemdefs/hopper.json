@@ -1,0 +1,14 @@
+{
+  "base": "hopper",
+  "generated": true,
+  "entries": [
+    {
+      "id": "INFUSED_HOPPER",
+      "model": "slimefun:slimefun/magical_gadgets/infused_hopper"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/hopper"
+  }
+}

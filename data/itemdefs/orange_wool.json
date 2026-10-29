@@ -1,0 +1,14 @@
+{
+  "base": "orange_wool",
+  "generated": true,
+  "entries": [
+    {
+      "id": "RAINBOW_WOOL_HALLOWEEN",
+      "model": "slimefun:slimefun/halloween/rainbow_wool_halloween"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/orange_wool"
+  }
+}

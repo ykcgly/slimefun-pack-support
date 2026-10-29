@@ -1,0 +1,30 @@
+{
+  "base": "music_disc_far",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SUPREME_CARD_DIAMOND",
+      "model": "supreme:machine_cards/card_diamond"
+    },
+    {
+      "id": "SUPREME_CARD_EMERALD",
+      "model": "supreme:machine_cards/card_emerald"
+    },
+    {
+      "id": "SUPREME_CARD_BLAZE_ROD",
+      "model": "supreme:machine_cards/card_blaze_rod"
+    },
+    {
+      "id": "SUPREME_CARD_NETHERITE",
+      "model": "supreme:machine_cards/card_netherite"
+    },
+    {
+      "id": "SUPREME_CARD_AMETHYST",
+      "model": "supreme:machine_cards/card_amethyst"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/music_disc_far"
+  }
+}

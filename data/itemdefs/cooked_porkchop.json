@@ -1,0 +1,18 @@
+{
+  "base": "cooked_porkchop",
+  "generated": true,
+  "entries": [
+    {
+      "id": "PORK_JERKY",
+      "model": "slimefun:slimefun/food/pork_jerky"
+    },
+    {
+      "id": "GN_COOKED_SQUID",
+      "model": "gastronomicon:ingredient/gn_cooked_squid"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/cooked_porkchop"
+  }
+}

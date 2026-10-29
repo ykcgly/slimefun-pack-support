@@ -1,0 +1,14 @@
+{
+  "base": "iron_shovel",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_WHISK",
+      "model": "gastronomicon:tools/gn_whisk"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/iron_shovel"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "base": "golden_sword",
+  "generated": true,
+  "entries": [
+    {
+      "id": "BLADE_OF_VAMPIRES",
+      "model": "slimefun:slimefun/weapons/blade_of_vampires"
+    },
+    {
+      "id": "GILDED_IRON_SWORD",
+      "model": "extra_gear:swords/gilded_iron_sword"
+    },
+    {
+      "id": "GUARD_SWORD",
+      "model": "bump:magical_weapons/guard_sword"
+    },
+    {
+      "id": "SKY_SWORD",
+      "model": "bump:magical_weapons/sky_sword"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/golden_sword"
+  }
+}

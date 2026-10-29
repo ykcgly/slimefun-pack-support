@@ -1,0 +1,14 @@
+{
+  "base": "diamond_ore",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SEGGANESSON_METEOR",
+      "model": "slimefunwarfare:resources/segganesson_meteor"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/diamond_ore"
+  }
+}

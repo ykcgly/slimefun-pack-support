@@ -1,0 +1,14 @@
+{
+  "base": "stone_pickaxe",
+  "generated": true,
+  "entries": [
+    {
+      "id": "TOOL_PICKAXE_DUMMY",
+      "model": "slimetinker:tool_building_guide/tool_pickaxe_dummy"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/stone_pickaxe"
+  }
+}

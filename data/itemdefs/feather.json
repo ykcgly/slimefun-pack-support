@@ -1,0 +1,14 @@
+{
+  "base": "feather",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ELYTRA_SCALE",
+      "model": "slimefun:slimefun/magical_gadgets/elytra_scale"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/feather"
+  }
+}

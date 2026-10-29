@@ -1,0 +1,38 @@
+{
+  "base": "dispenser",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GRIND_STONE",
+      "model": "slimefun:slimefun/basic_machines/grind_stone"
+    },
+    {
+      "id": "ORE_CRUSHER",
+      "model": "slimefun:slimefun/basic_machines/ore_crusher"
+    },
+    {
+      "id": "BLOCK_PLACER",
+      "model": "slimefun:slimefun/basic_machines/block_placer"
+    },
+    {
+      "id": "ANCIENT_PEDESTAL",
+      "model": "slimefun:slimefun/magical_items/ancient_pedestal"
+    },
+    {
+      "id": "ANDROID_INTERFACE_ITEMS",
+      "model": "slimefun:slimefun/androids/android_interface_items"
+    },
+    {
+      "id": "ANDROID_INTERFACE_FUEL",
+      "model": "slimefun:slimefun/androids/android_interface_fuel"
+    },
+    {
+      "id": "EXP_DISPENSER",
+      "model": "fluffymachines:multiblocks/exp_dispenser"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/dispenser"
+  }
+}

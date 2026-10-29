@@ -1,0 +1,22 @@
+{
+  "base": "small_dripleaf",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_BRUSSLES_SPROUTS",
+      "model": "gastronomicon:ingredient/gn_brussles_sprouts"
+    },
+    {
+      "id": "GN_PARSLEY",
+      "model": "gastronomicon:ingredient/gn_parsley"
+    },
+    {
+      "id": "CLT_BASIL",
+      "model": "cultivation:products/clt_basil"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/small_dripleaf_top"
+  }
+}

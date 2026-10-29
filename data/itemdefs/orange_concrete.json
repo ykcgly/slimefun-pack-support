@@ -1,0 +1,14 @@
+{
+  "base": "orange_concrete",
+  "generated": true,
+  "entries": [
+    {
+      "id": "RAINBOW_CONCRETE_HALLOWEEN",
+      "model": "slimefun:slimefun/halloween/rainbow_concrete_halloween"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/orange_concrete"
+  }
+}

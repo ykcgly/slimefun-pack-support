@@ -1,0 +1,14 @@
+{
+  "base": "netherrack",
+  "generated": true,
+  "entries": [
+    {
+      "id": "IE__UI_WORLD_NETHER",
+      "model": "infinityexpansion2:icons/ui_world_nether"
+    }
+  ],
+  "tail": {
+    "type": "minecraft:model",
+    "model": "minecraft:block/netherrack"
+  }
+}

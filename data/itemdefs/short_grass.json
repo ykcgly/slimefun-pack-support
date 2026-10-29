@@ -1,0 +1,21 @@
+{
+  "base": "short_grass",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CLT_DILL",
+      "model": "cultivation:products/clt_dill"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/short_grass",
+    "tints": [
+      {
+        "type": "minecraft:grass",
+        "downfall": 1.0,
+        "temperature": 0.5
+      }
+    ]
+  }
+}

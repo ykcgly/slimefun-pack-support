@@ -1,0 +1,42 @@
+{
+  "base": "gold_block",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GOLD_24K_BLOCK",
+      "model": "slimefun:slimefun/miscellaneous/gold_24k_block"
+    },
+    {
+      "id": "GOLD_SINGULARITY",
+      "model": "infinityexpansion:singularities/gold_singularity"
+    },
+    {
+      "id": "BLOCK_CAST_NICE",
+      "model": "slimetinker:materials/blocks/block_cast_nice"
+    },
+    {
+      "id": "BLOCK_CAST_ANNIVERSARIUM",
+      "model": "slimetinker:materials/blocks/block_cast_anniversarium"
+    },
+    {
+      "id": "IE_GOLD_SINGULARITY",
+      "model": "infinityexpansion2:singularities/gold_singularity"
+    },
+    {
+      "id": "SUPREME_AURUM_PLATE",
+      "model": "supreme:components/supreme_aurum_plate"
+    },
+    {
+      "id": "SUPREME_MANGANESE_PLATE",
+      "model": "supreme:components/supreme_manganese_plate"
+    },
+    {
+      "id": "SUPREME_PLATINUM_PLATE",
+      "model": "supreme:components/supreme_platinum_plate"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/gold_block"
+  }
+}

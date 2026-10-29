@@ -1,0 +1,14 @@
+{
+  "base": "blue_orchid",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CLT_CHICORY",
+      "model": "cultivation:products/clt_chicory"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/blue_orchid"
+  }
+}

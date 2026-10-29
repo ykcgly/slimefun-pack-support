@@ -1,0 +1,22 @@
+{
+  "base": "red_dye",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_CRAB",
+      "model": "gastronomicon:ingredient/gn_crab"
+    },
+    {
+      "id": "GN_RED_BEAN_PASTE",
+      "model": "gastronomicon:food/gn_red_bean_paste"
+    },
+    {
+      "id": "CLT_MACE",
+      "model": "cultivation:products/clt_mace"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/red_dye"
+  }
+}

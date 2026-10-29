@@ -1,0 +1,20 @@
+{
+  "base": "dark_oak_leaves",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CLT_MARJORAM",
+      "model": "cultivation:products/clt_marjoram"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/dark_oak_leaves",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": -12012264
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "base": "lime_stained_glass_pane",
+  "generated": true,
+  "entries": [
+    {
+      "id": "_UI_PREVIOUS_ACTIVE",
+      "model": "slimefun:slimefun/gui/_ui_previous_active"
+    },
+    {
+      "id": "_UI_NEXT_ACTIVE",
+      "model": "slimefun:slimefun/gui/_ui_next_active"
+    },
+    {
+      "id": "IE__UI_PRODUCING",
+      "model": "infinityexpansion2:icons/ui_producing"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/lime_stained_glass_pane"
+  }
+}

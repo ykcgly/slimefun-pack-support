@@ -1,0 +1,128 @@
+{
+  "base": "leather_leggings",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ENDER_LEGGINGS",
+      "model": "slimefun:slimefun/magical_armor/ender_armor/ender_leggings",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/ender_armor/ender_leggings",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "SLIME_LEGGINGS",
+      "model": "slimefun:slimefun/magical_armor/slime_armor/slime_leggings",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/slime_armor/slime_leggings",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "GLOWSTONE_LEGGINGS",
+      "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_leggings",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_leggings",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "CACTUS_LEGGINGS",
+      "model": "slimefun:slimefun/armor/cactus_armor/cactus_leggings",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/armor/cactus_armor/cactus_leggings",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "HAZMAT_LEGGINGS",
+      "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_leggings",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_leggings",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAINBOW_LEGGINGS",
+      "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_leggings",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_leggings",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "COPPER_LEGGINGS",
+      "model": "extra_gear:armor/copper/copper_leggings",
+      "on_true": {
+        "type": "model",
+        "model": "extra_gear:armor/copper/copper_leggings",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "ARMOUR_LEGGINGS_DUMMY",
+      "model": "slimetinker:armour_building_guide/armour_leggings_dummy",
+      "on_true": {
+        "type": "model",
+        "model": "slimetinker:armour_building_guide/armour_leggings_dummy",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/leather_leggings",
+    "tints": [
+      {
+        "type": "minecraft:dye",
+        "default": -6265536
+      }
+    ]
+  }
+}

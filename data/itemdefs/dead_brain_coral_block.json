@@ -1,0 +1,14 @@
+{
+  "base": "dead_brain_coral_block",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SUPREME_RUSTLESS_MACHINE",
+      "model": "supreme:components/supreme_rustless_machine"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/dead_brain_coral_block"
+  }
+}

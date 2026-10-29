@@ -1,0 +1,18 @@
+{
+  "base": "white_wool",
+  "generated": true,
+  "entries": [
+    {
+      "id": "RAINBOW_WOOL",
+      "model": "slimefun:slimefun/magical_gadgets/rainbow_wool"
+    },
+    {
+      "id": "RAINBOW_WOOL_XMAS",
+      "model": "slimefun:slimefun/christmas/rainbow_wool_xmas"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/white_wool"
+  }
+}

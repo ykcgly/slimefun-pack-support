@@ -1,0 +1,62 @@
+{
+  "base": "melon_seeds",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_TURNIP_SEEDS",
+      "model": "gastronomicon:ingredient/gn_turnip_seeds"
+    },
+    {
+      "id": "GN_BOK_CHOY_SEEDS",
+      "model": "gastronomicon:ingredient/gn_bok_choy_seeds"
+    },
+    {
+      "id": "GN_BROCCOLI_SEEDS",
+      "model": "gastronomicon:ingredient/gn_broccoli_seeds"
+    },
+    {
+      "id": "GN_BASIL_SEEDS",
+      "model": "gastronomicon:ingredient/gn_basil_seeds"
+    },
+    {
+      "id": "GN_MINT_SEEDS",
+      "model": "gastronomicon:ingredient/gn_mint_seeds"
+    },
+    {
+      "id": "GN_PARSLEY_SEEDS",
+      "model": "gastronomicon:ingredient/gn_parsley_seeds"
+    },
+    {
+      "id": "GN_ASPARAGUS_SEEDS",
+      "model": "gastronomicon:ingredient/gn_asparagus_seeds"
+    },
+    {
+      "id": "GN_GREEN_ONION_SEEDS",
+      "model": "gastronomicon:ingredient/gn_green_onion_seeds"
+    },
+    {
+      "id": "CLT_RAPESEED",
+      "model": "cultivation:products/clt_rapeseed"
+    },
+    {
+      "id": "CLT_BLACK_BEANS",
+      "model": "cultivation:products/clt_black_beans"
+    },
+    {
+      "id": "CLT_SOY_BEANS",
+      "model": "cultivation:products/clt_soy_beans"
+    },
+    {
+      "id": "CLT_PINTO_BEANS",
+      "model": "cultivation:products/clt_pinto_beans"
+    },
+    {
+      "id": "SUPREME_DUST_NETHERITE",
+      "model": "supreme:components/supreme_dust_netherite"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/melon_seeds"
+  }
+}

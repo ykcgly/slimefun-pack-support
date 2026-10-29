@@ -1,0 +1,18 @@
+{
+  "base": "white_stained_glass",
+  "generated": true,
+  "entries": [
+    {
+      "id": "RAINBOW_GLASS",
+      "model": "slimefun:slimefun/magical_gadgets/rainbow_glass"
+    },
+    {
+      "id": "RAINBOW_GLASS_XMAS",
+      "model": "slimefun:slimefun/christmas/rainbow_glass_xmas"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/white_stained_glass"
+  }
+}

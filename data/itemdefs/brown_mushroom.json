@@ -1,0 +1,26 @@
+{
+  "base": "brown_mushroom",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_TRUFFLE",
+      "model": "gastronomicon:ingredient/gn_truffle"
+    },
+    {
+      "id": "GN_ENOKI_MUSHROOMS",
+      "model": "gastronomicon:ingredient/gn_enoki_mushrooms"
+    },
+    {
+      "id": "GN_KING_OYSTER_MUSHROOM",
+      "model": "gastronomicon:ingredient/gn_king_oyster_mushroom"
+    },
+    {
+      "id": "GN_BUTTON_MUSHROOM",
+      "model": "gastronomicon:ingredient/gn_button_mushroom"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/brown_mushroom"
+  }
+}

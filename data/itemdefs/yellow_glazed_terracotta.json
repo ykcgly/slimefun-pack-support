@@ -1,0 +1,18 @@
+{
+  "base": "yellow_glazed_terracotta",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CELESTIAL_PANEL",
+      "model": "infinityexpansion:machines/solar_panel_3"
+    },
+    {
+      "id": "IE_SOLAR_PANEL_3",
+      "model": "infinityexpansion2:generators/solar_panel_3"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/yellow_glazed_terracotta"
+  }
+}

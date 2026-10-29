@@ -1,0 +1,18 @@
+{
+  "base": "crying_obsidian",
+  "generated": true,
+  "entries": [
+    {
+      "id": "MASSIVE_FLUFFY_BARREL",
+      "model": "fluffymachines:barrels/massive_fluffy_barrel"
+    },
+    {
+      "id": "SUPREME_MULTIBLOCK_MAGICAL",
+      "model": "supreme:machines/magical_fabricator"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/crying_obsidian"
+  }
+}

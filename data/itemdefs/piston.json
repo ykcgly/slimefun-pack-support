@@ -1,0 +1,18 @@
+{
+  "base": "piston",
+  "generated": true,
+  "entries": [
+    {
+      "id": "COMPRESSOR",
+      "model": "slimefun:slimefun/basic_machines/compressor"
+    },
+    {
+      "id": "REFINERY",
+      "model": "slimefun:slimefun/energy/refinery"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/piston_inventory"
+  }
+}

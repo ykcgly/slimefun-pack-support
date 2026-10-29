@@ -1,0 +1,14 @@
+{
+  "base": "seagrass",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CLT_CHIVES",
+      "model": "cultivation:products/clt_chives"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/seagrass"
+  }
+}

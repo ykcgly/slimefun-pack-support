@@ -1,0 +1,14 @@
+{
+  "base": "ender_pearl",
+  "generated": true,
+  "entries": [
+    {
+      "id": "MECHA_GEAR",
+      "model": "bump:magical_items/mecha_gear"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/ender_pearl"
+  }
+}

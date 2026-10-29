@@ -1,0 +1,14 @@
+{
+  "base": "horn_coral_block",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SUPREME_CONVEYANCE_MACHINE",
+      "model": "supreme:components/supreme_conveyance_machine"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/horn_coral_block"
+  }
+}

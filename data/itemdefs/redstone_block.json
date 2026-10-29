@@ -1,0 +1,18 @@
+{
+  "base": "redstone_block",
+  "generated": true,
+  "entries": [
+    {
+      "id": "REDSTONE_SINGULARITY",
+      "model": "infinityexpansion:singularities/redstone_singularity"
+    },
+    {
+      "id": "IE_REDSTONE_SINGULARITY",
+      "model": "infinityexpansion2:singularities/redstone_singularity"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/redstone_block"
+  }
+}

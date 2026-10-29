@@ -1,0 +1,14 @@
+{
+  "base": "dandelion",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CLT_CUMIN",
+      "model": "cultivation:products/clt_cumin"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/dandelion"
+  }
+}

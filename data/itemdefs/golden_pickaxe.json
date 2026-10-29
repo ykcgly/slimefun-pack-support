@@ -1,0 +1,14 @@
+{
+  "base": "golden_pickaxe",
+  "generated": true,
+  "entries": [
+    {
+      "id": "INDUSTRIAL_MINER",
+      "model": "slimefun:slimefun/basic_machines/industrial_miner"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/golden_pickaxe"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "base": "golden_shovel",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GETGOLD_SPADE",
+      "model": "bump:tools/getgold_spade"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/golden_shovel"
+  }
+}

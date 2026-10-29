@@ -1,0 +1,26 @@
+{
+  "base": "crafting_table",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ENHANCED_CRAFTING_TABLE",
+      "model": "slimefun:slimefun/basic_machines/enhanced_crafting_table"
+    },
+    {
+      "id": "MAGIC_WORKBENCH",
+      "model": "slimefun:slimefun/basic_machines/magic_workbench"
+    },
+    {
+      "id": "CHARGING_BENCH",
+      "model": "slimefun:slimefun/energy/charging_bench"
+    },
+    {
+      "id": "GN_CULINARY_WORKBENCH",
+      "model": "gastronomicon:basic_machines/gn_culinary_workbench"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/crafting_table"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "base": "cyan_terracotta",
+  "generated": true,
+  "entries": [
+    {
+      "id": "REACTOR_ACCESS_PORT",
+      "model": "slimefun:slimefun/cargo/reactor_access_port"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/cyan_terracotta"
+  }
+}

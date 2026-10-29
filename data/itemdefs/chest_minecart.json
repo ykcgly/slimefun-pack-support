@@ -1,0 +1,138 @@
+{
+  "base": "chest_minecart",
+  "generated": true,
+  "entries": [
+    {
+      "id": "DOLLY",
+      "model": "fluffymachines:misc/filled_dolly"
+    },
+    {
+      "id": "PART_REPAIR_KIT_DUMMY",
+      "model": "slimetinker:part_building_guide/part_repair_kit_dummy"
+    },
+    {
+      "id": "PART_REPAIR_KIT_IRON",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_iron"
+    },
+    {
+      "id": "PART_REPAIR_KIT_GOLD",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_gold"
+    },
+    {
+      "id": "PART_REPAIR_KIT_COPPER",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_copper"
+    },
+    {
+      "id": "PART_REPAIR_KIT_LEAD",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_lead"
+    },
+    {
+      "id": "PART_REPAIR_KIT_SILVER",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_silver"
+    },
+    {
+      "id": "PART_REPAIR_KIT_ALUMINUM",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_aluminum"
+    },
+    {
+      "id": "PART_REPAIR_KIT_TIN",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_tin"
+    },
+    {
+      "id": "PART_REPAIR_KIT_ZINC",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_zinc"
+    },
+    {
+      "id": "PART_REPAIR_KIT_MAGNESIUM",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_magnesium"
+    },
+    {
+      "id": "PART_REPAIR_KIT_STEEL",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_steel"
+    },
+    {
+      "id": "PART_REPAIR_KIT_DAMASCUS_STEEL",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_damascus_steel"
+    },
+    {
+      "id": "PART_REPAIR_KIT_DURALIUM",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_duralium"
+    },
+    {
+      "id": "PART_REPAIR_KIT_BRONZE",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_bronze"
+    },
+    {
+      "id": "PART_REPAIR_KIT_ALUMINUM_BRONZE",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_aluminum_bronze"
+    },
+    {
+      "id": "PART_REPAIR_KIT_HARDENED_METAL",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_hardened_metal"
+    },
+    {
+      "id": "PART_REPAIR_KIT_CORINTHIAN_BRONZE",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_corinthian_bronze"
+    },
+    {
+      "id": "PART_REPAIR_KIT_SOLDER",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_solder"
+    },
+    {
+      "id": "PART_REPAIR_KIT_BILLON",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_billon"
+    },
+    {
+      "id": "PART_REPAIR_KIT_BRASS",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_brass"
+    },
+    {
+      "id": "PART_REPAIR_KIT_ALUMINUM_BRASS",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_aluminum_brass"
+    },
+    {
+      "id": "PART_REPAIR_KIT_NICKEL",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_nickel"
+    },
+    {
+      "id": "PART_REPAIR_KIT_COBALT",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_cobalt"
+    },
+    {
+      "id": "PART_REPAIR_KIT_REINFORCED_ALLOY",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_reinforced_alloy"
+    },
+    {
+      "id": "PART_REPAIR_KIT_FERROSILICON",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_ferrosilicon"
+    },
+    {
+      "id": "PART_REPAIR_KIT_REDSTONE_ALLOY",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_redstone_alloy"
+    },
+    {
+      "id": "PART_REPAIR_KIT_BOOMERITE",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_boomerite"
+    },
+    {
+      "id": "PART_REPAIR_KIT_SEFIRITE",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_sefirite"
+    },
+    {
+      "id": "PART_REPAIR_KIT_NICEINIUM",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_niceinium"
+    },
+    {
+      "id": "PART_REPAIR_KIT_SMITHIUM",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_smithium"
+    },
+    {
+      "id": "PART_REPAIR_KIT_ANNIVERSARIUM",
+      "model": "slimetinker:part_dictionary/repair_kit/part_repair_kit_anniversarium"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/chest_minecart"
+  }
+}

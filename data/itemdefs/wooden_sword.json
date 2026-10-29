@@ -1,0 +1,18 @@
+{
+  "base": "wooden_sword",
+  "generated": true,
+  "entries": [
+    {
+      "id": "BONE_SWORD",
+      "model": "bump:magical_weapons/bone_sword"
+    },
+    {
+      "id": "PEACH_SWORD",
+      "model": "bump:magical_weapons/peach_sword"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/wooden_sword"
+  }
+}

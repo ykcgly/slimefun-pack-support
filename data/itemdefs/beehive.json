@@ -1,0 +1,28 @@
+{
+  "base": "beehive",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SMALL_FLUFFY_BARREL",
+      "model": "fluffymachines:barrels/small_fluffy_barrel"
+    }
+  ],
+  "tail": {
+    "type": "minecraft:select",
+    "block_state_property": "honey_level",
+    "property": "minecraft:block_state",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/beehive_honey"
+        },
+        "when": "5"
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/beehive_empty"
+    }
+  }
+}

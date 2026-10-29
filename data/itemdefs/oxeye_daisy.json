@@ -1,0 +1,14 @@
+{
+  "base": "oxeye_daisy",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CLT_FENNEL",
+      "model": "cultivation:products/clt_fennel"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/oxeye_daisy"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "base": "music_disc_11",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SUPREME_CENTER_CARD_SIMPLE",
+      "model": "supreme:machine_cards/center_card_simple"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/music_disc_11"
+  }
+}

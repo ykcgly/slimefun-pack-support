@@ -1,0 +1,14 @@
+{
+  "base": "polished_andesite",
+  "generated": true,
+  "entries": [
+    {
+      "id": "COMPRESSED_COBBLESTONE_5",
+      "model": "infinityexpansion:materials/compressed_cobblestone_5"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/polished_andesite"
+  }
+}

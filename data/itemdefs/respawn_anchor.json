@@ -1,0 +1,22 @@
+{
+  "base": "respawn_anchor",
+  "generated": true,
+  "entries": [
+    {
+      "id": "INFINITY_FORGE",
+      "model": "infinityexpansion:machines/infinity_workbench"
+    },
+    {
+      "id": "IE_INFINITY_WORKBENCH",
+      "model": "infinityexpansion2:machines/infinity_workbench"
+    },
+    {
+      "id": "BOTTOMLESS_FLUFFY_BARREL",
+      "model": "fluffymachines:barrels/bottomless_fluffy_barrel"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "minecraft:block/respawn_anchor_0"
+  }
+}

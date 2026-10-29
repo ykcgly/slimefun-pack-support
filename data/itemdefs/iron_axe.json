@@ -1,0 +1,18 @@
+{
+  "base": "iron_axe",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SEISMIC_AXE",
+      "model": "slimefun:slimefun/weapons/seismic_axe"
+    },
+    {
+      "id": "BATTLE_AXE",
+      "model": "slimefunwarfare:melee_weapons/battle_axe"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/iron_axe"
+  }
+}

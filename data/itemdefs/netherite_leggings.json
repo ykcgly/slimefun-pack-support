@@ -1,0 +1,142 @@
+{
+  "base": "netherite_leggings",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ENDER_LEGGINGS",
+      "model": "slimefun:slimefun/magical_armor/ender_armor/ender_leggings"
+    },
+    {
+      "id": "SLIME_LEGGINGS",
+      "model": "slimefun:slimefun/magical_armor/slime_armor/slime_leggings"
+    },
+    {
+      "id": "GLOWSTONE_LEGGINGS",
+      "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_leggings"
+    },
+    {
+      "id": "DAMASCUS_STEEL_LEGGINGS",
+      "model": "slimefun:slimefun/armor/damascus_armor/damascus_leggings"
+    },
+    {
+      "id": "REINFORCED_ALLOY_LEGGINGS",
+      "model": "slimefun:slimefun/armor/reinforced_armor/reinforced_leggings"
+    },
+    {
+      "id": "CACTUS_LEGGINGS",
+      "model": "slimefun:slimefun/armor/cactus_armor/cactus_leggings"
+    },
+    {
+      "id": "GILDED_IRON_LEGGINGS",
+      "model": "slimefun:slimefun/armor/gilded_iron_armor/gilded_iron_leggings"
+    },
+    {
+      "id": "HAZMAT_LEGGINGS",
+      "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_leggings"
+    },
+    {
+      "id": "GOLD_12K_LEGGINGS",
+      "model": "slimefun:slimefun/armor/gold_12k_armor/gold_12k_leggings"
+    },
+    {
+      "id": "SLIME_STEEL_LEGGINGS",
+      "model": "slimefun:slimefun/magical_armor/slime_armor_steel/slime_steel_leggings"
+    },
+    {
+      "id": "SOULBOUND_LEGGINGS",
+      "model": "slimefun:slimefun/magical_armor/soulbound_armor/soulbound_leggings"
+    },
+    {
+      "id": "BEE_LEGGINGS",
+      "model": "slimefun:slimefun/magical_armor/bee_armor/bee_leggings"
+    },
+    {
+      "id": "RAINBOW_LEGGINGS",
+      "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_leggings"
+    },
+    {
+      "id": "INFINITY_LEGGINGS",
+      "model": "infinityexpansion:armor/infinity_leggings"
+    },
+    {
+      "id": "ALUMINUM_LEGGINGS",
+      "model": "extra_gear:armor/aluminum/aluminum_leggings"
+    },
+    {
+      "id": "COBALT_LEGGINGS",
+      "model": "extra_gear:armor/cobalt/cobalt_leggings"
+    },
+    {
+      "id": "COPPER_LEGGINGS",
+      "model": "extra_gear:armor/copper/copper_leggings"
+    },
+    {
+      "id": "LEAD_LEGGINGS",
+      "model": "extra_gear:armor/lead/lead_leggings"
+    },
+    {
+      "id": "MAGNESIUM_LEGGINGS",
+      "model": "extra_gear:armor/magnesium/magnesium_leggings"
+    },
+    {
+      "id": "SILVER_LEGGINGS",
+      "model": "extra_gear:armor/silver/silver_leggings"
+    },
+    {
+      "id": "STEEL_LEGGINGS",
+      "model": "extra_gear:armor/steel/steel_leggings"
+    },
+    {
+      "id": "TIN_LEGGINGS",
+      "model": "extra_gear:armor/tin/tin_leggings"
+    },
+    {
+      "id": "ZINC_LEGGINGS",
+      "model": "extra_gear:armor/zinc/zinc_leggings"
+    },
+    {
+      "id": "IE_INFINITY_LEGGINGS",
+      "model": "infinityexpansion2:gear/infinity_leggings"
+    },
+    {
+      "id": "SUPREME_TITANIUM_LEGGINGS",
+      "model": "supreme:armor/leggings/supreme_titanium_leggings"
+    },
+    {
+      "id": "SUPREME_AURUM_LEGGINGS",
+      "model": "supreme:armor/leggings/supreme_aurum_leggings"
+    },
+    {
+      "id": "SUPREME_ADAMANTIUM_LEGGINGS",
+      "model": "supreme:armor/leggings/supreme_adamantium_leggings"
+    },
+    {
+      "id": "SUPREME_LEGGINGS_THORNIUM",
+      "model": "supreme:armor/leggings/supreme_leggings_thornium"
+    },
+    {
+      "id": "SUPREME_LEGGINGS_MAGIC",
+      "model": "supreme:armor/leggings/supreme_leggings_magic"
+    },
+    {
+      "id": "SUPREME_LEGGINGS_RARE",
+      "model": "supreme:armor/leggings/supreme_leggings_rare"
+    },
+    {
+      "id": "SUPREME_LEGGINGS_EPIC",
+      "model": "supreme:armor/leggings/supreme_leggings_epic"
+    },
+    {
+      "id": "SUPREME_LEGGINGS_LEGENDARY",
+      "model": "supreme:armor/leggings/supreme_leggings_legendary"
+    },
+    {
+      "id": "SUPREME_LEGGINGS_SUPREME",
+      "model": "supreme:armor/leggings/supreme_leggings_supreme"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/netherite_leggings"
+  }
+}

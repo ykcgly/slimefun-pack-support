@@ -1,0 +1,14 @@
+{
+  "base": "bricks",
+  "generated": true,
+  "entries": [
+    {
+      "id": "COPPER_SINGULARITY",
+      "model": "infinityexpansion:singularities/copper_singularity"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/bricks"
+  }
+}

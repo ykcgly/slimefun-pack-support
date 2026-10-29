@@ -1,0 +1,30 @@
+{
+  "base": "brown_dye",
+  "generated": true,
+  "entries": [
+    {
+      "id": "STICKY_RESIN",
+      "model": "slimy_tree_taps:materials/sticky_resin"
+    },
+    {
+      "id": "THIOACETONE",
+      "model": "slimefunwarfare:explosives/thioacetone"
+    },
+    {
+      "id": "GN_CARAMEL",
+      "model": "gastronomicon:food/gn_caramel"
+    },
+    {
+      "id": "GN_PULLED_PORK",
+      "model": "gastronomicon:food/gn_pulled_pork"
+    },
+    {
+      "id": "GN_GROUND_BEEF",
+      "model": "gastronomicon:food/gn_ground_beef"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/brown_dye"
+  }
+}

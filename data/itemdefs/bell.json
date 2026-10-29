@@ -1,0 +1,18 @@
+{
+  "base": "bell",
+  "generated": true,
+  "entries": [
+    {
+      "id": "APPRAISAL",
+      "model": "bump:machines/appraisal"
+    },
+    {
+      "id": "SUN_ENERGY",
+      "model": "bump:magical_items/sun_energy"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/bell"
+  }
+}

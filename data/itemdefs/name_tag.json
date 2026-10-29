@@ -1,0 +1,14 @@
+{
+  "base": "name_tag",
+  "generated": true,
+  "entries": [
+    {
+      "id": "_UI_SEARCH",
+      "model": "slimefun:slimefun/gui/_ui_search"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/name_tag"
+  }
+}

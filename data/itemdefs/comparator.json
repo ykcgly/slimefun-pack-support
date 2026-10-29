@@ -1,0 +1,14 @@
+{
+  "base": "comparator",
+  "generated": true,
+  "entries": [
+    {
+      "id": "_UI_MENU",
+      "model": "slimefun:slimefun/gui/_ui_menu"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/comparator"
+  }
+}

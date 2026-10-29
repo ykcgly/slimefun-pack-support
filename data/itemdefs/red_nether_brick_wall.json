@@ -1,0 +1,14 @@
+{
+  "base": "red_nether_brick_wall",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SEARED_TANK",
+      "model": "slimetinker:materials/seared_tank"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "minecraft:block/red_nether_brick_wall_inventory"
+  }
+}

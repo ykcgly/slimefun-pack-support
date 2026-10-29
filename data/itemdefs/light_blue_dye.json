@@ -1,0 +1,18 @@
+{
+  "base": "light_blue_dye",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SEGGANESSON",
+      "model": "slimefunwarfare:resources/segganesson"
+    },
+    {
+      "id": "UNPATENTABLIUM",
+      "model": "slimefunwarfare:resources/unpatentablium"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/light_blue_dye"
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "base": "lava_bucket",
+  "generated": true,
+  "entries": [
+    {
+      "id": "MOLTEN_[ANCIENT_DEBRIS]",
+      "model": "liquid:molten_ancient_debris"
+    },
+    {
+      "id": "MOLTEN_[DIAMOND_ORE]",
+      "model": "liquid:molten_diamond"
+    },
+    {
+      "id": "MOLTEN_[DIAMOND]",
+      "model": "liquid:molten_diamond"
+    },
+    {
+      "id": "MOLTEN_[EMERALD_ORE]",
+      "model": "liquid:molten_emerald"
+    },
+    {
+      "id": "MOLTEN_[EMERALD]",
+      "model": "liquid:molten_emerald"
+    },
+    {
+      "id": "MOLTEN_[GOLD_ORE]",
+      "model": "liquid:molten_gold"
+    },
+    {
+      "id": "MOLTEN_[GOLD]",
+      "model": "liquid:molten_gold"
+    },
+    {
+      "id": "MOLTEN_[IRON_ORE]",
+      "model": "liquid:molten_iron"
+    },
+    {
+      "id": "MOLTEN_[IRON]",
+      "model": "liquid:molten_iron"
+    },
+    {
+      "id": "MOLTEN_[LAPIS_LAZULI_ORE]",
+      "model": "liquid:molten_lapis_lazuli"
+    },
+    {
+      "id": "MOLTEN_[LAPIS_LAZULI]",
+      "model": "liquid:molten_lapis_lazuli"
+    },
+    {
+      "id": "MOLTEN_[NETHERITE]",
+      "model": "liquid:molten_netherite"
+    },
+    {
+      "id": "MOLTEN_[REDSTONE_DUST]",
+      "model": "liquid:molten_redstone_alloy"
+    },
+    {
+      "id": "MOLTEN_[REDSTONE_ORE]",
+      "model": "liquid:molten_redstone_alloy"
+    },
+    {
+      "id": "MOLTEN_ALUMINUM",
+      "model": "liquid:molten_aluminum"
+    },
+    {
+      "id": "MOLTEN_ALUMINUM_BRASS",
+      "model": "liquid:molten_aluminum_brass"
+    },
+    {
+      "id": "MOLTEN_ALUMINUM_BRONZE",
+      "model": "liquid:molten_aluminum_bronze"
+    },
+    {
+      "id": "MOLTEN_BILLON",
+      "model": "liquid:molten_billon"
+    },
+    {
+      "id": "MOLTEN_BOOSTED_URANIUM",
+      "model": "liquid:molten_uranium"
+    },
+    {
+      "id": "MOLTEN_BRASS",
+      "model": "liquid:molten_brass"
+    },
+    {
+      "id": "MOLTEN_BRONZE",
+      "model": "liquid:molten_bronze"
+    },
+    {
+      "id": "MOLTEN_CARBON",
+      "model": "liquid:molten_slag"
+    },
+    {
+      "id": "MOLTEN_COBALT",
+      "model": "liquid:molten_cobalt"
+    },
+    {
+      "id": "MOLTEN_COPPER",
+      "model": "liquid:molten_copper"
+    },
+    {
+      "id": "MOLTEN_CORINTHIAN_BRONZE",
+      "model": "liquid:molten_corinthian_bronze"
+    },
+    {
+      "id": "MOLTEN_DAMASCUS_STEEL",
+      "model": "liquid:molten_damascus_steel"
+    },
+    {
+      "id": "MOLTEN_DURALUMIN",
+      "model": "liquid:molten_duralumin"
+    },
+    {
+      "id": "MOLTEN_FERROSILICON",
+      "model": "liquid:molten_ferrosilicon"
+    },
+    {
+      "id": "MOLTEN_GILDED_IRON",
+      "model": "liquid:molten_gilded_iron"
+    },
+    {
+      "id": "MOLTEN_GOLD_4K",
+      "model": "liquid:molten_gold_4k"
+    },
+    {
+      "id": "MOLTEN_GOLD_6K",
+      "model": "liquid:molten_gold_6k"
+    },
+    {
+      "id": "MOLTEN_GOLD_8K",
+      "model": "liquid:molten_gold_8k"
+    },
+    {
+      "id": "MOLTEN_GOLD_10K",
+      "model": "liquid:molten_gold_10k"
+    },
+    {
+      "id": "MOLTEN_GOLD_12K",
+      "model": "liquid:molten_gold_12k"
+    },
+    {
+      "id": "MOLTEN_GOLD_14K",
+      "model": "liquid:molten_gold_14k"
+    },
+    {
+      "id": "MOLTEN_GOLD_16K",
+      "model": "liquid:molten_gold_16k"
+    },
+    {
+      "id": "MOLTEN_GOLD_18K",
+      "model": "liquid:molten_gold_18k"
+    },
+    {
+      "id": "MOLTEN_GOLD_20K",
+      "model": "liquid:molten_gold_20k"
+    },
+    {
+      "id": "MOLTEN_GOLD_22K",
+      "model": "liquid:molten_gold_22k"
+    },
+    {
+      "id": "MOLTEN_GOLD_24K",
+      "model": "liquid:molten_gold_24k"
+    },
+    {
+      "id": "MOLTEN_HARDENED_METAL",
+      "model": "liquid:molten_hardened_metal"
+    },
+    {
+      "id": "MOLTEN_LEAD",
+      "model": "liquid:molten_lead"
+    },
+    {
+      "id": "MOLTEN_MAGNESIUM",
+      "model": "liquid:molten_magnesium"
+    },
+    {
+      "id": "MOLTEN_MAGNESIUM_SALT",
+      "model": "liquid:molten_magnesium_salt"
+    },
+    {
+      "id": "MOLTEN_MAGNET",
+      "model": "liquid:molten_magnet"
+    },
+    {
+      "id": "MOLTEN_NEPTUNIUM",
+      "model": "liquid:molten_netherite"
+    },
+    {
+      "id": "MOLTEN_NICKEL",
+      "model": "liquid:molten_nickel"
+    },
+    {
+      "id": "MOLTEN_PLUTONIUM",
+      "model": "liquid:molten_plutonium"
+    },
+    {
+      "id": "MOLTEN_REDSTONE_ALLOY",
+      "model": "liquid:molten_redstone_alloy"
+    },
+    {
+      "id": "MOLTEN_REINFORCED_ALLOY",
+      "model": "liquid:molten_reinforced_alloy"
+    },
+    {
+      "id": "MOLTEN_SALT",
+      "model": "liquid:molten_salt"
+    },
+    {
+      "id": "MOLTEN_SILICON",
+      "model": "liquid:molten_silicon"
+    },
+    {
+      "id": "MOLTEN_SILVER",
+      "model": "liquid:molten_silver"
+    },
+    {
+      "id": "MOLTEN_SLAG",
+      "model": "liquid:molten_slag"
+    },
+    {
+      "id": "MOLTEN_SOLDER",
+      "model": "liquid:molten_solder"
+    },
+    {
+      "id": "MOLTEN_STEEL",
+      "model": "liquid:molten_steel"
+    },
+    {
+      "id": "MOLTEN_SULFATE",
+      "model": "liquid:molten_sulfate"
+    },
+    {
+      "id": "MOLTEN_TIN",
+      "model": "liquid:molten_tin"
+    },
+    {
+      "id": "MOLTEN_URANIUM",
+      "model": "liquid:molten_uranium"
+    },
+    {
+      "id": "MOLTEN_ZINC",
+      "model": "liquid:molten_zinc"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/lava_bucket"
+  }
+}

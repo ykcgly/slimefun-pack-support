@@ -1,0 +1,18 @@
+{
+  "base": "glass",
+  "generated": true,
+  "entries": [
+    {
+      "id": "PRESSURE_CHAMBER",
+      "model": "slimefun:slimefun/basic_machines/pressure_chamber"
+    },
+    {
+      "id": "IE_VOID_GLASS",
+      "model": "infinityexpansion2:materials/void_glass"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/glass"
+  }
+}

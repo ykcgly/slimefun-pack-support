@@ -1,0 +1,18 @@
+{
+  "base": "sea_pickle",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CARGO_MANIPULATOR",
+      "model": "fluffymachines:cargo/cargo_manipulator"
+    },
+    {
+      "id": "GN_CUCUMBER",
+      "model": "gastronomicon:ingredient/gn_cucumber"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/sea_pickle"
+  }
+}

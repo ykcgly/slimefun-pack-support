@@ -1,0 +1,18 @@
+{
+  "base": "white_concrete",
+  "generated": true,
+  "entries": [
+    {
+      "id": "RAINBOW_CONCRETE",
+      "model": "slimefun:slimefun/magical_gadgets/rainbow_concrete"
+    },
+    {
+      "id": "RAINBOW_CONCRETE_XMAS",
+      "model": "slimefun:slimefun/christmas/rainbow_concrete_xmas"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/white_concrete"
+  }
+}

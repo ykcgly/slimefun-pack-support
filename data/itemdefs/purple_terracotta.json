@@ -1,0 +1,14 @@
+{
+  "base": "purple_terracotta",
+  "generated": true,
+  "entries": [
+    {
+      "id": "BLOCK_CAST_LEAD",
+      "model": "slimetinker:materials/blocks/block_cast_lead"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/purple_terracotta"
+  }
+}

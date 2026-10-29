@@ -1,0 +1,98 @@
+{
+  "base": "iron_nugget",
+  "generated": true,
+  "entries": [
+    {
+      "id": "VOID_BIT",
+      "model": "infinityexpansion:materials/void_bit"
+    },
+    {
+      "id": "NUGGET_CAST_LEAD",
+      "model": "slimetinker:materials/nuggets/nugget_cast_lead"
+    },
+    {
+      "id": "NUGGET_CAST_SILVER",
+      "model": "slimetinker:materials/nuggets/nugget_cast_silver"
+    },
+    {
+      "id": "NUGGET_CAST_ALUMINUM",
+      "model": "slimetinker:materials/nuggets/nugget_cast_aluminum"
+    },
+    {
+      "id": "NUGGET_CAST_MAGNESIUM",
+      "model": "slimetinker:materials/nuggets/nugget_cast_magnesium"
+    },
+    {
+      "id": "NUGGET_CAST_ZINC",
+      "model": "slimetinker:materials/nuggets/nugget_cast_zinc"
+    },
+    {
+      "id": "NUGGET_CAST_TIN",
+      "model": "slimetinker:materials/nuggets/nugget_cast_tin"
+    },
+    {
+      "id": "NUGGET_CAST_STEEL",
+      "model": "slimetinker:materials/nuggets/nugget_cast_steel"
+    },
+    {
+      "id": "NUGGET_CAST_DAMASCUS_STTEL",
+      "model": "slimetinker:materials/nuggets/nugget_cast_damascus_steel"
+    },
+    {
+      "id": "NUGGET_CAST_DURALIUM",
+      "model": "slimetinker:materials/nuggets/nugget_cast_duralium"
+    },
+    {
+      "id": "NUGGET_CAST_HARD_METAL",
+      "model": "slimetinker:materials/nuggets/nugget_cast_hard_metal"
+    },
+    {
+      "id": "NUGGET_CAST_SOLDER",
+      "model": "slimetinker:materials/nuggets/nugget_cast_solder"
+    },
+    {
+      "id": "NUGGET_CAST_BILLON",
+      "model": "slimetinker:materials/nuggets/nugget_cast_billon"
+    },
+    {
+      "id": "NUGGET_CAST_NICKEL",
+      "model": "slimetinker:materials/nuggets/nugget_cast_nickel"
+    },
+    {
+      "id": "NUGGET_CAST_COBALT",
+      "model": "slimetinker:materials/nuggets/nugget_cast_cobalt"
+    },
+    {
+      "id": "NUGGET_CAST_REINFORCED",
+      "model": "slimetinker:materials/nuggets/nugget_cast_reinforced"
+    },
+    {
+      "id": "NUGGET_CAST_FERROSILICON",
+      "model": "slimetinker:materials/nuggets/nugget_cast_ferrosilicon"
+    },
+    {
+      "id": "NUGGET_CAST_SEFIRITE",
+      "model": "slimetinker:materials/nuggets/nugget_cast_sefirite"
+    },
+    {
+      "id": "NUGGET_CAST_CRINGLEIUM",
+      "model": "slimetinker:materials/nuggets/nugget_cast_cringleium"
+    },
+    {
+      "id": "NUGGET_CAST_SMITHIUM",
+      "model": "slimetinker:materials/nuggets/nugget_cast_smithium"
+    },
+    {
+      "id": "IE_VOID_BIT",
+      "model": "infinityexpansion2:materials/void_bit"
+    },
+    {
+      "id": "SUPREME_THORNIUM_BIT",
+      "model": "supreme:components/supreme_thornium_bit"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/iron_nugget"
+  }
+}

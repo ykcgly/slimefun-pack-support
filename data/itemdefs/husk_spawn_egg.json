@@ -1,0 +1,14 @@
+{
+  "base": "husk_spawn_egg",
+  "generated": true,
+  "entries": [
+    {
+      "id": "DUMMY",
+      "model": "slimefunwarfare:general/dummy"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "minecraft:item/husk_spawn_egg"
+  }
+}

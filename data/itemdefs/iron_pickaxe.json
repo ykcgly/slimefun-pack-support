@@ -1,0 +1,26 @@
+{
+  "base": "iron_pickaxe",
+  "generated": true,
+  "entries": [
+    {
+      "id": "PICKAXE_OF_CONTAINMENT",
+      "model": "slimefun:slimefun/tools/pickaxe_of_containment"
+    },
+    {
+      "id": "HERCULES_PICKAXE",
+      "model": "slimefun:slimefun/tools/hercules_pickaxe"
+    },
+    {
+      "id": "COBALT_PICKAXE",
+      "model": "slimefun:slimefun/tools/cobalt_pickaxe"
+    },
+    {
+      "id": "CLIMBING_PICK",
+      "model": "slimefun:slimefun/tools/climbing_pick"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/iron_pickaxe"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "base": "light_gray_stained_glass",
+  "generated": true,
+  "entries": [
+    {
+      "id": "HARDENED_GLASS",
+      "model": "slimefun:slimefun/technical_components/hardened_glass"
+    },
+    {
+      "id": "HEATED_PRESSURE_CHAMBER",
+      "model": "slimefun:slimefun/energy/heated_pressure_chamber"
+    },
+    {
+      "id": "HEATED_PRESSURE_CHAMBER_2",
+      "model": "slimefun:slimefun/energy/heated_pressure_chamber_2"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/light_gray_stained_glass"
+  }
+}

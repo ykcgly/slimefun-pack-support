@@ -1,0 +1,14 @@
+{
+  "base": "iron_ore",
+  "generated": true,
+  "entries": [
+    {
+      "id": "OSMIUM_METEOR",
+      "model": "slimefunwarfare:resources/osmium_meteor"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/iron_ore"
+  }
+}

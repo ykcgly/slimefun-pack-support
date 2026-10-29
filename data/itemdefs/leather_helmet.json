@@ -1,0 +1,184 @@
+{
+  "base": "leather_helmet",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ENDER_HELMET",
+      "model": "slimefun:slimefun/magical_armor/ender_armor/ender_helmet",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/ender_armor/ender_helmet",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "SLIME_HELMET",
+      "model": "slimefun:slimefun/magical_armor/slime_armor/slime_helmet",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/slime_armor/slime_helmet",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "GLOWSTONE_HELMET",
+      "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_helmet",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_helmet",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "CACTUS_HELMET",
+      "model": "slimefun:slimefun/armor/cactus_armor/cactus_helmet",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/armor/cactus_armor/cactus_helmet",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCUBA_HELMET",
+      "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_helmet",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_helmet",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "NIGHT_VISION_GOGGLES",
+      "model": "slimefun:slimefun/technical_gadgets/night_vision_goggles",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/technical_gadgets/night_vision_goggles",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "ELYTRA_CAP",
+      "model": "slimefun:slimefun/magical_armor/elytra_cap/elytra_cap",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/elytra_cap/elytra_cap",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAINBOW_HELMET",
+      "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_helmet",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_helmet",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "COPPER_HELMET",
+      "model": "extra_gear:armor/copper/copper_helmet",
+      "on_true": {
+        "type": "model",
+        "model": "extra_gear:armor/copper/copper_helmet",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "GN_CHEFS_HAT",
+      "model": "gastronomicon:tools/gn_chefs_hat",
+      "on_true": {
+        "type": "model",
+        "model": "gastronomicon:tools/gn_chefs_hat",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "ARMOUR_HELMET_DUMMY",
+      "model": "slimetinker:armour_building_guide/armour_helmet_dummy",
+      "on_true": {
+        "type": "model",
+        "model": "slimetinker:armour_building_guide/armour_helmet_dummy",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "HELICOPTER_HAT",
+      "model": "fluffymachines:misc/helicopter_hat",
+      "on_true": {
+        "type": "model",
+        "model": "fluffymachines:misc/helicopter_hat",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/leather_helmet",
+    "tints": [
+      {
+        "type": "minecraft:dye",
+        "default": -6265536
+      }
+    ]
+  }
+}

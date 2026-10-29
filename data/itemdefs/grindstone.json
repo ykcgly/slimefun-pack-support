@@ -1,0 +1,14 @@
+{
+  "base": "grindstone",
+  "generated": true,
+  "entries": [
+    {
+      "id": "TINKERS_MOD_STATION",
+      "model": "slimetinker:workstations/tinkers_mod_station"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/grindstone"
+  }
+}

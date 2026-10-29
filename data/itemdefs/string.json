@@ -1,0 +1,34 @@
+{
+  "base": "string",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CHAIN",
+      "model": "slimefun:slimefun/miscellaneous/chain"
+    },
+    {
+      "id": "COPPER_WIRE",
+      "model": "slimefun:slimefun/technical_components/copper_wire"
+    },
+    {
+      "id": "FANGBIANMIAN",
+      "model": "bump:foods/fangbianmian"
+    },
+    {
+      "id": "FIBER_OPTIC_CABLE",
+      "model": "slimefunwarfare:general/fiber_optic_cable"
+    },
+    {
+      "id": "GN_STEEL_WIRE",
+      "model": "gastronomicon:tools/gn_steel_wire"
+    },
+    {
+      "id": "GN_STEEL_SPRING",
+      "model": "gastronomicon:tools/gn_steel_spring"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/string"
+  }
+}

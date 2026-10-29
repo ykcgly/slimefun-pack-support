@@ -1,0 +1,18 @@
+{
+  "base": "zombie_head",
+  "generated": true,
+  "entries": [
+    {
+      "id": "UPDATE_POWER",
+      "model": "bump:magical_items/update_power"
+    }
+  ],
+  "tail": {
+    "type": "special",
+    "base": "item/template_skull",
+    "model": {
+      "type": "minecraft:head",
+      "kind": "zombie"
+    }
+  }
+}

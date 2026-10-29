@@ -1,0 +1,18 @@
+{
+  "base": "diamond_hoe",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SOULBOUND_HOE",
+      "model": "slimefun:slimefun/tools/soulbound_hoe"
+    },
+    {
+      "id": "DIAMOND_TREE_TAP",
+      "model": "slimy_tree_taps:treetap/diamond_tree_tap"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/diamond_hoe"
+  }
+}

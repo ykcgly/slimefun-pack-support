@@ -1,0 +1,26 @@
+{
+  "base": "cookie",
+  "generated": true,
+  "entries": [
+    {
+      "id": "FORTUNE_COOKIE",
+      "model": "slimefun:slimefun/food/fortune_cookie"
+    },
+    {
+      "id": "DIET_COOKIE",
+      "model": "slimefun:slimefun/food/diet_cookie"
+    },
+    {
+      "id": "KELP_COOKIE",
+      "model": "slimefun:slimefun/food/kelp_cookie"
+    },
+    {
+      "id": "CHRISTMAS_COOKIE",
+      "model": "slimefun:slimefun/christmas/christmas_cookie"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/cookie"
+  }
+}

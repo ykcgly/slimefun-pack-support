@@ -1,0 +1,18 @@
+{
+  "base": "chiseled_polished_blackstone",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SMELTERY_CONTROLLER",
+      "model": "slimetinker:materials/smeltery_controller"
+    },
+    {
+      "id": "TINKERS_SMELTERY_CORE",
+      "model": "slimetinker:workstations/tinkers_smeltery_core"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "minecraft:block/chiseled_polished_blackstone"
+  }
+}

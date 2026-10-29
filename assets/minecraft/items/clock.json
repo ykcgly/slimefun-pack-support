@@ -962,17 +962,17 @@
           "property": "minecraft:context_dimension"
         },
         "on_true": {
-          "type": "minecraft:model",
+          "type": "model",
           "model": "slimefun:slimefun/gps/portable_geo_scanner"
         }
       },
       "on_true": {
-        "type": "minecraft:model",
+        "type": "model",
         "model": "slimefun:slimefun/technical_components/multimeter"
       }
     },
     "on_true": {
-      "type": "minecraft:model",
+      "type": "model",
       "model": "infinityexpansion2:icons/ui_tickrate"
     }
   }

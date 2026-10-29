@@ -1,0 +1,254 @@
+{
+  "base": "leather_boots",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ENDER_BOOTS",
+      "model": "slimefun:slimefun/magical_armor/ender_armor/ender_boots",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/ender_armor/ender_boots",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "SLIME_BOOTS",
+      "model": "slimefun:slimefun/magical_armor/slime_armor/slime_boots",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/slime_armor/slime_boots",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "GLOWSTONE_BOOTS",
+      "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_boots",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_boots",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "CACTUS_BOOTS",
+      "model": "slimefun:slimefun/armor/cactus_armor/cactus_boots",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/armor/cactus_armor/cactus_boots",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "RUBBER_BOOTS",
+      "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_boots",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_boots",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "FARMER_SHOES",
+      "model": "slimefun:slimefun/magical_armor/farmer_armor/farmer_boots",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/farmer_armor/farmer_boots",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "BOOTS_OF_THE_STOMPER",
+      "model": "slimefun:slimefun/magical_armor/stomper_armor/stomper_boots",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/stomper_armor/stomper_boots",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "DURALUMIN_JETBOOTS",
+      "model": "slimefun:slimefun/technical_gadgets/jetboots/duralumin_jetboots",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/technical_gadgets/jetboots/duralumin_jetboots",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "SOLDER_JETBOOTS",
+      "model": "slimefun:slimefun/technical_gadgets/jetboots/solder_jetboots",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/technical_gadgets/jetboots/solder_jetboots",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "BILLON_JETBOOTS",
+      "model": "slimefun:slimefun/technical_gadgets/jetboots/billon_jetboots",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/technical_gadgets/jetboots/billon_jetboots",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "STEEL_JETBOOTS",
+      "model": "slimefun:slimefun/technical_gadgets/jetboots/steel_jetboots",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/technical_gadgets/jetboots/steel_jetboots",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "DAMASCUS_STEEL_JETBOOTS",
+      "model": "slimefun:slimefun/technical_gadgets/jetboots/damascus_steel_jetboots",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/technical_gadgets/jetboots/damascus_steel_jetboots",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "REINFORCED_ALLOY_JETBOOTS",
+      "model": "slimefun:slimefun/technical_gadgets/jetboots/reinforced_alloy_jetboots",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/technical_gadgets/jetboots/reinforced_alloy_jetboots",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "CARBONADO_JETBOOTS",
+      "model": "slimefun:slimefun/technical_gadgets/jetboots/carbonado_jetboots",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/technical_gadgets/jetboots/carbonado_jetboots",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAINBOW_BOOTS",
+      "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_boots",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_boots",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "COPPER_BOOTS",
+      "model": "extra_gear:armor/copper/copper_boots",
+      "on_true": {
+        "type": "model",
+        "model": "extra_gear:armor/copper/copper_boots",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "ARMOUR_BOOTS_DUMMY",
+      "model": "slimetinker:armour_building_guide/armour_boots_dummy",
+      "on_true": {
+        "type": "model",
+        "model": "slimetinker:armour_building_guide/armour_boots_dummy",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/leather_boots",
+    "tints": [
+      {
+        "type": "minecraft:dye",
+        "default": -6265536
+      }
+    ]
+  }
+}

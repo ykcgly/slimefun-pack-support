@@ -1,0 +1,26 @@
+{
+  "base": "bowl",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GOLD_PAN",
+      "model": "slimefun:slimefun/tools/gold_pan"
+    },
+    {
+      "id": "NETHER_GOLD_PAN",
+      "model": "slimefun:slimefun/tools/nether_gold_pan"
+    },
+    {
+      "id": "AUTOMATED_PANNING_MACHINE",
+      "model": "slimefun:slimefun/basic_machines/automated_panning_machine"
+    },
+    {
+      "id": "GN_MORTAR_AND_PESTLE",
+      "model": "gastronomicon:tools/gn_mortar_and_pestle"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/bowl"
+  }
+}

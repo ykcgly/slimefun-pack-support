@@ -1,0 +1,14 @@
+{
+  "base": "glass_pane",
+  "generated": true,
+  "entries": [
+    {
+      "id": "MAGICAL_GLASS",
+      "model": "slimefun:slimefun/magical_items/magical_glass"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/glass_pane"
+  }
+}

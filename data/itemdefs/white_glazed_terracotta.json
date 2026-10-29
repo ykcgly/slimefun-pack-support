@@ -1,0 +1,18 @@
+{
+  "base": "white_glazed_terracotta",
+  "generated": true,
+  "entries": [
+    {
+      "id": "RAINBOW_GLAZED_TERRACOTTA",
+      "model": "slimefun:slimefun/magical_gadgets/rainbow_glazed_terracotta"
+    },
+    {
+      "id": "RAINBOW_GLAZED_TERRACOTTA_XMAS",
+      "model": "slimefun:slimefun/christmas/rainbow_glazed_terracotta_xmas"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/white_glazed_terracotta"
+  }
+}

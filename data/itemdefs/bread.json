@@ -1,0 +1,18 @@
+{
+  "base": "bread",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_TOAST",
+      "model": "gastronomicon:food/gn_toast"
+    },
+    {
+      "id": "GN_NAAN_BREAD",
+      "model": "gastronomicon:food/gn_naan_bread"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/bread"
+  }
+}

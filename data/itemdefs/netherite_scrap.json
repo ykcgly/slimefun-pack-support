@@ -1,0 +1,18 @@
+{
+  "base": "netherite_scrap",
+  "generated": true,
+  "entries": [
+    {
+      "id": "MAGSTEEL_PLATE",
+      "model": "infinityexpansion:materials/magsteel_plate"
+    },
+    {
+      "id": "IE_MAGSTEEL_PLATE",
+      "model": "infinityexpansion2:materials/magsteel_plate"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/netherite_scrap"
+  }
+}

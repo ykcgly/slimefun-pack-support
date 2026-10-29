@@ -1,0 +1,14 @@
+{
+  "base": "gray_stained_glass_pane",
+  "generated": true,
+  "entries": [
+    {
+      "id": "_UI_BACKGROUND",
+      "model": "slimefun:slimefun/gui/background"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/gray_stained_glass_pane"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "base": "polished_blackstone_bricks",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SEARED_BRICK_BLOCK",
+      "model": "slimetinker:materials/seared_brick_block"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/polished_blackstone_bricks"
+  }
+}

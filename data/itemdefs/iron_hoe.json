@@ -1,0 +1,30 @@
+{
+  "base": "iron_hoe",
+  "generated": true,
+  "entries": [
+    {
+      "id": "REINFORCED_TREE_TAP",
+      "model": "slimy_tree_taps:treetap/reinforced_tree_tap"
+    },
+    {
+      "id": "SIMPLE_WRENCH",
+      "model": "simpleutils:simple_wrench"
+    },
+    {
+      "id": "SCYTHE",
+      "model": "fluffymachines:tools/scythe"
+    },
+    {
+      "id": "GN_PEELER",
+      "model": "gastronomicon:tools/gn_peeler"
+    },
+    {
+      "id": "GN_STEEL_SICKLE",
+      "model": "gastronomicon:tools/gn_steel_sickle"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/iron_hoe"
+  }
+}

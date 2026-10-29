@@ -1,0 +1,14 @@
+{
+  "base": "stone_shovel",
+  "generated": true,
+  "entries": [
+    {
+      "id": "TOOL_SHOVEL_DUMMY",
+      "model": "slimetinker:tool_building_guide/tool_shovel_dummy"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/stone_shovel"
+  }
+}

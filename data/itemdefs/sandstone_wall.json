@@ -1,0 +1,18 @@
+{
+  "base": "sandstone_wall",
+  "generated": true,
+  "entries": [
+    {
+      "id": "STRAINER_BASE",
+      "model": "infinityexpansion:machines/strainer_base"
+    },
+    {
+      "id": "IE_STRAINER_BASE",
+      "model": "infinityexpansion2:machines/strainer_base"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "minecraft:block/sandstone_wall_inventory"
+  }
+}

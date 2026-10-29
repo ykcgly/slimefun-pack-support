@@ -1,0 +1,14 @@
+{
+  "base": "stonecutter",
+  "generated": true,
+  "entries": [
+    {
+      "id": "TABLE_SAW",
+      "model": "slimefun:slimefun/basic_machines/table_saw"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/stonecutter"
+  }
+}

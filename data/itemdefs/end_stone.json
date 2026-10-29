@@ -1,0 +1,14 @@
+{
+  "base": "end_stone",
+  "generated": true,
+  "entries": [
+    {
+      "id": "IE__UI_WORLD_THE_END",
+      "model": "infinityexpansion2:icons/ui_world_the_end"
+    }
+  ],
+  "tail": {
+    "type": "minecraft:model",
+    "model": "minecraft:block/end_stone"
+  }
+}

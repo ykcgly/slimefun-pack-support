@@ -1,0 +1,20 @@
+{
+  "base": "lily_pad",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CLT_BAY_LEAF",
+      "model": "cultivation:products/clt_bay_leaf"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/lily_pad",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": -9321636
+      }
+    ]
+  }
+}

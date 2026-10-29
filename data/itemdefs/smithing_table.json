@@ -1,0 +1,26 @@
+{
+  "base": "smithing_table",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_CHEF_ANDROID_TRAINER",
+      "model": "gastronomicon:basic_machines/gn_chef_android_trainer"
+    },
+    {
+      "id": "TINKERS_TABLE",
+      "model": "slimetinker:workstations/tinkers_table"
+    },
+    {
+      "id": "TINKERS_ARMOUR_TABLE",
+      "model": "slimetinker:workstations/tinkers_armour_table"
+    },
+    {
+      "id": "SUPREME_MULTIBLOCK_GEAR",
+      "model": "supreme:machines/gear_fabricator"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/smithing_table"
+  }
+}

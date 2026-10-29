@@ -1,0 +1,18 @@
+{
+  "base": "beetroot",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_TURNIP",
+      "model": "gastronomicon:ingredient/gn_turnip"
+    },
+    {
+      "id": "CLT_SWEET_POTATO",
+      "model": "cultivation:products/clt_sweet_potato"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/beetroot"
+  }
+}

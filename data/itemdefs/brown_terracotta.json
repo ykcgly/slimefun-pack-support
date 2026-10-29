@@ -1,0 +1,26 @@
+{
+  "base": "brown_terracotta",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ELECTRIC_GOLD_PAN",
+      "model": "slimefun:slimefun/energy/electric_gold_pan"
+    },
+    {
+      "id": "ELECTRIC_GOLD_PAN_2",
+      "model": "slimefun:slimefun/energy/electric_gold_pan2"
+    },
+    {
+      "id": "ELECTRIC_GOLD_PAN_3",
+      "model": "slimefun:slimefun/energy/electric_gold_pan3"
+    },
+    {
+      "id": "TREE_GROWTH_ACCELERATOR",
+      "model": "slimefun:slimefun/energy/tree_growth_accelerator"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/brown_terracotta"
+  }
+}

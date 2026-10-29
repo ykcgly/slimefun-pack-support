@@ -1,0 +1,22 @@
+{
+  "base": "stone_pressure_plate",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GPS_ACTIVATION_DEVICE_SHARED",
+      "model": "slimefun:slimefun/gps/gps_activation_device_shared"
+    },
+    {
+      "id": "GPS_ACTIVATION_DEVICE_PERSONAL",
+      "model": "slimefun:slimefun/gps/gps_activation_device_personal"
+    },
+    {
+      "id": "ELEVATOR_PLATE",
+      "model": "slimefun:slimefun/gps/elevator_plate"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/stone_pressure_plate"
+  }
+}

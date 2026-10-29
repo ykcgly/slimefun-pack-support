@@ -1,0 +1,38 @@
+{
+  "base": "shears",
+  "generated": true,
+  "entries": [
+    {
+      "id": "DURALUMIN_MULTI_TOOL",
+      "model": "slimefun:slimefun/technical_gadgets/duralumin_multi_tool"
+    },
+    {
+      "id": "SOLDER_MULTI_TOOL",
+      "model": "slimefun:slimefun/technical_gadgets/solder_multi_tool"
+    },
+    {
+      "id": "BILLON_MULTI_TOOL",
+      "model": "slimefun:slimefun/technical_gadgets/billon_multi_tool"
+    },
+    {
+      "id": "STEEL_MULTI_TOOL",
+      "model": "slimefun:slimefun/technical_gadgets/steel_multi_tool"
+    },
+    {
+      "id": "DAMASCUS_STEEL_MULTI_TOOL",
+      "model": "slimefun:slimefun/technical_gadgets/damascus_steel_multi_tool"
+    },
+    {
+      "id": "REINFORCED_ALLOY_MULTI_TOOL",
+      "model": "slimefun:slimefun/technical_gadgets/reinforced_alloy_multi_tool"
+    },
+    {
+      "id": "CARBONADO_MULTI_TOOL",
+      "model": "slimefun:slimefun/technical_gadgets/carbonado_multi_tool"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/shears"
+  }
+}

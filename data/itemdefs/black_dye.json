@@ -1,0 +1,14 @@
+{
+  "base": "black_dye",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CLT_VANILLA",
+      "model": "cultivation:products/clt_vanilla"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/black_dye"
+  }
+}

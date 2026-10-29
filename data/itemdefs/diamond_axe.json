@@ -1,0 +1,66 @@
+{
+  "base": "diamond_axe",
+  "generated": true,
+  "entries": [
+    {
+      "id": "LUMBER_AXE",
+      "model": "slimefun:slimefun/tools/lumber_axe"
+    },
+    {
+      "id": "SOULBOUND_AXE",
+      "model": "slimefun:slimefun/tools/soulbound_axe"
+    },
+    {
+      "id": "REINFORCED_FLUFFY_WRENCH",
+      "model": "fluffymachines:wrenches/reinforced_fluffy_wrench"
+    },
+    {
+      "id": "UPGRADED_LUMBER_AXE",
+      "model": "fluffymachines:tools/upgraded_lumber_axe"
+    },
+    {
+      "id": "PAXEL",
+      "model": "fluffymachines:tools/paxel"
+    },
+    {
+      "id": "SUPREME_TITANIUM_AXE",
+      "model": "supreme:weapons/axe/supreme_titanium_axe"
+    },
+    {
+      "id": "SUPREME_AURUM_AXE",
+      "model": "supreme:weapons/axe/supreme_aurum_axe"
+    },
+    {
+      "id": "SUPREME_ADAMANTIUM_AXE",
+      "model": "supreme:weapons/axe/supreme_adamantium_axe"
+    },
+    {
+      "id": "SUPREME_AXE_THORNIUM",
+      "model": "supreme:weapons/axe/supreme_axe_thornium"
+    },
+    {
+      "id": "SUPREME_AXE_MAGIC",
+      "model": "supreme:weapons/axe/supreme_axe_magic"
+    },
+    {
+      "id": "SUPREME_AXE_RARE",
+      "model": "supreme:weapons/axe/supreme_axe_rare"
+    },
+    {
+      "id": "SUPREME_AXE_EPIC",
+      "model": "supreme:weapons/axe/supreme_axe_epic"
+    },
+    {
+      "id": "SUPREME_AXE_LEGENDARY",
+      "model": "supreme:weapons/axe/supreme_axe_legendary"
+    },
+    {
+      "id": "SUPREME_AXE_SUPREME",
+      "model": "supreme:weapons/axe/supreme_axe_supreme"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/diamond_axe"
+  }
+}

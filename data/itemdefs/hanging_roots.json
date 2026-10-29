@@ -1,0 +1,26 @@
+{
+  "base": "hanging_roots",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CLT_GINGER",
+      "model": "cultivation:products/clt_ginger"
+    },
+    {
+      "id": "CLT_HORSERADISH",
+      "model": "cultivation:products/clt_horseradish"
+    },
+    {
+      "id": "CLT_LICORICE",
+      "model": "cultivation:products/clt_licorice"
+    },
+    {
+      "id": "CLT_WASABI",
+      "model": "cultivation:products/clt_wasabi"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/hanging_roots"
+  }
+}

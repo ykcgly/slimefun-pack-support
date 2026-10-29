@@ -1,0 +1,18 @@
+{
+  "base": "music_disc_stal",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SUPREME_CARD_CARBONADO",
+      "model": "supreme:machine_cards/card_carbonado"
+    },
+    {
+      "id": "SUPREME_CARD_REINFORCED_ALLOY",
+      "model": "supreme:machine_cards/card_reinforced_alloy"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/music_disc_stal"
+  }
+}

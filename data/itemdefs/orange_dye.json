@@ -1,0 +1,14 @@
+{
+  "base": "orange_dye",
+  "generated": true,
+  "entries": [
+    {
+      "id": "MONAZITE",
+      "model": "slimefunwarfare:resources/monazite"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/orange_dye"
+  }
+}

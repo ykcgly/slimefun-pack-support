@@ -1,0 +1,22 @@
+{
+  "base": "hay_block",
+  "generated": true,
+  "entries": [
+    {
+      "id": "AUTO_BREEDER",
+      "model": "slimefun:slimefun/energy/auto_breeder"
+    },
+    {
+      "id": "ANIMAL_GROWTH_ACCELERATOR",
+      "model": "slimefun:slimefun/energy/animal_growth_accelerator"
+    },
+    {
+      "id": "PRODUCE_COLLECTOR",
+      "model": "slimefun:slimefun/energy/produce_collector"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/hay_block"
+  }
+}

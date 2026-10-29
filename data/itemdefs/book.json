@@ -1,0 +1,14 @@
+{
+  "base": "book",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ANCIENT_BOOK",
+      "model": "fluffymachines:misc/ancient_book"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/book"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "base": "golden_chestplate",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ENDER_CHESTPLATE",
+      "model": "slimefun:slimefun/magical_armor/ender_armor/ender_chestplate"
+    },
+    {
+      "id": "SLIME_CHESTPLATE",
+      "model": "slimefun:slimefun/magical_armor/slime_armor/slime_chestplate"
+    },
+    {
+      "id": "GLOWSTONE_CHESTPLATE",
+      "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_chestplate"
+    },
+    {
+      "id": "DAMASCUS_STEEL_CHESPLATE",
+      "model": "slimefun:slimefun/armor/damascus_armor/damascus_chestplate"
+    },
+    {
+      "id": "REINFORCED_ALLOY_CHESTPLATE",
+      "model": "slimefun:slimefun/armor/reinforced_armor/reinforced_chestplate"
+    },
+    {
+      "id": "CACTUS_CHESTPLATE",
+      "model": "slimefun:slimefun/armor/cactus_armor/cactus_chestplate"
+    },
+    {
+      "id": "DURALUMIN_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/duralumin_jetpack"
+    },
+    {
+      "id": "SOLDER_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/solder_jetpack"
+    },
+    {
+      "id": "BILLON_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/billon_jetpack"
+    },
+    {
+      "id": "STEEL_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/steel_jetpack"
+    },
+    {
+      "id": "DAMASCUS_STEEL_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/damascus_steel_jetpack"
+    },
+    {
+      "id": "REINFORCED_ALLOY_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/reinforced_alloy_jetpack"
+    },
+    {
+      "id": "CARBONADO_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/carbonado_jetpack"
+    },
+    {
+      "id": "PARACHUTE",
+      "model": "slimefun:slimefun/technical_gadgets/parachute"
+    },
+    {
+      "id": "GILDED_IRON_CHESTPLATE",
+      "model": "slimefun:slimefun/armor/gilded_iron_armor/gilded_iron_chestplate"
+    },
+    {
+      "id": "HAZMAT_CHESTPLATE",
+      "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_chestplate"
+    },
+    {
+      "id": "GOLD_12K_CHESTPLATE",
+      "model": "slimefun:slimefun/armor/gold_12k_armor/gold_12k_chestplate"
+    },
+    {
+      "id": "SLIME_STEEL_CHESTPLATE",
+      "model": "slimefun:slimefun/magical_armor/slime_armor_steel/slime_steel_chestplate"
+    },
+    {
+      "id": "RAINBOW_CHESTPLATE",
+      "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_chestplate"
+    },
+    {
+      "id": "ARMORED_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/armored_jetpack"
+    },
+    {
+      "id": "EMPTY_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/empty_data_card"
+    },
+    {
+      "id": "SLIME_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/slime_data_card"
+    },
+    {
+      "id": "MAGMA_CUBE_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/magma_cube_data_card"
+    },
+    {
+      "id": "COW_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/cow_data_card"
+    },
+    {
+      "id": "SHEEP_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/sheep_data_card"
+    },
+    {
+      "id": "CHICKEN_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/chicken_data_card"
+    },
+    {
+      "id": "BEE_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/bee_data_card"
+    },
+    {
+      "id": "VILLAGER_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/villager_data_card"
+    },
+    {
+      "id": "ALUMINUM_CHESTPLATE",
+      "model": "extra_gear:armor/aluminum/aluminum_chestplate"
+    },
+    {
+      "id": "COBALT_CHESTPLATE",
+      "model": "extra_gear:armor/cobalt/cobalt_chestplate"
+    },
+    {
+      "id": "COPPER_CHESTPLATE",
+      "model": "extra_gear:armor/copper/copper_chestplate"
+    },
+    {
+      "id": "LEAD_CHESTPLATE",
+      "model": "extra_gear:armor/lead/lead_chestplate"
+    },
+    {
+      "id": "MAGNESIUM_CHESTPLATE",
+      "model": "extra_gear:armor/magnesium/magnesium_chestplate"
+    },
+    {
+      "id": "SILVER_CHESTPLATE",
+      "model": "extra_gear:armor/silver/silver_chestplate"
+    },
+    {
+      "id": "STEEL_CHESTPLATE",
+      "model": "extra_gear:armor/steel/steel_chestplate"
+    },
+    {
+      "id": "TIN_CHESTPLATE",
+      "model": "extra_gear:armor/tin/tin_chestplate"
+    },
+    {
+      "id": "ZINC_CHESTPLATE",
+      "model": "extra_gear:armor/zinc/zinc_chestplate"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/golden_chestplate"
+  }
+}

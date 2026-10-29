@@ -1,0 +1,87 @@
+{
+  "base": "firework_star",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SILICON",
+      "model": "slimefun:slimefun/resources/valuables/silicon"
+    },
+    {
+      "id": "BLANK_RUNE",
+      "model": "slimefun:slimefun/magical_items/blank_rune"
+    },
+    {
+      "id": "ANCIENT_RUNE_AIR",
+      "model": "slimefun:slimefun/magical_items/ancient_rune_air"
+    },
+    {
+      "id": "ANCIENT_RUNE_EARTH",
+      "model": "slimefun:slimefun/magical_items/ancient_rune_earth"
+    },
+    {
+      "id": "ANCIENT_RUNE_FIRE",
+      "model": "slimefun:slimefun/magical_items/ancient_rune_fire"
+    },
+    {
+      "id": "ANCIENT_RUNE_WATER",
+      "model": "slimefun:slimefun/magical_items/ancient_rune_water"
+    },
+    {
+      "id": "ANCIENT_RUNE_ENDER",
+      "model": "slimefun:slimefun/magical_items/ancient_rune_ender"
+    },
+    {
+      "id": "ANCIENT_RUNE_LIGHTNING",
+      "model": "slimefun:slimefun/magical_items/ancient_rune_lightning"
+    },
+    {
+      "id": "ANCIENT_RUNE_RAINBOW",
+      "model": "slimefun:slimefun/magical_items/ancient_rune_rainbow"
+    },
+    {
+      "id": "ANCIENT_RUNE_SOULBOUND",
+      "model": "slimefun:slimefun/magical_items/ancient_rune_soulbound"
+    },
+    {
+      "id": "ANCIENT_RUNE_ENCHANTMENT",
+      "model": "slimefun:slimefun/magical_items/ancient_rune_enchantment"
+    },
+    {
+      "id": "ANCIENT_RUNE_VILLAGERS",
+      "model": "slimefun:slimefun/magical_items/ancient_rune_villagers"
+    },
+    {
+      "id": "RUBBER",
+      "model": "slimy_tree_taps:materials/rubber"
+    }
+  ],
+  "tail": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "fluffymachines:fireproof": 1,
+        "slimefun:slimefun_item": "FIREPROOF_RUNE"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "item/firework_star",
+      "tints": [
+        {
+          "type": "minecraft:constant",
+          "value": -1
+        },
+        {
+          "type": "minecraft:firework",
+          "default": -7697782
+        }
+      ]
+    },
+    "on_true": {
+      "type": "model",
+      "model": "fluffymachines:misc/fireproof_rune"
+    }
+  }
+}

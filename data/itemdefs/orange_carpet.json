@@ -1,0 +1,54 @@
+{
+  "base": "orange_carpet",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CAST_SHOVELHEAD",
+      "model": "slimetinker:casts/cast_shovelhead"
+    },
+    {
+      "id": "CAST_PICKAXEHEAD",
+      "model": "slimetinker:casts/cast_pickaxehead"
+    },
+    {
+      "id": "CAST_AXE_HEAD",
+      "model": "slimetinker:casts/cast_axe_head"
+    },
+    {
+      "id": "CAST_HOEHEAD",
+      "model": "slimetinker:casts/cast_hoehead"
+    },
+    {
+      "id": "CAST_SWORDBLADE",
+      "model": "slimetinker:casts/cast_swordblade"
+    },
+    {
+      "id": "CAST_TOOLROD",
+      "model": "slimetinker:casts/cast_toolrod"
+    },
+    {
+      "id": "CAST_HELM_PLATE",
+      "model": "slimetinker:casts/cast_helm_plate"
+    },
+    {
+      "id": "CAST_CHEST_PLATE",
+      "model": "slimetinker:casts/cast_chest_plate"
+    },
+    {
+      "id": "CAST_LEG_PLATE",
+      "model": "slimetinker:casts/cast_leg_plate"
+    },
+    {
+      "id": "CAST_BOOT_PLATE",
+      "model": "slimetinker:casts/cast_boot_plate"
+    },
+    {
+      "id": "CAST_MAIL_LINK",
+      "model": "slimetinker:casts/cast_mail_link"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/orange_carpet"
+  }
+}

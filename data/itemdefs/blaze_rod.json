@@ -1,0 +1,14 @@
+{
+  "base": "blaze_rod",
+  "generated": true,
+  "entries": [
+    {
+      "id": "WARP_PAD_CONFIGURATOR",
+      "model": "fluffymachines:misc/warp_pad_configurator"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/blaze_rod"
+  }
+}

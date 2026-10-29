@@ -1,0 +1,82 @@
+{
+  "base": "diamond",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SYNTHETIC_DIAMOND",
+      "model": "slimefun:slimefun/resources/valuables/synthetic_diamond"
+    },
+    {
+      "id": "QUARRY_OSCILLATOR_DIAMOND",
+      "model": "infinityexpansion:materials/quarry_oscillator_diamond"
+    },
+    {
+      "id": "VEIN_MINER_RUNE",
+      "model": "infinityexpansion:materials/vein_miner_rune"
+    },
+    {
+      "id": "INFINITE_MACHINE_CIRCUIT",
+      "model": "infinityexpansion:materials/infinite_machine_circuit"
+    },
+    {
+      "id": "MAKE",
+      "model": "bump:magical_items/make"
+    },
+    {
+      "id": "CPU",
+      "model": "bump:magical_items/cpu"
+    },
+    {
+      "id": "IE_INFINITY_MACHINE_CIRCUIT",
+      "model": "infinityexpansion2:materials/infinity_machine_circuit"
+    }
+  ],
+  "tail": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "infinityexpansion2:oscillator_target": "DIAMOND",
+        "slimefun:slimefun_item": "IE_OSCILLATOR_DIAMOND"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "infinityexpansion2:oscillator_target": "DIAMOND",
+          "slimefun:slimefun_item": "IE_OSCILLATOR"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_VEIN_MINER_RUNE"
+          }
+        },
+        "on_false": {
+          "type": "model",
+          "model": "item/diamond"
+        },
+        "on_true": {
+          "type": "model",
+          "model": "infinityexpansion2:tools/vein_miner_rune"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "infinityexpansion2:tools/oscillator_diamond"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion2:tools/oscillator_diamond"
+    }
+  }
+}

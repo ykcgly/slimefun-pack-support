@@ -1,0 +1,22 @@
+{
+  "base": "wheat_seeds",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_BARLEY_SEEDS",
+      "model": "gastronomicon:ingredient/gn_barley_seeds"
+    },
+    {
+      "id": "GN_PEAS",
+      "model": "gastronomicon:ingredient/gn_peas"
+    },
+    {
+      "id": "IE__UI_CHANCE",
+      "model": "infinityexpansion2:icons/ui_chance"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/wheat_seeds"
+  }
+}

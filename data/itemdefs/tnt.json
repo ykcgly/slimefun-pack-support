@@ -1,0 +1,14 @@
+{
+  "base": "tnt",
+  "generated": true,
+  "entries": [
+    {
+      "id": "NUCLEAR_BOMB",
+      "model": "slimefunwarfare:explosives/nuclear_bomb"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/tnt"
+  }
+}

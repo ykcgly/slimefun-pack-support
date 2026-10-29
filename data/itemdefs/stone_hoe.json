@@ -1,0 +1,14 @@
+{
+  "base": "stone_hoe",
+  "generated": true,
+  "entries": [
+    {
+      "id": "TOOL_HOE_DUMMY",
+      "model": "slimetinker:tool_building_guide/tool_hoe_dummy"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/stone_hoe"
+  }
+}

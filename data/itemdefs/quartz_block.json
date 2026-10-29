@@ -1,0 +1,18 @@
+{
+  "base": "quartz_block",
+  "generated": true,
+  "entries": [
+    {
+      "id": "QUARTZ_SINGULARITY",
+      "model": "infinityexpansion:singularities/quartz_singularity"
+    },
+    {
+      "id": "IE_QUARTZ_SINGULARITY",
+      "model": "infinityexpansion2:singularities/quartz_singularity"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/quartz_block"
+  }
+}

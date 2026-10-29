@@ -1,0 +1,26 @@
+{
+  "base": "purple_dye",
+  "generated": true,
+  "entries": [
+    {
+      "id": "STRANGE_NETHER_GOO",
+      "model": "slimefun:slimefun/magical_items/strange_nether_goo"
+    },
+    {
+      "id": "NITROGEN_TRIIDIDE",
+      "model": "slimefunwarfare:explosives/nitrogen_triiodide"
+    },
+    {
+      "id": "CLT_LAVENDER",
+      "model": "cultivation:products/clt_lavender"
+    },
+    {
+      "id": "SUPREME_SYNTHETIC_AMETHYST",
+      "model": "supreme:components/supreme_synthetic_amethyst"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/purple_dye"
+  }
+}

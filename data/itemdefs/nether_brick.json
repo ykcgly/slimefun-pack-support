@@ -1,0 +1,22 @@
+{
+  "base": "nether_brick",
+  "generated": true,
+  "entries": [
+    {
+      "id": "MAGNONIUM",
+      "model": "infinityexpansion:materials/magnonium"
+    },
+    {
+      "id": "LARGE_PORTABLE_CHARGER",
+      "model": "fluffymachines:portable_chargers/large_portable_charger"
+    },
+    {
+      "id": "IE_MAGNONIUM",
+      "model": "infinityexpansion2:materials/magnonium"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/nether_brick"
+  }
+}

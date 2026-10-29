@@ -1,0 +1,240 @@
+{
+  "base": "leather_chestplate",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ENDER_CHESTPLATE",
+      "model": "slimefun:slimefun/magical_armor/ender_armor/ender_chestplate",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/ender_armor/ender_chestplate",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "SLIME_CHESTPLATE",
+      "model": "slimefun:slimefun/magical_armor/slime_armor/slime_chestplate",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/slime_armor/slime_chestplate",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "GLOWSTONE_CHESTPLATE",
+      "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_chestplate",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_chestplate",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "CACTUS_CHESTPLATE",
+      "model": "slimefun:slimefun/armor/cactus_armor/cactus_chestplate",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/armor/cactus_armor/cactus_chestplate",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "DURALUMIN_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/duralumin_jetpack",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/technical_gadgets/jetpack/duralumin_jetpack",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "SOLDER_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/solder_jetpack",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/technical_gadgets/jetpack/solder_jetpack",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "BILLON_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/billon_jetpack",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/technical_gadgets/jetpack/billon_jetpack",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "STEEL_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/steel_jetpack",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/technical_gadgets/jetpack/steel_jetpack",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "DAMASCUS_STEEL_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/damascus_steel_jetpack",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/technical_gadgets/jetpack/damascus_steel_jetpack",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "REINFORCED_ALLOY_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/reinforced_alloy_jetpack",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/technical_gadgets/jetpack/reinforced_alloy_jetpack",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "CARBONADO_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/carbonado_jetpack",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/technical_gadgets/jetpack/carbonado_jetpack",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "PARACHUTE",
+      "model": "slimefun:slimefun/technical_gadgets/parachute",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/technical_gadgets/parachute",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "HAZMAT_CHESTPLATE",
+      "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_chestplate",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_chestplate",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAINBOW_CHESTPLATE",
+      "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_chestplate",
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_chestplate",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "COPPER_CHESTPLATE",
+      "model": "extra_gear:armor/copper/copper_chestplate",
+      "on_true": {
+        "type": "model",
+        "model": "extra_gear:armor/copper/copper_chestplate",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    },
+    {
+      "id": "ARMOUR_CHESTPLATE_DUMMY",
+      "model": "slimetinker:armour_building_guide/armour_chestplate_dummy",
+      "on_true": {
+        "type": "model",
+        "model": "slimetinker:armour_building_guide/armour_chestplate_dummy",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/leather_chestplate",
+    "tints": [
+      {
+        "type": "minecraft:dye",
+        "default": -6265536
+      }
+    ]
+  }
+}

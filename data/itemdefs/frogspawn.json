@@ -1,0 +1,14 @@
+{
+  "base": "frogspawn",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CLT_GREEN_BEANS",
+      "model": "cultivation:products/clt_green_beans"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/frogspawn"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "base": "fire_coral_block",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SUPREME_INDUCTOR_MACHINE",
+      "model": "supreme:components/supreme_inductor_machine"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/fire_coral_block"
+  }
+}

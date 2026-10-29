@@ -1,0 +1,62 @@
+{
+  "base": "redstone",
+  "generated": true,
+  "entries": [
+    {
+      "id": "QUARRY_OSCILLATOR_REDSTONE",
+      "model": "infinityexpansion:materials/quarry_oscillator_redstone"
+    },
+    {
+      "id": "PYRO_POWDER",
+      "model": "slimefunwarfare:explosives/pyro_powder"
+    }
+  ],
+  "tail": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "infinityexpansion2:oscillator_target": "REDSTONE",
+        "slimefun:slimefun_item": "IE_OSCILLATOR_REDSTONE"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "infinityexpansion2:oscillator_target": "REDSTONE",
+          "slimefun:slimefun_item": "IE_OSCILLATOR"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE__UI_ENERGY_CONSUMPTION"
+          }
+        },
+        "on_false": {
+          "type": "model",
+          "model": "item/redstone"
+        },
+        "on_true": {
+          "type": "model",
+          "model": "infinityexpansion2:icons/ui_energy_consumption"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "infinityexpansion2:tools/oscillator_redstone"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion2:tools/oscillator_redstone"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "base": "cake",
+  "generated": true,
+  "entries": [
+    {
+      "id": "BIRTHDAY_CAKE",
+      "model": "slimefun:slimefun/birthday/birthday_cake"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/cake"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "base": "paper",
+  "generated": true,
+  "entries": [
+    {
+      "id": "MAGICAL_BOOK_COVER",
+      "model": "slimefun:slimefun/magical_items/magical_book_cover"
+    },
+    {
+      "id": "STEEL_PLATE",
+      "model": "slimefun:slimefun/miscellaneous/steel_plate"
+    },
+    {
+      "id": "REINFORCED_CLOTH",
+      "model": "slimefun:slimefun/technical_components/reinforced_cloth"
+    },
+    {
+      "id": "CLOTH",
+      "model": "slimefun:slimefun/miscellaneous/cloth"
+    },
+    {
+      "id": "RAG",
+      "model": "slimefun:slimefun/items/rag"
+    },
+    {
+      "id": "BANDAGE",
+      "model": "slimefun:slimefun/items/bandage"
+    },
+    {
+      "id": "SCROLL_OF_DIMENSIONAL_TELEPOSITION",
+      "model": "slimefun:slimefun/magical_gadgets/scroll_of_dimensional_teleposition"
+    },
+    {
+      "id": "REINFORCED_PLATE",
+      "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+    },
+    {
+      "id": "PLASTIC_SHEET",
+      "model": "slimefun:slimefun/technical_components/plastic_sheet"
+    },
+    {
+      "id": "MACHINE_PLATE",
+      "model": "infinityexpansion:materials/machine_plate"
+    },
+    {
+      "id": "RAW_PLASTIC",
+      "model": "slimy_tree_taps:materials/raw_plastic"
+    },
+    {
+      "id": "SOUL_PAPER",
+      "model": "bump:magical_items/soul_paper"
+    },
+    {
+      "id": "APPRAISAL_PAPER_ARMOR",
+      "model": "bump:tools/appraisal_paper_armor"
+    },
+    {
+      "id": "APPRAISAL_PAPER_DAMAGE",
+      "model": "bump:tools/appraisal_paper_damage"
+    },
+    {
+      "id": "IE_MACHINE_PLATE",
+      "model": "infinityexpansion2:materials/machine_plate"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/paper"
+  }
+}

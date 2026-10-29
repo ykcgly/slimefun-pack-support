@@ -1,0 +1,14 @@
+{
+  "base": "shroomlight",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SUPREME_MULTIBLOCK_CORE",
+      "model": "supreme:machines/core_fabricator"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/shroomlight"
+  }
+}

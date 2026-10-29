@@ -1,0 +1,24 @@
+{
+  "base": "green_stained_glass_pane",
+  "generated": false,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "infinityexpansion2:display_item": -117,
+        "slimefun:slimefun_item": "IE__UI_STORAGE_VOID_EXCESS_ON"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "item/green_stained_glass_pane"
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion2:icons/ui_storage_void_excess_on"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "base": "blast_furnace",
+  "generated": true,
+  "entries": [
+    {
+      "id": "MAKESHIFT_SMELTERY",
+      "model": "slimefun:slimefun/basic_machines/makeshift_smeltery"
+    },
+    {
+      "id": "CRANK_GENERATOR",
+      "model": "fluffymachines:generators/crank_generator"
+    },
+    {
+      "id": "FOUNDRY",
+      "model": "fluffymachines:multiblocks/foundry"
+    },
+    {
+      "id": "GENERATOR_CORE",
+      "model": "fluffymachines:generators/generator_core"
+    },
+    {
+      "id": "SUPREHEATED_FURNACE",
+      "model": "fluffymachines:multiblocks/superheated_furnace"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/blast_furnace"
+  }
+}

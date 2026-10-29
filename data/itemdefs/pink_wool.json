@@ -1,0 +1,14 @@
+{
+  "base": "pink_wool",
+  "generated": true,
+  "entries": [
+    {
+      "id": "RAINBOW_WOOL_VALENTINE",
+      "model": "slimefun:slimefun/valentine/rainbow_wool_valentine"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/pink_wool"
+  }
+}

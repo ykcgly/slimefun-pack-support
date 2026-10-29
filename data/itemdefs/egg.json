@@ -1,0 +1,18 @@
+{
+  "base": "egg",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_FRIED_EGG",
+      "model": "gastronomicon:food/gn_fried_egg"
+    },
+    {
+      "id": "GN_HARD_BOILED_EGG",
+      "model": "gastronomicon:food/gn_hard_boiled_egg"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/egg"
+  }
+}

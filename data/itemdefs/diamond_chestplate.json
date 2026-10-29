@@ -1,0 +1,587 @@
+{
+  "base": "diamond_chestplate",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ENDER_CHESTPLATE",
+      "model": "slimefun:slimefun/magical_armor/ender_armor/ender_chestplate"
+    },
+    {
+      "id": "SLIME_CHESTPLATE",
+      "model": "slimefun:slimefun/magical_armor/slime_armor/slime_chestplate"
+    },
+    {
+      "id": "GLOWSTONE_CHESTPLATE",
+      "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_chestplate"
+    },
+    {
+      "id": "DAMASCUS_CHESTPLATE",
+      "model": "slimefun:slimefun/armor/damascus_armor/damascus_chestplate"
+    },
+    {
+      "id": "REINFORCED_CHESTPLATE",
+      "model": "slimefun:slimefun/armor/reinforced_armor/reinforced_chestplate"
+    },
+    {
+      "id": "CACTUS_CHESTPLATE",
+      "model": "slimefun:slimefun/armor/cactus_armor/cactus_chestplate"
+    },
+    {
+      "id": "DURALUMIN_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/duralumin_jetpack"
+    },
+    {
+      "id": "SOLDER_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/solder_jetpack"
+    },
+    {
+      "id": "BILLON_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/billon_jetpack"
+    },
+    {
+      "id": "STEEL_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/steel_jetpack"
+    },
+    {
+      "id": "DAMASCUS_STEEL_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/damascus_steel_jetpack"
+    },
+    {
+      "id": "REINFORCED_ALLOY_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/reinforced_alloy_jetpack"
+    },
+    {
+      "id": "CARBONADO_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/carbonado_jetpack"
+    },
+    {
+      "id": "PARACHUTE",
+      "model": "slimefun:slimefun/technical_gadgets/parachute"
+    },
+    {
+      "id": "GILDED_IRON_CHESTPLATE",
+      "model": "slimefun:slimefun/armor/gilded_iron_armor/gilded_iron_chestplate"
+    },
+    {
+      "id": "HAZMAT_CHESTPLATE",
+      "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_chestplate"
+    },
+    {
+      "id": "GOLD_12K_CHESTPLATE",
+      "model": "slimefun:slimefun/armor/gold_12k_armor/gold_12k_chestplate"
+    },
+    {
+      "id": "SLIME_STEEL_CHESTPLATE",
+      "model": "slimefun:slimefun/magical_armor/slime_armor_steel/slime_steel_chestplate"
+    },
+    {
+      "id": "SOULBOUND_CHESTPLATE",
+      "model": "slimefun:slimefun/magical_armor/soulbound_armor/soulbound_chestplate"
+    },
+    {
+      "id": "RAINBOW_CHESTPLATE",
+      "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_chestplate"
+    },
+    {
+      "id": "ARMORED_JETPACK",
+      "model": "slimefun:slimefun/technical_gadgets/jetpack/armored_jetpack"
+    },
+    {
+      "id": "EMPTY_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/empty_data_card"
+    },
+    {
+      "id": "ZOMBIE_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/zombie_data_card"
+    },
+    {
+      "id": "SLIME_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/slime_data_card"
+    },
+    {
+      "id": "MAGMA_CUBE_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/magma_cube_data_card"
+    },
+    {
+      "id": "COW_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/cow_data_card"
+    },
+    {
+      "id": "SHEEP_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/sheep_data_card"
+    },
+    {
+      "id": "SPIDER_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/spider_data_card"
+    },
+    {
+      "id": "SKELETON_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/skeleton_data_card"
+    },
+    {
+      "id": "WITHER_SKELETON_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/wither_skeleton_data_card"
+    },
+    {
+      "id": "ENDERMEN_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/endermen_data_card"
+    },
+    {
+      "id": "CREEPER_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/creeper_data_card"
+    },
+    {
+      "id": "GUARDIAN_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/guardian_data_card"
+    },
+    {
+      "id": "CHICKEN_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/chicken_data_card"
+    },
+    {
+      "id": "IRON_GOLEM_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/iron_golem_data_card"
+    },
+    {
+      "id": "BLAZE_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/blaze_data_card"
+    },
+    {
+      "id": "BEE_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/bee_data_card"
+    },
+    {
+      "id": "VILLAGER_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/villager_data_card"
+    },
+    {
+      "id": "WITCH_DATA_CARD",
+      "model": "infinityexpansion:mob_simulation/witch_data_card"
+    },
+    {
+      "id": "ALUMINUM_CHESTPLATE",
+      "model": "extra_gear:armor/aluminum/aluminum_chestplate"
+    },
+    {
+      "id": "COBALT_CHESTPLATE",
+      "model": "extra_gear:armor/cobalt/cobalt_chestplate"
+    },
+    {
+      "id": "COPPER_CHESTPLATE",
+      "model": "extra_gear:armor/copper/copper_chestplate"
+    },
+    {
+      "id": "LEAD_CHESTPLATE",
+      "model": "extra_gear:armor/lead/lead_chestplate"
+    },
+    {
+      "id": "MAGNESIUM_CHESTPLATE",
+      "model": "extra_gear:armor/magnesium/magnesium_chestplate"
+    },
+    {
+      "id": "SILVER_CHESTPLATE",
+      "model": "extra_gear:armor/silver/silver_chestplate"
+    },
+    {
+      "id": "STEEL_CHESTPLATE",
+      "model": "extra_gear:armor/steel/steel_chestplate"
+    },
+    {
+      "id": "TIN_CHESTPLATE",
+      "model": "extra_gear:armor/tin/tin_chestplate"
+    },
+    {
+      "id": "ZINC_CHESTPLATE",
+      "model": "extra_gear:armor/zinc/zinc_chestplate"
+    },
+    {
+      "id": "IE_MOB_DATA_CARD_EMPTY",
+      "model": "infinityexpansion2:mob_simulation/empty_data_card"
+    }
+  ],
+  "tail": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "infinityexpansion2:mob_data_id": "zombie",
+        "slimefun:slimefun_item": "IE_MOB_DATA_CARD_ZOMBIE"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "infinityexpansion2:mob_data_id": "slime",
+          "slimefun:slimefun_item": "IE_MOB_DATA_CARD_SLIME"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "infinityexpansion2:mob_data_id": "magma_cube",
+            "slimefun:slimefun_item": "IE_MOB_DATA_CARD_MAGMA_CUBE"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "infinityexpansion2:mob_data_id": "cow",
+              "slimefun:slimefun_item": "IE_MOB_DATA_CARD_COW"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "infinityexpansion2:mob_data_id": "sheep",
+                "slimefun:slimefun_item": "IE_MOB_DATA_CARD_SHEEP"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "infinityexpansion2:mob_data_id": "spider",
+                  "slimefun:slimefun_item": "IE_MOB_DATA_CARD_SPIDER"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "infinityexpansion2:mob_data_id": "skeleton",
+                    "slimefun:slimefun_item": "IE_MOB_DATA_CARD_SKELETON"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "infinityexpansion2:mob_data_id": "wither_skeleton",
+                      "slimefun:slimefun_item": "IE_MOB_DATA_CARD_WITHER_SKELETON"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "infinityexpansion2:mob_data_id": "enderman",
+                        "slimefun:slimefun_item": "IE_MOB_DATA_CARD_ENDERMAN"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "infinityexpansion2:mob_data_id": "creeper",
+                          "slimefun:slimefun_item": "IE_MOB_DATA_CARD_CREEPER"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "infinityexpansion2:mob_data_id": "guardian",
+                            "slimefun:slimefun_item": "IE_MOB_DATA_CARD_GUARDIAN"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "infinityexpansion2:mob_data_id": "chicken",
+                              "slimefun:slimefun_item": "IE_MOB_DATA_CARD_CHICKEN"
+                            }
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": {
+                              "PublicBukkitValues": {
+                                "infinityexpansion2:mob_data_id": "iron_golem",
+                                "slimefun:slimefun_item": "IE_MOB_DATA_CARD_IRON_GOLEM"
+                              }
+                            },
+                            "on_false": {
+                              "type": "minecraft:condition",
+                              "property": "minecraft:component",
+                              "predicate": "minecraft:custom_data",
+                              "value": {
+                                "PublicBukkitValues": {
+                                  "infinityexpansion2:mob_data_id": "blaze",
+                                  "slimefun:slimefun_item": "IE_MOB_DATA_CARD_BLAZE"
+                                }
+                              },
+                              "on_false": {
+                                "type": "minecraft:condition",
+                                "property": "minecraft:component",
+                                "predicate": "minecraft:custom_data",
+                                "value": {
+                                  "PublicBukkitValues": {
+                                    "infinityexpansion2:mob_data_id": "bee",
+                                    "slimefun:slimefun_item": "IE_MOB_DATA_CARD_BEE"
+                                  }
+                                },
+                                "on_false": {
+                                  "type": "minecraft:condition",
+                                  "property": "minecraft:component",
+                                  "predicate": "minecraft:custom_data",
+                                  "value": {
+                                    "PublicBukkitValues": {
+                                      "infinityexpansion2:mob_data_id": "villager",
+                                      "slimefun:slimefun_item": "IE_MOB_DATA_CARD_VILLAGER"
+                                    }
+                                  },
+                                  "on_false": {
+                                    "type": "minecraft:condition",
+                                    "property": "minecraft:component",
+                                    "predicate": "minecraft:custom_data",
+                                    "value": {
+                                      "PublicBukkitValues": {
+                                        "infinityexpansion2:mob_data_id": "witch",
+                                        "slimefun:slimefun_item": "IE_MOB_DATA_CARD_WITCH"
+                                      }
+                                    },
+                                    "on_false": {
+                                      "type": "minecraft:condition",
+                                      "property": "minecraft:component",
+                                      "predicate": "minecraft:custom_data",
+                                      "value": {
+                                        "PublicBukkitValues": {
+                                          "slimefun:slimefun_item": "SUPREME_TITANIUM_CHESTPLATE"
+                                        }
+                                      },
+                                      "on_false": {
+                                        "type": "minecraft:condition",
+                                        "property": "minecraft:component",
+                                        "predicate": "minecraft:custom_data",
+                                        "value": {
+                                          "PublicBukkitValues": {
+                                            "slimefun:slimefun_item": "SUPREME_AURUM_CHESTPLATE"
+                                          }
+                                        },
+                                        "on_false": {
+                                          "type": "minecraft:condition",
+                                          "property": "minecraft:component",
+                                          "predicate": "minecraft:custom_data",
+                                          "value": {
+                                            "PublicBukkitValues": {
+                                              "slimefun:slimefun_item": "SUPREME_ADAMANTIUM_CHESTPLATE"
+                                            }
+                                          },
+                                          "on_false": {
+                                            "type": "minecraft:condition",
+                                            "property": "minecraft:component",
+                                            "predicate": "minecraft:custom_data",
+                                            "value": {
+                                              "PublicBukkitValues": {
+                                                "slimefun:slimefun_item": "SUPREME_CHESTPLATE_THORNIUM"
+                                              }
+                                            },
+                                            "on_false": {
+                                              "type": "minecraft:condition",
+                                              "property": "minecraft:component",
+                                              "predicate": "minecraft:custom_data",
+                                              "value": {
+                                                "PublicBukkitValues": {
+                                                  "slimefun:slimefun_item": "SUPREME_CHESTPLATE_MAGIC"
+                                                }
+                                              },
+                                              "on_false": {
+                                                "type": "minecraft:condition",
+                                                "property": "minecraft:component",
+                                                "predicate": "minecraft:custom_data",
+                                                "value": {
+                                                  "PublicBukkitValues": {
+                                                    "slimefun:slimefun_item": "SUPREME_CHESTPLATE_RARE"
+                                                  }
+                                                },
+                                                "on_false": {
+                                                  "type": "minecraft:condition",
+                                                  "property": "minecraft:component",
+                                                  "predicate": "minecraft:custom_data",
+                                                  "value": {
+                                                    "PublicBukkitValues": {
+                                                      "slimefun:slimefun_item": "SUPREME_CHESTPLATE_EPIC"
+                                                    }
+                                                  },
+                                                  "on_false": {
+                                                    "type": "minecraft:condition",
+                                                    "property": "minecraft:component",
+                                                    "predicate": "minecraft:custom_data",
+                                                    "value": {
+                                                      "PublicBukkitValues": {
+                                                        "slimefun:slimefun_item": "SUPREME_CHESTPLATE_LEGENDARY"
+                                                      }
+                                                    },
+                                                    "on_false": {
+                                                      "type": "minecraft:condition",
+                                                      "property": "minecraft:component",
+                                                      "predicate": "minecraft:custom_data",
+                                                      "value": {
+                                                        "PublicBukkitValues": {
+                                                          "slimefun:slimefun_item": "SUPREME_CHESTPLATE_SUPREME"
+                                                        }
+                                                      },
+                                                      "on_false": {
+                                                        "type": "model",
+                                                        "model": "item/diamond_chestplate"
+                                                      },
+                                                      "on_true": {
+                                                        "type": "model",
+                                                        "model": "supreme:armor/chestplate/supreme_chestplate_supreme"
+                                                      }
+                                                    },
+                                                    "on_true": {
+                                                      "type": "model",
+                                                      "model": "supreme:armor/chestplate/supreme_chestplate_legendary"
+                                                    }
+                                                  },
+                                                  "on_true": {
+                                                    "type": "model",
+                                                    "model": "supreme:armor/chestplate/supreme_chestplate_epic"
+                                                  }
+                                                },
+                                                "on_true": {
+                                                  "type": "model",
+                                                  "model": "supreme:armor/chestplate/supreme_chestplate_rare"
+                                                }
+                                              },
+                                              "on_true": {
+                                                "type": "model",
+                                                "model": "supreme:armor/chestplate/supreme_chestplate_magic"
+                                              }
+                                            },
+                                            "on_true": {
+                                              "type": "model",
+                                              "model": "supreme:armor/chestplate/supreme_chestplate_thornium"
+                                            }
+                                          },
+                                          "on_true": {
+                                            "type": "model",
+                                            "model": "supreme:armor/chestplate/supreme_adamantium_chestplate"
+                                          }
+                                        },
+                                        "on_true": {
+                                          "type": "model",
+                                          "model": "supreme:armor/chestplate/supreme_aurum_chestplate"
+                                        }
+                                      },
+                                      "on_true": {
+                                        "type": "model",
+                                        "model": "supreme:armor/chestplate/supreme_titanium_chestplate"
+                                      }
+                                    },
+                                    "on_true": {
+                                      "type": "model",
+                                      "model": "infinityexpansion2:mob_simulation/witch_data_card"
+                                    }
+                                  },
+                                  "on_true": {
+                                    "type": "model",
+                                    "model": "infinityexpansion2:mob_simulation/villager_data_card"
+                                  }
+                                },
+                                "on_true": {
+                                  "type": "model",
+                                  "model": "infinityexpansion2:mob_simulation/bee_data_card"
+                                }
+                              },
+                              "on_true": {
+                                "type": "model",
+                                "model": "infinityexpansion2:mob_simulation/blaze_data_card"
+                              }
+                            },
+                            "on_true": {
+                              "type": "model",
+                              "model": "infinityexpansion2:mob_simulation/iron_golem_data_card"
+                            }
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "infinityexpansion2:mob_simulation/chicken_data_card"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "infinityexpansion2:mob_simulation/guardian_data_card"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "infinityexpansion2:mob_simulation/creeper_data_card"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "infinityexpansion2:mob_simulation/enderman_data_card"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "infinityexpansion2:mob_simulation/wither_skeleton_data_card"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "infinityexpansion2:mob_simulation/skeleton_data_card"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "infinityexpansion2:mob_simulation/spider_data_card"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "infinityexpansion2:mob_simulation/sheep_data_card"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "infinityexpansion2:mob_simulation/cow_data_card"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "infinityexpansion2:mob_simulation/magma_cube_data_card"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "infinityexpansion2:mob_simulation/slime_data_card"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion2:mob_simulation/zombie_data_card"
+    }
+  }
+}

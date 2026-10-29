@@ -1,0 +1,18 @@
+{
+  "base": "red_glazed_terracotta",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ADVANCED_PANEL",
+      "model": "infinityexpansion:machines/solar_panel_2"
+    },
+    {
+      "id": "IE_SOLAR_PANEL_2",
+      "model": "infinityexpansion2:generators/solar_panel_2"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/red_glazed_terracotta"
+  }
+}

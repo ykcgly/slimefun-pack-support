@@ -1,0 +1,14 @@
+{
+  "base": "white_tulip",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CLT_JASMINE",
+      "model": "cultivation:products/clt_jasmine"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/white_tulip"
+  }
+}

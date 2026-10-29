@@ -1,0 +1,30 @@
+{
+  "base": "daylight_detector",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SOLAR_PANEL",
+      "model": "slimefun:slimefun/technical_components/solar_panel"
+    },
+    {
+      "id": "SOLAR_GENERATOR",
+      "model": "slimefun:slimefun/energy/solar_generator"
+    },
+    {
+      "id": "SOLAR_GENERATOR_2",
+      "model": "slimefun:slimefun/energy/solar_generator_2"
+    },
+    {
+      "id": "SOLAR_GENERATOR_3",
+      "model": "slimefun:slimefun/energy/solar_generator_3"
+    },
+    {
+      "id": "SOLAR_GENERATOR_4",
+      "model": "slimefun:slimefun/energy/solar_generator_4"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/daylight_detector"
+  }
+}

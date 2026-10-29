@@ -1,0 +1,14 @@
+{
+  "base": "lead",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GRAPPLING_HOOK",
+      "model": "slimefun:slimefun/tools/grappling_hook"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/lead"
+  }
+}

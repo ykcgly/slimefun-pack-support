@@ -1,0 +1,14 @@
+{
+  "base": "honey_bottle",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_MARMALADE",
+      "model": "gastronomicon:food/gn_marmalade"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/honey_bottle"
+  }
+}

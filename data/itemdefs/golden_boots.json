@@ -1,0 +1,134 @@
+{
+  "base": "golden_boots",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ENDER_BOOTS",
+      "model": "slimefun:slimefun/magical_armor/ender_armor/ender_boots"
+    },
+    {
+      "id": "SLIME_BOOTS",
+      "model": "slimefun:slimefun/magical_armor/slime_armor/slime_boots"
+    },
+    {
+      "id": "GLOWSTONE_BOOTS",
+      "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_boots"
+    },
+    {
+      "id": "DAMASCUS_STEEL_BOOTS",
+      "model": "slimefun:slimefun/armor/damascus_armor/damascus_boots"
+    },
+    {
+      "id": "REINFORCED_ALLOY_BOOTS",
+      "model": "slimefun:slimefun/armor/reinforced_armor/reinforced_boots"
+    },
+    {
+      "id": "CACTUS_BOOTS",
+      "model": "slimefun:slimefun/armor/cactus_armor/cactus_boots"
+    },
+    {
+      "id": "GILDED_IRON_BOOTS",
+      "model": "slimefun:slimefun/armor/gilded_iron_armor/gilded_iron_boots"
+    },
+    {
+      "id": "RUBBER_BOOTS",
+      "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_boots"
+    },
+    {
+      "id": "GOLD_12K_BOOTS",
+      "model": "slimefun:slimefun/armor/gold_12k_armor/gold_12k_boots"
+    },
+    {
+      "id": "SLIME_STEEL_BOOTS",
+      "model": "slimefun:slimefun/magical_armor/slime_armor_steel/slime_steel_boots"
+    },
+    {
+      "id": "FARMER_SHOES",
+      "model": "slimefun:slimefun/magical_armor/farmer_armor/farmer_boots"
+    },
+    {
+      "id": "BOOTS_OF_THE_STOMPER",
+      "model": "slimefun:slimefun/magical_armor/stomper_armor/stomper_boots"
+    },
+    {
+      "id": "DURALUMIN_JETBOOTS",
+      "model": "slimefun:slimefun/technical_gadgets/jetboots/duralumin_jetboots"
+    },
+    {
+      "id": "SOLDER_JETBOOTS",
+      "model": "slimefun:slimefun/technical_gadgets/jetboots/solder_jetboots"
+    },
+    {
+      "id": "BILLON_JETBOOTS",
+      "model": "slimefun:slimefun/technical_gadgets/jetboots/billon_jetboots"
+    },
+    {
+      "id": "STEEL_JETBOOTS",
+      "model": "slimefun:slimefun/technical_gadgets/jetboots/steel_jetboots"
+    },
+    {
+      "id": "DAMASCUS_STEEL_JETBOOTS",
+      "model": "slimefun:slimefun/technical_gadgets/jetboots/damascus_steel_jetboots"
+    },
+    {
+      "id": "REINFORCED_ALLOY_JETBOOTS",
+      "model": "slimefun:slimefun/technical_gadgets/jetboots/reinforced_alloy_jetboots"
+    },
+    {
+      "id": "CARBONADO_JETBOOTS",
+      "model": "slimefun:slimefun/technical_gadgets/jetboots/carbonado_jetboots"
+    },
+    {
+      "id": "ARMORED_JETBOOTS",
+      "model": "slimefun:slimefun/technical_gadgets/jetboots/armored_jetboots"
+    },
+    {
+      "id": "BEE_BOOTS",
+      "model": "slimefun:slimefun/magical_armor/bee_armor/bee_boots"
+    },
+    {
+      "id": "RAINBOW_BOOTS",
+      "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_boots"
+    },
+    {
+      "id": "ALUMINUM_BOOTS",
+      "model": "extra_gear:armor/aluminum/aluminum_boots"
+    },
+    {
+      "id": "COBALT_BOOTS",
+      "model": "extra_gear:armor/cobalt/cobalt_boots"
+    },
+    {
+      "id": "COPPER_BOTTS",
+      "model": "extra_gear:armor/copper/copper_boots"
+    },
+    {
+      "id": "LEAD_BOOTS",
+      "model": "extra_gear:armor/lead/lead_boots"
+    },
+    {
+      "id": "MAGNESIUM_BOOTS",
+      "model": "extra_gear:armor/magnesium/magnesium_boots"
+    },
+    {
+      "id": "SILVER_BOOTS",
+      "model": "extra_gear:armor/silver/silver_boots"
+    },
+    {
+      "id": "STEEL_BOOTS",
+      "model": "extra_gear:armor/steel/steel_boots"
+    },
+    {
+      "id": "TIN_BOOTS",
+      "model": "extra_gear:armor/tin/tin_boots"
+    },
+    {
+      "id": "ZINC_BOOTS",
+      "model": "extra_gear:armor/zinc/zinc_boots"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/golden_boots"
+  }
+}

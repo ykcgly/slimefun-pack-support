@@ -1,0 +1,14 @@
+{
+  "base": "orange_terracotta",
+  "generated": true,
+  "entries": [
+    {
+      "id": "RAINBOW_CLAY_HALLOWEEN",
+      "model": "slimefun:slimefun/halloween/rainbow_clay_halloween"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/orange_terracotta"
+  }
+}

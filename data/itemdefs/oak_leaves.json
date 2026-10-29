@@ -1,0 +1,20 @@
+{
+  "base": "oak_leaves",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CLT_SASSAFRAS",
+      "model": "cultivation:products/clt_sassafras"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "minecraft:block/oak_leaves",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": -12012264
+      }
+    ]
+  }
+}

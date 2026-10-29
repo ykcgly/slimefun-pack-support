@@ -1,0 +1,14 @@
+{
+  "base": "charcoal",
+  "generated": true,
+  "entries": [
+    {
+      "id": "BORON",
+      "model": "slimefunwarfare:resources/boron"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/charcoal"
+  }
+}

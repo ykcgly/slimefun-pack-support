@@ -1,0 +1,26 @@
+{
+  "base": "iron_bars",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_FISHING_NET_I",
+      "model": "gastronomicon:electric_machines/gn_fishing_net_i"
+    },
+    {
+      "id": "GN_FISHING_NET_II",
+      "model": "gastronomicon:electric_machines/gn_fishing_net_ii"
+    },
+    {
+      "id": "GN_FISHING_NET_III",
+      "model": "gastronomicon:electric_machines/gn_fishing_net_iii"
+    },
+    {
+      "id": "IE_OSCILLATOR_FRAME",
+      "model": "infinityexpansion2:materials/oscillator_frame"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/iron_bars"
+  }
+}

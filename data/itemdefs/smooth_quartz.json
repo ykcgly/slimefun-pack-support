@@ -1,0 +1,18 @@
+{
+  "base": "smooth_quartz",
+  "generated": true,
+  "entries": [
+    {
+      "id": "INFINITY_SINGULARITY",
+      "model": "infinityexpansion:singularities/infinity_singularity"
+    },
+    {
+      "id": "IE_INFINITY_SINGULARITY",
+      "model": "infinityexpansion2:singularities/infinity_singularity"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/smooth_quartz"
+  }
+}

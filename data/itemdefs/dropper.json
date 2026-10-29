@@ -1,0 +1,14 @@
+{
+  "base": "dropper",
+  "generated": true,
+  "entries": [
+    {
+      "id": "IGNITION_CHAMBER",
+      "model": "slimefun:slimefun/basic_machines/ignition_chamber"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/dropper"
+  }
+}

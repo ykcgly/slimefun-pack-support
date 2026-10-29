@@ -1,0 +1,26 @@
+{
+  "base": "red_stained_glass_pane",
+  "generated": true,
+  "entries": [
+    {
+      "id": "IE__UI_IR_NEED_VOID",
+      "model": "infinityexpansion2:icons/ui_ir_need_void"
+    },
+    {
+      "id": "IE__UI_IR_NEED_INFINITY",
+      "model": "infinityexpansion2:icons/ui_ir_need_infinity"
+    },
+    {
+      "id": "IE__UI_ISR_NEED",
+      "model": "infinityexpansion2:icons/ui_isr_need"
+    },
+    {
+      "id": "IE__UI_NO_POWER",
+      "model": "infinityexpansion2:icons/ui_no_power"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/red_stained_glass_pane"
+  }
+}

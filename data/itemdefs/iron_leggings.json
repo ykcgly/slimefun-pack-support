@@ -1,0 +1,82 @@
+{
+  "base": "iron_leggings",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ENDER_LEGGINGS",
+      "model": "slimefun:slimefun/magical_armor/ender_armor/ender_leggings"
+    },
+    {
+      "id": "SLIME_LEGGINGS",
+      "model": "slimefun:slimefun/magical_armor/slime_armor/slime_leggings"
+    },
+    {
+      "id": "GLOWSTONE_LEGGINGS",
+      "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_leggings"
+    },
+    {
+      "id": "DAMASCUS_STEEL_LEGGINGS",
+      "model": "slimefun:slimefun/armor/damascus_armor/damascus_leggings"
+    },
+    {
+      "id": "REINFORCED_ALLOY_LEGGINGS",
+      "model": "slimefun:slimefun/armor/reinforced_armor/reinforced_leggings"
+    },
+    {
+      "id": "CACTUS_LEGGINGS",
+      "model": "slimefun:slimefun/armor/cactus_armor/cactus_leggings"
+    },
+    {
+      "id": "HAZMAT_LEGGINGS",
+      "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_leggings"
+    },
+    {
+      "id": "SLIME_STEEL_LEGGINGS",
+      "model": "slimefun:slimefun/magical_armor/slime_armor_steel/slime_steel_leggings"
+    },
+    {
+      "id": "RAINBOW_LEGGINGS",
+      "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_leggings"
+    },
+    {
+      "id": "ALUMINUM_LEGGINGS",
+      "model": "extra_gear:armor/aluminum/aluminum_leggings"
+    },
+    {
+      "id": "COBALT_LEGGINGS",
+      "model": "extra_gear:armor/cobalt/cobalt_leggings"
+    },
+    {
+      "id": "COPPER_LEGGINGS",
+      "model": "extra_gear:armor/copper/copper_leggings"
+    },
+    {
+      "id": "LEAD_LEGGINGS",
+      "model": "extra_gear:armor/lead/lead_leggings"
+    },
+    {
+      "id": "MAGNESIUM_LEGGINGS",
+      "model": "extra_gear:armor/magnesium/magnesium_leggings"
+    },
+    {
+      "id": "SILVER_LEGGINGS",
+      "model": "extra_gear:armor/silver/silver_leggings"
+    },
+    {
+      "id": "STEEL_LEGGINGS",
+      "model": "extra_gear:armor/steel/steel_leggings"
+    },
+    {
+      "id": "TIN_LEGGINGS",
+      "model": "extra_gear:armor/tin/tin_leggings"
+    },
+    {
+      "id": "ZINC_LEGGINGS",
+      "model": "extra_gear:armor/zinc/zinc_leggings"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/iron_leggings"
+  }
+}

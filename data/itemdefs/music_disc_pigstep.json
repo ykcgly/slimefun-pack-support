@@ -1,0 +1,14 @@
+{
+  "base": "music_disc_pigstep",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SUPREME_CENTER_CARD_ADVANCED",
+      "model": "supreme:machine_cards/center_card_advanced"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/music_disc_pigstep"
+  }
+}

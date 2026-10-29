@@ -1,0 +1,14 @@
+{
+  "base": "porkchop",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_RAW_SQUID",
+      "model": "gastronomicon:ingredient/gn_raw_squid"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/porkchop"
+  }
+}

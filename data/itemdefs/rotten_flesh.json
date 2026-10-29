@@ -1,0 +1,18 @@
+{
+  "base": "rotten_flesh",
+  "generated": true,
+  "entries": [
+    {
+      "id": "MONSTER_JERKY",
+      "model": "slimefun:slimefun/food/monster_jerky"
+    },
+    {
+      "id": "LATIAO",
+      "model": "bump:foods/latiao"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/rotten_flesh"
+  }
+}

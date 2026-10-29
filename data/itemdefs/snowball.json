@@ -1,0 +1,38 @@
+{
+  "base": "snowball",
+  "generated": true,
+  "entries": [
+    {
+      "id": "HEAVY_CREAM",
+      "model": "slimefun:slimefun/miscellaneous/heavy_cream"
+    },
+    {
+      "id": "GRENADE",
+      "model": "slimefunwarfare:explosives/grenade"
+    },
+    {
+      "id": "NITROGEN_TRIIODIDE_GRENADE",
+      "model": "slimefunwarfare:explosives/nitrogen_triiodide_grenade"
+    },
+    {
+      "id": "ARSENIC_GRENADE",
+      "model": "slimefunwarfare:explosives/arsenic_grenade"
+    },
+    {
+      "id": "PYRO_POWDER_GRENADE",
+      "model": "slimefunwarfare:explosives/pyro_powder_grenade"
+    },
+    {
+      "id": "THIOACETONE_GRENADE",
+      "model": "slimefunwarfare:explosives/thioacetone_grenade"
+    },
+    {
+      "id": "OSMIUM_DUST_GRENADE",
+      "model": "slimefunwarfare:explosives/osmium_dust_grenade"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/snowball"
+  }
+}

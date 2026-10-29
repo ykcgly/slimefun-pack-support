@@ -1,0 +1,14 @@
+{
+  "base": "anvil",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ARMOR_FORGE",
+      "model": "slimefun:slimefun/basic_machines/armor_forge"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/anvil"
+  }
+}

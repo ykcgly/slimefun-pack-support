@@ -1,0 +1,20 @@
+{
+  "base": "vine",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_VANILLA_PLANT",
+      "model": "gastronomicon:ingredient/gn_vanilla_plant"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/vine",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": -12012264
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "base": "blue_terracotta",
+  "generated": true,
+  "entries": [
+    {
+      "id": "FLUID_PUMP",
+      "model": "slimefun:slimefun/energy/fluid_pump"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/blue_terracotta"
+  }
+}

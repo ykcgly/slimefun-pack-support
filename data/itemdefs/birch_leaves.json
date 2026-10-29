@@ -1,0 +1,24 @@
+{
+  "base": "birch_leaves",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CLT_ROSEMARY",
+      "model": "cultivation:products/clt_rosemary"
+    },
+    {
+      "id": "CLT_THYME",
+      "model": "cultivation:products/clt_thyme"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/birch_leaves",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": -8345771
+      }
+    ]
+  }
+}

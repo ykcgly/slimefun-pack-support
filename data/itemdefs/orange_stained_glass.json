@@ -1,0 +1,14 @@
+{
+  "base": "orange_stained_glass",
+  "generated": true,
+  "entries": [
+    {
+      "id": "RAINBOW_GLASS_HALLOWEEN",
+      "model": "slimefun:slimefun/halloween/rainbow_glass_halloween"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/orange_stained_glass"
+  }
+}

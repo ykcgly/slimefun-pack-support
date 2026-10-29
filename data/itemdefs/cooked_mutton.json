@@ -1,0 +1,18 @@
+{
+  "base": "cooked_mutton",
+  "generated": true,
+  "entries": [
+    {
+      "id": "MUTTON_JERKY",
+      "model": "slimefun:slimefun/food/mutton_jerky"
+    },
+    {
+      "id": "GN_COOKED_CHEVON",
+      "model": "gastronomicon:ingredient/gn_cooked_chevon"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/cooked_mutton"
+  }
+}

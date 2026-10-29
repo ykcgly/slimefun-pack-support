@@ -1,0 +1,18 @@
+{
+  "base": "cooked_chicken",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CHICKEN_JERKY",
+      "model": "slimefun:slimefun/food/chicken_jerky"
+    },
+    {
+      "id": "GN_COOKED_TURKEY",
+      "model": "gastronomicon:ingredient/gn_cooked_turkey"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/cooked_chicken"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "base": "pumpkin_seeds",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GRASS_SEEDS",
+      "model": "exotic_garden:fruits/grass_seeds"
+    },
+    {
+      "id": "GN_RICE",
+      "model": "gastronomicon:ingredient/gn_rice"
+    },
+    {
+      "id": "GN_QUINOA",
+      "model": "gastronomicon:ingredient/gn_quinoa"
+    },
+    {
+      "id": "GN_RYE_SEEDS",
+      "model": "gastronomicon:ingredient/gn_rye_seeds"
+    },
+    {
+      "id": "GN_SQUASH_SEEDS",
+      "model": "gastronomicon:ingredient/gn_squash_seeds"
+    },
+    {
+      "id": "GN_CUCUMBER_SEEDS",
+      "model": "gastronomicon:ingredient/gn_cucumber_seeds"
+    },
+    {
+      "id": "GN_CHILI_PEPPER_SEEDS",
+      "model": "gastronomicon:ingredient/gn_chili_pepper_seeds"
+    },
+    {
+      "id": "GN_LENTILS",
+      "model": "gastronomicon:ingredient/gn_lentils"
+    },
+    {
+      "id": "GN_PEANUTS",
+      "model": "gastronomicon:ingredient/gn_peanuts"
+    },
+    {
+      "id": "GN_CAULIFLOWER_SEEDS",
+      "model": "gastronomicon:ingredient/gn_cauliflower_seeds"
+    },
+    {
+      "id": "GN_CUMIN_SEEDS",
+      "model": "gastronomicon:ingredient/gn_cumin_seeds"
+    },
+    {
+      "id": "GN_CANTALOUPE_SEEDS",
+      "model": "gastronomicon:ingredient/gn_cantaloupe_seeds"
+    },
+    {
+      "id": "GN_HONEYDEW_MELON_SEEDS",
+      "model": "gastronomicon:ingredient/gn_honeydew_melon_seeds"
+    },
+    {
+      "id": "GN_SESAME_SEEDS",
+      "model": "gastronomicon:ingredient/gn_sesame_seeds"
+    },
+    {
+      "id": "GN_SALMON_ROE",
+      "model": "gastronomicon:ingredient/gn_salmon_roe"
+    },
+    {
+      "id": "CLT_MUSTARD_SEEDS",
+      "model": "cultivation:products/clt_mustard_seeds"
+    },
+    {
+      "id": "SUPREME_DUST_GLOW_INK",
+      "model": "supreme:components/supreme_dust_glow_ink"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/pumpkin_seeds"
+  }
+}

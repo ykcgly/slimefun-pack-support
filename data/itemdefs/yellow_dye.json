@@ -1,0 +1,22 @@
+{
+  "base": "yellow_dye",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_SCRAMBLED_EGGS",
+      "model": "gastronomicon:food/gn_scrambled_eggs"
+    },
+    {
+      "id": "GN_CUSTARD",
+      "model": "gastronomicon:food/gn_custard"
+    },
+    {
+      "id": "CLT_TURMERIC",
+      "model": "cultivation:products/clt_turmeric"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/yellow_dye"
+  }
+}

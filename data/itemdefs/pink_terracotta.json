@@ -1,0 +1,18 @@
+{
+  "base": "pink_terracotta",
+  "generated": true,
+  "entries": [
+    {
+      "id": "RAINBOW_CLAY_VALENTINE",
+      "model": "slimefun:slimefun/valentine/rainbow_clay_valentine"
+    },
+    {
+      "id": "BLOCK_CAST_MAGNESIUM",
+      "model": "slimetinker:materials/blocks/block_cast_magnesium"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/pink_terracotta"
+  }
+}

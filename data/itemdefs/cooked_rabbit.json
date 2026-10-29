@@ -1,0 +1,14 @@
+{
+  "base": "cooked_rabbit",
+  "generated": true,
+  "entries": [
+    {
+      "id": "RABBIT_JERKY",
+      "model": "slimefun:slimefun/food/rabbit_jerky"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/cooked_rabbit"
+  }
+}

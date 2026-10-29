@@ -1,0 +1,14 @@
+{
+  "base": "composter",
+  "generated": true,
+  "entries": [
+    {
+      "id": "MINI_FLUFFY_BARREL",
+      "model": "fluffymachines:barrels/mini_fluffy_barrel"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/composter"
+  }
+}

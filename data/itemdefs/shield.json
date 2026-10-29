@@ -1,0 +1,199 @@
+{
+  "base": "shield",
+  "generated": false,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "INFINITY_SHIELD"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "IE_INFINITY_SHIELD"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_SHIELD_THORNIUM"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "SUPREME_SHIELD_MAGIC"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "SUPREME_SHIELD_RARE"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "SUPREME_SHIELD_EPIC"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "SUPREME_SHIELD_LEGENDARY"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "SUPREME_SHIELD_SUPREME"
+                    }
+                  },
+                  "on_false": {
+                    "type": "condition",
+                    "property": "using_item",
+                    "on_false": {
+                      "type": "special",
+                      "base": "item/shield",
+                      "model": {
+                        "type": "shield"
+                      }
+                    },
+                    "on_true": {
+                      "type": "special",
+                      "base": "item/shield_blocking",
+                      "model": {
+                        "type": "shield"
+                      }
+                    }
+                  },
+                  "on_true": {
+                    "type": "condition",
+                    "property": "using_item",
+                    "on_false": {
+                      "type": "model",
+                      "model": "supreme:weapons/shield/supreme_shield_supreme"
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "supreme:weapons/shield/supreme_shield_supreme_blocking"
+                    }
+                  }
+                },
+                "on_true": {
+                  "type": "condition",
+                  "property": "using_item",
+                  "on_false": {
+                    "type": "model",
+                    "model": "supreme:weapons/shield/supreme_shield_legendary"
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "supreme:weapons/shield/supreme_shield_legendary_blocking"
+                  }
+                }
+              },
+              "on_true": {
+                "type": "condition",
+                "property": "using_item",
+                "on_false": {
+                  "type": "model",
+                  "model": "supreme:weapons/shield/supreme_shield_epic"
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "supreme:weapons/shield/supreme_shield_epic_blocking"
+                }
+              }
+            },
+            "on_true": {
+              "type": "condition",
+              "property": "using_item",
+              "on_false": {
+                "type": "model",
+                "model": "supreme:weapons/shield/supreme_shield_rare"
+              },
+              "on_true": {
+                "type": "model",
+                "model": "supreme:weapons/shield/supreme_shield_rare_blocking"
+              }
+            }
+          },
+          "on_true": {
+            "type": "condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "model",
+              "model": "supreme:weapons/shield/supreme_shield_magic"
+            },
+            "on_true": {
+              "type": "model",
+              "model": "supreme:weapons/shield/supreme_shield_magic_blocking"
+            }
+          }
+        },
+        "on_true": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "supreme:weapons/shield/supreme_shield_thornium"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "supreme:weapons/shield/supreme_shield_thornium_blocking"
+          }
+        }
+      },
+      "on_true": {
+        "type": "condition",
+        "property": "using_item",
+        "on_false": {
+          "type": "model",
+          "model": "infinityexpansion2:gear/cosmic_aegis/infinity_shield"
+        },
+        "on_true": {
+          "type": "model",
+          "model": "infinityexpansion2:gear/cosmic_aegis/infinity_shield_blocking"
+        }
+      }
+    },
+    "on_true": {
+      "type": "condition",
+      "property": "using_item",
+      "on_false": {
+        "type": "model",
+        "model": "infinityexpansion:tools/cosmic_aegis/cosmic_aegis"
+      },
+      "on_true": {
+        "type": "model",
+        "model": "infinityexpansion:tools/cosmic_aegis/cosmic_aegis_blocking"
+      }
+    }
+  }
+}

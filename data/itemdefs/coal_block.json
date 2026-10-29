@@ -1,0 +1,18 @@
+{
+  "base": "coal_block",
+  "generated": true,
+  "entries": [
+    {
+      "id": "COAL_SINGULARITY",
+      "model": "infinityexpansion:singularities/coal_singularity"
+    },
+    {
+      "id": "IE_COAL_SINGULARITY",
+      "model": "infinityexpansion2:singularities/coal_singularity"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/coal_block"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "base": "lime_dye",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_AVOCADO",
+      "model": "gastronomicon:ingredient/gn_avocado"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/lime_dye"
+  }
+}

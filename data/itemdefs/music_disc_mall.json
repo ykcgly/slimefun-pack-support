@@ -1,0 +1,38 @@
+{
+  "base": "music_disc_mall",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SUPREME_CENTER_CARD_ULTIMATE",
+      "model": "supreme:machine_cards/center_card_ultimate"
+    },
+    {
+      "id": "SUPREME_CARD_SYNTHETIC_SAPPHIRE",
+      "model": "supreme:machine_cards/card_synthetic_sapphire"
+    },
+    {
+      "id": "SUPREME_CARD_SYNTHETIC_EMERALD",
+      "model": "supreme:machine_cards/card_synthetic_emerald"
+    },
+    {
+      "id": "SUPREME_CARD_ELECTRO_MAGNET",
+      "model": "supreme:machine_cards/card_electro_magnet"
+    },
+    {
+      "id": "SUPREME_CARD_ELECTRIC_MOTOR",
+      "model": "supreme:machine_cards/card_electric_motor"
+    },
+    {
+      "id": "SUPREME_CARD_HEATING_COIL",
+      "model": "supreme:machine_cards/card_heating_coil"
+    },
+    {
+      "id": "SUPREME_CARD_SYNTHETIC_DIAMOND",
+      "model": "supreme:machine_cards/card_synthetic_diamond"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/music_disc_mall"
+  }
+}

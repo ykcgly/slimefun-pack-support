@@ -1,0 +1,14 @@
+{
+  "base": "carrot",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_CASSAVA",
+      "model": "gastronomicon:ingredient/gn_cassava"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/carrot"
+  }
+}

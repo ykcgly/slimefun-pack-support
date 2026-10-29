@@ -1,0 +1,14 @@
+{
+  "base": "red_candle",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_CHILI_PEPPER",
+      "model": "gastronomicon:ingredient/gn_chili_pepper"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/red_candle"
+  }
+}

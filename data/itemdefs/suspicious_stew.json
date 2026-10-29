@@ -1,0 +1,14 @@
+{
+  "base": "suspicious_stew",
+  "generated": true,
+  "entries": [
+    {
+      "id": "IE_ULTIMATE_STEW",
+      "model": "infinityexpansion2:food/ultimate_stew"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/suspicious_stew"
+  }
+}

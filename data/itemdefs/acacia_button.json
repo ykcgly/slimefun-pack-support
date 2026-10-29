@@ -1,0 +1,26 @@
+{
+  "base": "acacia_button",
+  "generated": true,
+  "entries": [
+    {
+      "id": "NUGGET_CAST_COPPER",
+      "model": "slimetinker:materials/nuggets/nugget_cast_copper"
+    },
+    {
+      "id": "NUGGET_CAST_BRONZE",
+      "model": "slimetinker:materials/nuggets/nugget_cast_bronze"
+    },
+    {
+      "id": "NUGGET_CAST_REDSTONE_ALLOY",
+      "model": "slimetinker:materials/nuggets/nugget_cast_redstone_alloy"
+    },
+    {
+      "id": "NUGGET_CAST_BOOMERITE",
+      "model": "slimetinker:materials/nuggets/nugget_cast_boomerite"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/acacia_button_inventory"
+  }
+}

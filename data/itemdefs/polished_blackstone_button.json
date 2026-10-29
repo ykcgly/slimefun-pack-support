@@ -1,0 +1,14 @@
+{
+  "base": "polished_blackstone_button",
+  "generated": true,
+  "entries": [
+    {
+      "id": "NUGGET_CAST_COAL",
+      "model": "slimetinker:materials/nuggets/nugget_cast_coal"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/polished_blackstone_button_inventory"
+  }
+}

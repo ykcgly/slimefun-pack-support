@@ -1,0 +1,22 @@
+{
+  "base": "black_stained_glass",
+  "generated": true,
+  "entries": [
+    {
+      "id": "CARBON_PRESS",
+      "model": "slimefun:slimefun/energy/carbon_press"
+    },
+    {
+      "id": "CARBON_PRESS_2",
+      "model": "slimefun:slimefun/energy/carbon_press_2"
+    },
+    {
+      "id": "CARBON_PRESS_3",
+      "model": "slimefun:slimefun/energy/carbon_press_3"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/black_stained_glass"
+  }
+}

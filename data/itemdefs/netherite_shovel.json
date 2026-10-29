@@ -1,0 +1,58 @@
+{
+  "base": "netherite_shovel",
+  "generated": true,
+  "entries": [
+    {
+      "id": "INFINITY_SHOVEL",
+      "model": "infinityexpansion:tools/mountain_eater"
+    },
+    {
+      "id": "PAXEL",
+      "model": "fluffymachines:tools/netherite_paxel"
+    },
+    {
+      "id": "IE_INFINITY_SHOVEL",
+      "model": "infinityexpansion2:tools/infinity_shovel"
+    },
+    {
+      "id": "SUPREME_TITANIUM_SHOVEL",
+      "model": "supreme:weapons/shovel/supreme_titanium_shovel"
+    },
+    {
+      "id": "SUPREME_AURUM_SHOVEL",
+      "model": "supreme:weapons/shovel/supreme_aurum_shovel"
+    },
+    {
+      "id": "SUPREME_ADAMANTIUM_SHOVEL",
+      "model": "supreme:weapons/shovel/supreme_adamantium_shovel"
+    },
+    {
+      "id": "SUPREME_SHOVEL_THORNIUM",
+      "model": "supreme:weapons/shovel/supreme_shovel_thornium"
+    },
+    {
+      "id": "SUPREME_SHOVEL_MAGIC",
+      "model": "supreme:weapons/shovel/supreme_shovel_magic"
+    },
+    {
+      "id": "SUPREME_SHOVEL_RARE",
+      "model": "supreme:weapons/shovel/supreme_shovel_rare"
+    },
+    {
+      "id": "SUPREME_SHOVEL_EPIC",
+      "model": "supreme:weapons/shovel/supreme_shovel_epic"
+    },
+    {
+      "id": "SUPREME_SHOVEL_LEGENDARY",
+      "model": "supreme:weapons/shovel/supreme_shovel_legendary"
+    },
+    {
+      "id": "SUPREME_SHOVEL_SUPREME",
+      "model": "supreme:weapons/shovel/supreme_shovel_supreme"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/netherite_shovel"
+  }
+}

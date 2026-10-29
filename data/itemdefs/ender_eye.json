@@ -1,0 +1,14 @@
+{
+  "base": "ender_eye",
+  "generated": true,
+  "entries": [
+    {
+      "id": "MAGIC_EYE_OF_ENDER",
+      "model": "slimefun:slimefun/magical_gadgets/magic_eye_of_ender"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/ender_eye"
+  }
+}

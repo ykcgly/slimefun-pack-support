@@ -1,0 +1,38 @@
+{
+  "base": "glowstone_dust",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GOLD_DUST",
+      "model": "slimefun:slimefun/resources/dusts/gold_dust"
+    },
+    {
+      "id": "COPPER_DUST",
+      "model": "slimefun:slimefun/resources/dusts/copper_dust"
+    },
+    {
+      "id": "SULFATE",
+      "model": "slimefun:slimefun/resources/valuables/sulfate"
+    },
+    {
+      "id": "GN_MISO",
+      "model": "gastronomicon:food/gn_miso"
+    },
+    {
+      "id": "GN_TURMERIC_POWDER",
+      "model": "gastronomicon:food/gn_turmeric_powder"
+    },
+    {
+      "id": "IE__UI_ENERGY_PRODUCTION",
+      "model": "infinityexpansion2:icons/ui_energy_production"
+    },
+    {
+      "id": "SUPREME_THORNIUM_DUST_SYNTHETIC",
+      "model": "supreme:components/supreme_thornium_dust_synthetic"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/glowstone_dust"
+  }
+}

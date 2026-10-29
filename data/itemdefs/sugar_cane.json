@@ -1,0 +1,14 @@
+{
+  "base": "sugar_cane",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_CELERY",
+      "model": "gastronomicon:ingredient/gn_celery"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/sugar_cane"
+  }
+}

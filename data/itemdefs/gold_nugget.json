@@ -1,0 +1,66 @@
+{
+  "base": "gold_nugget",
+  "generated": true,
+  "entries": [
+    {
+      "id": "MAGIC_LUMP_1",
+      "model": "slimefun:slimefun/magical_items/magic_lump_1"
+    },
+    {
+      "id": "MAGIC_LUMP_2",
+      "model": "slimefun:slimefun/magical_items/magic_lump_2"
+    },
+    {
+      "id": "MAGIC_LUMP_3",
+      "model": "slimefun:slimefun/magical_items/magic_lump_3"
+    },
+    {
+      "id": "ENDER_LUMP_1",
+      "model": "slimefun:slimefun/magical_items/ender_lump_1"
+    },
+    {
+      "id": "ENDER_LUMP_2",
+      "model": "slimefun:slimefun/magical_items/ender_lump_2"
+    },
+    {
+      "id": "ENDER_LUMP_3",
+      "model": "slimefun:slimefun/magical_items/ender_lump_3"
+    },
+    {
+      "id": "OLD_COIN",
+      "model": "bump:magical_items/old_coin"
+    },
+    {
+      "id": "NUGGET_CAST_ALU_BRONZE",
+      "model": "slimetinker:materials/nuggets/nugget_cast_alu_bronze"
+    },
+    {
+      "id": "NUGGET_CAST_COR_BRONZE",
+      "model": "slimetinker:materials/nuggets/nugget_cast_cor_bronze"
+    },
+    {
+      "id": "NUGGET_CAST_BRASS",
+      "model": "slimetinker:materials/nuggets/nugget_cast_brass"
+    },
+    {
+      "id": "NUGGET_CAST_ALU_BRASS",
+      "model": "slimetinker:materials/nuggets/nugget_cast_alu_brass"
+    },
+    {
+      "id": "NUGGET_CAST_NICE",
+      "model": "slimetinker:materials/nuggets/nugget_cast_nice"
+    },
+    {
+      "id": "NUGGET_CAST_ANNIVERSARIUM",
+      "model": "slimetinker:materials/nuggets/nugget_cast_anniversarium"
+    },
+    {
+      "id": "SUPREME_THORNIUM_BIT_SYNTHETIC",
+      "model": "supreme:components/supreme_thornium_bit_synthetic"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/gold_nugget"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "base": "emerald_block",
+  "generated": true,
+  "entries": [
+    {
+      "id": "EMERALD_SINGULARITY",
+      "model": "infinityexpansion:singularities/emerald_singularity"
+    },
+    {
+      "id": "IE_EMERALD_SINGULARITY",
+      "model": "infinityexpansion2:singularities/emerald_singularity"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/emerald_block"
+  }
+}

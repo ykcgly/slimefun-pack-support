@@ -1,0 +1,18 @@
+{
+  "base": "white_terracotta",
+  "generated": true,
+  "entries": [
+    {
+      "id": "RAINBOW_CLAY",
+      "model": "slimefun:slimefun/magical_gadgets/rainbow_clay"
+    },
+    {
+      "id": "RAINBOW_CLAY_XMAS",
+      "model": "slimefun:slimefun/christmas/rainbow_clay_xmas"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/white_terracotta"
+  }
+}

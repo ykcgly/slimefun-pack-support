@@ -1,0 +1,22 @@
+{
+  "base": "lime_terracotta",
+  "generated": true,
+  "entries": [
+    {
+      "id": "BIO_REACTOR",
+      "model": "slimefun:slimefun/energy/bio_reactor"
+    },
+    {
+      "id": "CROP_GROWTH_ACCELERATOR",
+      "model": "slimefun:slimefun/energy/crop_growth_accelerator"
+    },
+    {
+      "id": "CROP_GROWTH_ACCELERATOR_2",
+      "model": "slimefun:slimefun/energy/crop_growth_accelerator_2"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/lime_terracotta"
+  }
+}

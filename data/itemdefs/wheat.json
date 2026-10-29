@@ -1,0 +1,22 @@
+{
+  "base": "wheat",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_BARLEY",
+      "model": "gastronomicon:ingredient/gn_barley"
+    },
+    {
+      "id": "GN_RYE",
+      "model": "gastronomicon:ingredient/gn_rye"
+    },
+    {
+      "id": "GN_SORGHUM",
+      "model": "gastronomicon:ingredient/gn_sorghum"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/wheat"
+  }
+}

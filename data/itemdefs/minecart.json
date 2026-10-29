@@ -1,0 +1,18 @@
+{
+  "base": "minecart",
+  "generated": true,
+  "entries": [
+    {
+      "id": "DOLLY",
+      "model": "fluffymachines:misc/dolly"
+    },
+    {
+      "id": "DIE_REPAIR_KIT",
+      "model": "slimetinker:casts/die_repair_kit"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/minecart"
+  }
+}

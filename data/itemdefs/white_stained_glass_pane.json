@@ -1,0 +1,18 @@
+{
+  "base": "white_stained_glass_pane",
+  "generated": true,
+  "entries": [
+    {
+      "id": "RAINBOW_GLASS_PANE",
+      "model": "slimefun:slimefun/magical_gadgets/rainbow_glass_pane"
+    },
+    {
+      "id": "RAINBOW_GLASS_PANE_XMAS",
+      "model": "slimefun:slimefun/christmas/rainbow_glass_pane_xmas"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/white_stained_glass_pane"
+  }
+}

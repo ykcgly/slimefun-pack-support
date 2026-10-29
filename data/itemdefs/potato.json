@@ -1,0 +1,18 @@
+{
+  "base": "potato",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_TURMERIC",
+      "model": "gastronomicon:ingredient/gn_turmeric"
+    },
+    {
+      "id": "GN_DOUGH",
+      "model": "gastronomicon:food/gn_dough"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/potato"
+  }
+}

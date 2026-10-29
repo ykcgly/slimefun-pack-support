@@ -1,0 +1,78 @@
+{
+  "base": "diamond_pickaxe",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SMELTERS_PICKAXE",
+      "model": "slimefun:slimefun/tools/smelters_pickaxe"
+    },
+    {
+      "id": "EXPLOSIVE_PICKAXE",
+      "model": "slimefun:slimefun/tools/explosive_pickaxe"
+    },
+    {
+      "id": "ADVANCED_INDUSTRIAL_MINER",
+      "model": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
+    },
+    {
+      "id": "PICKAXE_OF_THE_SEEKER",
+      "model": "slimefun:slimefun/tools/pickaxe_of_the_seeker"
+    },
+    {
+      "id": "PICKAXE_OF_VEIN_MINING",
+      "model": "slimefun:slimefun/tools/pickaxe_of_vein_mining"
+    },
+    {
+      "id": "SOULBOUND_PICKAXE",
+      "model": "slimefun:slimefun/tools/soulbound_pickaxe"
+    },
+    {
+      "id": "UPGRADED_EXPLOSIVE_PICKAXE",
+      "model": "fluffymachines:tools/upgraded_explosive_pickaxe"
+    },
+    {
+      "id": "PAXEL",
+      "model": "fluffymachines:tools/paxel"
+    },
+    {
+      "id": "SUPREME_TITANIUM_PICKAXE",
+      "model": "supreme:weapons/pickaxe/supreme_titanium_pickaxe"
+    },
+    {
+      "id": "SUPREME_AURUM_PICKAXE",
+      "model": "supreme:weapons/pickaxe/supreme_aurum_pickaxe"
+    },
+    {
+      "id": "SUPREME_ADAMANTIUM_PICKAXE",
+      "model": "supreme:weapons/pickaxe/supreme_adamantium_pickaxe"
+    },
+    {
+      "id": "SUPREME_PICKAXE_THORNIUM",
+      "model": "supreme:weapons/pickaxe/supreme_pickaxe_thornium"
+    },
+    {
+      "id": "SUPREME_PICKAXE_MAGIC",
+      "model": "supreme:weapons/pickaxe/supreme_pickaxe_magic"
+    },
+    {
+      "id": "SUPREME_PICKAXE_RARE",
+      "model": "supreme:weapons/pickaxe/supreme_pickaxe_rare"
+    },
+    {
+      "id": "SUPREME_PICKAXE_EPIC",
+      "model": "supreme:weapons/pickaxe/supreme_pickaxe_epic"
+    },
+    {
+      "id": "SUPREME_PICKAXE_LEGENDARY",
+      "model": "supreme:weapons/pickaxe/supreme_pickaxe_legendary"
+    },
+    {
+      "id": "SUPREME_PICKAXE_SUPREME",
+      "model": "supreme:weapons/pickaxe/supreme_pickaxe_supreme"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/diamond_pickaxe"
+  }
+}

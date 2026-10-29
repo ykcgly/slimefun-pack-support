@@ -1,0 +1,22 @@
+{
+  "base": "wooden_hoe",
+  "generated": true,
+  "entries": [
+    {
+      "id": "TREE_TAP",
+      "model": "slimy_tree_taps:treetap/tree_tap"
+    },
+    {
+      "id": "CROOK",
+      "model": "exotic_garden:misc/crook"
+    },
+    {
+      "id": "GN_WOODEN_SICKLE",
+      "model": "gastronomicon:tools/gn_wooden_sickle"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/wooden_hoe"
+  }
+}

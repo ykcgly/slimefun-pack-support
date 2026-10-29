@@ -1,0 +1,14 @@
+{
+  "base": "prismarine_shard",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_GUARDIAN_FIN",
+      "model": "gastronomicon:ingredient/gn_guardian_fin"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/prismarine_shard"
+  }
+}

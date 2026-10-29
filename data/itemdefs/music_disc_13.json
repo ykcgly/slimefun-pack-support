@@ -1,0 +1,42 @@
+{
+  "base": "music_disc_13",
+  "generated": true,
+  "entries": [
+    {
+      "id": "SUPREME_CARD_COAL",
+      "model": "supreme:machine_cards/card_coal"
+    },
+    {
+      "id": "SUPREME_CARD_IRON",
+      "model": "supreme:machine_cards/card_iron"
+    },
+    {
+      "id": "SUPREME_CARD_COPPER",
+      "model": "supreme:machine_cards/card_copper"
+    },
+    {
+      "id": "SUPREME_CARD_GOLD",
+      "model": "supreme:machine_cards/card_gold"
+    },
+    {
+      "id": "SUPREME_CARD_QUARTZ",
+      "model": "supreme:machine_cards/card_quartz"
+    },
+    {
+      "id": "SUPREME_CARD_QUARTZ_BLOCK",
+      "model": "supreme:machine_cards/card_quartz_block"
+    },
+    {
+      "id": "SUPREME_CARD_LAPIS",
+      "model": "supreme:machine_cards/card_lapis"
+    },
+    {
+      "id": "SUPREME_CARD_REDSTONE",
+      "model": "supreme:machine_cards/card_redstone"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/music_disc_13"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "base": "birch_sapling",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_CAULIFLOWER",
+      "model": "gastronomicon:ingredient/gn_cauliflower"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/birch_sapling"
+  }
+}

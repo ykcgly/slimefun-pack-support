@@ -1,0 +1,18 @@
+{
+  "base": "green_stained_glass",
+  "generated": true,
+  "entries": [
+    {
+      "id": "FOOD_FABRICATOR",
+      "model": "slimefun:slimefun/energy/food_fabricator"
+    },
+    {
+      "id": "FOOD_FABRICATOR_2",
+      "model": "slimefun:slimefun/energy/food_fabricator_2"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/green_stained_glass"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "base": "lapis_lazuli",
+  "generated": true,
+  "entries": [
+    {
+      "id": "QUARRY_OSCILLATOR_LAPIS_LAZULI",
+      "model": "infinityexpansion:materials/quarry_oscillator_lapis_lazuli"
+    }
+  ],
+  "tail": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "infinityexpansion2:oscillator_target": "LAPIS_LAZULI",
+        "slimefun:slimefun_item": "IE_OSCILLATOR_LAPIS_LAZULI"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "infinityexpansion2:oscillator_target": "LAPIS_LAZULI",
+          "slimefun:slimefun_item": "IE_OSCILLATOR"
+        }
+      },
+      "on_false": {
+        "type": "model",
+        "model": "item/lapis_lazuli"
+      },
+      "on_true": {
+        "type": "model",
+        "model": "infinityexpansion2:tools/oscillator_lapis_lazuli"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion2:tools/oscillator_lapis_lazuli"
+    }
+  }
+}

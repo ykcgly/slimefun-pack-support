@@ -1,0 +1,26 @@
+{
+  "base": "blue_stained_glass",
+  "generated": true,
+  "entries": [
+    {
+      "id": "ELECTRIC_DUST_WASHER",
+      "model": "slimefun:slimefun/energy/electric_dust_washer"
+    },
+    {
+      "id": "ELECTRIC_DUST_WASHER_2",
+      "model": "slimefun:slimefun/energy/electric_dust_washer_2"
+    },
+    {
+      "id": "ELECTRIC_DUST_WASHER_3",
+      "model": "slimefun:slimefun/energy/electric_dust_washer_3"
+    },
+    {
+      "id": "FIBER_OPTIC_GLASS",
+      "model": "slimefunwarfare:general/fiber_optic_glass"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/blue_stained_glass"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "base": "golden_axe",
+  "generated": true,
+  "entries": [
+    {
+      "id": "FLUFFY_WRENCH",
+      "model": "fluffymachines:wrenches/fluffy_wrench"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/golden_axe"
+  }
+}

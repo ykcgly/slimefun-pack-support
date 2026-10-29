@@ -1,0 +1,18 @@
+{
+  "base": "glass_bottle",
+  "generated": true,
+  "entries": [
+    {
+      "id": "JUICER",
+      "model": "slimefun:slimefun/basic_machines/juicer"
+    },
+    {
+      "id": "FLASK_OF_KNOWLEDGE",
+      "model": "slimefun:slimefun/magical_gadgets/flask_of_knowledge"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/glass_bottle"
+  }
+}

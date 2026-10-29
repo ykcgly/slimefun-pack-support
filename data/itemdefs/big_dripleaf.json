@@ -1,0 +1,14 @@
+{
+  "base": "big_dripleaf",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_SPINACH",
+      "model": "gastronomicon:ingredient/gn_spinach"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/big_dripleaf"
+  }
+}

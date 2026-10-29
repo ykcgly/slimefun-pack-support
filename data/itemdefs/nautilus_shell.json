@@ -1,0 +1,14 @@
+{
+  "base": "nautilus_shell",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_CLAM",
+      "model": "gastronomicon:ingredient/gn_clam"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/nautilus_shell"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "base": "netherite_hoe",
+  "generated": true,
+  "entries": [
+    {
+      "id": "GN_REINFORCED_SICKLE",
+      "model": "gastronomicon:tools/gn_reinforced_sickle"
+    },
+    {
+      "id": "IE_INFINITY_HOE",
+      "model": "infinityexpansion2:tools/infinity_hoe"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/netherite_hoe"
+  }
+}

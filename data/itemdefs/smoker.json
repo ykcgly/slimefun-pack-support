@@ -1,0 +1,26 @@
+{
+  "base": "smoker",
+  "generated": true,
+  "entries": [
+    {
+      "id": "AUTO_DRIER",
+      "model": "slimefun:slimefun/energy/auto_drier"
+    },
+    {
+      "id": "AUTO_BREWER",
+      "model": "slimefun:slimefun/energy/auto_brewer"
+    },
+    {
+      "id": "WARP_PAD",
+      "model": "fluffymachines:misc/warp_pad"
+    },
+    {
+      "id": "BIG_FLUFFY_BARREL",
+      "model": "fluffymachines:barrels/big_fluffy_barrel"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "block/smoker"
+  }
+}
