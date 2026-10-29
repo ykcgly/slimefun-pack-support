@@ -1,0 +1,244 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "GRASS_SEEDS"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "GN_RICE"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_QUINOA"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "GN_RYE_SEEDS"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "GN_SQUASH_SEEDS"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "GN_CUCUMBER_SEEDS"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "GN_CHILI_PEPPER_SEEDS"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "GN_LENTILS"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "GN_PEANUTS"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "GN_CAULIFLOWER_SEEDS"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "GN_CUMIN_SEEDS"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "slimefun:slimefun_item": "GN_CANTALOUPE_SEEDS"
+                            }
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": {
+                              "PublicBukkitValues": {
+                                "slimefun:slimefun_item": "GN_HONEYDEW_MELON_SEEDS"
+                              }
+                            },
+                            "on_false": {
+                              "type": "minecraft:condition",
+                              "property": "minecraft:component",
+                              "predicate": "minecraft:custom_data",
+                              "value": {
+                                "PublicBukkitValues": {
+                                  "slimefun:slimefun_item": "GN_SESAME_SEEDS"
+                                }
+                              },
+                              "on_false": {
+                                "type": "minecraft:condition",
+                                "property": "minecraft:component",
+                                "predicate": "minecraft:custom_data",
+                                "value": {
+                                  "PublicBukkitValues": {
+                                    "slimefun:slimefun_item": "GN_SALMON_ROE"
+                                  }
+                                },
+                                "on_false": {
+                                  "type": "minecraft:condition",
+                                  "property": "minecraft:component",
+                                  "predicate": "minecraft:custom_data",
+                                  "value": {
+                                    "PublicBukkitValues": {
+                                      "slimefun:slimefun_item": "CLT_MUSTARD_SEEDS"
+                                    }
+                                  },
+                                  "on_false": {
+                                    "type": "minecraft:condition",
+                                    "property": "minecraft:component",
+                                    "predicate": "minecraft:custom_data",
+                                    "value": {
+                                      "PublicBukkitValues": {
+                                        "slimefun:slimefun_item": "SUPREME_DUST_GLOW_INK"
+                                      }
+                                    },
+                                    "on_false": {
+                                      "type": "model",
+                                      "model": "item/pumpkin_seeds"
+                                    },
+                                    "on_true": {
+                                      "type": "model",
+                                      "model": "supreme:components/supreme_dust_glow_ink"
+                                    }
+                                  },
+                                  "on_true": {
+                                    "type": "model",
+                                    "model": "cultivation:products/clt_mustard_seeds"
+                                  }
+                                },
+                                "on_true": {
+                                  "type": "model",
+                                  "model": "gastronomicon:ingredient/gn_salmon_roe"
+                                }
+                              },
+                              "on_true": {
+                                "type": "model",
+                                "model": "gastronomicon:ingredient/gn_sesame_seeds"
+                              }
+                            },
+                            "on_true": {
+                              "type": "model",
+                              "model": "gastronomicon:ingredient/gn_honeydew_melon_seeds"
+                            }
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "gastronomicon:ingredient/gn_cantaloupe_seeds"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "gastronomicon:ingredient/gn_cumin_seeds"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "gastronomicon:ingredient/gn_cauliflower_seeds"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "gastronomicon:ingredient/gn_peanuts"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "gastronomicon:ingredient/gn_lentils"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "gastronomicon:ingredient/gn_chili_pepper_seeds"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "gastronomicon:ingredient/gn_cucumber_seeds"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "gastronomicon:ingredient/gn_squash_seeds"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "gastronomicon:ingredient/gn_rye_seeds"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "gastronomicon:ingredient/gn_quinoa"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "gastronomicon:ingredient/gn_rice"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "exotic_garden:fruits/grass_seeds"
+    }
+  }
+}

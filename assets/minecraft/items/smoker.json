@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "AUTO_DRIER"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "AUTO_BREWER"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "WARP_PAD"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "BIG_FLUFFY_BARREL"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "block/smoker"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "fluffymachines:barrels/big_fluffy_barrel"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "fluffymachines:misc/warp_pad"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/energy/auto_brewer"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/energy/auto_drier"
+    }
+  }
+}

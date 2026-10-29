@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "_UI_PREVIOUS_INACTIVE"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "_UI_NEXT_INACTIVE"
+        }
+      },
+      "on_false": {
+        "type": "model",
+        "model": "item/black_stained_glass_pane"
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/gui/_ui_next_inactive"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/gui/_ui_previous_inactive"
+    }
+  },
+  "oversized_in_gui": true
+}

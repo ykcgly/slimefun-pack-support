@@ -1,0 +1,76 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "CHRISTMAS_FRUIT_CAKE"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "CHRISTMAS_APPLE_PIE"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CHRISTMAS_CAKE"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "CARROT_PIE"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "EASTER_APPLE_PIE"
+              }
+            },
+            "on_false": {
+              "type": "model",
+              "model": "item/pumpkin_pie"
+            },
+            "on_true": {
+              "type": "model",
+              "model": "slimefun:slimefun/easter/easter_apple_pie"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimefun:slimefun/easter/carrot_pie"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/christmas/christmas_cake"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/christmas/christmas_apple_pie"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/christmas/christmas_fruit_cake"
+    }
+  }
+}

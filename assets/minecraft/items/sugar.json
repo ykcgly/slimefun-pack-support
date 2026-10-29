@@ -1,0 +1,258 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "MAGIC_SUGAR"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "TIN_DUST"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SILVER_DUST"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "ALUMINUM_DUST"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "ZINC_DUST"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "MAGNESIUM_DUST"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "WHEAT_FLOUR"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "SALT"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "MAGNESIUM_SALT"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "CORNMEAL"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "KOUXIANGTANG"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "slimefun:slimefun_item": "WATER_SUGAR"
+                            }
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": {
+                              "PublicBukkitValues": {
+                                "slimefun:slimefun_item": "OSMIUM_DUST"
+                              }
+                            },
+                            "on_false": {
+                              "type": "minecraft:condition",
+                              "property": "minecraft:component",
+                              "predicate": "minecraft:custom_data",
+                              "value": {
+                                "PublicBukkitValues": {
+                                  "slimefun:slimefun_item": "GN_COOKED_RICE"
+                                }
+                              },
+                              "on_false": {
+                                "type": "minecraft:condition",
+                                "property": "minecraft:component",
+                                "predicate": "minecraft:custom_data",
+                                "value": {
+                                  "PublicBukkitValues": {
+                                    "slimefun:slimefun_item": "GN_BARLEY_FLOUR"
+                                  }
+                                },
+                                "on_false": {
+                                  "type": "minecraft:condition",
+                                  "property": "minecraft:component",
+                                  "predicate": "minecraft:custom_data",
+                                  "value": {
+                                    "PublicBukkitValues": {
+                                      "slimefun:slimefun_item": "GN_SORGHUM_FLOUR"
+                                    }
+                                  },
+                                  "on_false": {
+                                    "type": "minecraft:condition",
+                                    "property": "minecraft:component",
+                                    "predicate": "minecraft:custom_data",
+                                    "value": {
+                                      "PublicBukkitValues": {
+                                        "slimefun:slimefun_item": "GN_RYE_FLOUR"
+                                      }
+                                    },
+                                    "on_false": {
+                                      "type": "minecraft:condition",
+                                      "property": "minecraft:component",
+                                      "predicate": "minecraft:custom_data",
+                                      "value": {
+                                        "PublicBukkitValues": {
+                                          "slimefun:slimefun_item": "GN_TAPIOCA_STARCH"
+                                        }
+                                      },
+                                      "on_false": {
+                                        "type": "model",
+                                        "model": "item/sugar"
+                                      },
+                                      "on_true": {
+                                        "type": "model",
+                                        "model": "gastronomicon:food/gn_tapioca_starch"
+                                      }
+                                    },
+                                    "on_true": {
+                                      "type": "model",
+                                      "model": "gastronomicon:food/gn_rye_flour"
+                                    }
+                                  },
+                                  "on_true": {
+                                    "type": "model",
+                                    "model": "gastronomicon:food/gn_sorghum_flour"
+                                  }
+                                },
+                                "on_true": {
+                                  "type": "model",
+                                  "model": "gastronomicon:food/gn_barley_flour"
+                                }
+                              },
+                              "on_true": {
+                                "type": "model",
+                                "model": "gastronomicon:food/gn_cooked_rice"
+                              }
+                            },
+                            "on_true": {
+                              "type": "model",
+                              "model": "slimefunwarfare:resources/osmium_dust"
+                            }
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "bump:magical_items/water_sugar"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "bump:foods/kouxiangtang"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "exotic_garden:misc/cornmeal"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "slimefun:slimefun/resources/valuables/magnesium_salt"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "slimefun:slimefun/miscellaneous/salt"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "slimefun:slimefun/miscellaneous/wheat_flour"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "slimefun:slimefun/resources/dusts/magnesium_dust"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "slimefun:slimefun/resources/dusts/zinc_dust"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimefun:slimefun/resources/dusts/aluminum_dust"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/resources/dusts/silver_dust"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/resources/dusts/tin_dust"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/food/magic_sugar"
+    }
+  }
+}

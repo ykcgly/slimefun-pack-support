@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "IE__UI_IR_NEED_VOID"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "IE__UI_IR_NEED_INFINITY"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE__UI_ISR_NEED"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "IE__UI_NO_POWER"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/red_stained_glass_pane"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "infinityexpansion2:icons/ui_no_power"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "infinityexpansion2:icons/ui_isr_need"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "infinityexpansion2:icons/ui_ir_need_infinity"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion2:icons/ui_ir_need_void"
+    }
+  }
+}

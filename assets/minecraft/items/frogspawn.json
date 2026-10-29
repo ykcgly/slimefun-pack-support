@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "CLT_GREEN_BEANS"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "item/frogspawn"
+    },
+    "on_true": {
+      "type": "model",
+      "model": "cultivation:products/clt_green_beans"
+    }
+  }
+}

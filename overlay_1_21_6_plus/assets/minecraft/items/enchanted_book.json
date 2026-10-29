@@ -1,0 +1,91 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_guide_mode": "SURVIVAL_MODE"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_guide_mode": "CHEAT_MODE"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "_UI_BACK"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "TOME_OF_KNOWLEDGE_SHARING"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "ENDER_FLAME"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "IE_ENDER_FLAME"
+                }
+              },
+              "on_false": {
+                "type": "model",
+                "model": "item/enchanted_book"
+              },
+              "on_true": {
+                "type": "model",
+                "model": "infinityexpansion2:tools/ender_flame"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "infinityexpansion:materials/ender_flame"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimefun:slimefun/magical_gadgets/tome_of_knowledge_sharing"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/gui/_ui_back"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/gui/slimefun_cheat"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/gui/slimefun_guide"
+    }
+  },
+  "oversized_in_gui": true
+}

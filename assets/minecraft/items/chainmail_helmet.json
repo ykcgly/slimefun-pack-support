@@ -1,0 +1,146 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "ENDER_HELMET"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "SLIME_HELMET"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GLOWSTONE_HELMET"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "CACTUS_HELMET"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "SCUBA_HELMET"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "NIGHT_VISION_GOGGLES"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "ELYTRA_CAP"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "RAINBOW_HELMET"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "COPPER_HELMET"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "GN_CHEFS_HAT"
+                        }
+                      },
+                      "on_false": {
+                        "type": "model",
+                        "model": "item/chainmail_helmet"
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "gastronomicon:tools/gn_chefs_hat"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "extra_gear:armor/copper/copper_helmet"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_helmet"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "slimefun:slimefun/magical_armor/elytra_cap/elytra_cap"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "slimefun:slimefun/technical_gadgets/night_vision_goggles"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_helmet"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimefun:slimefun/armor/cactus_armor/cactus_helmet"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_helmet"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/slime_armor/slime_helmet"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/magical_armor/ender_armor/ender_helmet"
+    }
+  }
+}

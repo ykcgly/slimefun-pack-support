@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "IE_ULTIMATE_STEW"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "item/suspicious_stew"
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion2:food/ultimate_stew"
+    }
+  }
+}

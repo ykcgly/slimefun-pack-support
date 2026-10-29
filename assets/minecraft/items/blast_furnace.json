@@ -1,0 +1,76 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "MAKESHIFT_SMELTERY"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "CRANK_GENERATOR"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "FOUNDRY"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "GENERATOR_CORE"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "SUPREHEATED_FURNACE"
+              }
+            },
+            "on_false": {
+              "type": "model",
+              "model": "block/blast_furnace"
+            },
+            "on_true": {
+              "type": "model",
+              "model": "fluffymachines:multiblocks/superheated_furnace"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "fluffymachines:generators/generator_core"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "fluffymachines:multiblocks/foundry"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "fluffymachines:generators/crank_generator"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/basic_machines/makeshift_smeltery"
+    }
+  }
+}

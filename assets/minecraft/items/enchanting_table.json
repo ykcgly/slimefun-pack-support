@@ -1,0 +1,188 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "ANCIENT_ALTAR"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "AUTO_ENCHANTER"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "AUTO_DISENCHANTER"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "AUTO_ENCHANTER_2"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "AUTO_DISENCHANTER_2"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "ADVANCED_ENCHANTER"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "ADVANCED_DISENCHANTER"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "INFINITY_ENCHANTER"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "INFINITY_DISENCHANTER"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "IE_ADVANCED_ENCHANTER"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "IE_INFINITY_ENCHANTER"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "slimefun:slimefun_item": "IE_ADVANCED_DISENCHANTER"
+                            }
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": {
+                              "PublicBukkitValues": {
+                                "slimefun:slimefun_item": "IE_INFINITY_DISENCHANTER"
+                              }
+                            },
+                            "on_false": {
+                              "type": "model",
+                              "model": "block/enchanting_table"
+                            },
+                            "on_true": {
+                              "type": "model",
+                              "model": "infinityexpansion2:sf_expansion/infinity_disenchanter"
+                            }
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "infinityexpansion2:sf_expansion/advanced_disenchanter"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "infinityexpansion2:sf_expansion/infinity_enchanter"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "infinityexpansion2:sf_expansion/advanced_enchanter"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "infinityexpansion:machines/infinity_disenchanter"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "infinityexpansion:machines/infinity_enchanter"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "infinityexpansion:machines/advanced_disenchanter"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "infinityexpansion:machines/advanced_enchanter"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "slimefun:slimefun/energy/auto_disenchanter_2"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimefun:slimefun/energy/auto_enchanter_2"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/energy/auto_disenchanter"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/energy/auto_enchanter"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/magical_gadgets/ancient_altar"
+    }
+  }
+}

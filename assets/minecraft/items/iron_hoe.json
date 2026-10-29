@@ -1,0 +1,76 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "REINFORCED_TREE_TAP"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "SIMPLE_WRENCH"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SCYTHE"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "GN_PEELER"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "GN_STEEL_SICKLE"
+              }
+            },
+            "on_false": {
+              "type": "model",
+              "model": "item/iron_hoe"
+            },
+            "on_true": {
+              "type": "model",
+              "model": "gastronomicon:tools/gn_steel_sickle"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "gastronomicon:tools/gn_peeler"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "fluffymachines:tools/scythe"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "simpleutils:simple_wrench"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimy_tree_taps:treetap/reinforced_tree_tap"
+    }
+  }
+}

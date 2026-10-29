@@ -1,0 +1,34 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "RAINBOW_WOOL"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "RAINBOW_WOOL_XMAS"
+        }
+      },
+      "on_false": {
+        "type": "model",
+        "model": "block/white_wool"
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/christmas/rainbow_wool_xmas"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/magical_gadgets/rainbow_wool"
+    }
+  }
+}

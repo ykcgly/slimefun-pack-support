@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "OSMIUM_METEOR"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "block/iron_ore"
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefunwarfare:resources/osmium_meteor"
+    }
+  }
+}

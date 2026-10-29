@@ -1,0 +1,34 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "PORK_JERKY"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "GN_COOKED_SQUID"
+        }
+      },
+      "on_false": {
+        "type": "model",
+        "model": "item/cooked_porkchop"
+      },
+      "on_true": {
+        "type": "model",
+        "model": "gastronomicon:ingredient/gn_cooked_squid"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/food/pork_jerky"
+    }
+  }
+}

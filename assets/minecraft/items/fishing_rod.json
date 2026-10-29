@@ -1,0 +1,115 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "infinityexpansion:strainer_speed": 1,
+        "slimefun:slimefun_item": "BASIC_STRAINER"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "infinityexpansion:strainer_speed": 4,
+          "slimefun:slimefun_item": "ADVANCED_STRAINER"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "infinityexpansion:strainer_speed": 20,
+            "slimefun:slimefun_item": "REINFORCED_STRAINER"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "IE_STRAINER_1"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "IE_STRAINER_2"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "IE_STRAINER_3"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "IE__UI_ANY_STRAINER"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:fishing_rod/cast",
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/fishing_rod"
+                  },
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/fishing_rod_cast"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "infinityexpansion2:icons/ui_any_strainer"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "infinityexpansion2:tools/strainer_3"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "infinityexpansion2:tools/strainer_2"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "infinityexpansion2:tools/strainer_1"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "infinityexpansion:tools/strainer_3"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "infinityexpansion:tools/strainer_2"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion:tools/strainer_1"
+    }
+  }
+}

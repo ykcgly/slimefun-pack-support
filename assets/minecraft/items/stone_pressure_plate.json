@@ -1,0 +1,48 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "GPS_ACTIVATION_DEVICE_SHARED"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "GPS_ACTIVATION_DEVICE_PERSONAL"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELEVATOR_PLATE"
+          }
+        },
+        "on_false": {
+          "type": "model",
+          "model": "block/stone_pressure_plate"
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/gps/elevator_plate"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/gps/gps_activation_device_personal"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/gps/gps_activation_device_shared"
+    }
+  }
+}

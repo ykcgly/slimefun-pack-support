@@ -1,0 +1,34 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "CELESTIAL_PANEL"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "IE_SOLAR_PANEL_3"
+        }
+      },
+      "on_false": {
+        "type": "model",
+        "model": "block/yellow_glazed_terracotta"
+      },
+      "on_true": {
+        "type": "model",
+        "model": "infinityexpansion2:generators/solar_panel_3"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion:machines/solar_panel_3"
+    }
+  }
+}

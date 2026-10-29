@@ -1,0 +1,90 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "NUGGET_CAST_FONDNESS"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "NUGGET_CAST_DEVOTION"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_PASSION"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "NUGGET_CAST_LOVE"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "BLOCK_CAST_LOVE"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "SUPREME_SYNTHETIC_RUBY"
+                }
+              },
+              "on_false": {
+                "type": "model",
+                "model": "item/pink_dye"
+              },
+              "on_true": {
+                "type": "model",
+                "model": "supreme:components/supreme_synthetic_ruby"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "slimetinker:materials/blocks/block_cast_love"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimetinker:materials/nuggets/nugget_cast_love"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_passion"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimetinker:materials/nuggets/nugget_cast_devotion"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimetinker:materials/nuggets/nugget_cast_fondness"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "NETHERITE_SINGULARITY"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "NDFEB_ALLOY_BLOCK"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_VOID_BLOCK"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "IE_NETHERITE_SINGULARITY"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "SUPREME_ADAMANTIUM_PLATE"
+              }
+            },
+            "on_false": {
+              "type": "model",
+              "model": "block/netherite_block"
+            },
+            "on_true": {
+              "type": "model",
+              "model": "supreme:components/supreme_adamantium_plate"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "infinityexpansion2:singularities/netherite_singularity"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "infinityexpansion2:materials/void_block"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefunwarfare:general/ndfeb_alloy_block"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion:singularities/netherite_singularity"
+    }
+  }
+}

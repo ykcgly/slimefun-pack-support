@@ -1,0 +1,48 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "GN_SCRAMBLED_EGGS"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "GN_CUSTARD"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CLT_TURMERIC"
+          }
+        },
+        "on_false": {
+          "type": "model",
+          "model": "item/yellow_dye"
+        },
+        "on_true": {
+          "type": "model",
+          "model": "cultivation:products/clt_turmeric"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "gastronomicon:food/gn_custard"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "gastronomicon:food/gn_scrambled_eggs"
+    }
+  }
+}

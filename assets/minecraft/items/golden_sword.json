@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "BLADE_OF_VAMPIRES"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "GILDED_IRON_SWORD"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GUARD_SWORD"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "SKY_SWORD"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/golden_sword"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "bump:magical_weapons/sky_sword"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "bump:magical_weapons/guard_sword"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "extra_gear:swords/gilded_iron_sword"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/weapons/blade_of_vampires"
+    }
+  }
+}

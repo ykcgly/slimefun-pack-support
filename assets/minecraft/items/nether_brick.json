@@ -1,0 +1,48 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "MAGNONIUM"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "LARGE_PORTABLE_CHARGER"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_MAGNONIUM"
+          }
+        },
+        "on_false": {
+          "type": "model",
+          "model": "item/nether_brick"
+        },
+        "on_true": {
+          "type": "model",
+          "model": "infinityexpansion2:materials/magnonium"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "fluffymachines:portable_chargers/large_portable_charger"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion:materials/magnonium"
+    }
+  }
+}

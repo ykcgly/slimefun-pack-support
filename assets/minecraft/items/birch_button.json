@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "GN_TOFU"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "block/birch_button_inventory"
+    },
+    "on_true": {
+      "type": "model",
+      "model": "gastronomicon:food/gn_tofu"
+    }
+  }
+}

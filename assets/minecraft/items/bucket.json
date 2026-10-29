@@ -1,0 +1,48 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "STEEL_THRUSTER"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "GN_BLENDER"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_STEEL_BOWL"
+          }
+        },
+        "on_false": {
+          "type": "model",
+          "model": "item/bucket"
+        },
+        "on_true": {
+          "type": "model",
+          "model": "gastronomicon:tools/gn_steel_bowl"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "gastronomicon:tools/gn_blender"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/technical_components/steel_thruster"
+    }
+  }
+}

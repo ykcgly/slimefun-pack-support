@@ -1,0 +1,104 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "ENDER_LEGGINGS"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "SLIME_LEGGINGS"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GLOWSTONE_LEGGINGS"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "CACTUS_LEGGINGS"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "HAZMAT_LEGGINGS"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "RAINBOW_LEGGINGS"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "COPPER_LEGGINGS"
+                  }
+                },
+                "on_false": {
+                  "type": "model",
+                  "model": "item/chainmail_leggings"
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "extra_gear:armor/copper/copper_leggings"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_leggings"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_leggings"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimefun:slimefun/armor/cactus_armor/cactus_leggings"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_leggings"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/slime_armor/slime_leggings"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/magical_armor/ender_armor/ender_leggings"
+    }
+  }
+}

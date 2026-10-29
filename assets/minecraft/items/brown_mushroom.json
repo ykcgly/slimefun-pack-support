@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "GN_TRUFFLE"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "GN_ENOKI_MUSHROOMS"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_KING_OYSTER_MUSHROOM"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "GN_BUTTON_MUSHROOM"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/brown_mushroom"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "gastronomicon:ingredient/gn_button_mushroom"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "gastronomicon:ingredient/gn_king_oyster_mushroom"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "gastronomicon:ingredient/gn_enoki_mushrooms"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "gastronomicon:ingredient/gn_truffle"
+    }
+  }
+}

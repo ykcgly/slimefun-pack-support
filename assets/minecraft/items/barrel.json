@@ -1,0 +1,48 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "GN_FERMENTER"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "GN_LARGE_FERMENTER"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "MEDIUM_FLUFFY_BARREL"
+          }
+        },
+        "on_false": {
+          "type": "model",
+          "model": "block/barrel"
+        },
+        "on_true": {
+          "type": "model",
+          "model": "fluffymachines:barrels/medium_fluffy_barrel"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "gastronomicon:basic_machines/gn_large_fermenter"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "gastronomicon:basic_machines/gn_fermenter"
+    }
+  }
+}

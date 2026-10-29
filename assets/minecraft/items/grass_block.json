@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "IE__UI_WORLD_NORMAL"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/grass_block",
+      "tints": [
+        {
+          "type": "minecraft:grass",
+          "downfall": 1.0,
+          "temperature": 0.5
+        }
+      ]
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion2:icons/ui_world_normal"
+    }
+  }
+}

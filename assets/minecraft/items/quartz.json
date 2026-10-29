@@ -1,0 +1,64 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "QUARRY_OSCILLATOR_QUARTZ"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "BORAX"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "infinityexpansion2:oscillator_target": "QUARTZ",
+            "slimefun:slimefun_item": "IE_OSCILLATOR_QUARTZ"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "infinityexpansion2:oscillator_target": "QUARTZ",
+              "slimefun:slimefun_item": "IE_OSCILLATOR"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/quartz"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "infinityexpansion2:tools/oscillator_quartz"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "infinityexpansion2:tools/oscillator_quartz"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefunwarfare:resources/borax"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion:materials/quarry_oscillator_quartz"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "TREE_TAP"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "CROOK"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_WOODEN_SICKLE"
+          }
+        },
+        "on_false": {
+          "type": "model",
+          "model": "item/wooden_hoe"
+        },
+        "on_true": {
+          "type": "model",
+          "model": "gastronomicon:tools/gn_wooden_sickle"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "exotic_garden:misc/crook"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimy_tree_taps:treetap/tree_tap"
+    }
+  }
+}

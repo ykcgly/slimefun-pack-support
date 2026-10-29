@@ -1,0 +1,132 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "SUPREME_CARD_IRON_DUST"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "SUPREME_CARD_LEAD_DUST"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_CARD_GOLD_DUST"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "SUPREME_CARD_COPPER_DUST"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "SUPREME_CARD_MAGNESIUM_DUST"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "SUPREME_CARD_ALUMINUM_DUST"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "SUPREME_CARD_SILVER_DUST"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "SUPREME_CARD_TIN_DUST"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "SUPREME_CARD_ZINC_DUST"
+                      }
+                    },
+                    "on_false": {
+                      "type": "model",
+                      "model": "item/music_disc_mellohi"
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "supreme:machine_cards/card_zinc_dust"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "supreme:machine_cards/card_tin_dust"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "supreme:machine_cards/card_silver_dust"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "supreme:machine_cards/card_aluminum_dust"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "supreme:machine_cards/card_magnesium_dust"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "supreme:machine_cards/card_copper_dust"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "supreme:machine_cards/card_gold_dust"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "supreme:machine_cards/card_lead_dust"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "supreme:machine_cards/card_iron_dust"
+    }
+  }
+}

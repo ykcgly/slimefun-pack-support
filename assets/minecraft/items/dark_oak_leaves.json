@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "CLT_MARJORAM"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "block/dark_oak_leaves",
+      "tints": [
+        {
+          "type": "minecraft:constant",
+          "value": -12012264
+        }
+      ]
+    },
+    "on_true": {
+      "type": "model",
+      "model": "cultivation:products/clt_marjoram"
+    }
+  }
+}

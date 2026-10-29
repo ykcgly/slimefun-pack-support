@@ -1,0 +1,314 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "VOID_BIT"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "NUGGET_CAST_LEAD"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_SILVER"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "NUGGET_CAST_ALUMINUM"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "NUGGET_CAST_MAGNESIUM"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "NUGGET_CAST_ZINC"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "NUGGET_CAST_TIN"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "NUGGET_CAST_STEEL"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "NUGGET_CAST_DAMASCUS_STTEL"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "NUGGET_CAST_DURALIUM"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "NUGGET_CAST_HARD_METAL"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "slimefun:slimefun_item": "NUGGET_CAST_SOLDER"
+                            }
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": {
+                              "PublicBukkitValues": {
+                                "slimefun:slimefun_item": "NUGGET_CAST_BILLON"
+                              }
+                            },
+                            "on_false": {
+                              "type": "minecraft:condition",
+                              "property": "minecraft:component",
+                              "predicate": "minecraft:custom_data",
+                              "value": {
+                                "PublicBukkitValues": {
+                                  "slimefun:slimefun_item": "NUGGET_CAST_NICKEL"
+                                }
+                              },
+                              "on_false": {
+                                "type": "minecraft:condition",
+                                "property": "minecraft:component",
+                                "predicate": "minecraft:custom_data",
+                                "value": {
+                                  "PublicBukkitValues": {
+                                    "slimefun:slimefun_item": "NUGGET_CAST_COBALT"
+                                  }
+                                },
+                                "on_false": {
+                                  "type": "minecraft:condition",
+                                  "property": "minecraft:component",
+                                  "predicate": "minecraft:custom_data",
+                                  "value": {
+                                    "PublicBukkitValues": {
+                                      "slimefun:slimefun_item": "NUGGET_CAST_REINFORCED"
+                                    }
+                                  },
+                                  "on_false": {
+                                    "type": "minecraft:condition",
+                                    "property": "minecraft:component",
+                                    "predicate": "minecraft:custom_data",
+                                    "value": {
+                                      "PublicBukkitValues": {
+                                        "slimefun:slimefun_item": "NUGGET_CAST_FERROSILICON"
+                                      }
+                                    },
+                                    "on_false": {
+                                      "type": "minecraft:condition",
+                                      "property": "minecraft:component",
+                                      "predicate": "minecraft:custom_data",
+                                      "value": {
+                                        "PublicBukkitValues": {
+                                          "slimefun:slimefun_item": "NUGGET_CAST_SEFIRITE"
+                                        }
+                                      },
+                                      "on_false": {
+                                        "type": "minecraft:condition",
+                                        "property": "minecraft:component",
+                                        "predicate": "minecraft:custom_data",
+                                        "value": {
+                                          "PublicBukkitValues": {
+                                            "slimefun:slimefun_item": "NUGGET_CAST_CRINGLEIUM"
+                                          }
+                                        },
+                                        "on_false": {
+                                          "type": "minecraft:condition",
+                                          "property": "minecraft:component",
+                                          "predicate": "minecraft:custom_data",
+                                          "value": {
+                                            "PublicBukkitValues": {
+                                              "slimefun:slimefun_item": "NUGGET_CAST_SMITHIUM"
+                                            }
+                                          },
+                                          "on_false": {
+                                            "type": "minecraft:condition",
+                                            "property": "minecraft:component",
+                                            "predicate": "minecraft:custom_data",
+                                            "value": {
+                                              "PublicBukkitValues": {
+                                                "slimefun:slimefun_item": "IE_VOID_BIT"
+                                              }
+                                            },
+                                            "on_false": {
+                                              "type": "minecraft:condition",
+                                              "property": "minecraft:component",
+                                              "predicate": "minecraft:custom_data",
+                                              "value": {
+                                                "PublicBukkitValues": {
+                                                  "slimefun:slimefun_item": "SUPREME_THORNIUM_BIT"
+                                                }
+                                              },
+                                              "on_false": {
+                                                "type": "model",
+                                                "model": "item/iron_nugget"
+                                              },
+                                              "on_true": {
+                                                "type": "model",
+                                                "model": "supreme:components/supreme_thornium_bit"
+                                              }
+                                            },
+                                            "on_true": {
+                                              "type": "model",
+                                              "model": "infinityexpansion2:materials/void_bit"
+                                            }
+                                          },
+                                          "on_true": {
+                                            "type": "model",
+                                            "model": "slimetinker:materials/nuggets/nugget_cast_smithium"
+                                          }
+                                        },
+                                        "on_true": {
+                                          "type": "model",
+                                          "model": "slimetinker:materials/nuggets/nugget_cast_cringleium"
+                                        }
+                                      },
+                                      "on_true": {
+                                        "type": "model",
+                                        "model": "slimetinker:materials/nuggets/nugget_cast_sefirite"
+                                      }
+                                    },
+                                    "on_true": {
+                                      "type": "model",
+                                      "model": "slimetinker:materials/nuggets/nugget_cast_ferrosilicon"
+                                    }
+                                  },
+                                  "on_true": {
+                                    "type": "model",
+                                    "model": "slimetinker:materials/nuggets/nugget_cast_reinforced"
+                                  }
+                                },
+                                "on_true": {
+                                  "type": "model",
+                                  "model": "slimetinker:materials/nuggets/nugget_cast_cobalt"
+                                }
+                              },
+                              "on_true": {
+                                "type": "model",
+                                "model": "slimetinker:materials/nuggets/nugget_cast_nickel"
+                              }
+                            },
+                            "on_true": {
+                              "type": "model",
+                              "model": "slimetinker:materials/nuggets/nugget_cast_billon"
+                            }
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "slimetinker:materials/nuggets/nugget_cast_solder"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "slimetinker:materials/nuggets/nugget_cast_hard_metal"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "slimetinker:materials/nuggets/nugget_cast_duralium"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "slimetinker:materials/nuggets/nugget_cast_damascus_steel"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "slimetinker:materials/nuggets/nugget_cast_steel"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "slimetinker:materials/nuggets/nugget_cast_tin"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "slimetinker:materials/nuggets/nugget_cast_zinc"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "slimetinker:materials/nuggets/nugget_cast_magnesium"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimetinker:materials/nuggets/nugget_cast_aluminum"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_silver"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimetinker:materials/nuggets/nugget_cast_lead"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion:materials/void_bit"
+    }
+  }
+}

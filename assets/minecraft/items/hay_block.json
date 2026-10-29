@@ -1,0 +1,48 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "AUTO_BREEDER"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "ANIMAL_GROWTH_ACCELERATOR"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "PRODUCE_COLLECTOR"
+          }
+        },
+        "on_false": {
+          "type": "model",
+          "model": "block/hay_block"
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/energy/produce_collector"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/energy/animal_growth_accelerator"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/energy/auto_breeder"
+    }
+  }
+}

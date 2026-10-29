@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "FLUFFY_WRENCH"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "item/golden_axe"
+    },
+    "on_true": {
+      "type": "model",
+      "model": "fluffymachines:wrenches/fluffy_wrench"
+    }
+  }
+}

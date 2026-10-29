@@ -1,0 +1,148 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "SYNTHETIC_DIAMOND"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "QUARRY_OSCILLATOR_DIAMOND"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "VEIN_MINER_RUNE"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "INFINITE_MACHINE_CIRCUIT"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "MAKE"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "CPU"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "IE_INFINITY_MACHINE_CIRCUIT"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "infinityexpansion2:oscillator_target": "DIAMOND",
+                      "slimefun:slimefun_item": "IE_OSCILLATOR_DIAMOND"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "infinityexpansion2:oscillator_target": "DIAMOND",
+                        "slimefun:slimefun_item": "IE_OSCILLATOR"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "IE_VEIN_MINER_RUNE"
+                        }
+                      },
+                      "on_false": {
+                        "type": "model",
+                        "model": "item/diamond"
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "infinityexpansion2:tools/vein_miner_rune"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "infinityexpansion2:tools/oscillator_diamond"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "infinityexpansion2:tools/oscillator_diamond"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "infinityexpansion2:materials/infinity_machine_circuit"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "bump:magical_items/cpu"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "bump:magical_items/make"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "infinityexpansion:materials/infinite_machine_circuit"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "infinityexpansion:materials/vein_miner_rune"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "infinityexpansion:materials/quarry_oscillator_diamond"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/resources/valuables/synthetic_diamond"
+    }
+  }
+}

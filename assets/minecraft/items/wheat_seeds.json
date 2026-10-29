@@ -1,0 +1,48 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "GN_BARLEY_SEEDS"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "GN_PEAS"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE__UI_CHANCE"
+          }
+        },
+        "on_false": {
+          "type": "model",
+          "model": "item/wheat_seeds"
+        },
+        "on_true": {
+          "type": "model",
+          "model": "infinityexpansion2:icons/ui_chance"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "gastronomicon:ingredient/gn_peas"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "gastronomicon:ingredient/gn_barley_seeds"
+    }
+  }
+}

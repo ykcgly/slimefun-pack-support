@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "ELECTRIC_GOLD_PAN"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "ELECTRIC_GOLD_PAN_2"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELECTRIC_GOLD_PAN_3"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "TREE_GROWTH_ACCELERATOR"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "block/brown_terracotta"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimefun:slimefun/energy/tree_growth_accelerator"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/energy/electric_gold_pan3"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/energy/electric_gold_pan2"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/energy/electric_gold_pan"
+    }
+  }
+}

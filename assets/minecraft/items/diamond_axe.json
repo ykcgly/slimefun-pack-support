@@ -1,0 +1,202 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "LUMBER_AXE"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "SOULBOUND_AXE"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "REINFORCED_FLUFFY_WRENCH"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "UPGRADED_LUMBER_AXE"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "PAXEL"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "SUPREME_TITANIUM_AXE"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "SUPREME_AURUM_AXE"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "SUPREME_ADAMANTIUM_AXE"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "SUPREME_AXE_THORNIUM"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "SUPREME_AXE_MAGIC"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "SUPREME_AXE_RARE"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "slimefun:slimefun_item": "SUPREME_AXE_EPIC"
+                            }
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": {
+                              "PublicBukkitValues": {
+                                "slimefun:slimefun_item": "SUPREME_AXE_LEGENDARY"
+                              }
+                            },
+                            "on_false": {
+                              "type": "minecraft:condition",
+                              "property": "minecraft:component",
+                              "predicate": "minecraft:custom_data",
+                              "value": {
+                                "PublicBukkitValues": {
+                                  "slimefun:slimefun_item": "SUPREME_AXE_SUPREME"
+                                }
+                              },
+                              "on_false": {
+                                "type": "model",
+                                "model": "item/diamond_axe"
+                              },
+                              "on_true": {
+                                "type": "model",
+                                "model": "supreme:weapons/axe/supreme_axe_supreme"
+                              }
+                            },
+                            "on_true": {
+                              "type": "model",
+                              "model": "supreme:weapons/axe/supreme_axe_legendary"
+                            }
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "supreme:weapons/axe/supreme_axe_epic"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "supreme:weapons/axe/supreme_axe_rare"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "supreme:weapons/axe/supreme_axe_magic"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "supreme:weapons/axe/supreme_axe_thornium"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "supreme:weapons/axe/supreme_adamantium_axe"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "supreme:weapons/axe/supreme_aurum_axe"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "supreme:weapons/axe/supreme_titanium_axe"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "fluffymachines:tools/paxel"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "fluffymachines:tools/upgraded_lumber_axe"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "fluffymachines:wrenches/reinforced_fluffy_wrench"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/tools/soulbound_axe"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/tools/lumber_axe"
+    }
+  }
+}

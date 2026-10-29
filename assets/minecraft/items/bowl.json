@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "GOLD_PAN"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "NETHER_GOLD_PAN"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "AUTOMATED_PANNING_MACHINE"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "GN_MORTAR_AND_PESTLE"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/bowl"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "gastronomicon:tools/gn_mortar_and_pestle"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/basic_machines/automated_panning_machine"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/tools/nether_gold_pan"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/tools/gold_pan"
+    }
+  }
+}

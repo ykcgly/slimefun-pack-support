@@ -1,0 +1,188 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "EXPLOSIVE_SHOVEL"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "SOULBOUND_SHOVEL"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "UPGRADED_EXPLOSIVE_SHOVEL"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "PAXEL"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "SUPREME_TITANIUM_SHOVEL"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "SUPREME_AURUM_SHOVEL"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "SUPREME_ADAMANTIUM_SHOVEL"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "SUPREME_SHOVEL_THORNIUM"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "SUPREME_SHOVEL_MAGIC"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "SUPREME_SHOVEL_RARE"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "SUPREME_SHOVEL_EPIC"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "slimefun:slimefun_item": "SUPREME_SHOVEL_LEGENDARY"
+                            }
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": {
+                              "PublicBukkitValues": {
+                                "slimefun:slimefun_item": "SUPREME_SHOVEL_SUPREME"
+                              }
+                            },
+                            "on_false": {
+                              "type": "model",
+                              "model": "item/diamond_shovel"
+                            },
+                            "on_true": {
+                              "type": "model",
+                              "model": "supreme:weapons/shovel/supreme_shovel_supreme"
+                            }
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "supreme:weapons/shovel/supreme_shovel_legendary"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "supreme:weapons/shovel/supreme_shovel_epic"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "supreme:weapons/shovel/supreme_shovel_rare"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "supreme:weapons/shovel/supreme_shovel_magic"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "supreme:weapons/shovel/supreme_shovel_thornium"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "supreme:weapons/shovel/supreme_adamantium_shovel"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "supreme:weapons/shovel/supreme_aurum_shovel"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "supreme:weapons/shovel/supreme_titanium_shovel"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "fluffymachines:tools/paxel"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "fluffymachines:tools/upgraded_explosive_shovel"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/tools/soulbound_shovel"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/tools/explosive_shovel"
+    }
+  }
+}

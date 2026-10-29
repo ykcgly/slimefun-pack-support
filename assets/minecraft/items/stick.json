@@ -1,0 +1,160 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "GRANDMAS_WALKING_STICK"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "GRANDPAS_WALKING_STICK"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "STAFF_ELEMENTAL"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "STAFF_ELEMENTAL_WIND"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "STAFF_ELEMENTAL_WATER"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "STAFF_ELEMENTAL_FIRE"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "STAFF_ELEMENTAL_STORM"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "SPLINT"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "PEACH_WOOD"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "GN_ROLLING_PIN"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "CLT_CINNAMON"
+                          }
+                        },
+                        "on_false": {
+                          "type": "model",
+                          "model": "item/stick"
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "cultivation:products/clt_cinnamon"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "gastronomicon:tools/gn_rolling_pin"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "bump:magical_items/peach_wood"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "slimefun:slimefun/items/splint"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "slimefun:slimefun/magical_gadgets/staff_elemental_storm"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "slimefun:slimefun/magical_gadgets/staff_elemental_fire"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "slimefun:slimefun/magical_gadgets/staff_elemental_water"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimefun:slimefun/magical_gadgets/staff_elemental_wind"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/magical_gadgets/staff_elemental"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/weapons/grandpas_walking_stick"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/weapons/grandmas_walking_stick"
+    }
+  }
+}

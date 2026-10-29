@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "GN_ASPARAGUS"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "CLT_CELERY"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CLT_COURGETTE"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "CLT_CUCUMBER"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/bamboo"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "cultivation:products/clt_cucumber"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "cultivation:products/clt_courgette"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "cultivation:products/clt_celery"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "gastronomicon:ingredient/gn_asparagus"
+    }
+  }
+}

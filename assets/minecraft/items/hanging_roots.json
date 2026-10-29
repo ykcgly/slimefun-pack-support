@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "CLT_GINGER"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "CLT_HORSERADISH"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CLT_LICORICE"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "CLT_WASABI"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/hanging_roots"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "cultivation:products/clt_wasabi"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "cultivation:products/clt_licorice"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "cultivation:products/clt_horseradish"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "cultivation:products/clt_ginger"
+    }
+  }
+}

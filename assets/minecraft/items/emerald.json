@@ -1,0 +1,540 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "COMMON_TALISMAN"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "ANVIL_TALISMAN"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ENDER_ANVIL_TALISMAN"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "MINER_TALISMAN"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "ENDER_MINER_TALISMAN"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "HUNTER_TALISMAN"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "ENDER_HUNTER_TALISMAN"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "LAVA_TALISMAN"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "ENDER_LAVA_TALISMAN"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "WATER_TALISMAN"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "ENDER_WATER_TALISMAN"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "slimefun:slimefun_item": "ANGEL_TALISMAN"
+                            }
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": {
+                              "PublicBukkitValues": {
+                                "slimefun:slimefun_item": "ENDER_ANGEL_TALISMAN"
+                              }
+                            },
+                            "on_false": {
+                              "type": "minecraft:condition",
+                              "property": "minecraft:component",
+                              "predicate": "minecraft:custom_data",
+                              "value": {
+                                "PublicBukkitValues": {
+                                  "slimefun:slimefun_item": "FIRE_TALISMAN"
+                                }
+                              },
+                              "on_false": {
+                                "type": "minecraft:condition",
+                                "property": "minecraft:component",
+                                "predicate": "minecraft:custom_data",
+                                "value": {
+                                  "PublicBukkitValues": {
+                                    "slimefun:slimefun_item": "ENDER_FIRE_TALISMAN"
+                                  }
+                                },
+                                "on_false": {
+                                  "type": "minecraft:condition",
+                                  "property": "minecraft:component",
+                                  "predicate": "minecraft:custom_data",
+                                  "value": {
+                                    "PublicBukkitValues": {
+                                      "slimefun:slimefun_item": "MAGICIAN_TALISMAN"
+                                    }
+                                  },
+                                  "on_false": {
+                                    "type": "minecraft:condition",
+                                    "property": "minecraft:component",
+                                    "predicate": "minecraft:custom_data",
+                                    "value": {
+                                      "PublicBukkitValues": {
+                                        "slimefun:slimefun_item": "ENDER_MAGICIAN_TALISMAN"
+                                      }
+                                    },
+                                    "on_false": {
+                                      "type": "minecraft:condition",
+                                      "property": "minecraft:component",
+                                      "predicate": "minecraft:custom_data",
+                                      "value": {
+                                        "PublicBukkitValues": {
+                                          "slimefun:slimefun_item": "TRAVELLER_TALISMAN"
+                                        }
+                                      },
+                                      "on_false": {
+                                        "type": "minecraft:condition",
+                                        "property": "minecraft:component",
+                                        "predicate": "minecraft:custom_data",
+                                        "value": {
+                                          "PublicBukkitValues": {
+                                            "slimefun:slimefun_item": "ENDER_TRAVELLER_TALISMAN"
+                                          }
+                                        },
+                                        "on_false": {
+                                          "type": "minecraft:condition",
+                                          "property": "minecraft:component",
+                                          "predicate": "minecraft:custom_data",
+                                          "value": {
+                                            "PublicBukkitValues": {
+                                              "slimefun:slimefun_item": "WARRIOR_TALISMAN"
+                                            }
+                                          },
+                                          "on_false": {
+                                            "type": "minecraft:condition",
+                                            "property": "minecraft:component",
+                                            "predicate": "minecraft:custom_data",
+                                            "value": {
+                                              "PublicBukkitValues": {
+                                                "slimefun:slimefun_item": "ENDER_WARRIOR_TALISMAN"
+                                              }
+                                            },
+                                            "on_false": {
+                                              "type": "minecraft:condition",
+                                              "property": "minecraft:component",
+                                              "predicate": "minecraft:custom_data",
+                                              "value": {
+                                                "PublicBukkitValues": {
+                                                  "slimefun:slimefun_item": "KNIGHT_TALISMAN"
+                                                }
+                                              },
+                                              "on_false": {
+                                                "type": "minecraft:condition",
+                                                "property": "minecraft:component",
+                                                "predicate": "minecraft:custom_data",
+                                                "value": {
+                                                  "PublicBukkitValues": {
+                                                    "slimefun:slimefun_item": "ENDER_KNIGHT_TALISMAN"
+                                                  }
+                                                },
+                                                "on_false": {
+                                                  "type": "minecraft:condition",
+                                                  "property": "minecraft:component",
+                                                  "predicate": "minecraft:custom_data",
+                                                  "value": {
+                                                    "PublicBukkitValues": {
+                                                      "slimefun:slimefun_item": "SYNTHETIC_EMERALD"
+                                                    }
+                                                  },
+                                                  "on_false": {
+                                                    "type": "minecraft:condition",
+                                                    "property": "minecraft:component",
+                                                    "predicate": "minecraft:custom_data",
+                                                    "value": {
+                                                      "PublicBukkitValues": {
+                                                        "slimefun:slimefun_item": "WHIRLWIND_TALISMAN"
+                                                      }
+                                                    },
+                                                    "on_false": {
+                                                      "type": "minecraft:condition",
+                                                      "property": "minecraft:component",
+                                                      "predicate": "minecraft:custom_data",
+                                                      "value": {
+                                                        "PublicBukkitValues": {
+                                                          "slimefun:slimefun_item": "ENDER_WHIRLWIND_TALISMAN"
+                                                        }
+                                                      },
+                                                      "on_false": {
+                                                        "type": "minecraft:condition",
+                                                        "property": "minecraft:component",
+                                                        "predicate": "minecraft:custom_data",
+                                                        "value": {
+                                                          "PublicBukkitValues": {
+                                                            "slimefun:slimefun_item": "WIZARD_TALISMAN"
+                                                          }
+                                                        },
+                                                        "on_false": {
+                                                          "type": "minecraft:condition",
+                                                          "property": "minecraft:component",
+                                                          "predicate": "minecraft:custom_data",
+                                                          "value": {
+                                                            "PublicBukkitValues": {
+                                                              "slimefun:slimefun_item": "ENDER_WIZARD_TALISMAN"
+                                                            }
+                                                          },
+                                                          "on_false": {
+                                                            "type": "minecraft:condition",
+                                                            "property": "minecraft:component",
+                                                            "predicate": "minecraft:custom_data",
+                                                            "value": {
+                                                              "PublicBukkitValues": {
+                                                                "slimefun:slimefun_item": "CAVEMAN_TALISMAN"
+                                                              }
+                                                            },
+                                                            "on_false": {
+                                                              "type": "minecraft:condition",
+                                                              "property": "minecraft:component",
+                                                              "predicate": "minecraft:custom_data",
+                                                              "value": {
+                                                                "PublicBukkitValues": {
+                                                                  "slimefun:slimefun_item": "ENDER_CAVEMAN_TALISMAN"
+                                                                }
+                                                              },
+                                                              "on_false": {
+                                                                "type": "minecraft:condition",
+                                                                "property": "minecraft:component",
+                                                                "predicate": "minecraft:custom_data",
+                                                                "value": {
+                                                                  "PublicBukkitValues": {
+                                                                    "slimefun:slimefun_item": "WISE_TALISMAN"
+                                                                  }
+                                                                },
+                                                                "on_false": {
+                                                                  "type": "minecraft:condition",
+                                                                  "property": "minecraft:component",
+                                                                  "predicate": "minecraft:custom_data",
+                                                                  "value": {
+                                                                    "PublicBukkitValues": {
+                                                                      "slimefun:slimefun_item": "ENDER_WISE_TALISMAN"
+                                                                    }
+                                                                  },
+                                                                  "on_false": {
+                                                                    "type": "minecraft:condition",
+                                                                    "property": "minecraft:component",
+                                                                    "predicate": "minecraft:custom_data",
+                                                                    "value": {
+                                                                      "PublicBukkitValues": {
+                                                                        "slimefun:slimefun_item": "ENDER_TALISMAN"
+                                                                      }
+                                                                    },
+                                                                    "on_false": {
+                                                                      "type": "minecraft:condition",
+                                                                      "property": "minecraft:component",
+                                                                      "predicate": "minecraft:custom_data",
+                                                                      "value": {
+                                                                        "PublicBukkitValues": {
+                                                                          "slimefun:slimefun_item": "FARMER_TALISMAN"
+                                                                        }
+                                                                      },
+                                                                      "on_false": {
+                                                                        "type": "minecraft:condition",
+                                                                        "property": "minecraft:component",
+                                                                        "predicate": "minecraft:custom_data",
+                                                                        "value": {
+                                                                          "PublicBukkitValues": {
+                                                                            "slimefun:slimefun_item": "ENDER_FARMER_TALISMAN"
+                                                                          }
+                                                                        },
+                                                                        "on_false": {
+                                                                          "type": "minecraft:condition",
+                                                                          "property": "minecraft:component",
+                                                                          "predicate": "minecraft:custom_data",
+                                                                          "value": {
+                                                                            "PublicBukkitValues": {
+                                                                              "slimefun:slimefun_item": "QUARRY_OSCILLATOR_EMERALD"
+                                                                            }
+                                                                          },
+                                                                          "on_false": {
+                                                                            "type": "minecraft:condition",
+                                                                            "property": "minecraft:component",
+                                                                            "predicate": "minecraft:custom_data",
+                                                                            "value": {
+                                                                              "PublicBukkitValues": {
+                                                                                "infinityexpansion2:oscillator_target": "EMERALD",
+                                                                                "slimefun:slimefun_item": "IE_OSCILLATOR_EMERALD"
+                                                                              }
+                                                                            },
+                                                                            "on_false": {
+                                                                              "type": "minecraft:condition",
+                                                                              "property": "minecraft:component",
+                                                                              "predicate": "minecraft:custom_data",
+                                                                              "value": {
+                                                                                "PublicBukkitValues": {
+                                                                                  "infinityexpansion2:oscillator_target": "EMERALD",
+                                                                                  "slimefun:slimefun_item": "IE_OSCILLATOR"
+                                                                                }
+                                                                              },
+                                                                              "on_false": {
+                                                                                "type": "model",
+                                                                                "model": "item/emerald"
+                                                                              },
+                                                                              "on_true": {
+                                                                                "type": "model",
+                                                                                "model": "infinityexpansion2:tools/oscillator_emerald"
+                                                                              }
+                                                                            },
+                                                                            "on_true": {
+                                                                              "type": "model",
+                                                                              "model": "infinityexpansion2:tools/oscillator_emerald"
+                                                                            }
+                                                                          },
+                                                                          "on_true": {
+                                                                            "type": "model",
+                                                                            "model": "infinityexpansion:materials/quarry_oscillator_emerald"
+                                                                          }
+                                                                        },
+                                                                        "on_true": {
+                                                                          "type": "model",
+                                                                          "model": "slimefun:slimefun/talisman2/farmer"
+                                                                        }
+                                                                      },
+                                                                      "on_true": {
+                                                                        "type": "model",
+                                                                        "model": "slimefun:slimefun/talisman1/farmer"
+                                                                      }
+                                                                    },
+                                                                    "on_true": {
+                                                                      "type": "model",
+                                                                      "model": "slimefun:slimefun/talisman2/0_default"
+                                                                    }
+                                                                  },
+                                                                  "on_true": {
+                                                                    "type": "model",
+                                                                    "model": "slimefun:slimefun/talisman2/wise"
+                                                                  }
+                                                                },
+                                                                "on_true": {
+                                                                  "type": "model",
+                                                                  "model": "slimefun:slimefun/talisman1/wise"
+                                                                }
+                                                              },
+                                                              "on_true": {
+                                                                "type": "model",
+                                                                "model": "slimefun:slimefun/talisman2/caveman"
+                                                              }
+                                                            },
+                                                            "on_true": {
+                                                              "type": "model",
+                                                              "model": "slimefun:slimefun/talisman1/caveman"
+                                                            }
+                                                          },
+                                                          "on_true": {
+                                                            "type": "model",
+                                                            "model": "slimefun:slimefun/talisman2/wizard"
+                                                          }
+                                                        },
+                                                        "on_true": {
+                                                          "type": "model",
+                                                          "model": "slimefun:slimefun/talisman1/wizard"
+                                                        }
+                                                      },
+                                                      "on_true": {
+                                                        "type": "model",
+                                                        "model": "slimefun:slimefun/talisman2/whirlwind"
+                                                      }
+                                                    },
+                                                    "on_true": {
+                                                      "type": "model",
+                                                      "model": "slimefun:slimefun/talisman1/whirlwind"
+                                                    }
+                                                  },
+                                                  "on_true": {
+                                                    "type": "model",
+                                                    "model": "slimefun:slimefun/resources/valuables/synthetic_emerald"
+                                                  }
+                                                },
+                                                "on_true": {
+                                                  "type": "model",
+                                                  "model": "slimefun:slimefun/talisman2/knight"
+                                                }
+                                              },
+                                              "on_true": {
+                                                "type": "model",
+                                                "model": "slimefun:slimefun/talisman1/knight"
+                                              }
+                                            },
+                                            "on_true": {
+                                              "type": "model",
+                                              "model": "slimefun:slimefun/talisman2/warrior"
+                                            }
+                                          },
+                                          "on_true": {
+                                            "type": "model",
+                                            "model": "slimefun:slimefun/talisman1/warrior"
+                                          }
+                                        },
+                                        "on_true": {
+                                          "type": "model",
+                                          "model": "slimefun:slimefun/talisman2/traveller"
+                                        }
+                                      },
+                                      "on_true": {
+                                        "type": "model",
+                                        "model": "slimefun:slimefun/talisman1/traveller"
+                                      }
+                                    },
+                                    "on_true": {
+                                      "type": "model",
+                                      "model": "slimefun:slimefun/talisman2/magican"
+                                    }
+                                  },
+                                  "on_true": {
+                                    "type": "model",
+                                    "model": "slimefun:slimefun/talisman1/magican"
+                                  }
+                                },
+                                "on_true": {
+                                  "type": "model",
+                                  "model": "slimefun:slimefun/talisman2/firefighter"
+                                }
+                              },
+                              "on_true": {
+                                "type": "model",
+                                "model": "slimefun:slimefun/talisman1/firefighter"
+                              }
+                            },
+                            "on_true": {
+                              "type": "model",
+                              "model": "slimefun:slimefun/talisman2/angel"
+                            }
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "slimefun:slimefun/talisman1/angel"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "slimefun:slimefun/talisman2/water_breather"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "slimefun:slimefun/talisman1/water_breather"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "slimefun:slimefun/talisman2/lava_walker"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "slimefun:slimefun/talisman1/lava_walker"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "slimefun:slimefun/talisman2/hunter"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "slimefun:slimefun/talisman1/hunter"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "slimefun:slimefun/talisman2/miner"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimefun:slimefun/talisman1/miner"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/talisman2/anvil"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/talisman1/anvil"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/magical_items/common_talisman"
+    }
+  }
+}

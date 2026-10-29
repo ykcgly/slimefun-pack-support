@@ -1,0 +1,846 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "MOLTEN_[ANCIENT_DEBRIS]"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "MOLTEN_[DIAMOND_ORE]"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "MOLTEN_[DIAMOND]"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "MOLTEN_[EMERALD_ORE]"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "MOLTEN_[EMERALD]"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "MOLTEN_[GOLD_ORE]"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "MOLTEN_[GOLD]"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "MOLTEN_[IRON_ORE]"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "MOLTEN_[IRON]"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "MOLTEN_[LAPIS_LAZULI_ORE]"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "MOLTEN_[LAPIS_LAZULI]"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "slimefun:slimefun_item": "MOLTEN_[NETHERITE]"
+                            }
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": {
+                              "PublicBukkitValues": {
+                                "slimefun:slimefun_item": "MOLTEN_[REDSTONE_DUST]"
+                              }
+                            },
+                            "on_false": {
+                              "type": "minecraft:condition",
+                              "property": "minecraft:component",
+                              "predicate": "minecraft:custom_data",
+                              "value": {
+                                "PublicBukkitValues": {
+                                  "slimefun:slimefun_item": "MOLTEN_[REDSTONE_ORE]"
+                                }
+                              },
+                              "on_false": {
+                                "type": "minecraft:condition",
+                                "property": "minecraft:component",
+                                "predicate": "minecraft:custom_data",
+                                "value": {
+                                  "PublicBukkitValues": {
+                                    "slimefun:slimefun_item": "MOLTEN_ALUMINUM"
+                                  }
+                                },
+                                "on_false": {
+                                  "type": "minecraft:condition",
+                                  "property": "minecraft:component",
+                                  "predicate": "minecraft:custom_data",
+                                  "value": {
+                                    "PublicBukkitValues": {
+                                      "slimefun:slimefun_item": "MOLTEN_ALUMINUM_BRASS"
+                                    }
+                                  },
+                                  "on_false": {
+                                    "type": "minecraft:condition",
+                                    "property": "minecraft:component",
+                                    "predicate": "minecraft:custom_data",
+                                    "value": {
+                                      "PublicBukkitValues": {
+                                        "slimefun:slimefun_item": "MOLTEN_ALUMINUM_BRONZE"
+                                      }
+                                    },
+                                    "on_false": {
+                                      "type": "minecraft:condition",
+                                      "property": "minecraft:component",
+                                      "predicate": "minecraft:custom_data",
+                                      "value": {
+                                        "PublicBukkitValues": {
+                                          "slimefun:slimefun_item": "MOLTEN_BILLON"
+                                        }
+                                      },
+                                      "on_false": {
+                                        "type": "minecraft:condition",
+                                        "property": "minecraft:component",
+                                        "predicate": "minecraft:custom_data",
+                                        "value": {
+                                          "PublicBukkitValues": {
+                                            "slimefun:slimefun_item": "MOLTEN_BOOSTED_URANIUM"
+                                          }
+                                        },
+                                        "on_false": {
+                                          "type": "minecraft:condition",
+                                          "property": "minecraft:component",
+                                          "predicate": "minecraft:custom_data",
+                                          "value": {
+                                            "PublicBukkitValues": {
+                                              "slimefun:slimefun_item": "MOLTEN_BRASS"
+                                            }
+                                          },
+                                          "on_false": {
+                                            "type": "minecraft:condition",
+                                            "property": "minecraft:component",
+                                            "predicate": "minecraft:custom_data",
+                                            "value": {
+                                              "PublicBukkitValues": {
+                                                "slimefun:slimefun_item": "MOLTEN_BRONZE"
+                                              }
+                                            },
+                                            "on_false": {
+                                              "type": "minecraft:condition",
+                                              "property": "minecraft:component",
+                                              "predicate": "minecraft:custom_data",
+                                              "value": {
+                                                "PublicBukkitValues": {
+                                                  "slimefun:slimefun_item": "MOLTEN_CARBON"
+                                                }
+                                              },
+                                              "on_false": {
+                                                "type": "minecraft:condition",
+                                                "property": "minecraft:component",
+                                                "predicate": "minecraft:custom_data",
+                                                "value": {
+                                                  "PublicBukkitValues": {
+                                                    "slimefun:slimefun_item": "MOLTEN_COBALT"
+                                                  }
+                                                },
+                                                "on_false": {
+                                                  "type": "minecraft:condition",
+                                                  "property": "minecraft:component",
+                                                  "predicate": "minecraft:custom_data",
+                                                  "value": {
+                                                    "PublicBukkitValues": {
+                                                      "slimefun:slimefun_item": "MOLTEN_COPPER"
+                                                    }
+                                                  },
+                                                  "on_false": {
+                                                    "type": "minecraft:condition",
+                                                    "property": "minecraft:component",
+                                                    "predicate": "minecraft:custom_data",
+                                                    "value": {
+                                                      "PublicBukkitValues": {
+                                                        "slimefun:slimefun_item": "MOLTEN_CORINTHIAN_BRONZE"
+                                                      }
+                                                    },
+                                                    "on_false": {
+                                                      "type": "minecraft:condition",
+                                                      "property": "minecraft:component",
+                                                      "predicate": "minecraft:custom_data",
+                                                      "value": {
+                                                        "PublicBukkitValues": {
+                                                          "slimefun:slimefun_item": "MOLTEN_DAMASCUS_STEEL"
+                                                        }
+                                                      },
+                                                      "on_false": {
+                                                        "type": "minecraft:condition",
+                                                        "property": "minecraft:component",
+                                                        "predicate": "minecraft:custom_data",
+                                                        "value": {
+                                                          "PublicBukkitValues": {
+                                                            "slimefun:slimefun_item": "MOLTEN_DURALUMIN"
+                                                          }
+                                                        },
+                                                        "on_false": {
+                                                          "type": "minecraft:condition",
+                                                          "property": "minecraft:component",
+                                                          "predicate": "minecraft:custom_data",
+                                                          "value": {
+                                                            "PublicBukkitValues": {
+                                                              "slimefun:slimefun_item": "MOLTEN_FERROSILICON"
+                                                            }
+                                                          },
+                                                          "on_false": {
+                                                            "type": "minecraft:condition",
+                                                            "property": "minecraft:component",
+                                                            "predicate": "minecraft:custom_data",
+                                                            "value": {
+                                                              "PublicBukkitValues": {
+                                                                "slimefun:slimefun_item": "MOLTEN_GILDED_IRON"
+                                                              }
+                                                            },
+                                                            "on_false": {
+                                                              "type": "minecraft:condition",
+                                                              "property": "minecraft:component",
+                                                              "predicate": "minecraft:custom_data",
+                                                              "value": {
+                                                                "PublicBukkitValues": {
+                                                                  "slimefun:slimefun_item": "MOLTEN_GOLD_4K"
+                                                                }
+                                                              },
+                                                              "on_false": {
+                                                                "type": "minecraft:condition",
+                                                                "property": "minecraft:component",
+                                                                "predicate": "minecraft:custom_data",
+                                                                "value": {
+                                                                  "PublicBukkitValues": {
+                                                                    "slimefun:slimefun_item": "MOLTEN_GOLD_6K"
+                                                                  }
+                                                                },
+                                                                "on_false": {
+                                                                  "type": "minecraft:condition",
+                                                                  "property": "minecraft:component",
+                                                                  "predicate": "minecraft:custom_data",
+                                                                  "value": {
+                                                                    "PublicBukkitValues": {
+                                                                      "slimefun:slimefun_item": "MOLTEN_GOLD_8K"
+                                                                    }
+                                                                  },
+                                                                  "on_false": {
+                                                                    "type": "minecraft:condition",
+                                                                    "property": "minecraft:component",
+                                                                    "predicate": "minecraft:custom_data",
+                                                                    "value": {
+                                                                      "PublicBukkitValues": {
+                                                                        "slimefun:slimefun_item": "MOLTEN_GOLD_10K"
+                                                                      }
+                                                                    },
+                                                                    "on_false": {
+                                                                      "type": "minecraft:condition",
+                                                                      "property": "minecraft:component",
+                                                                      "predicate": "minecraft:custom_data",
+                                                                      "value": {
+                                                                        "PublicBukkitValues": {
+                                                                          "slimefun:slimefun_item": "MOLTEN_GOLD_12K"
+                                                                        }
+                                                                      },
+                                                                      "on_false": {
+                                                                        "type": "minecraft:condition",
+                                                                        "property": "minecraft:component",
+                                                                        "predicate": "minecraft:custom_data",
+                                                                        "value": {
+                                                                          "PublicBukkitValues": {
+                                                                            "slimefun:slimefun_item": "MOLTEN_GOLD_14K"
+                                                                          }
+                                                                        },
+                                                                        "on_false": {
+                                                                          "type": "minecraft:condition",
+                                                                          "property": "minecraft:component",
+                                                                          "predicate": "minecraft:custom_data",
+                                                                          "value": {
+                                                                            "PublicBukkitValues": {
+                                                                              "slimefun:slimefun_item": "MOLTEN_GOLD_16K"
+                                                                            }
+                                                                          },
+                                                                          "on_false": {
+                                                                            "type": "minecraft:condition",
+                                                                            "property": "minecraft:component",
+                                                                            "predicate": "minecraft:custom_data",
+                                                                            "value": {
+                                                                              "PublicBukkitValues": {
+                                                                                "slimefun:slimefun_item": "MOLTEN_GOLD_18K"
+                                                                              }
+                                                                            },
+                                                                            "on_false": {
+                                                                              "type": "minecraft:condition",
+                                                                              "property": "minecraft:component",
+                                                                              "predicate": "minecraft:custom_data",
+                                                                              "value": {
+                                                                                "PublicBukkitValues": {
+                                                                                  "slimefun:slimefun_item": "MOLTEN_GOLD_20K"
+                                                                                }
+                                                                              },
+                                                                              "on_false": {
+                                                                                "type": "minecraft:condition",
+                                                                                "property": "minecraft:component",
+                                                                                "predicate": "minecraft:custom_data",
+                                                                                "value": {
+                                                                                  "PublicBukkitValues": {
+                                                                                    "slimefun:slimefun_item": "MOLTEN_GOLD_22K"
+                                                                                  }
+                                                                                },
+                                                                                "on_false": {
+                                                                                  "type": "minecraft:condition",
+                                                                                  "property": "minecraft:component",
+                                                                                  "predicate": "minecraft:custom_data",
+                                                                                  "value": {
+                                                                                    "PublicBukkitValues": {
+                                                                                      "slimefun:slimefun_item": "MOLTEN_GOLD_24K"
+                                                                                    }
+                                                                                  },
+                                                                                  "on_false": {
+                                                                                    "type": "minecraft:condition",
+                                                                                    "property": "minecraft:component",
+                                                                                    "predicate": "minecraft:custom_data",
+                                                                                    "value": {
+                                                                                      "PublicBukkitValues": {
+                                                                                        "slimefun:slimefun_item": "MOLTEN_HARDENED_METAL"
+                                                                                      }
+                                                                                    },
+                                                                                    "on_false": {
+                                                                                      "type": "minecraft:condition",
+                                                                                      "property": "minecraft:component",
+                                                                                      "predicate": "minecraft:custom_data",
+                                                                                      "value": {
+                                                                                        "PublicBukkitValues": {
+                                                                                          "slimefun:slimefun_item": "MOLTEN_LEAD"
+                                                                                        }
+                                                                                      },
+                                                                                      "on_false": {
+                                                                                        "type": "minecraft:condition",
+                                                                                        "property": "minecraft:component",
+                                                                                        "predicate": "minecraft:custom_data",
+                                                                                        "value": {
+                                                                                          "PublicBukkitValues": {
+                                                                                            "slimefun:slimefun_item": "MOLTEN_MAGNESIUM"
+                                                                                          }
+                                                                                        },
+                                                                                        "on_false": {
+                                                                                          "type": "minecraft:condition",
+                                                                                          "property": "minecraft:component",
+                                                                                          "predicate": "minecraft:custom_data",
+                                                                                          "value": {
+                                                                                            "PublicBukkitValues": {
+                                                                                              "slimefun:slimefun_item": "MOLTEN_MAGNESIUM_SALT"
+                                                                                            }
+                                                                                          },
+                                                                                          "on_false": {
+                                                                                            "type": "minecraft:condition",
+                                                                                            "property": "minecraft:component",
+                                                                                            "predicate": "minecraft:custom_data",
+                                                                                            "value": {
+                                                                                              "PublicBukkitValues": {
+                                                                                                "slimefun:slimefun_item": "MOLTEN_MAGNET"
+                                                                                              }
+                                                                                            },
+                                                                                            "on_false": {
+                                                                                              "type": "minecraft:condition",
+                                                                                              "property": "minecraft:component",
+                                                                                              "predicate": "minecraft:custom_data",
+                                                                                              "value": {
+                                                                                                "PublicBukkitValues": {
+                                                                                                  "slimefun:slimefun_item": "MOLTEN_NEPTUNIUM"
+                                                                                                }
+                                                                                              },
+                                                                                              "on_false": {
+                                                                                                "type": "minecraft:condition",
+                                                                                                "property": "minecraft:component",
+                                                                                                "predicate": "minecraft:custom_data",
+                                                                                                "value": {
+                                                                                                  "PublicBukkitValues": {
+                                                                                                    "slimefun:slimefun_item": "MOLTEN_NICKEL"
+                                                                                                  }
+                                                                                                },
+                                                                                                "on_false": {
+                                                                                                  "type": "minecraft:condition",
+                                                                                                  "property": "minecraft:component",
+                                                                                                  "predicate": "minecraft:custom_data",
+                                                                                                  "value": {
+                                                                                                    "PublicBukkitValues": {
+                                                                                                      "slimefun:slimefun_item": "MOLTEN_PLUTONIUM"
+                                                                                                    }
+                                                                                                  },
+                                                                                                  "on_false": {
+                                                                                                    "type": "minecraft:condition",
+                                                                                                    "property": "minecraft:component",
+                                                                                                    "predicate": "minecraft:custom_data",
+                                                                                                    "value": {
+                                                                                                      "PublicBukkitValues": {
+                                                                                                        "slimefun:slimefun_item": "MOLTEN_REDSTONE_ALLOY"
+                                                                                                      }
+                                                                                                    },
+                                                                                                    "on_false": {
+                                                                                                      "type": "minecraft:condition",
+                                                                                                      "property": "minecraft:component",
+                                                                                                      "predicate": "minecraft:custom_data",
+                                                                                                      "value": {
+                                                                                                        "PublicBukkitValues": {
+                                                                                                          "slimefun:slimefun_item": "MOLTEN_REINFORCED_ALLOY"
+                                                                                                        }
+                                                                                                      },
+                                                                                                      "on_false": {
+                                                                                                        "type": "minecraft:condition",
+                                                                                                        "property": "minecraft:component",
+                                                                                                        "predicate": "minecraft:custom_data",
+                                                                                                        "value": {
+                                                                                                          "PublicBukkitValues": {
+                                                                                                            "slimefun:slimefun_item": "MOLTEN_SALT"
+                                                                                                          }
+                                                                                                        },
+                                                                                                        "on_false": {
+                                                                                                          "type": "minecraft:condition",
+                                                                                                          "property": "minecraft:component",
+                                                                                                          "predicate": "minecraft:custom_data",
+                                                                                                          "value": {
+                                                                                                            "PublicBukkitValues": {
+                                                                                                              "slimefun:slimefun_item": "MOLTEN_SILICON"
+                                                                                                            }
+                                                                                                          },
+                                                                                                          "on_false": {
+                                                                                                            "type": "minecraft:condition",
+                                                                                                            "property": "minecraft:component",
+                                                                                                            "predicate": "minecraft:custom_data",
+                                                                                                            "value": {
+                                                                                                              "PublicBukkitValues": {
+                                                                                                                "slimefun:slimefun_item": "MOLTEN_SILVER"
+                                                                                                              }
+                                                                                                            },
+                                                                                                            "on_false": {
+                                                                                                              "type": "minecraft:condition",
+                                                                                                              "property": "minecraft:component",
+                                                                                                              "predicate": "minecraft:custom_data",
+                                                                                                              "value": {
+                                                                                                                "PublicBukkitValues": {
+                                                                                                                  "slimefun:slimefun_item": "MOLTEN_SLAG"
+                                                                                                                }
+                                                                                                              },
+                                                                                                              "on_false": {
+                                                                                                                "type": "minecraft:condition",
+                                                                                                                "property": "minecraft:component",
+                                                                                                                "predicate": "minecraft:custom_data",
+                                                                                                                "value": {
+                                                                                                                  "PublicBukkitValues": {
+                                                                                                                    "slimefun:slimefun_item": "MOLTEN_SOLDER"
+                                                                                                                  }
+                                                                                                                },
+                                                                                                                "on_false": {
+                                                                                                                  "type": "minecraft:condition",
+                                                                                                                  "property": "minecraft:component",
+                                                                                                                  "predicate": "minecraft:custom_data",
+                                                                                                                  "value": {
+                                                                                                                    "PublicBukkitValues": {
+                                                                                                                      "slimefun:slimefun_item": "MOLTEN_STEEL"
+                                                                                                                    }
+                                                                                                                  },
+                                                                                                                  "on_false": {
+                                                                                                                    "type": "minecraft:condition",
+                                                                                                                    "property": "minecraft:component",
+                                                                                                                    "predicate": "minecraft:custom_data",
+                                                                                                                    "value": {
+                                                                                                                      "PublicBukkitValues": {
+                                                                                                                        "slimefun:slimefun_item": "MOLTEN_SULFATE"
+                                                                                                                      }
+                                                                                                                    },
+                                                                                                                    "on_false": {
+                                                                                                                      "type": "minecraft:condition",
+                                                                                                                      "property": "minecraft:component",
+                                                                                                                      "predicate": "minecraft:custom_data",
+                                                                                                                      "value": {
+                                                                                                                        "PublicBukkitValues": {
+                                                                                                                          "slimefun:slimefun_item": "MOLTEN_TIN"
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      "on_false": {
+                                                                                                                        "type": "minecraft:condition",
+                                                                                                                        "property": "minecraft:component",
+                                                                                                                        "predicate": "minecraft:custom_data",
+                                                                                                                        "value": {
+                                                                                                                          "PublicBukkitValues": {
+                                                                                                                            "slimefun:slimefun_item": "MOLTEN_URANIUM"
+                                                                                                                          }
+                                                                                                                        },
+                                                                                                                        "on_false": {
+                                                                                                                          "type": "minecraft:condition",
+                                                                                                                          "property": "minecraft:component",
+                                                                                                                          "predicate": "minecraft:custom_data",
+                                                                                                                          "value": {
+                                                                                                                            "PublicBukkitValues": {
+                                                                                                                              "slimefun:slimefun_item": "MOLTEN_ZINC"
+                                                                                                                            }
+                                                                                                                          },
+                                                                                                                          "on_false": {
+                                                                                                                            "type": "model",
+                                                                                                                            "model": "item/lava_bucket"
+                                                                                                                          },
+                                                                                                                          "on_true": {
+                                                                                                                            "type": "model",
+                                                                                                                            "model": "liquid:molten_zinc"
+                                                                                                                          }
+                                                                                                                        },
+                                                                                                                        "on_true": {
+                                                                                                                          "type": "model",
+                                                                                                                          "model": "liquid:molten_uranium"
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      "on_true": {
+                                                                                                                        "type": "model",
+                                                                                                                        "model": "liquid:molten_tin"
+                                                                                                                      }
+                                                                                                                    },
+                                                                                                                    "on_true": {
+                                                                                                                      "type": "model",
+                                                                                                                      "model": "liquid:molten_sulfate"
+                                                                                                                    }
+                                                                                                                  },
+                                                                                                                  "on_true": {
+                                                                                                                    "type": "model",
+                                                                                                                    "model": "liquid:molten_steel"
+                                                                                                                  }
+                                                                                                                },
+                                                                                                                "on_true": {
+                                                                                                                  "type": "model",
+                                                                                                                  "model": "liquid:molten_solder"
+                                                                                                                }
+                                                                                                              },
+                                                                                                              "on_true": {
+                                                                                                                "type": "model",
+                                                                                                                "model": "liquid:molten_slag"
+                                                                                                              }
+                                                                                                            },
+                                                                                                            "on_true": {
+                                                                                                              "type": "model",
+                                                                                                              "model": "liquid:molten_silver"
+                                                                                                            }
+                                                                                                          },
+                                                                                                          "on_true": {
+                                                                                                            "type": "model",
+                                                                                                            "model": "liquid:molten_silicon"
+                                                                                                          }
+                                                                                                        },
+                                                                                                        "on_true": {
+                                                                                                          "type": "model",
+                                                                                                          "model": "liquid:molten_salt"
+                                                                                                        }
+                                                                                                      },
+                                                                                                      "on_true": {
+                                                                                                        "type": "model",
+                                                                                                        "model": "liquid:molten_reinforced_alloy"
+                                                                                                      }
+                                                                                                    },
+                                                                                                    "on_true": {
+                                                                                                      "type": "model",
+                                                                                                      "model": "liquid:molten_redstone_alloy"
+                                                                                                    }
+                                                                                                  },
+                                                                                                  "on_true": {
+                                                                                                    "type": "model",
+                                                                                                    "model": "liquid:molten_plutonium"
+                                                                                                  }
+                                                                                                },
+                                                                                                "on_true": {
+                                                                                                  "type": "model",
+                                                                                                  "model": "liquid:molten_nickel"
+                                                                                                }
+                                                                                              },
+                                                                                              "on_true": {
+                                                                                                "type": "model",
+                                                                                                "model": "liquid:molten_netherite"
+                                                                                              }
+                                                                                            },
+                                                                                            "on_true": {
+                                                                                              "type": "model",
+                                                                                              "model": "liquid:molten_magnet"
+                                                                                            }
+                                                                                          },
+                                                                                          "on_true": {
+                                                                                            "type": "model",
+                                                                                            "model": "liquid:molten_magnesium_salt"
+                                                                                          }
+                                                                                        },
+                                                                                        "on_true": {
+                                                                                          "type": "model",
+                                                                                          "model": "liquid:molten_magnesium"
+                                                                                        }
+                                                                                      },
+                                                                                      "on_true": {
+                                                                                        "type": "model",
+                                                                                        "model": "liquid:molten_lead"
+                                                                                      }
+                                                                                    },
+                                                                                    "on_true": {
+                                                                                      "type": "model",
+                                                                                      "model": "liquid:molten_hardened_metal"
+                                                                                    }
+                                                                                  },
+                                                                                  "on_true": {
+                                                                                    "type": "model",
+                                                                                    "model": "liquid:molten_gold_24k"
+                                                                                  }
+                                                                                },
+                                                                                "on_true": {
+                                                                                  "type": "model",
+                                                                                  "model": "liquid:molten_gold_22k"
+                                                                                }
+                                                                              },
+                                                                              "on_true": {
+                                                                                "type": "model",
+                                                                                "model": "liquid:molten_gold_20k"
+                                                                              }
+                                                                            },
+                                                                            "on_true": {
+                                                                              "type": "model",
+                                                                              "model": "liquid:molten_gold_18k"
+                                                                            }
+                                                                          },
+                                                                          "on_true": {
+                                                                            "type": "model",
+                                                                            "model": "liquid:molten_gold_16k"
+                                                                          }
+                                                                        },
+                                                                        "on_true": {
+                                                                          "type": "model",
+                                                                          "model": "liquid:molten_gold_14k"
+                                                                        }
+                                                                      },
+                                                                      "on_true": {
+                                                                        "type": "model",
+                                                                        "model": "liquid:molten_gold_12k"
+                                                                      }
+                                                                    },
+                                                                    "on_true": {
+                                                                      "type": "model",
+                                                                      "model": "liquid:molten_gold_10k"
+                                                                    }
+                                                                  },
+                                                                  "on_true": {
+                                                                    "type": "model",
+                                                                    "model": "liquid:molten_gold_8k"
+                                                                  }
+                                                                },
+                                                                "on_true": {
+                                                                  "type": "model",
+                                                                  "model": "liquid:molten_gold_6k"
+                                                                }
+                                                              },
+                                                              "on_true": {
+                                                                "type": "model",
+                                                                "model": "liquid:molten_gold_4k"
+                                                              }
+                                                            },
+                                                            "on_true": {
+                                                              "type": "model",
+                                                              "model": "liquid:molten_gilded_iron"
+                                                            }
+                                                          },
+                                                          "on_true": {
+                                                            "type": "model",
+                                                            "model": "liquid:molten_ferrosilicon"
+                                                          }
+                                                        },
+                                                        "on_true": {
+                                                          "type": "model",
+                                                          "model": "liquid:molten_duralumin"
+                                                        }
+                                                      },
+                                                      "on_true": {
+                                                        "type": "model",
+                                                        "model": "liquid:molten_damascus_steel"
+                                                      }
+                                                    },
+                                                    "on_true": {
+                                                      "type": "model",
+                                                      "model": "liquid:molten_corinthian_bronze"
+                                                    }
+                                                  },
+                                                  "on_true": {
+                                                    "type": "model",
+                                                    "model": "liquid:molten_copper"
+                                                  }
+                                                },
+                                                "on_true": {
+                                                  "type": "model",
+                                                  "model": "liquid:molten_cobalt"
+                                                }
+                                              },
+                                              "on_true": {
+                                                "type": "model",
+                                                "model": "liquid:molten_slag"
+                                              }
+                                            },
+                                            "on_true": {
+                                              "type": "model",
+                                              "model": "liquid:molten_bronze"
+                                            }
+                                          },
+                                          "on_true": {
+                                            "type": "model",
+                                            "model": "liquid:molten_brass"
+                                          }
+                                        },
+                                        "on_true": {
+                                          "type": "model",
+                                          "model": "liquid:molten_uranium"
+                                        }
+                                      },
+                                      "on_true": {
+                                        "type": "model",
+                                        "model": "liquid:molten_billon"
+                                      }
+                                    },
+                                    "on_true": {
+                                      "type": "model",
+                                      "model": "liquid:molten_aluminum_bronze"
+                                    }
+                                  },
+                                  "on_true": {
+                                    "type": "model",
+                                    "model": "liquid:molten_aluminum_brass"
+                                  }
+                                },
+                                "on_true": {
+                                  "type": "model",
+                                  "model": "liquid:molten_aluminum"
+                                }
+                              },
+                              "on_true": {
+                                "type": "model",
+                                "model": "liquid:molten_redstone_alloy"
+                              }
+                            },
+                            "on_true": {
+                              "type": "model",
+                              "model": "liquid:molten_redstone_alloy"
+                            }
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "liquid:molten_netherite"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "liquid:molten_lapis_lazuli"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "liquid:molten_lapis_lazuli"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "liquid:molten_iron"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "liquid:molten_iron"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "liquid:molten_gold"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "liquid:molten_gold"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "liquid:molten_emerald"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "liquid:molten_emerald"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "liquid:molten_diamond"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "liquid:molten_diamond"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "liquid:molten_ancient_debris"
+    }
+  }
+}

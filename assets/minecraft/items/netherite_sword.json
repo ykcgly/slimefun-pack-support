@@ -1,0 +1,174 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "INFINITY_BLADE"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "ELUCIDATOR"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_INFINITY_SWORD"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "SUPREME_TITANIUM_SWORD"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "SUPREME_AURUM_SWORD"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "SUPREME_ADAMANTIUM_SWORD"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "SUPREME_SWORD_THORNIUM"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "SUPREME_SWORD_MAGIC"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "SUPREME_SWORD_RARE"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "SUPREME_SWORD_EPIC"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "SUPREME_SWORD_LEGENDARY"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "slimefun:slimefun_item": "SUPREME_SWORD_SUPREME"
+                            }
+                          },
+                          "on_false": {
+                            "type": "model",
+                            "model": "item/netherite_sword"
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "supreme:weapons/sword/supreme_sword_supreme"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "supreme:weapons/sword/supreme_sword_legendary"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "supreme:weapons/sword/supreme_sword_epic"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "supreme:weapons/sword/supreme_sword_rare"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "supreme:weapons/sword/supreme_sword_magic"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "supreme:weapons/sword/supreme_sword_thornium"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "supreme:weapons/sword/supreme_adamantium_sword"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "supreme:weapons/sword/supreme_aurum_sword"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "supreme:weapons/sword/supreme_titanium_sword"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "infinityexpansion2:gear/infinity_sword"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "foxymachines:weapons/elucidator"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion:tools/infinity_blade"
+    }
+  }
+}

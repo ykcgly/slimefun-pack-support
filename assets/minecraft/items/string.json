@@ -1,0 +1,90 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "CHAIN"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "COPPER_WIRE"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "FANGBIANMIAN"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "FIBER_OPTIC_CABLE"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "GN_STEEL_WIRE"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "GN_STEEL_SPRING"
+                }
+              },
+              "on_false": {
+                "type": "model",
+                "model": "item/string"
+              },
+              "on_true": {
+                "type": "model",
+                "model": "gastronomicon:tools/gn_steel_spring"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "gastronomicon:tools/gn_steel_wire"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimefunwarfare:general/fiber_optic_cable"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "bump:foods/fangbianmian"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/technical_components/copper_wire"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/miscellaneous/chain"
+    }
+  }
+}

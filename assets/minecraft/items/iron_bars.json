@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "GN_FISHING_NET_I"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "GN_FISHING_NET_II"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_FISHING_NET_III"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "IE_OSCILLATOR_FRAME"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/iron_bars"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "infinityexpansion2:materials/oscillator_frame"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "gastronomicon:electric_machines/gn_fishing_net_iii"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "gastronomicon:electric_machines/gn_fishing_net_ii"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "gastronomicon:electric_machines/gn_fishing_net_i"
+    }
+  }
+}

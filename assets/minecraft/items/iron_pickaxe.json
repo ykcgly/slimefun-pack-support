@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "PICKAXE_OF_CONTAINMENT"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "HERCULES_PICKAXE"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "COBALT_PICKAXE"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "CLIMBING_PICK"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/iron_pickaxe"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimefun:slimefun/tools/climbing_pick"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/tools/cobalt_pickaxe"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/tools/hercules_pickaxe"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/tools/pickaxe_of_containment"
+    }
+  }
+}

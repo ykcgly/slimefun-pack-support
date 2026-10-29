@@ -1,0 +1,34 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "INFINITE_PANEL"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "IE_INFINITY_PANEL"
+        }
+      },
+      "on_false": {
+        "type": "model",
+        "model": "block/light_blue_glazed_terracotta"
+      },
+      "on_true": {
+        "type": "model",
+        "model": "infinityexpansion2:generators/infinity_panel"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion:machines/infinity_panel"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "INFINITY_PICKAXE"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "PAXEL"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_INFINITY_PICKAXE"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "SUPREME_TITANIUM_PICKAXE"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "SUPREME_AURUM_PICKAXE"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "SUPREME_ADAMANTIUM_PICKAXE"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "SUPREME_PICKAXE_THORNIUM"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "SUPREME_PICKAXE_MAGIC"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "SUPREME_PICKAXE_RARE"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "SUPREME_PICKAXE_EPIC"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "SUPREME_PICKAXE_LEGENDARY"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "slimefun:slimefun_item": "SUPREME_PICKAXE_SUPREME"
+                            }
+                          },
+                          "on_false": {
+                            "type": "model",
+                            "model": "item/netherite_pickaxe"
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "supreme:weapons/pickaxe/supreme_pickaxe_supreme"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "supreme:weapons/pickaxe/supreme_pickaxe_legendary"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "supreme:weapons/pickaxe/supreme_pickaxe_epic"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "supreme:weapons/pickaxe/supreme_pickaxe_rare"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "supreme:weapons/pickaxe/supreme_pickaxe_magic"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "supreme:weapons/pickaxe/supreme_pickaxe_thornium"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "supreme:weapons/pickaxe/supreme_adamantium_pickaxe"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "supreme:weapons/pickaxe/supreme_aurum_pickaxe"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "supreme:weapons/pickaxe/supreme_titanium_pickaxe"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "infinityexpansion2:tools/infinity_pickaxe"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "fluffymachines:tools/netherite_paxel"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion:tools/world_breaker"
+    }
+  }
+}

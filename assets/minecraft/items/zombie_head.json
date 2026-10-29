@@ -1,0 +1,24 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "UPDATE_POWER"
+      }
+    },
+    "on_false": {
+      "type": "special",
+      "base": "item/template_skull",
+      "model": {
+        "type": "minecraft:head",
+        "kind": "zombie"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "bump:magical_items/update_power"
+    }
+  }
+}

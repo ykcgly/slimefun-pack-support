@@ -1,0 +1,566 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "REINFORCED_ALLOY_INGOT"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "HARDENED_METAL_INGOT"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "DAMASCUS_STEEL_INGOT"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "STEEL_INGOT"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "DURALUMIN_INGOT"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "BILLON_INGOT"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "SOLDER_INGOT"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "NICKEL_INGOT"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "COBALT_INGOT"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "FERROSILICON"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "TIN_INGOT"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "slimefun:slimefun_item": "SILVER_INGOT"
+                            }
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": {
+                              "PublicBukkitValues": {
+                                "slimefun:slimefun_item": "LEAD_INGOT"
+                              }
+                            },
+                            "on_false": {
+                              "type": "minecraft:condition",
+                              "property": "minecraft:component",
+                              "predicate": "minecraft:custom_data",
+                              "value": {
+                                "PublicBukkitValues": {
+                                  "slimefun:slimefun_item": "ALUMINUM_INGOT"
+                                }
+                              },
+                              "on_false": {
+                                "type": "minecraft:condition",
+                                "property": "minecraft:component",
+                                "predicate": "minecraft:custom_data",
+                                "value": {
+                                  "PublicBukkitValues": {
+                                    "slimefun:slimefun_item": "ZINC_INGOT"
+                                  }
+                                },
+                                "on_false": {
+                                  "type": "minecraft:condition",
+                                  "property": "minecraft:component",
+                                  "predicate": "minecraft:custom_data",
+                                  "value": {
+                                    "PublicBukkitValues": {
+                                      "slimefun:slimefun_item": "MAGNESIUM_INGOT"
+                                    }
+                                  },
+                                  "on_false": {
+                                    "type": "minecraft:condition",
+                                    "property": "minecraft:component",
+                                    "predicate": "minecraft:custom_data",
+                                    "value": {
+                                      "PublicBukkitValues": {
+                                        "slimefun:slimefun_item": "INFINITE_INGOT"
+                                      }
+                                    },
+                                    "on_false": {
+                                      "type": "minecraft:condition",
+                                      "property": "minecraft:component",
+                                      "predicate": "minecraft:custom_data",
+                                      "value": {
+                                        "PublicBukkitValues": {
+                                          "slimefun:slimefun_item": "MYTHRIL"
+                                        }
+                                      },
+                                      "on_false": {
+                                        "type": "minecraft:condition",
+                                        "property": "minecraft:component",
+                                        "predicate": "minecraft:custom_data",
+                                        "value": {
+                                          "PublicBukkitValues": {
+                                            "slimefun:slimefun_item": "TITANIUM"
+                                          }
+                                        },
+                                        "on_false": {
+                                          "type": "minecraft:condition",
+                                          "property": "minecraft:component",
+                                          "predicate": "minecraft:custom_data",
+                                          "value": {
+                                            "PublicBukkitValues": {
+                                              "slimefun:slimefun_item": "MEDIUM_PORTABLE_CHARGER"
+                                            }
+                                          },
+                                          "on_false": {
+                                            "type": "minecraft:condition",
+                                            "property": "minecraft:component",
+                                            "predicate": "minecraft:custom_data",
+                                            "value": {
+                                              "PublicBukkitValues": {
+                                                "slimefun:slimefun_item": "SLIMESTEEL_INGOT"
+                                              }
+                                            },
+                                            "on_false": {
+                                              "type": "minecraft:condition",
+                                              "property": "minecraft:component",
+                                              "predicate": "minecraft:custom_data",
+                                              "value": {
+                                                "PublicBukkitValues": {
+                                                  "slimefun:slimefun_item": "REINFORCED_SLIMESTEEL_INGOT"
+                                                }
+                                              },
+                                              "on_false": {
+                                                "type": "minecraft:condition",
+                                                "property": "minecraft:component",
+                                                "predicate": "minecraft:custom_data",
+                                                "value": {
+                                                  "PublicBukkitValues": {
+                                                    "slimefun:slimefun_item": "OSMIUM_SUPERALLOY"
+                                                  }
+                                                },
+                                                "on_false": {
+                                                  "type": "minecraft:condition",
+                                                  "property": "minecraft:component",
+                                                  "predicate": "minecraft:custom_data",
+                                                  "value": {
+                                                    "PublicBukkitValues": {
+                                                      "slimefun:slimefun_item": "OSMIUM_INGOT"
+                                                    }
+                                                  },
+                                                  "on_false": {
+                                                    "type": "minecraft:condition",
+                                                    "property": "minecraft:component",
+                                                    "predicate": "minecraft:custom_data",
+                                                    "value": {
+                                                      "PublicBukkitValues": {
+                                                        "slimefun:slimefun_item": "LANTHANUM_INGOT"
+                                                      }
+                                                    },
+                                                    "on_false": {
+                                                      "type": "minecraft:condition",
+                                                      "property": "minecraft:component",
+                                                      "predicate": "minecraft:custom_data",
+                                                      "value": {
+                                                        "PublicBukkitValues": {
+                                                          "slimefun:slimefun_item": "GADOLINIUM_INGOT"
+                                                        }
+                                                      },
+                                                      "on_false": {
+                                                        "type": "minecraft:condition",
+                                                        "property": "minecraft:component",
+                                                        "predicate": "minecraft:custom_data",
+                                                        "value": {
+                                                          "PublicBukkitValues": {
+                                                            "slimefun:slimefun_item": "TERBIUM_INGOT"
+                                                          }
+                                                        },
+                                                        "on_false": {
+                                                          "type": "minecraft:condition",
+                                                          "property": "minecraft:component",
+                                                          "predicate": "minecraft:custom_data",
+                                                          "value": {
+                                                            "PublicBukkitValues": {
+                                                              "slimefun:slimefun_item": "ERBIUM_INGOT"
+                                                            }
+                                                          },
+                                                          "on_false": {
+                                                            "type": "minecraft:condition",
+                                                            "property": "minecraft:component",
+                                                            "predicate": "minecraft:custom_data",
+                                                            "value": {
+                                                              "PublicBukkitValues": {
+                                                                "slimefun:slimefun_item": "YTTERBIUM_INGOT"
+                                                              }
+                                                            },
+                                                            "on_false": {
+                                                              "type": "minecraft:condition",
+                                                              "property": "minecraft:component",
+                                                              "predicate": "minecraft:custom_data",
+                                                              "value": {
+                                                                "PublicBukkitValues": {
+                                                                  "slimefun:slimefun_item": "TERFENOL_D"
+                                                                }
+                                                              },
+                                                              "on_false": {
+                                                                "type": "minecraft:condition",
+                                                                "property": "minecraft:component",
+                                                                "predicate": "minecraft:custom_data",
+                                                                "value": {
+                                                                  "PublicBukkitValues": {
+                                                                    "slimefun:slimefun_item": "INGOT_CAST_SEFIRITE"
+                                                                  }
+                                                                },
+                                                                "on_false": {
+                                                                  "type": "minecraft:condition",
+                                                                  "property": "minecraft:component",
+                                                                  "predicate": "minecraft:custom_data",
+                                                                  "value": {
+                                                                    "PublicBukkitValues": {
+                                                                      "slimefun:slimefun_item": "INGOT_CAST_CRINGLEIUM"
+                                                                    }
+                                                                  },
+                                                                  "on_false": {
+                                                                    "type": "minecraft:condition",
+                                                                    "property": "minecraft:component",
+                                                                    "predicate": "minecraft:custom_data",
+                                                                    "value": {
+                                                                      "PublicBukkitValues": {
+                                                                        "slimefun:slimefun_item": "INGOT_CAST_SMITHIUM"
+                                                                      }
+                                                                    },
+                                                                    "on_false": {
+                                                                      "type": "minecraft:condition",
+                                                                      "property": "minecraft:component",
+                                                                      "predicate": "minecraft:custom_data",
+                                                                      "value": {
+                                                                        "PublicBukkitValues": {
+                                                                          "slimefun:slimefun_item": "IE_MYTHRIL"
+                                                                        }
+                                                                      },
+                                                                      "on_false": {
+                                                                        "type": "minecraft:condition",
+                                                                        "property": "minecraft:component",
+                                                                        "predicate": "minecraft:custom_data",
+                                                                        "value": {
+                                                                          "PublicBukkitValues": {
+                                                                            "slimefun:slimefun_item": "IE_TITANIUM"
+                                                                          }
+                                                                        },
+                                                                        "on_false": {
+                                                                          "type": "minecraft:condition",
+                                                                          "property": "minecraft:component",
+                                                                          "predicate": "minecraft:custom_data",
+                                                                          "value": {
+                                                                            "PublicBukkitValues": {
+                                                                              "slimefun:slimefun_item": "IE_INFINITY_INGOT"
+                                                                            }
+                                                                          },
+                                                                          "on_false": {
+                                                                            "type": "minecraft:condition",
+                                                                            "property": "minecraft:component",
+                                                                            "predicate": "minecraft:custom_data",
+                                                                            "value": {
+                                                                              "PublicBukkitValues": {
+                                                                                "slimefun:slimefun_item": "SUPREME_ALLOY_ZIRCONIUM"
+                                                                              }
+                                                                            },
+                                                                            "on_false": {
+                                                                              "type": "minecraft:condition",
+                                                                              "property": "minecraft:component",
+                                                                              "predicate": "minecraft:custom_data",
+                                                                              "value": {
+                                                                                "PublicBukkitValues": {
+                                                                                  "slimefun:slimefun_item": "SUPREME_ALLOY_TITANIUM"
+                                                                                }
+                                                                              },
+                                                                              "on_false": {
+                                                                                "type": "minecraft:condition",
+                                                                                "property": "minecraft:component",
+                                                                                "predicate": "minecraft:custom_data",
+                                                                                "value": {
+                                                                                  "PublicBukkitValues": {
+                                                                                    "slimefun:slimefun_item": "SUPREME_ALLOY_IRIDIUM"
+                                                                                  }
+                                                                                },
+                                                                                "on_false": {
+                                                                                  "type": "minecraft:condition",
+                                                                                  "property": "minecraft:component",
+                                                                                  "predicate": "minecraft:custom_data",
+                                                                                  "value": {
+                                                                                    "PublicBukkitValues": {
+                                                                                      "slimefun:slimefun_item": "SUPREME_THORNIUM_INGOT"
+                                                                                    }
+                                                                                  },
+                                                                                  "on_false": {
+                                                                                    "type": "model",
+                                                                                    "model": "item/iron_ingot"
+                                                                                  },
+                                                                                  "on_true": {
+                                                                                    "type": "model",
+                                                                                    "model": "supreme:components/supreme_thornium_ingot"
+                                                                                  }
+                                                                                },
+                                                                                "on_true": {
+                                                                                  "type": "model",
+                                                                                  "model": "supreme:components/supreme_alloy_iridium"
+                                                                                }
+                                                                              },
+                                                                              "on_true": {
+                                                                                "type": "model",
+                                                                                "model": "supreme:components/supreme_alloy_titanium"
+                                                                              }
+                                                                            },
+                                                                            "on_true": {
+                                                                              "type": "model",
+                                                                              "model": "supreme:components/supreme_alloy_zirconium"
+                                                                            }
+                                                                          },
+                                                                          "on_true": {
+                                                                            "type": "model",
+                                                                            "model": "infinityexpansion2:materials/infinity_ingot"
+                                                                          }
+                                                                        },
+                                                                        "on_true": {
+                                                                          "type": "model",
+                                                                          "model": "infinityexpansion2:materials/titanium"
+                                                                        }
+                                                                      },
+                                                                      "on_true": {
+                                                                        "type": "model",
+                                                                        "model": "infinityexpansion2:materials/mythril"
+                                                                      }
+                                                                    },
+                                                                    "on_true": {
+                                                                      "type": "model",
+                                                                      "model": "slimetinker:materials/ingots/ingot_cast_smithium"
+                                                                    }
+                                                                  },
+                                                                  "on_true": {
+                                                                    "type": "model",
+                                                                    "model": "slimetinker:materials/ingots/ingot_cast_cringleium"
+                                                                  }
+                                                                },
+                                                                "on_true": {
+                                                                  "type": "model",
+                                                                  "model": "slimetinker:materials/ingots/ingot_cast_sefirite"
+                                                                }
+                                                              },
+                                                              "on_true": {
+                                                                "type": "model",
+                                                                "model": "slimefunwarfare:general/terfenol_d"
+                                                              }
+                                                            },
+                                                            "on_true": {
+                                                              "type": "model",
+                                                              "model": "slimefunwarfare:resources/ytterbium_ingot"
+                                                            }
+                                                          },
+                                                          "on_true": {
+                                                            "type": "model",
+                                                            "model": "slimefunwarfare:resources/erbium_ingot"
+                                                          }
+                                                        },
+                                                        "on_true": {
+                                                          "type": "model",
+                                                          "model": "slimefunwarfare:resources/terbium_ingot"
+                                                        }
+                                                      },
+                                                      "on_true": {
+                                                        "type": "model",
+                                                        "model": "slimefunwarfare:resources/gadolinium_ingot"
+                                                      }
+                                                    },
+                                                    "on_true": {
+                                                      "type": "model",
+                                                      "model": "slimefunwarfare:resources/lanthanum_ingot"
+                                                    }
+                                                  },
+                                                  "on_true": {
+                                                    "type": "model",
+                                                    "model": "slimefunwarfare:resources/osmium_ingot"
+                                                  }
+                                                },
+                                                "on_true": {
+                                                  "type": "model",
+                                                  "model": "slimefunwarfare:general/osmium_superalloy"
+                                                }
+                                              },
+                                              "on_true": {
+                                                "type": "model",
+                                                "model": "slimefunwarfare:resources/reinforced_slimesteel_ingot"
+                                              }
+                                            },
+                                            "on_true": {
+                                              "type": "model",
+                                              "model": "slimefunwarfare:resources/slimesteel_ingot"
+                                            }
+                                          },
+                                          "on_true": {
+                                            "type": "model",
+                                            "model": "fluffymachines:portable_chargers/medium_portable_charger"
+                                          }
+                                        },
+                                        "on_true": {
+                                          "type": "model",
+                                          "model": "infinityexpansion:materials/titanium"
+                                        }
+                                      },
+                                      "on_true": {
+                                        "type": "model",
+                                        "model": "infinityexpansion:materials/mythril"
+                                      }
+                                    },
+                                    "on_true": {
+                                      "type": "model",
+                                      "model": "infinityexpansion:materials/infinite_ingot"
+                                    }
+                                  },
+                                  "on_true": {
+                                    "type": "model",
+                                    "model": "slimefun:slimefun/resources/ingots/magnesium_ingot"
+                                  }
+                                },
+                                "on_true": {
+                                  "type": "model",
+                                  "model": "slimefun:slimefun/resources/ingots/zinc_ingot"
+                                }
+                              },
+                              "on_true": {
+                                "type": "model",
+                                "model": "slimefun:slimefun/resources/ingots/aluminum_ingot"
+                              }
+                            },
+                            "on_true": {
+                              "type": "model",
+                              "model": "slimefun:slimefun/resources/ingots/lead_ingot"
+                            }
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "slimefun:slimefun/resources/ingots/silver_ingot"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "slimefun:slimefun/resources/ingots/tin_ingot"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "slimefun:slimefun/resources/ingots/ferrosilicon"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "slimefun:slimefun/resources/ingots/cobalt_ingot"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "slimefun:slimefun/resources/ingots/nickel_ingot"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "slimefun:slimefun/resources/ingots/solder_ingot"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "slimefun:slimefun/resources/ingots/billon_ingot"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "slimefun:slimefun/resources/ingots/duralumin_ingot"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimefun:slimefun/resources/ingots/steel_ingot"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/resources/ingots/damascus_steel_ingot"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/resources/ingots/hardened_metal_ingot"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/resources/ingots/reinforced_alloy_ingot"
+    }
+  }
+}

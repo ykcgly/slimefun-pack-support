@@ -1,0 +1,34 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "PRESSURE_CHAMBER"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "IE_VOID_GLASS"
+        }
+      },
+      "on_false": {
+        "type": "model",
+        "model": "block/glass"
+      },
+      "on_true": {
+        "type": "model",
+        "model": "infinityexpansion2:materials/void_glass"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/basic_machines/pressure_chamber"
+    }
+  }
+}

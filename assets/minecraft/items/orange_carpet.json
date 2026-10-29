@@ -1,0 +1,160 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "CAST_SHOVELHEAD"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "CAST_PICKAXEHEAD"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CAST_AXE_HEAD"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "CAST_HOEHEAD"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "CAST_SWORDBLADE"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "CAST_TOOLROD"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "CAST_HELM_PLATE"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "CAST_CHEST_PLATE"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "CAST_LEG_PLATE"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "CAST_BOOT_PLATE"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "CAST_MAIL_LINK"
+                          }
+                        },
+                        "on_false": {
+                          "type": "model",
+                          "model": "block/orange_carpet"
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "slimetinker:casts/cast_mail_link"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "slimetinker:casts/cast_boot_plate"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "slimetinker:casts/cast_leg_plate"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "slimetinker:casts/cast_chest_plate"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "slimetinker:casts/cast_helm_plate"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "slimetinker:casts/cast_toolrod"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "slimetinker:casts/cast_swordblade"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimetinker:casts/cast_hoehead"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimetinker:casts/cast_axe_head"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimetinker:casts/cast_pickaxehead"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimetinker:casts/cast_shovelhead"
+    }
+  }
+}

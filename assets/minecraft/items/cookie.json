@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "FORTUNE_COOKIE"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "DIET_COOKIE"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "KELP_COOKIE"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "CHRISTMAS_COOKIE"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/cookie"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimefun:slimefun/christmas/christmas_cookie"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/food/kelp_cookie"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/food/diet_cookie"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/food/fortune_cookie"
+    }
+  }
+}

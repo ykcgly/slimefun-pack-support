@@ -1,0 +1,76 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "COMPRESSED_COBBLESTONE_1"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "COMPRESSED_COBBLESTONE_2"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_COMPRESSED_COBBLESTONE_1"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "IE_COMPRESSED_COBBLESTONE_2"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "IE_COMPRESSED_COBBLESTONE_3"
+              }
+            },
+            "on_false": {
+              "type": "model",
+              "model": "block/andesite"
+            },
+            "on_true": {
+              "type": "model",
+              "model": "infinityexpansion2:materials/compressed_cobblestone_3"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "infinityexpansion2:materials/compressed_cobblestone_2"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "infinityexpansion2:materials/compressed_cobblestone_1"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "infinityexpansion:materials/compressed_cobblestone_2"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion:materials/compressed_cobblestone_1"
+    }
+  }
+}

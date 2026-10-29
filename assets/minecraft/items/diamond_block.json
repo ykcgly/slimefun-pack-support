@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "DIAMOND_SINGULARITY"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "INFINITE_MACHINE_CORE"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_INFINITY_MACHINE_CORE"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "IE_DIAMOND_SINGULARITY"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "block/diamond_block"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "infinityexpansion2:singularities/diamond_singularity"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "infinityexpansion2:materials/infinity_machine_core"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "infinityexpansion:materials/infinite_machine_core"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion:singularities/diamond_singularity"
+    }
+  }
+}

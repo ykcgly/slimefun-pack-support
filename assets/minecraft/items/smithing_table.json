@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "GN_CHEF_ANDROID_TRAINER"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "TINKERS_TABLE"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "TINKERS_ARMOUR_TABLE"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "SUPREME_MULTIBLOCK_GEAR"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "block/smithing_table"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "supreme:machines/gear_fabricator"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimetinker:workstations/tinkers_armour_table"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimetinker:workstations/tinkers_table"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "gastronomicon:basic_machines/gn_chef_android_trainer"
+    }
+  }
+}

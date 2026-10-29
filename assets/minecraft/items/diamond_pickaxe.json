@@ -1,0 +1,244 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "SMELTERS_PICKAXE"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "EXPLOSIVE_PICKAXE"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ADVANCED_INDUSTRIAL_MINER"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "PICKAXE_OF_THE_SEEKER"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "PICKAXE_OF_VEIN_MINING"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "SOULBOUND_PICKAXE"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "UPGRADED_EXPLOSIVE_PICKAXE"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "PAXEL"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "SUPREME_TITANIUM_PICKAXE"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "SUPREME_AURUM_PICKAXE"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "SUPREME_ADAMANTIUM_PICKAXE"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "slimefun:slimefun_item": "SUPREME_PICKAXE_THORNIUM"
+                            }
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": {
+                              "PublicBukkitValues": {
+                                "slimefun:slimefun_item": "SUPREME_PICKAXE_MAGIC"
+                              }
+                            },
+                            "on_false": {
+                              "type": "minecraft:condition",
+                              "property": "minecraft:component",
+                              "predicate": "minecraft:custom_data",
+                              "value": {
+                                "PublicBukkitValues": {
+                                  "slimefun:slimefun_item": "SUPREME_PICKAXE_RARE"
+                                }
+                              },
+                              "on_false": {
+                                "type": "minecraft:condition",
+                                "property": "minecraft:component",
+                                "predicate": "minecraft:custom_data",
+                                "value": {
+                                  "PublicBukkitValues": {
+                                    "slimefun:slimefun_item": "SUPREME_PICKAXE_EPIC"
+                                  }
+                                },
+                                "on_false": {
+                                  "type": "minecraft:condition",
+                                  "property": "minecraft:component",
+                                  "predicate": "minecraft:custom_data",
+                                  "value": {
+                                    "PublicBukkitValues": {
+                                      "slimefun:slimefun_item": "SUPREME_PICKAXE_LEGENDARY"
+                                    }
+                                  },
+                                  "on_false": {
+                                    "type": "minecraft:condition",
+                                    "property": "minecraft:component",
+                                    "predicate": "minecraft:custom_data",
+                                    "value": {
+                                      "PublicBukkitValues": {
+                                        "slimefun:slimefun_item": "SUPREME_PICKAXE_SUPREME"
+                                      }
+                                    },
+                                    "on_false": {
+                                      "type": "model",
+                                      "model": "item/diamond_pickaxe"
+                                    },
+                                    "on_true": {
+                                      "type": "model",
+                                      "model": "supreme:weapons/pickaxe/supreme_pickaxe_supreme"
+                                    }
+                                  },
+                                  "on_true": {
+                                    "type": "model",
+                                    "model": "supreme:weapons/pickaxe/supreme_pickaxe_legendary"
+                                  }
+                                },
+                                "on_true": {
+                                  "type": "model",
+                                  "model": "supreme:weapons/pickaxe/supreme_pickaxe_epic"
+                                }
+                              },
+                              "on_true": {
+                                "type": "model",
+                                "model": "supreme:weapons/pickaxe/supreme_pickaxe_rare"
+                              }
+                            },
+                            "on_true": {
+                              "type": "model",
+                              "model": "supreme:weapons/pickaxe/supreme_pickaxe_magic"
+                            }
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "supreme:weapons/pickaxe/supreme_pickaxe_thornium"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "supreme:weapons/pickaxe/supreme_adamantium_pickaxe"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "supreme:weapons/pickaxe/supreme_aurum_pickaxe"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "supreme:weapons/pickaxe/supreme_titanium_pickaxe"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "fluffymachines:tools/paxel"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "fluffymachines:tools/upgraded_explosive_pickaxe"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "slimefun:slimefun/tools/soulbound_pickaxe"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "slimefun:slimefun/tools/pickaxe_of_vein_mining"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimefun:slimefun/tools/pickaxe_of_the_seeker"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/tools/explosive_pickaxe"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/tools/smelters_pickaxe"
+    }
+  }
+}

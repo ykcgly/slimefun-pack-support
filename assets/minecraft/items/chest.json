@@ -1,0 +1,46 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "OUTPUT_CHEST"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "cases": [
+        {
+          "model": {
+            "type": "minecraft:special",
+            "base": "minecraft:item/chest",
+            "model": {
+              "type": "minecraft:chest",
+              "texture": "minecraft:christmas"
+            }
+          },
+          "when": [
+            "12-24",
+            "12-25",
+            "12-26"
+          ]
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:special",
+        "base": "minecraft:item/chest",
+        "model": {
+          "type": "minecraft:chest",
+          "texture": "minecraft:normal"
+        }
+      },
+      "pattern": "MM-dd",
+      "property": "minecraft:local_time"
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/basic_machines/output_chest"
+    }
+  }
+}

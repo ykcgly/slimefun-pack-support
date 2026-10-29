@@ -1,0 +1,384 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "SWORD_OF_BEHEADING"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "ALUMINUM_BRASS_SWORD"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ALUMINUM_BRONZE_SWORD"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "ALUMINUM_SWORD"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "BILLON_SWORD"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "BRASS_SWORD"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "BRONZE_SWORD"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "COBALT_SWORD"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "COPPER_SWORD"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "CORINTHIAN_BRONZE_SWORD"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "DAMASCUS_STEEL_SWORD"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "slimefun:slimefun_item": "DURALUMIN_SWORD"
+                            }
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": {
+                              "PublicBukkitValues": {
+                                "slimefun:slimefun_item": "FERROSILICON_SWORD"
+                              }
+                            },
+                            "on_false": {
+                              "type": "minecraft:condition",
+                              "property": "minecraft:component",
+                              "predicate": "minecraft:custom_data",
+                              "value": {
+                                "PublicBukkitValues": {
+                                  "slimefun:slimefun_item": "HARDENED_METAL"
+                                }
+                              },
+                              "on_false": {
+                                "type": "minecraft:condition",
+                                "property": "minecraft:component",
+                                "predicate": "minecraft:custom_data",
+                                "value": {
+                                  "PublicBukkitValues": {
+                                    "slimefun:slimefun_item": "LEAD_SWORD"
+                                  }
+                                },
+                                "on_false": {
+                                  "type": "minecraft:condition",
+                                  "property": "minecraft:component",
+                                  "predicate": "minecraft:custom_data",
+                                  "value": {
+                                    "PublicBukkitValues": {
+                                      "slimefun:slimefun_item": "MAGNESIUM_SWORD"
+                                    }
+                                  },
+                                  "on_false": {
+                                    "type": "minecraft:condition",
+                                    "property": "minecraft:component",
+                                    "predicate": "minecraft:custom_data",
+                                    "value": {
+                                      "PublicBukkitValues": {
+                                        "slimefun:slimefun_item": "NICKEL_SWORD"
+                                      }
+                                    },
+                                    "on_false": {
+                                      "type": "minecraft:condition",
+                                      "property": "minecraft:component",
+                                      "predicate": "minecraft:custom_data",
+                                      "value": {
+                                        "PublicBukkitValues": {
+                                          "slimefun:slimefun_item": "REINFORCED_SWORD"
+                                        }
+                                      },
+                                      "on_false": {
+                                        "type": "minecraft:condition",
+                                        "property": "minecraft:component",
+                                        "predicate": "minecraft:custom_data",
+                                        "value": {
+                                          "PublicBukkitValues": {
+                                            "slimefun:slimefun_item": "SILVER_SWORD"
+                                          }
+                                        },
+                                        "on_false": {
+                                          "type": "minecraft:condition",
+                                          "property": "minecraft:component",
+                                          "predicate": "minecraft:custom_data",
+                                          "value": {
+                                            "PublicBukkitValues": {
+                                              "slimefun:slimefun_item": "SOLDER_SWORD"
+                                            }
+                                          },
+                                          "on_false": {
+                                            "type": "minecraft:condition",
+                                            "property": "minecraft:component",
+                                            "predicate": "minecraft:custom_data",
+                                            "value": {
+                                              "PublicBukkitValues": {
+                                                "slimefun:slimefun_item": "STEEL_SWORD"
+                                              }
+                                            },
+                                            "on_false": {
+                                              "type": "minecraft:condition",
+                                              "property": "minecraft:component",
+                                              "predicate": "minecraft:custom_data",
+                                              "value": {
+                                                "PublicBukkitValues": {
+                                                  "slimefun:slimefun_item": "TIN_SWORD"
+                                                }
+                                              },
+                                              "on_false": {
+                                                "type": "minecraft:condition",
+                                                "property": "minecraft:component",
+                                                "predicate": "minecraft:custom_data",
+                                                "value": {
+                                                  "PublicBukkitValues": {
+                                                    "slimefun:slimefun_item": "ZINC_SWORD"
+                                                  }
+                                                },
+                                                "on_false": {
+                                                  "type": "minecraft:condition",
+                                                  "property": "minecraft:component",
+                                                  "predicate": "minecraft:custom_data",
+                                                  "value": {
+                                                    "PublicBukkitValues": {
+                                                      "slimefun:slimefun_item": "SOUL_SWORD"
+                                                    }
+                                                  },
+                                                  "on_false": {
+                                                    "type": "minecraft:condition",
+                                                    "property": "minecraft:component",
+                                                    "predicate": "minecraft:custom_data",
+                                                    "value": {
+                                                      "PublicBukkitValues": {
+                                                        "slimefun:slimefun_item": "DEVIL_SWORD"
+                                                      }
+                                                    },
+                                                    "on_false": {
+                                                      "type": "minecraft:condition",
+                                                      "property": "minecraft:component",
+                                                      "predicate": "minecraft:custom_data",
+                                                      "value": {
+                                                        "PublicBukkitValues": {
+                                                          "slimefun:slimefun_item": "OSMIUM_SWORD"
+                                                        }
+                                                      },
+                                                      "on_false": {
+                                                        "type": "minecraft:condition",
+                                                        "property": "minecraft:component",
+                                                        "predicate": "minecraft:custom_data",
+                                                        "value": {
+                                                          "PublicBukkitValues": {
+                                                            "slimefun:slimefun_item": "GN_KITCHEN_KNIFE"
+                                                          }
+                                                        },
+                                                        "on_false": {
+                                                          "type": "model",
+                                                          "model": "item/iron_sword"
+                                                        },
+                                                        "on_true": {
+                                                          "type": "model",
+                                                          "model": "gastronomicon:tools/gn_kitchen_knife"
+                                                        }
+                                                      },
+                                                      "on_true": {
+                                                        "type": "model",
+                                                        "model": "slimefunwarfare:melee_weapons/osmium_sword"
+                                                      }
+                                                    },
+                                                    "on_true": {
+                                                      "type": "model",
+                                                      "model": "bump:magical_weapons/devil_sword"
+                                                    }
+                                                  },
+                                                  "on_true": {
+                                                    "type": "model",
+                                                    "model": "bump:magical_weapons/soul_sword"
+                                                  }
+                                                },
+                                                "on_true": {
+                                                  "type": "model",
+                                                  "model": "extra_gear:swords/zinc_sword"
+                                                }
+                                              },
+                                              "on_true": {
+                                                "type": "model",
+                                                "model": "extra_gear:swords/tin_sword"
+                                              }
+                                            },
+                                            "on_true": {
+                                              "type": "model",
+                                              "model": "extra_gear:swords/steel_sword"
+                                            }
+                                          },
+                                          "on_true": {
+                                            "type": "model",
+                                            "model": "extra_gear:swords/solder_sword"
+                                          }
+                                        },
+                                        "on_true": {
+                                          "type": "model",
+                                          "model": "extra_gear:swords/silver_sword"
+                                        }
+                                      },
+                                      "on_true": {
+                                        "type": "model",
+                                        "model": "extra_gear:swords/reinforced_sword"
+                                      }
+                                    },
+                                    "on_true": {
+                                      "type": "model",
+                                      "model": "extra_gear:swords/nickel_sword"
+                                    }
+                                  },
+                                  "on_true": {
+                                    "type": "model",
+                                    "model": "extra_gear:swords/magnesium_sword"
+                                  }
+                                },
+                                "on_true": {
+                                  "type": "model",
+                                  "model": "extra_gear:swords/lead_sword"
+                                }
+                              },
+                              "on_true": {
+                                "type": "model",
+                                "model": "extra_gear:swords/hardened_sword"
+                              }
+                            },
+                            "on_true": {
+                              "type": "model",
+                              "model": "extra_gear:swords/ferrosilicon_sword"
+                            }
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "extra_gear:swords/duralumin_sword"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "extra_gear:swords/damascus_steel_sword"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "extra_gear:swords/corinthian_bronze_sword"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "extra_gear:swords/copper_sword"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "extra_gear:swords/cobalt_sword"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "extra_gear:swords/bronze_sword"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "extra_gear:swords/brass_sword"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "extra_gear:swords/billon_sword"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "extra_gear:swords/aluminum_sword"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "extra_gear:swords/aluminum_bronze_sword"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "extra_gear:swords/aluminum_brass_sword"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/weapons/sword_of_beheading"
+    }
+  }
+}

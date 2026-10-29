@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "NUGGET_CAST_COAL"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "block/polished_blackstone_button_inventory"
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimetinker:materials/nuggets/nugget_cast_coal"
+    }
+  }
+}

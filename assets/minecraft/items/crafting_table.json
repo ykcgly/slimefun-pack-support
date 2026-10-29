@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "ENHANCED_CRAFTING_TABLE"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "MAGIC_WORKBENCH"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CHARGING_BENCH"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "GN_CULINARY_WORKBENCH"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "block/crafting_table"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "gastronomicon:basic_machines/gn_culinary_workbench"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/energy/charging_bench"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/basic_machines/magic_workbench"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/basic_machines/enhanced_crafting_table"
+    }
+  }
+}

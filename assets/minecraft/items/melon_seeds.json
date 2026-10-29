@@ -1,0 +1,188 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "GN_TURNIP_SEEDS"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "GN_BOK_CHOY_SEEDS"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_BROCCOLI_SEEDS"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "GN_BASIL_SEEDS"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "GN_MINT_SEEDS"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "GN_PARSLEY_SEEDS"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "GN_ASPARAGUS_SEEDS"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "GN_GREEN_ONION_SEEDS"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "CLT_RAPESEED"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "CLT_BLACK_BEANS"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "CLT_SOY_BEANS"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "slimefun:slimefun_item": "CLT_PINTO_BEANS"
+                            }
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": {
+                              "PublicBukkitValues": {
+                                "slimefun:slimefun_item": "SUPREME_DUST_NETHERITE"
+                              }
+                            },
+                            "on_false": {
+                              "type": "model",
+                              "model": "item/melon_seeds"
+                            },
+                            "on_true": {
+                              "type": "model",
+                              "model": "supreme:components/supreme_dust_netherite"
+                            }
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "cultivation:products/clt_pinto_beans"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "cultivation:products/clt_soy_beans"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "cultivation:products/clt_black_beans"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "cultivation:products/clt_rapeseed"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "gastronomicon:ingredient/gn_green_onion_seeds"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "gastronomicon:ingredient/gn_asparagus_seeds"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "gastronomicon:ingredient/gn_parsley_seeds"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "gastronomicon:ingredient/gn_mint_seeds"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "gastronomicon:ingredient/gn_basil_seeds"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "gastronomicon:ingredient/gn_broccoli_seeds"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "gastronomicon:ingredient/gn_bok_choy_seeds"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "gastronomicon:ingredient/gn_turnip_seeds"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "COMPRESSED_COBBLESTONE_5"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "block/polished_andesite"
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion:materials/compressed_cobblestone_5"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "NUGGET_CAST_COPPER"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "NUGGET_CAST_BRONZE"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_REDSTONE_ALLOY"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "NUGGET_CAST_BOOMERITE"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "block/acacia_button_inventory"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimetinker:materials/nuggets/nugget_cast_boomerite"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_redstone_alloy"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimetinker:materials/nuggets/nugget_cast_bronze"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimetinker:materials/nuggets/nugget_cast_copper"
+    }
+  }
+}

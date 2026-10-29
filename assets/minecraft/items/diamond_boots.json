@@ -1,0 +1,580 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "ENDER_BOOTS"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "SLIME_BOOTS"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GLOWSTONE_BOOTS"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "DAMASCUS_STEEL_BOOTS"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "REINFORCED_ALLOY_BOOTS"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "CACTUS_BOOTS"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "GILDED_IRON_BOOTS"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "RUBBER_BOOTS"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "GOLD_12K_BOOTS"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "SLIME_STEEL_BOOTS"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "FARMER_SHOES"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "slimefun:slimefun_item": "BOOTS_OF_THE_STOMPER"
+                            }
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": {
+                              "PublicBukkitValues": {
+                                "slimefun:slimefun_item": "DURALUMIN_JETBOOTS"
+                              }
+                            },
+                            "on_false": {
+                              "type": "minecraft:condition",
+                              "property": "minecraft:component",
+                              "predicate": "minecraft:custom_data",
+                              "value": {
+                                "PublicBukkitValues": {
+                                  "slimefun:slimefun_item": "SOLDER_JETBOOTS"
+                                }
+                              },
+                              "on_false": {
+                                "type": "minecraft:condition",
+                                "property": "minecraft:component",
+                                "predicate": "minecraft:custom_data",
+                                "value": {
+                                  "PublicBukkitValues": {
+                                    "slimefun:slimefun_item": "BILLON_JETBOOTS"
+                                  }
+                                },
+                                "on_false": {
+                                  "type": "minecraft:condition",
+                                  "property": "minecraft:component",
+                                  "predicate": "minecraft:custom_data",
+                                  "value": {
+                                    "PublicBukkitValues": {
+                                      "slimefun:slimefun_item": "STEEL_JETBOOTS"
+                                    }
+                                  },
+                                  "on_false": {
+                                    "type": "minecraft:condition",
+                                    "property": "minecraft:component",
+                                    "predicate": "minecraft:custom_data",
+                                    "value": {
+                                      "PublicBukkitValues": {
+                                        "slimefun:slimefun_item": "DAMASCUS_STEEL_JETBOOTS"
+                                      }
+                                    },
+                                    "on_false": {
+                                      "type": "minecraft:condition",
+                                      "property": "minecraft:component",
+                                      "predicate": "minecraft:custom_data",
+                                      "value": {
+                                        "PublicBukkitValues": {
+                                          "slimefun:slimefun_item": "REINFORCED_ALLOY_JETBOOTS"
+                                        }
+                                      },
+                                      "on_false": {
+                                        "type": "minecraft:condition",
+                                        "property": "minecraft:component",
+                                        "predicate": "minecraft:custom_data",
+                                        "value": {
+                                          "PublicBukkitValues": {
+                                            "slimefun:slimefun_item": "CARBONADO_JETBOOTS"
+                                          }
+                                        },
+                                        "on_false": {
+                                          "type": "minecraft:condition",
+                                          "property": "minecraft:component",
+                                          "predicate": "minecraft:custom_data",
+                                          "value": {
+                                            "PublicBukkitValues": {
+                                              "slimefun:slimefun_item": "ARMORED_JETBOOTS"
+                                            }
+                                          },
+                                          "on_false": {
+                                            "type": "minecraft:condition",
+                                            "property": "minecraft:component",
+                                            "predicate": "minecraft:custom_data",
+                                            "value": {
+                                              "PublicBukkitValues": {
+                                                "slimefun:slimefun_item": "SOULBOUND_BOOTS"
+                                              }
+                                            },
+                                            "on_false": {
+                                              "type": "minecraft:condition",
+                                              "property": "minecraft:component",
+                                              "predicate": "minecraft:custom_data",
+                                              "value": {
+                                                "PublicBukkitValues": {
+                                                  "slimefun:slimefun_item": "BEE_BOOTS"
+                                                }
+                                              },
+                                              "on_false": {
+                                                "type": "minecraft:condition",
+                                                "property": "minecraft:component",
+                                                "predicate": "minecraft:custom_data",
+                                                "value": {
+                                                  "PublicBukkitValues": {
+                                                    "slimefun:slimefun_item": "RAINBOW_BOOTS"
+                                                  }
+                                                },
+                                                "on_false": {
+                                                  "type": "minecraft:condition",
+                                                  "property": "minecraft:component",
+                                                  "predicate": "minecraft:custom_data",
+                                                  "value": {
+                                                    "PublicBukkitValues": {
+                                                      "slimefun:slimefun_item": "ALUMINUM_BOOTS"
+                                                    }
+                                                  },
+                                                  "on_false": {
+                                                    "type": "minecraft:condition",
+                                                    "property": "minecraft:component",
+                                                    "predicate": "minecraft:custom_data",
+                                                    "value": {
+                                                      "PublicBukkitValues": {
+                                                        "slimefun:slimefun_item": "COBALT_BOOTS"
+                                                      }
+                                                    },
+                                                    "on_false": {
+                                                      "type": "minecraft:condition",
+                                                      "property": "minecraft:component",
+                                                      "predicate": "minecraft:custom_data",
+                                                      "value": {
+                                                        "PublicBukkitValues": {
+                                                          "slimefun:slimefun_item": "COPPER_BOOTS"
+                                                        }
+                                                      },
+                                                      "on_false": {
+                                                        "type": "minecraft:condition",
+                                                        "property": "minecraft:component",
+                                                        "predicate": "minecraft:custom_data",
+                                                        "value": {
+                                                          "PublicBukkitValues": {
+                                                            "slimefun:slimefun_item": "LEAD_BOOTS"
+                                                          }
+                                                        },
+                                                        "on_false": {
+                                                          "type": "minecraft:condition",
+                                                          "property": "minecraft:component",
+                                                          "predicate": "minecraft:custom_data",
+                                                          "value": {
+                                                            "PublicBukkitValues": {
+                                                              "slimefun:slimefun_item": "MAGNESIUM_BOOTS"
+                                                            }
+                                                          },
+                                                          "on_false": {
+                                                            "type": "minecraft:condition",
+                                                            "property": "minecraft:component",
+                                                            "predicate": "minecraft:custom_data",
+                                                            "value": {
+                                                              "PublicBukkitValues": {
+                                                                "slimefun:slimefun_item": "SILVER_BOOTS"
+                                                              }
+                                                            },
+                                                            "on_false": {
+                                                              "type": "minecraft:condition",
+                                                              "property": "minecraft:component",
+                                                              "predicate": "minecraft:custom_data",
+                                                              "value": {
+                                                                "PublicBukkitValues": {
+                                                                  "slimefun:slimefun_item": "STEEL_BOOTS"
+                                                                }
+                                                              },
+                                                              "on_false": {
+                                                                "type": "minecraft:condition",
+                                                                "property": "minecraft:component",
+                                                                "predicate": "minecraft:custom_data",
+                                                                "value": {
+                                                                  "PublicBukkitValues": {
+                                                                    "slimefun:slimefun_item": "TIN_BOOTS"
+                                                                  }
+                                                                },
+                                                                "on_false": {
+                                                                  "type": "minecraft:condition",
+                                                                  "property": "minecraft:component",
+                                                                  "predicate": "minecraft:custom_data",
+                                                                  "value": {
+                                                                    "PublicBukkitValues": {
+                                                                      "slimefun:slimefun_item": "ZINC_BOOTS"
+                                                                    }
+                                                                  },
+                                                                  "on_false": {
+                                                                    "type": "minecraft:condition",
+                                                                    "property": "minecraft:component",
+                                                                    "predicate": "minecraft:custom_data",
+                                                                    "value": {
+                                                                      "PublicBukkitValues": {
+                                                                        "slimefun:slimefun_item": "SUPREME_TITANIUM_BOOTS"
+                                                                      }
+                                                                    },
+                                                                    "on_false": {
+                                                                      "type": "minecraft:condition",
+                                                                      "property": "minecraft:component",
+                                                                      "predicate": "minecraft:custom_data",
+                                                                      "value": {
+                                                                        "PublicBukkitValues": {
+                                                                          "slimefun:slimefun_item": "SUPREME_AURUM_BOOTS"
+                                                                        }
+                                                                      },
+                                                                      "on_false": {
+                                                                        "type": "minecraft:condition",
+                                                                        "property": "minecraft:component",
+                                                                        "predicate": "minecraft:custom_data",
+                                                                        "value": {
+                                                                          "PublicBukkitValues": {
+                                                                            "slimefun:slimefun_item": "SUPREME_ADAMANTIUM_BOOTS"
+                                                                          }
+                                                                        },
+                                                                        "on_false": {
+                                                                          "type": "minecraft:condition",
+                                                                          "property": "minecraft:component",
+                                                                          "predicate": "minecraft:custom_data",
+                                                                          "value": {
+                                                                            "PublicBukkitValues": {
+                                                                              "slimefun:slimefun_item": "SUPREME_BOOTS_THORNIUM"
+                                                                            }
+                                                                          },
+                                                                          "on_false": {
+                                                                            "type": "minecraft:condition",
+                                                                            "property": "minecraft:component",
+                                                                            "predicate": "minecraft:custom_data",
+                                                                            "value": {
+                                                                              "PublicBukkitValues": {
+                                                                                "slimefun:slimefun_item": "SUPREME_BOOTS_MAGIC"
+                                                                              }
+                                                                            },
+                                                                            "on_false": {
+                                                                              "type": "minecraft:condition",
+                                                                              "property": "minecraft:component",
+                                                                              "predicate": "minecraft:custom_data",
+                                                                              "value": {
+                                                                                "PublicBukkitValues": {
+                                                                                  "slimefun:slimefun_item": "SUPREME_BOOTS_RARE"
+                                                                                }
+                                                                              },
+                                                                              "on_false": {
+                                                                                "type": "minecraft:condition",
+                                                                                "property": "minecraft:component",
+                                                                                "predicate": "minecraft:custom_data",
+                                                                                "value": {
+                                                                                  "PublicBukkitValues": {
+                                                                                    "slimefun:slimefun_item": "SUPREME_BOOTS_EPIC"
+                                                                                  }
+                                                                                },
+                                                                                "on_false": {
+                                                                                  "type": "minecraft:condition",
+                                                                                  "property": "minecraft:component",
+                                                                                  "predicate": "minecraft:custom_data",
+                                                                                  "value": {
+                                                                                    "PublicBukkitValues": {
+                                                                                      "slimefun:slimefun_item": "SUPREME_BOOTS_LEGENDARY"
+                                                                                    }
+                                                                                  },
+                                                                                  "on_false": {
+                                                                                    "type": "minecraft:condition",
+                                                                                    "property": "minecraft:component",
+                                                                                    "predicate": "minecraft:custom_data",
+                                                                                    "value": {
+                                                                                      "PublicBukkitValues": {
+                                                                                        "slimefun:slimefun_item": "SUPREME_BOOTS_SUPREME"
+                                                                                      }
+                                                                                    },
+                                                                                    "on_false": {
+                                                                                      "type": "model",
+                                                                                      "model": "item/diamond_boots"
+                                                                                    },
+                                                                                    "on_true": {
+                                                                                      "type": "model",
+                                                                                      "model": "supreme:armor/boots/supreme_boots_supreme"
+                                                                                    }
+                                                                                  },
+                                                                                  "on_true": {
+                                                                                    "type": "model",
+                                                                                    "model": "supreme:armor/boots/supreme_boots_legendary"
+                                                                                  }
+                                                                                },
+                                                                                "on_true": {
+                                                                                  "type": "model",
+                                                                                  "model": "supreme:armor/boots/supreme_boots_epic"
+                                                                                }
+                                                                              },
+                                                                              "on_true": {
+                                                                                "type": "model",
+                                                                                "model": "supreme:armor/boots/supreme_boots_rare"
+                                                                              }
+                                                                            },
+                                                                            "on_true": {
+                                                                              "type": "model",
+                                                                              "model": "supreme:armor/boots/supreme_boots_magic"
+                                                                            }
+                                                                          },
+                                                                          "on_true": {
+                                                                            "type": "model",
+                                                                            "model": "supreme:armor/boots/supreme_boots_thornium"
+                                                                          }
+                                                                        },
+                                                                        "on_true": {
+                                                                          "type": "model",
+                                                                          "model": "supreme:armor/boots/supreme_adamantium_boots"
+                                                                        }
+                                                                      },
+                                                                      "on_true": {
+                                                                        "type": "model",
+                                                                        "model": "supreme:armor/boots/supreme_aurum_boots"
+                                                                      }
+                                                                    },
+                                                                    "on_true": {
+                                                                      "type": "model",
+                                                                      "model": "supreme:armor/boots/supreme_titanium_boots"
+                                                                    }
+                                                                  },
+                                                                  "on_true": {
+                                                                    "type": "model",
+                                                                    "model": "extra_gear:armor/zinc/zinc_boots"
+                                                                  }
+                                                                },
+                                                                "on_true": {
+                                                                  "type": "model",
+                                                                  "model": "extra_gear:armor/tin/tin_boots"
+                                                                }
+                                                              },
+                                                              "on_true": {
+                                                                "type": "model",
+                                                                "model": "extra_gear:armor/steel/steel_boots"
+                                                              }
+                                                            },
+                                                            "on_true": {
+                                                              "type": "model",
+                                                              "model": "extra_gear:armor/silver/silver_boots"
+                                                            }
+                                                          },
+                                                          "on_true": {
+                                                            "type": "model",
+                                                            "model": "extra_gear:armor/magnesium/magnesium_boots"
+                                                          }
+                                                        },
+                                                        "on_true": {
+                                                          "type": "model",
+                                                          "model": "extra_gear:armor/lead/lead_boots"
+                                                        }
+                                                      },
+                                                      "on_true": {
+                                                        "type": "model",
+                                                        "model": "extra_gear:armor/copper/copper_boots"
+                                                      }
+                                                    },
+                                                    "on_true": {
+                                                      "type": "model",
+                                                      "model": "extra_gear:armor/cobalt/cobalt_boots"
+                                                    }
+                                                  },
+                                                  "on_true": {
+                                                    "type": "model",
+                                                    "model": "extra_gear:armor/aluminum/aluminum_boots"
+                                                  }
+                                                },
+                                                "on_true": {
+                                                  "type": "model",
+                                                  "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_boots"
+                                                }
+                                              },
+                                              "on_true": {
+                                                "type": "model",
+                                                "model": "slimefun:slimefun/magical_armor/bee_armor/bee_boots"
+                                              }
+                                            },
+                                            "on_true": {
+                                              "type": "model",
+                                              "model": "slimefun:slimefun/magical_armor/soulbound_armor/soulbound_boots"
+                                            }
+                                          },
+                                          "on_true": {
+                                            "type": "model",
+                                            "model": "slimefun:slimefun/technical_gadgets/jetboots/armored_jetboots"
+                                          }
+                                        },
+                                        "on_true": {
+                                          "type": "model",
+                                          "model": "slimefun:slimefun/technical_gadgets/jetboots/carbonado_jetboots"
+                                        }
+                                      },
+                                      "on_true": {
+                                        "type": "model",
+                                        "model": "slimefun:slimefun/technical_gadgets/jetboots/reinforced_alloy_jetboots"
+                                      }
+                                    },
+                                    "on_true": {
+                                      "type": "model",
+                                      "model": "slimefun:slimefun/technical_gadgets/jetboots/damascus_steel_jetboots"
+                                    }
+                                  },
+                                  "on_true": {
+                                    "type": "model",
+                                    "model": "slimefun:slimefun/technical_gadgets/jetboots/steel_jetboots"
+                                  }
+                                },
+                                "on_true": {
+                                  "type": "model",
+                                  "model": "slimefun:slimefun/technical_gadgets/jetboots/billon_jetboots"
+                                }
+                              },
+                              "on_true": {
+                                "type": "model",
+                                "model": "slimefun:slimefun/technical_gadgets/jetboots/solder_jetboots"
+                              }
+                            },
+                            "on_true": {
+                              "type": "model",
+                              "model": "slimefun:slimefun/technical_gadgets/jetboots/duralumin_jetboots"
+                            }
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "slimefun:slimefun/magical_armor/stomper_armor/stomper_boots"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "slimefun:slimefun/magical_armor/farmer_armor/farmer_boots"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "slimefun:slimefun/magical_armor/slime_armor_steel/slime_steel_boots"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "slimefun:slimefun/armor/gold_12k_armor/gold_12k_boots"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_boots"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "slimefun:slimefun/armor/gilded_iron_armor/gilded_iron_boots"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "slimefun:slimefun/armor/cactus_armor/cactus_boots"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "slimefun:slimefun/armor/reinforced_armor/reinforced_boots"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimefun:slimefun/armor/damascus_armor/damascus_boots"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_boots"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/slime_armor/slime_boots"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/magical_armor/ender_armor/ender_boots"
+    }
+  }
+}

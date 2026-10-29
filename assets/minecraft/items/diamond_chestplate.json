@@ -1,0 +1,1073 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "ENDER_CHESTPLATE"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "SLIME_CHESTPLATE"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GLOWSTONE_CHESTPLATE"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "DAMASCUS_CHESTPLATE"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "REINFORCED_CHESTPLATE"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "CACTUS_CHESTPLATE"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "DURALUMIN_JETPACK"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "SOLDER_JETPACK"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "BILLON_JETPACK"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "STEEL_JETPACK"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "DAMASCUS_STEEL_JETPACK"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "slimefun:slimefun_item": "REINFORCED_ALLOY_JETPACK"
+                            }
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": {
+                              "PublicBukkitValues": {
+                                "slimefun:slimefun_item": "CARBONADO_JETPACK"
+                              }
+                            },
+                            "on_false": {
+                              "type": "minecraft:condition",
+                              "property": "minecraft:component",
+                              "predicate": "minecraft:custom_data",
+                              "value": {
+                                "PublicBukkitValues": {
+                                  "slimefun:slimefun_item": "PARACHUTE"
+                                }
+                              },
+                              "on_false": {
+                                "type": "minecraft:condition",
+                                "property": "minecraft:component",
+                                "predicate": "minecraft:custom_data",
+                                "value": {
+                                  "PublicBukkitValues": {
+                                    "slimefun:slimefun_item": "GILDED_IRON_CHESTPLATE"
+                                  }
+                                },
+                                "on_false": {
+                                  "type": "minecraft:condition",
+                                  "property": "minecraft:component",
+                                  "predicate": "minecraft:custom_data",
+                                  "value": {
+                                    "PublicBukkitValues": {
+                                      "slimefun:slimefun_item": "HAZMAT_CHESTPLATE"
+                                    }
+                                  },
+                                  "on_false": {
+                                    "type": "minecraft:condition",
+                                    "property": "minecraft:component",
+                                    "predicate": "minecraft:custom_data",
+                                    "value": {
+                                      "PublicBukkitValues": {
+                                        "slimefun:slimefun_item": "GOLD_12K_CHESTPLATE"
+                                      }
+                                    },
+                                    "on_false": {
+                                      "type": "minecraft:condition",
+                                      "property": "minecraft:component",
+                                      "predicate": "minecraft:custom_data",
+                                      "value": {
+                                        "PublicBukkitValues": {
+                                          "slimefun:slimefun_item": "SLIME_STEEL_CHESTPLATE"
+                                        }
+                                      },
+                                      "on_false": {
+                                        "type": "minecraft:condition",
+                                        "property": "minecraft:component",
+                                        "predicate": "minecraft:custom_data",
+                                        "value": {
+                                          "PublicBukkitValues": {
+                                            "slimefun:slimefun_item": "SOULBOUND_CHESTPLATE"
+                                          }
+                                        },
+                                        "on_false": {
+                                          "type": "minecraft:condition",
+                                          "property": "minecraft:component",
+                                          "predicate": "minecraft:custom_data",
+                                          "value": {
+                                            "PublicBukkitValues": {
+                                              "slimefun:slimefun_item": "RAINBOW_CHESTPLATE"
+                                            }
+                                          },
+                                          "on_false": {
+                                            "type": "minecraft:condition",
+                                            "property": "minecraft:component",
+                                            "predicate": "minecraft:custom_data",
+                                            "value": {
+                                              "PublicBukkitValues": {
+                                                "slimefun:slimefun_item": "ARMORED_JETPACK"
+                                              }
+                                            },
+                                            "on_false": {
+                                              "type": "minecraft:condition",
+                                              "property": "minecraft:component",
+                                              "predicate": "minecraft:custom_data",
+                                              "value": {
+                                                "PublicBukkitValues": {
+                                                  "slimefun:slimefun_item": "EMPTY_DATA_CARD"
+                                                }
+                                              },
+                                              "on_false": {
+                                                "type": "minecraft:condition",
+                                                "property": "minecraft:component",
+                                                "predicate": "minecraft:custom_data",
+                                                "value": {
+                                                  "PublicBukkitValues": {
+                                                    "slimefun:slimefun_item": "ZOMBIE_DATA_CARD"
+                                                  }
+                                                },
+                                                "on_false": {
+                                                  "type": "minecraft:condition",
+                                                  "property": "minecraft:component",
+                                                  "predicate": "minecraft:custom_data",
+                                                  "value": {
+                                                    "PublicBukkitValues": {
+                                                      "slimefun:slimefun_item": "SLIME_DATA_CARD"
+                                                    }
+                                                  },
+                                                  "on_false": {
+                                                    "type": "minecraft:condition",
+                                                    "property": "minecraft:component",
+                                                    "predicate": "minecraft:custom_data",
+                                                    "value": {
+                                                      "PublicBukkitValues": {
+                                                        "slimefun:slimefun_item": "MAGMA_CUBE_DATA_CARD"
+                                                      }
+                                                    },
+                                                    "on_false": {
+                                                      "type": "minecraft:condition",
+                                                      "property": "minecraft:component",
+                                                      "predicate": "minecraft:custom_data",
+                                                      "value": {
+                                                        "PublicBukkitValues": {
+                                                          "slimefun:slimefun_item": "COW_DATA_CARD"
+                                                        }
+                                                      },
+                                                      "on_false": {
+                                                        "type": "minecraft:condition",
+                                                        "property": "minecraft:component",
+                                                        "predicate": "minecraft:custom_data",
+                                                        "value": {
+                                                          "PublicBukkitValues": {
+                                                            "slimefun:slimefun_item": "SHEEP_DATA_CARD"
+                                                          }
+                                                        },
+                                                        "on_false": {
+                                                          "type": "minecraft:condition",
+                                                          "property": "minecraft:component",
+                                                          "predicate": "minecraft:custom_data",
+                                                          "value": {
+                                                            "PublicBukkitValues": {
+                                                              "slimefun:slimefun_item": "SPIDER_DATA_CARD"
+                                                            }
+                                                          },
+                                                          "on_false": {
+                                                            "type": "minecraft:condition",
+                                                            "property": "minecraft:component",
+                                                            "predicate": "minecraft:custom_data",
+                                                            "value": {
+                                                              "PublicBukkitValues": {
+                                                                "slimefun:slimefun_item": "SKELETON_DATA_CARD"
+                                                              }
+                                                            },
+                                                            "on_false": {
+                                                              "type": "minecraft:condition",
+                                                              "property": "minecraft:component",
+                                                              "predicate": "minecraft:custom_data",
+                                                              "value": {
+                                                                "PublicBukkitValues": {
+                                                                  "slimefun:slimefun_item": "WITHER_SKELETON_DATA_CARD"
+                                                                }
+                                                              },
+                                                              "on_false": {
+                                                                "type": "minecraft:condition",
+                                                                "property": "minecraft:component",
+                                                                "predicate": "minecraft:custom_data",
+                                                                "value": {
+                                                                  "PublicBukkitValues": {
+                                                                    "slimefun:slimefun_item": "ENDERMEN_DATA_CARD"
+                                                                  }
+                                                                },
+                                                                "on_false": {
+                                                                  "type": "minecraft:condition",
+                                                                  "property": "minecraft:component",
+                                                                  "predicate": "minecraft:custom_data",
+                                                                  "value": {
+                                                                    "PublicBukkitValues": {
+                                                                      "slimefun:slimefun_item": "CREEPER_DATA_CARD"
+                                                                    }
+                                                                  },
+                                                                  "on_false": {
+                                                                    "type": "minecraft:condition",
+                                                                    "property": "minecraft:component",
+                                                                    "predicate": "minecraft:custom_data",
+                                                                    "value": {
+                                                                      "PublicBukkitValues": {
+                                                                        "slimefun:slimefun_item": "GUARDIAN_DATA_CARD"
+                                                                      }
+                                                                    },
+                                                                    "on_false": {
+                                                                      "type": "minecraft:condition",
+                                                                      "property": "minecraft:component",
+                                                                      "predicate": "minecraft:custom_data",
+                                                                      "value": {
+                                                                        "PublicBukkitValues": {
+                                                                          "slimefun:slimefun_item": "CHICKEN_DATA_CARD"
+                                                                        }
+                                                                      },
+                                                                      "on_false": {
+                                                                        "type": "minecraft:condition",
+                                                                        "property": "minecraft:component",
+                                                                        "predicate": "minecraft:custom_data",
+                                                                        "value": {
+                                                                          "PublicBukkitValues": {
+                                                                            "slimefun:slimefun_item": "IRON_GOLEM_DATA_CARD"
+                                                                          }
+                                                                        },
+                                                                        "on_false": {
+                                                                          "type": "minecraft:condition",
+                                                                          "property": "minecraft:component",
+                                                                          "predicate": "minecraft:custom_data",
+                                                                          "value": {
+                                                                            "PublicBukkitValues": {
+                                                                              "slimefun:slimefun_item": "BLAZE_DATA_CARD"
+                                                                            }
+                                                                          },
+                                                                          "on_false": {
+                                                                            "type": "minecraft:condition",
+                                                                            "property": "minecraft:component",
+                                                                            "predicate": "minecraft:custom_data",
+                                                                            "value": {
+                                                                              "PublicBukkitValues": {
+                                                                                "slimefun:slimefun_item": "BEE_DATA_CARD"
+                                                                              }
+                                                                            },
+                                                                            "on_false": {
+                                                                              "type": "minecraft:condition",
+                                                                              "property": "minecraft:component",
+                                                                              "predicate": "minecraft:custom_data",
+                                                                              "value": {
+                                                                                "PublicBukkitValues": {
+                                                                                  "slimefun:slimefun_item": "VILLAGER_DATA_CARD"
+                                                                                }
+                                                                              },
+                                                                              "on_false": {
+                                                                                "type": "minecraft:condition",
+                                                                                "property": "minecraft:component",
+                                                                                "predicate": "minecraft:custom_data",
+                                                                                "value": {
+                                                                                  "PublicBukkitValues": {
+                                                                                    "slimefun:slimefun_item": "WITCH_DATA_CARD"
+                                                                                  }
+                                                                                },
+                                                                                "on_false": {
+                                                                                  "type": "minecraft:condition",
+                                                                                  "property": "minecraft:component",
+                                                                                  "predicate": "minecraft:custom_data",
+                                                                                  "value": {
+                                                                                    "PublicBukkitValues": {
+                                                                                      "slimefun:slimefun_item": "ALUMINUM_CHESTPLATE"
+                                                                                    }
+                                                                                  },
+                                                                                  "on_false": {
+                                                                                    "type": "minecraft:condition",
+                                                                                    "property": "minecraft:component",
+                                                                                    "predicate": "minecraft:custom_data",
+                                                                                    "value": {
+                                                                                      "PublicBukkitValues": {
+                                                                                        "slimefun:slimefun_item": "COBALT_CHESTPLATE"
+                                                                                      }
+                                                                                    },
+                                                                                    "on_false": {
+                                                                                      "type": "minecraft:condition",
+                                                                                      "property": "minecraft:component",
+                                                                                      "predicate": "minecraft:custom_data",
+                                                                                      "value": {
+                                                                                        "PublicBukkitValues": {
+                                                                                          "slimefun:slimefun_item": "COPPER_CHESTPLATE"
+                                                                                        }
+                                                                                      },
+                                                                                      "on_false": {
+                                                                                        "type": "minecraft:condition",
+                                                                                        "property": "minecraft:component",
+                                                                                        "predicate": "minecraft:custom_data",
+                                                                                        "value": {
+                                                                                          "PublicBukkitValues": {
+                                                                                            "slimefun:slimefun_item": "LEAD_CHESTPLATE"
+                                                                                          }
+                                                                                        },
+                                                                                        "on_false": {
+                                                                                          "type": "minecraft:condition",
+                                                                                          "property": "minecraft:component",
+                                                                                          "predicate": "minecraft:custom_data",
+                                                                                          "value": {
+                                                                                            "PublicBukkitValues": {
+                                                                                              "slimefun:slimefun_item": "MAGNESIUM_CHESTPLATE"
+                                                                                            }
+                                                                                          },
+                                                                                          "on_false": {
+                                                                                            "type": "minecraft:condition",
+                                                                                            "property": "minecraft:component",
+                                                                                            "predicate": "minecraft:custom_data",
+                                                                                            "value": {
+                                                                                              "PublicBukkitValues": {
+                                                                                                "slimefun:slimefun_item": "SILVER_CHESTPLATE"
+                                                                                              }
+                                                                                            },
+                                                                                            "on_false": {
+                                                                                              "type": "minecraft:condition",
+                                                                                              "property": "minecraft:component",
+                                                                                              "predicate": "minecraft:custom_data",
+                                                                                              "value": {
+                                                                                                "PublicBukkitValues": {
+                                                                                                  "slimefun:slimefun_item": "STEEL_CHESTPLATE"
+                                                                                                }
+                                                                                              },
+                                                                                              "on_false": {
+                                                                                                "type": "minecraft:condition",
+                                                                                                "property": "minecraft:component",
+                                                                                                "predicate": "minecraft:custom_data",
+                                                                                                "value": {
+                                                                                                  "PublicBukkitValues": {
+                                                                                                    "slimefun:slimefun_item": "TIN_CHESTPLATE"
+                                                                                                  }
+                                                                                                },
+                                                                                                "on_false": {
+                                                                                                  "type": "minecraft:condition",
+                                                                                                  "property": "minecraft:component",
+                                                                                                  "predicate": "minecraft:custom_data",
+                                                                                                  "value": {
+                                                                                                    "PublicBukkitValues": {
+                                                                                                      "slimefun:slimefun_item": "ZINC_CHESTPLATE"
+                                                                                                    }
+                                                                                                  },
+                                                                                                  "on_false": {
+                                                                                                    "type": "minecraft:condition",
+                                                                                                    "property": "minecraft:component",
+                                                                                                    "predicate": "minecraft:custom_data",
+                                                                                                    "value": {
+                                                                                                      "PublicBukkitValues": {
+                                                                                                        "slimefun:slimefun_item": "IE_MOB_DATA_CARD_EMPTY"
+                                                                                                      }
+                                                                                                    },
+                                                                                                    "on_false": {
+                                                                                                      "type": "minecraft:condition",
+                                                                                                      "property": "minecraft:component",
+                                                                                                      "predicate": "minecraft:custom_data",
+                                                                                                      "value": {
+                                                                                                        "PublicBukkitValues": {
+                                                                                                          "infinityexpansion2:mob_data_id": "zombie",
+                                                                                                          "slimefun:slimefun_item": "IE_MOB_DATA_CARD_ZOMBIE"
+                                                                                                        }
+                                                                                                      },
+                                                                                                      "on_false": {
+                                                                                                        "type": "minecraft:condition",
+                                                                                                        "property": "minecraft:component",
+                                                                                                        "predicate": "minecraft:custom_data",
+                                                                                                        "value": {
+                                                                                                          "PublicBukkitValues": {
+                                                                                                            "infinityexpansion2:mob_data_id": "slime",
+                                                                                                            "slimefun:slimefun_item": "IE_MOB_DATA_CARD_SLIME"
+                                                                                                          }
+                                                                                                        },
+                                                                                                        "on_false": {
+                                                                                                          "type": "minecraft:condition",
+                                                                                                          "property": "minecraft:component",
+                                                                                                          "predicate": "minecraft:custom_data",
+                                                                                                          "value": {
+                                                                                                            "PublicBukkitValues": {
+                                                                                                              "infinityexpansion2:mob_data_id": "magma_cube",
+                                                                                                              "slimefun:slimefun_item": "IE_MOB_DATA_CARD_MAGMA_CUBE"
+                                                                                                            }
+                                                                                                          },
+                                                                                                          "on_false": {
+                                                                                                            "type": "minecraft:condition",
+                                                                                                            "property": "minecraft:component",
+                                                                                                            "predicate": "minecraft:custom_data",
+                                                                                                            "value": {
+                                                                                                              "PublicBukkitValues": {
+                                                                                                                "infinityexpansion2:mob_data_id": "cow",
+                                                                                                                "slimefun:slimefun_item": "IE_MOB_DATA_CARD_COW"
+                                                                                                              }
+                                                                                                            },
+                                                                                                            "on_false": {
+                                                                                                              "type": "minecraft:condition",
+                                                                                                              "property": "minecraft:component",
+                                                                                                              "predicate": "minecraft:custom_data",
+                                                                                                              "value": {
+                                                                                                                "PublicBukkitValues": {
+                                                                                                                  "infinityexpansion2:mob_data_id": "sheep",
+                                                                                                                  "slimefun:slimefun_item": "IE_MOB_DATA_CARD_SHEEP"
+                                                                                                                }
+                                                                                                              },
+                                                                                                              "on_false": {
+                                                                                                                "type": "minecraft:condition",
+                                                                                                                "property": "minecraft:component",
+                                                                                                                "predicate": "minecraft:custom_data",
+                                                                                                                "value": {
+                                                                                                                  "PublicBukkitValues": {
+                                                                                                                    "infinityexpansion2:mob_data_id": "spider",
+                                                                                                                    "slimefun:slimefun_item": "IE_MOB_DATA_CARD_SPIDER"
+                                                                                                                  }
+                                                                                                                },
+                                                                                                                "on_false": {
+                                                                                                                  "type": "minecraft:condition",
+                                                                                                                  "property": "minecraft:component",
+                                                                                                                  "predicate": "minecraft:custom_data",
+                                                                                                                  "value": {
+                                                                                                                    "PublicBukkitValues": {
+                                                                                                                      "infinityexpansion2:mob_data_id": "skeleton",
+                                                                                                                      "slimefun:slimefun_item": "IE_MOB_DATA_CARD_SKELETON"
+                                                                                                                    }
+                                                                                                                  },
+                                                                                                                  "on_false": {
+                                                                                                                    "type": "minecraft:condition",
+                                                                                                                    "property": "minecraft:component",
+                                                                                                                    "predicate": "minecraft:custom_data",
+                                                                                                                    "value": {
+                                                                                                                      "PublicBukkitValues": {
+                                                                                                                        "infinityexpansion2:mob_data_id": "wither_skeleton",
+                                                                                                                        "slimefun:slimefun_item": "IE_MOB_DATA_CARD_WITHER_SKELETON"
+                                                                                                                      }
+                                                                                                                    },
+                                                                                                                    "on_false": {
+                                                                                                                      "type": "minecraft:condition",
+                                                                                                                      "property": "minecraft:component",
+                                                                                                                      "predicate": "minecraft:custom_data",
+                                                                                                                      "value": {
+                                                                                                                        "PublicBukkitValues": {
+                                                                                                                          "infinityexpansion2:mob_data_id": "enderman",
+                                                                                                                          "slimefun:slimefun_item": "IE_MOB_DATA_CARD_ENDERMAN"
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      "on_false": {
+                                                                                                                        "type": "minecraft:condition",
+                                                                                                                        "property": "minecraft:component",
+                                                                                                                        "predicate": "minecraft:custom_data",
+                                                                                                                        "value": {
+                                                                                                                          "PublicBukkitValues": {
+                                                                                                                            "infinityexpansion2:mob_data_id": "creeper",
+                                                                                                                            "slimefun:slimefun_item": "IE_MOB_DATA_CARD_CREEPER"
+                                                                                                                          }
+                                                                                                                        },
+                                                                                                                        "on_false": {
+                                                                                                                          "type": "minecraft:condition",
+                                                                                                                          "property": "minecraft:component",
+                                                                                                                          "predicate": "minecraft:custom_data",
+                                                                                                                          "value": {
+                                                                                                                            "PublicBukkitValues": {
+                                                                                                                              "infinityexpansion2:mob_data_id": "guardian",
+                                                                                                                              "slimefun:slimefun_item": "IE_MOB_DATA_CARD_GUARDIAN"
+                                                                                                                            }
+                                                                                                                          },
+                                                                                                                          "on_false": {
+                                                                                                                            "type": "minecraft:condition",
+                                                                                                                            "property": "minecraft:component",
+                                                                                                                            "predicate": "minecraft:custom_data",
+                                                                                                                            "value": {
+                                                                                                                              "PublicBukkitValues": {
+                                                                                                                                "infinityexpansion2:mob_data_id": "chicken",
+                                                                                                                                "slimefun:slimefun_item": "IE_MOB_DATA_CARD_CHICKEN"
+                                                                                                                              }
+                                                                                                                            },
+                                                                                                                            "on_false": {
+                                                                                                                              "type": "minecraft:condition",
+                                                                                                                              "property": "minecraft:component",
+                                                                                                                              "predicate": "minecraft:custom_data",
+                                                                                                                              "value": {
+                                                                                                                                "PublicBukkitValues": {
+                                                                                                                                  "infinityexpansion2:mob_data_id": "iron_golem",
+                                                                                                                                  "slimefun:slimefun_item": "IE_MOB_DATA_CARD_IRON_GOLEM"
+                                                                                                                                }
+                                                                                                                              },
+                                                                                                                              "on_false": {
+                                                                                                                                "type": "minecraft:condition",
+                                                                                                                                "property": "minecraft:component",
+                                                                                                                                "predicate": "minecraft:custom_data",
+                                                                                                                                "value": {
+                                                                                                                                  "PublicBukkitValues": {
+                                                                                                                                    "infinityexpansion2:mob_data_id": "blaze",
+                                                                                                                                    "slimefun:slimefun_item": "IE_MOB_DATA_CARD_BLAZE"
+                                                                                                                                  }
+                                                                                                                                },
+                                                                                                                                "on_false": {
+                                                                                                                                  "type": "minecraft:condition",
+                                                                                                                                  "property": "minecraft:component",
+                                                                                                                                  "predicate": "minecraft:custom_data",
+                                                                                                                                  "value": {
+                                                                                                                                    "PublicBukkitValues": {
+                                                                                                                                      "infinityexpansion2:mob_data_id": "bee",
+                                                                                                                                      "slimefun:slimefun_item": "IE_MOB_DATA_CARD_BEE"
+                                                                                                                                    }
+                                                                                                                                  },
+                                                                                                                                  "on_false": {
+                                                                                                                                    "type": "minecraft:condition",
+                                                                                                                                    "property": "minecraft:component",
+                                                                                                                                    "predicate": "minecraft:custom_data",
+                                                                                                                                    "value": {
+                                                                                                                                      "PublicBukkitValues": {
+                                                                                                                                        "infinityexpansion2:mob_data_id": "villager",
+                                                                                                                                        "slimefun:slimefun_item": "IE_MOB_DATA_CARD_VILLAGER"
+                                                                                                                                      }
+                                                                                                                                    },
+                                                                                                                                    "on_false": {
+                                                                                                                                      "type": "minecraft:condition",
+                                                                                                                                      "property": "minecraft:component",
+                                                                                                                                      "predicate": "minecraft:custom_data",
+                                                                                                                                      "value": {
+                                                                                                                                        "PublicBukkitValues": {
+                                                                                                                                          "infinityexpansion2:mob_data_id": "witch",
+                                                                                                                                          "slimefun:slimefun_item": "IE_MOB_DATA_CARD_WITCH"
+                                                                                                                                        }
+                                                                                                                                      },
+                                                                                                                                      "on_false": {
+                                                                                                                                        "type": "minecraft:condition",
+                                                                                                                                        "property": "minecraft:component",
+                                                                                                                                        "predicate": "minecraft:custom_data",
+                                                                                                                                        "value": {
+                                                                                                                                          "PublicBukkitValues": {
+                                                                                                                                            "slimefun:slimefun_item": "SUPREME_TITANIUM_CHESTPLATE"
+                                                                                                                                          }
+                                                                                                                                        },
+                                                                                                                                        "on_false": {
+                                                                                                                                          "type": "minecraft:condition",
+                                                                                                                                          "property": "minecraft:component",
+                                                                                                                                          "predicate": "minecraft:custom_data",
+                                                                                                                                          "value": {
+                                                                                                                                            "PublicBukkitValues": {
+                                                                                                                                              "slimefun:slimefun_item": "SUPREME_AURUM_CHESTPLATE"
+                                                                                                                                            }
+                                                                                                                                          },
+                                                                                                                                          "on_false": {
+                                                                                                                                            "type": "minecraft:condition",
+                                                                                                                                            "property": "minecraft:component",
+                                                                                                                                            "predicate": "minecraft:custom_data",
+                                                                                                                                            "value": {
+                                                                                                                                              "PublicBukkitValues": {
+                                                                                                                                                "slimefun:slimefun_item": "SUPREME_ADAMANTIUM_CHESTPLATE"
+                                                                                                                                              }
+                                                                                                                                            },
+                                                                                                                                            "on_false": {
+                                                                                                                                              "type": "minecraft:condition",
+                                                                                                                                              "property": "minecraft:component",
+                                                                                                                                              "predicate": "minecraft:custom_data",
+                                                                                                                                              "value": {
+                                                                                                                                                "PublicBukkitValues": {
+                                                                                                                                                  "slimefun:slimefun_item": "SUPREME_CHESTPLATE_THORNIUM"
+                                                                                                                                                }
+                                                                                                                                              },
+                                                                                                                                              "on_false": {
+                                                                                                                                                "type": "minecraft:condition",
+                                                                                                                                                "property": "minecraft:component",
+                                                                                                                                                "predicate": "minecraft:custom_data",
+                                                                                                                                                "value": {
+                                                                                                                                                  "PublicBukkitValues": {
+                                                                                                                                                    "slimefun:slimefun_item": "SUPREME_CHESTPLATE_MAGIC"
+                                                                                                                                                  }
+                                                                                                                                                },
+                                                                                                                                                "on_false": {
+                                                                                                                                                  "type": "minecraft:condition",
+                                                                                                                                                  "property": "minecraft:component",
+                                                                                                                                                  "predicate": "minecraft:custom_data",
+                                                                                                                                                  "value": {
+                                                                                                                                                    "PublicBukkitValues": {
+                                                                                                                                                      "slimefun:slimefun_item": "SUPREME_CHESTPLATE_RARE"
+                                                                                                                                                    }
+                                                                                                                                                  },
+                                                                                                                                                  "on_false": {
+                                                                                                                                                    "type": "minecraft:condition",
+                                                                                                                                                    "property": "minecraft:component",
+                                                                                                                                                    "predicate": "minecraft:custom_data",
+                                                                                                                                                    "value": {
+                                                                                                                                                      "PublicBukkitValues": {
+                                                                                                                                                        "slimefun:slimefun_item": "SUPREME_CHESTPLATE_EPIC"
+                                                                                                                                                      }
+                                                                                                                                                    },
+                                                                                                                                                    "on_false": {
+                                                                                                                                                      "type": "minecraft:condition",
+                                                                                                                                                      "property": "minecraft:component",
+                                                                                                                                                      "predicate": "minecraft:custom_data",
+                                                                                                                                                      "value": {
+                                                                                                                                                        "PublicBukkitValues": {
+                                                                                                                                                          "slimefun:slimefun_item": "SUPREME_CHESTPLATE_LEGENDARY"
+                                                                                                                                                        }
+                                                                                                                                                      },
+                                                                                                                                                      "on_false": {
+                                                                                                                                                        "type": "minecraft:condition",
+                                                                                                                                                        "property": "minecraft:component",
+                                                                                                                                                        "predicate": "minecraft:custom_data",
+                                                                                                                                                        "value": {
+                                                                                                                                                          "PublicBukkitValues": {
+                                                                                                                                                            "slimefun:slimefun_item": "SUPREME_CHESTPLATE_SUPREME"
+                                                                                                                                                          }
+                                                                                                                                                        },
+                                                                                                                                                        "on_false": {
+                                                                                                                                                          "type": "model",
+                                                                                                                                                          "model": "item/diamond_chestplate"
+                                                                                                                                                        },
+                                                                                                                                                        "on_true": {
+                                                                                                                                                          "type": "model",
+                                                                                                                                                          "model": "supreme:armor/chestplate/supreme_chestplate_supreme"
+                                                                                                                                                        }
+                                                                                                                                                      },
+                                                                                                                                                      "on_true": {
+                                                                                                                                                        "type": "model",
+                                                                                                                                                        "model": "supreme:armor/chestplate/supreme_chestplate_legendary"
+                                                                                                                                                      }
+                                                                                                                                                    },
+                                                                                                                                                    "on_true": {
+                                                                                                                                                      "type": "model",
+                                                                                                                                                      "model": "supreme:armor/chestplate/supreme_chestplate_epic"
+                                                                                                                                                    }
+                                                                                                                                                  },
+                                                                                                                                                  "on_true": {
+                                                                                                                                                    "type": "model",
+                                                                                                                                                    "model": "supreme:armor/chestplate/supreme_chestplate_rare"
+                                                                                                                                                  }
+                                                                                                                                                },
+                                                                                                                                                "on_true": {
+                                                                                                                                                  "type": "model",
+                                                                                                                                                  "model": "supreme:armor/chestplate/supreme_chestplate_magic"
+                                                                                                                                                }
+                                                                                                                                              },
+                                                                                                                                              "on_true": {
+                                                                                                                                                "type": "model",
+                                                                                                                                                "model": "supreme:armor/chestplate/supreme_chestplate_thornium"
+                                                                                                                                              }
+                                                                                                                                            },
+                                                                                                                                            "on_true": {
+                                                                                                                                              "type": "model",
+                                                                                                                                              "model": "supreme:armor/chestplate/supreme_adamantium_chestplate"
+                                                                                                                                            }
+                                                                                                                                          },
+                                                                                                                                          "on_true": {
+                                                                                                                                            "type": "model",
+                                                                                                                                            "model": "supreme:armor/chestplate/supreme_aurum_chestplate"
+                                                                                                                                          }
+                                                                                                                                        },
+                                                                                                                                        "on_true": {
+                                                                                                                                          "type": "model",
+                                                                                                                                          "model": "supreme:armor/chestplate/supreme_titanium_chestplate"
+                                                                                                                                        }
+                                                                                                                                      },
+                                                                                                                                      "on_true": {
+                                                                                                                                        "type": "model",
+                                                                                                                                        "model": "infinityexpansion2:mob_simulation/witch_data_card"
+                                                                                                                                      }
+                                                                                                                                    },
+                                                                                                                                    "on_true": {
+                                                                                                                                      "type": "model",
+                                                                                                                                      "model": "infinityexpansion2:mob_simulation/villager_data_card"
+                                                                                                                                    }
+                                                                                                                                  },
+                                                                                                                                  "on_true": {
+                                                                                                                                    "type": "model",
+                                                                                                                                    "model": "infinityexpansion2:mob_simulation/bee_data_card"
+                                                                                                                                  }
+                                                                                                                                },
+                                                                                                                                "on_true": {
+                                                                                                                                  "type": "model",
+                                                                                                                                  "model": "infinityexpansion2:mob_simulation/blaze_data_card"
+                                                                                                                                }
+                                                                                                                              },
+                                                                                                                              "on_true": {
+                                                                                                                                "type": "model",
+                                                                                                                                "model": "infinityexpansion2:mob_simulation/iron_golem_data_card"
+                                                                                                                              }
+                                                                                                                            },
+                                                                                                                            "on_true": {
+                                                                                                                              "type": "model",
+                                                                                                                              "model": "infinityexpansion2:mob_simulation/chicken_data_card"
+                                                                                                                            }
+                                                                                                                          },
+                                                                                                                          "on_true": {
+                                                                                                                            "type": "model",
+                                                                                                                            "model": "infinityexpansion2:mob_simulation/guardian_data_card"
+                                                                                                                          }
+                                                                                                                        },
+                                                                                                                        "on_true": {
+                                                                                                                          "type": "model",
+                                                                                                                          "model": "infinityexpansion2:mob_simulation/creeper_data_card"
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      "on_true": {
+                                                                                                                        "type": "model",
+                                                                                                                        "model": "infinityexpansion2:mob_simulation/enderman_data_card"
+                                                                                                                      }
+                                                                                                                    },
+                                                                                                                    "on_true": {
+                                                                                                                      "type": "model",
+                                                                                                                      "model": "infinityexpansion2:mob_simulation/wither_skeleton_data_card"
+                                                                                                                    }
+                                                                                                                  },
+                                                                                                                  "on_true": {
+                                                                                                                    "type": "model",
+                                                                                                                    "model": "infinityexpansion2:mob_simulation/skeleton_data_card"
+                                                                                                                  }
+                                                                                                                },
+                                                                                                                "on_true": {
+                                                                                                                  "type": "model",
+                                                                                                                  "model": "infinityexpansion2:mob_simulation/spider_data_card"
+                                                                                                                }
+                                                                                                              },
+                                                                                                              "on_true": {
+                                                                                                                "type": "model",
+                                                                                                                "model": "infinityexpansion2:mob_simulation/sheep_data_card"
+                                                                                                              }
+                                                                                                            },
+                                                                                                            "on_true": {
+                                                                                                              "type": "model",
+                                                                                                              "model": "infinityexpansion2:mob_simulation/cow_data_card"
+                                                                                                            }
+                                                                                                          },
+                                                                                                          "on_true": {
+                                                                                                            "type": "model",
+                                                                                                            "model": "infinityexpansion2:mob_simulation/magma_cube_data_card"
+                                                                                                          }
+                                                                                                        },
+                                                                                                        "on_true": {
+                                                                                                          "type": "model",
+                                                                                                          "model": "infinityexpansion2:mob_simulation/slime_data_card"
+                                                                                                        }
+                                                                                                      },
+                                                                                                      "on_true": {
+                                                                                                        "type": "model",
+                                                                                                        "model": "infinityexpansion2:mob_simulation/zombie_data_card"
+                                                                                                      }
+                                                                                                    },
+                                                                                                    "on_true": {
+                                                                                                      "type": "model",
+                                                                                                      "model": "infinityexpansion2:mob_simulation/empty_data_card"
+                                                                                                    }
+                                                                                                  },
+                                                                                                  "on_true": {
+                                                                                                    "type": "model",
+                                                                                                    "model": "extra_gear:armor/zinc/zinc_chestplate"
+                                                                                                  }
+                                                                                                },
+                                                                                                "on_true": {
+                                                                                                  "type": "model",
+                                                                                                  "model": "extra_gear:armor/tin/tin_chestplate"
+                                                                                                }
+                                                                                              },
+                                                                                              "on_true": {
+                                                                                                "type": "model",
+                                                                                                "model": "extra_gear:armor/steel/steel_chestplate"
+                                                                                              }
+                                                                                            },
+                                                                                            "on_true": {
+                                                                                              "type": "model",
+                                                                                              "model": "extra_gear:armor/silver/silver_chestplate"
+                                                                                            }
+                                                                                          },
+                                                                                          "on_true": {
+                                                                                            "type": "model",
+                                                                                            "model": "extra_gear:armor/magnesium/magnesium_chestplate"
+                                                                                          }
+                                                                                        },
+                                                                                        "on_true": {
+                                                                                          "type": "model",
+                                                                                          "model": "extra_gear:armor/lead/lead_chestplate"
+                                                                                        }
+                                                                                      },
+                                                                                      "on_true": {
+                                                                                        "type": "model",
+                                                                                        "model": "extra_gear:armor/copper/copper_chestplate"
+                                                                                      }
+                                                                                    },
+                                                                                    "on_true": {
+                                                                                      "type": "model",
+                                                                                      "model": "extra_gear:armor/cobalt/cobalt_chestplate"
+                                                                                    }
+                                                                                  },
+                                                                                  "on_true": {
+                                                                                    "type": "model",
+                                                                                    "model": "extra_gear:armor/aluminum/aluminum_chestplate"
+                                                                                  }
+                                                                                },
+                                                                                "on_true": {
+                                                                                  "type": "model",
+                                                                                  "model": "infinityexpansion:mob_simulation/witch_data_card"
+                                                                                }
+                                                                              },
+                                                                              "on_true": {
+                                                                                "type": "model",
+                                                                                "model": "infinityexpansion:mob_simulation/villager_data_card"
+                                                                              }
+                                                                            },
+                                                                            "on_true": {
+                                                                              "type": "model",
+                                                                              "model": "infinityexpansion:mob_simulation/bee_data_card"
+                                                                            }
+                                                                          },
+                                                                          "on_true": {
+                                                                            "type": "model",
+                                                                            "model": "infinityexpansion:mob_simulation/blaze_data_card"
+                                                                          }
+                                                                        },
+                                                                        "on_true": {
+                                                                          "type": "model",
+                                                                          "model": "infinityexpansion:mob_simulation/iron_golem_data_card"
+                                                                        }
+                                                                      },
+                                                                      "on_true": {
+                                                                        "type": "model",
+                                                                        "model": "infinityexpansion:mob_simulation/chicken_data_card"
+                                                                      }
+                                                                    },
+                                                                    "on_true": {
+                                                                      "type": "model",
+                                                                      "model": "infinityexpansion:mob_simulation/guardian_data_card"
+                                                                    }
+                                                                  },
+                                                                  "on_true": {
+                                                                    "type": "model",
+                                                                    "model": "infinityexpansion:mob_simulation/creeper_data_card"
+                                                                  }
+                                                                },
+                                                                "on_true": {
+                                                                  "type": "model",
+                                                                  "model": "infinityexpansion:mob_simulation/endermen_data_card"
+                                                                }
+                                                              },
+                                                              "on_true": {
+                                                                "type": "model",
+                                                                "model": "infinityexpansion:mob_simulation/wither_skeleton_data_card"
+                                                              }
+                                                            },
+                                                            "on_true": {
+                                                              "type": "model",
+                                                              "model": "infinityexpansion:mob_simulation/skeleton_data_card"
+                                                            }
+                                                          },
+                                                          "on_true": {
+                                                            "type": "model",
+                                                            "model": "infinityexpansion:mob_simulation/spider_data_card"
+                                                          }
+                                                        },
+                                                        "on_true": {
+                                                          "type": "model",
+                                                          "model": "infinityexpansion:mob_simulation/sheep_data_card"
+                                                        }
+                                                      },
+                                                      "on_true": {
+                                                        "type": "model",
+                                                        "model": "infinityexpansion:mob_simulation/cow_data_card"
+                                                      }
+                                                    },
+                                                    "on_true": {
+                                                      "type": "model",
+                                                      "model": "infinityexpansion:mob_simulation/magma_cube_data_card"
+                                                    }
+                                                  },
+                                                  "on_true": {
+                                                    "type": "model",
+                                                    "model": "infinityexpansion:mob_simulation/slime_data_card"
+                                                  }
+                                                },
+                                                "on_true": {
+                                                  "type": "model",
+                                                  "model": "infinityexpansion:mob_simulation/zombie_data_card"
+                                                }
+                                              },
+                                              "on_true": {
+                                                "type": "model",
+                                                "model": "infinityexpansion:mob_simulation/empty_data_card"
+                                              }
+                                            },
+                                            "on_true": {
+                                              "type": "model",
+                                              "model": "slimefun:slimefun/technical_gadgets/jetpack/armored_jetpack"
+                                            }
+                                          },
+                                          "on_true": {
+                                            "type": "model",
+                                            "model": "slimefun:slimefun/magical_armor/rainbow_armor/rainbow_chestplate"
+                                          }
+                                        },
+                                        "on_true": {
+                                          "type": "model",
+                                          "model": "slimefun:slimefun/magical_armor/soulbound_armor/soulbound_chestplate"
+                                        }
+                                      },
+                                      "on_true": {
+                                        "type": "model",
+                                        "model": "slimefun:slimefun/magical_armor/slime_armor_steel/slime_steel_chestplate"
+                                      }
+                                    },
+                                    "on_true": {
+                                      "type": "model",
+                                      "model": "slimefun:slimefun/armor/gold_12k_armor/gold_12k_chestplate"
+                                    }
+                                  },
+                                  "on_true": {
+                                    "type": "model",
+                                    "model": "slimefun:slimefun/armor/hazmat_suit/hazmat_chestplate"
+                                  }
+                                },
+                                "on_true": {
+                                  "type": "model",
+                                  "model": "slimefun:slimefun/armor/gilded_iron_armor/gilded_iron_chestplate"
+                                }
+                              },
+                              "on_true": {
+                                "type": "model",
+                                "model": "slimefun:slimefun/technical_gadgets/parachute"
+                              }
+                            },
+                            "on_true": {
+                              "type": "model",
+                              "model": "slimefun:slimefun/technical_gadgets/jetpack/carbonado_jetpack"
+                            }
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "slimefun:slimefun/technical_gadgets/jetpack/reinforced_alloy_jetpack"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "slimefun:slimefun/technical_gadgets/jetpack/damascus_steel_jetpack"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "slimefun:slimefun/technical_gadgets/jetpack/steel_jetpack"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "slimefun:slimefun/technical_gadgets/jetpack/billon_jetpack"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "slimefun:slimefun/technical_gadgets/jetpack/solder_jetpack"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "slimefun:slimefun/technical_gadgets/jetpack/duralumin_jetpack"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "slimefun:slimefun/armor/cactus_armor/cactus_chestplate"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "slimefun:slimefun/armor/reinforced_armor/reinforced_chestplate"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimefun:slimefun/armor/damascus_armor/damascus_chestplate"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/magical_armor/glowstone_armor/glowstone_chestplate"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_armor/slime_armor/slime_chestplate"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/magical_armor/ender_armor/ender_chestplate"
+    }
+  }
+}

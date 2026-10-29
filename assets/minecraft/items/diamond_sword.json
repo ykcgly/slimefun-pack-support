@@ -1,0 +1,203 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "SOULBOUND_SWORD"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "EMER_SWORD"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "bump:appraisable": 1,
+            "slimefun:slimefun_item": "RANDOM_SWORD"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "SKY_DEVIL_SWORD"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "ENERGY_BLADE"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "SUPREME_TITANIUM_SWORD"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "SUPREME_AURUM_SWORD"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "SUPREME_ADAMANTIUM_SWORD"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "SUPREME_SWORD_THORNIUM"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "SUPREME_SWORD_MAGIC"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "SUPREME_SWORD_RARE"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "slimefun:slimefun_item": "SUPREME_SWORD_EPIC"
+                            }
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": {
+                              "PublicBukkitValues": {
+                                "slimefun:slimefun_item": "SUPREME_SWORD_LEGENDARY"
+                              }
+                            },
+                            "on_false": {
+                              "type": "minecraft:condition",
+                              "property": "minecraft:component",
+                              "predicate": "minecraft:custom_data",
+                              "value": {
+                                "PublicBukkitValues": {
+                                  "slimefun:slimefun_item": "SUPREME_SWORD_SUPREME"
+                                }
+                              },
+                              "on_false": {
+                                "type": "model",
+                                "model": "item/diamond_sword"
+                              },
+                              "on_true": {
+                                "type": "model",
+                                "model": "supreme:weapons/sword/supreme_sword_supreme"
+                              }
+                            },
+                            "on_true": {
+                              "type": "model",
+                              "model": "supreme:weapons/sword/supreme_sword_legendary"
+                            }
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "supreme:weapons/sword/supreme_sword_epic"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "supreme:weapons/sword/supreme_sword_rare"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "supreme:weapons/sword/supreme_sword_magic"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "supreme:weapons/sword/supreme_sword_thornium"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "supreme:weapons/sword/supreme_adamantium_sword"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "supreme:weapons/sword/supreme_aurum_sword"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "supreme:weapons/sword/supreme_titanium_sword"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "slimefunwarfare:melee_weapons/energy_blade"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "bump:magical_weapons/sky_devil_sword"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "bump:magical_weapons/random_sword"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "bump:magical_weapons/emer_sword"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/weapons/soulbound_sword"
+    }
+  }
+}

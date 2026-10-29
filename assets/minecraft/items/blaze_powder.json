@@ -1,0 +1,300 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "END_ESSENCE"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "COAL_ESSENCE"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "DIAMOND_ESSENCE"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "EMERALD_ESSENCE"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "ENDER_ESSENCE"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "ALUMINUM_ESSENCE"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "COPPER_ESSENCE"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "LEAD_ESSENCE"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "SILVER_ESSENCE"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "TIN_ESSENCE"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "GLOWSTONE_ESSENCE"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "slimefun:slimefun_item": "GOLD_ESSENCE"
+                            }
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": {
+                              "PublicBukkitValues": {
+                                "slimefun:slimefun_item": "IRON_ESSENCE"
+                              }
+                            },
+                            "on_false": {
+                              "type": "minecraft:condition",
+                              "property": "minecraft:component",
+                              "predicate": "minecraft:custom_data",
+                              "value": {
+                                "PublicBukkitValues": {
+                                  "slimefun:slimefun_item": "LAPIS_ESSENCE"
+                                }
+                              },
+                              "on_false": {
+                                "type": "minecraft:condition",
+                                "property": "minecraft:component",
+                                "predicate": "minecraft:custom_data",
+                                "value": {
+                                  "PublicBukkitValues": {
+                                    "slimefun:slimefun_item": "OBSIDIAN_ESSENCE"
+                                  }
+                                },
+                                "on_false": {
+                                  "type": "minecraft:condition",
+                                  "property": "minecraft:component",
+                                  "predicate": "minecraft:custom_data",
+                                  "value": {
+                                    "PublicBukkitValues": {
+                                      "slimefun:slimefun_item": "QUARTZ_ESSENCE"
+                                    }
+                                  },
+                                  "on_false": {
+                                    "type": "minecraft:condition",
+                                    "property": "minecraft:component",
+                                    "predicate": "minecraft:custom_data",
+                                    "value": {
+                                      "PublicBukkitValues": {
+                                        "slimefun:slimefun_item": "REDSTONE_ESSENCE"
+                                      }
+                                    },
+                                    "on_false": {
+                                      "type": "minecraft:condition",
+                                      "property": "minecraft:component",
+                                      "predicate": "minecraft:custom_data",
+                                      "value": {
+                                        "PublicBukkitValues": {
+                                          "slimefun:slimefun_item": "SLIME_ESSENCE"
+                                        }
+                                      },
+                                      "on_false": {
+                                        "type": "minecraft:condition",
+                                        "property": "minecraft:component",
+                                        "predicate": "minecraft:custom_data",
+                                        "value": {
+                                          "PublicBukkitValues": {
+                                            "slimefun:slimefun_item": "DIRT_ESSENCE"
+                                          }
+                                        },
+                                        "on_false": {
+                                          "type": "minecraft:condition",
+                                          "property": "minecraft:component",
+                                          "predicate": "minecraft:custom_data",
+                                          "value": {
+                                            "PublicBukkitValues": {
+                                              "slimefun:slimefun_item": "NETHERITE_ESSENCE"
+                                            }
+                                          },
+                                          "on_false": {
+                                            "type": "minecraft:condition",
+                                            "property": "minecraft:component",
+                                            "predicate": "minecraft:custom_data",
+                                            "value": {
+                                              "PublicBukkitValues": {
+                                                "slimefun:slimefun_item": "IE_ENDER_ESSENCE"
+                                              }
+                                            },
+                                            "on_false": {
+                                              "type": "model",
+                                              "model": "item/blaze_powder"
+                                            },
+                                            "on_true": {
+                                              "type": "model",
+                                              "model": "infinityexpansion2:materials/ender_essence"
+                                            }
+                                          },
+                                          "on_true": {
+                                            "type": "model",
+                                            "model": "exotic_garden:plants/netherite_essence"
+                                          }
+                                        },
+                                        "on_true": {
+                                          "type": "model",
+                                          "model": "exotic_garden:plants/dirt_essence"
+                                        }
+                                      },
+                                      "on_true": {
+                                        "type": "model",
+                                        "model": "exotic_garden:plants/slime_essence"
+                                      }
+                                    },
+                                    "on_true": {
+                                      "type": "model",
+                                      "model": "exotic_garden:plants/redstone_essence"
+                                    }
+                                  },
+                                  "on_true": {
+                                    "type": "model",
+                                    "model": "exotic_garden:plants/quartz_essence"
+                                  }
+                                },
+                                "on_true": {
+                                  "type": "model",
+                                  "model": "exotic_garden:plants/obsidian_essence"
+                                }
+                              },
+                              "on_true": {
+                                "type": "model",
+                                "model": "exotic_garden:plants/lapis_essence"
+                              }
+                            },
+                            "on_true": {
+                              "type": "model",
+                              "model": "exotic_garden:plants/iron_essence"
+                            }
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "exotic_garden:plants/gold_essence"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "exotic_garden:plants/glowstone_essence"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "exotic_garden:plants/tin_essence"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "exotic_garden:plants/silver_essence"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "exotic_garden:plants/lead_essence"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "exotic_garden:plants/copper_essence"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "exotic_garden:plants/aluminum_essence"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "exotic_garden:plants/ender_essence"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "exotic_garden:plants/emerald_essence"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "exotic_garden:plants/diamond_essence"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "exotic_garden:plants/coal_essence"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion:materials/end_essence"
+    }
+  }
+}

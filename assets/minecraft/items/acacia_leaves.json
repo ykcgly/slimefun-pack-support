@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "CLT_PARSLEY"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "minecraft:block/acacia_leaves",
+      "tints": [
+        {
+          "type": "minecraft:constant",
+          "value": -12012264
+        }
+      ]
+    },
+    "on_true": {
+      "type": "model",
+      "model": "cultivation:products/clt_parsley"
+    }
+  }
+}

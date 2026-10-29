@@ -1,0 +1,104 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "HEAVY_CREAM"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "GRENADE"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NITROGEN_TRIIODIDE_GRENADE"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "ARSENIC_GRENADE"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "PYRO_POWDER_GRENADE"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "THIOACETONE_GRENADE"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "OSMIUM_DUST_GRENADE"
+                  }
+                },
+                "on_false": {
+                  "type": "model",
+                  "model": "item/snowball"
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "slimefunwarfare:explosives/osmium_dust_grenade"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "slimefunwarfare:explosives/thioacetone_grenade"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "slimefunwarfare:explosives/pyro_powder_grenade"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimefunwarfare:explosives/arsenic_grenade"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefunwarfare:explosives/nitrogen_triiodide_grenade"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefunwarfare:explosives/grenade"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/miscellaneous/heavy_cream"
+    }
+  }
+}

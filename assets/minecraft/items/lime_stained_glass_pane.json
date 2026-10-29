@@ -1,0 +1,48 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "_UI_PREVIOUS_ACTIVE"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "_UI_NEXT_ACTIVE"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE__UI_PRODUCING"
+          }
+        },
+        "on_false": {
+          "type": "model",
+          "model": "item/lime_stained_glass_pane"
+        },
+        "on_true": {
+          "type": "model",
+          "model": "infinityexpansion2:icons/ui_producing"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/gui/_ui_next_active"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/gui/_ui_previous_active"
+    }
+  }
+}

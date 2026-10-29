@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "CLT_BAY_LEAF"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "item/lily_pad",
+      "tints": [
+        {
+          "type": "minecraft:constant",
+          "value": -9321636
+        }
+      ]
+    },
+    "on_true": {
+      "type": "model",
+      "model": "cultivation:products/clt_bay_leaf"
+    }
+  }
+}

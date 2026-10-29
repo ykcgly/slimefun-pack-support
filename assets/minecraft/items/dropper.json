@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "IGNITION_CHAMBER"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "block/dropper"
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/basic_machines/ignition_chamber"
+    }
+  }
+}

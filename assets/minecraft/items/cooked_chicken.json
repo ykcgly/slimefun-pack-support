@@ -1,0 +1,34 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "CHICKEN_JERKY"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "GN_COOKED_TURKEY"
+        }
+      },
+      "on_false": {
+        "type": "model",
+        "model": "item/cooked_chicken"
+      },
+      "on_true": {
+        "type": "model",
+        "model": "gastronomicon:ingredient/gn_cooked_turkey"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/food/chicken_jerky"
+    }
+  }
+}

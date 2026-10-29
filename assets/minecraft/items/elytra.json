@@ -1,0 +1,80 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "INFUSED_ELYTRA"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "SOULBOUND_ELYTRA"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "BEE_WINGS"
+          }
+        },
+        "on_false": {
+          "type": "condition",
+          "property": "broken",
+          "on_false": {
+            "type": "model",
+            "model": "item/elytra"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/elytra_broken"
+          }
+        },
+        "on_true": {
+          "type": "condition",
+          "property": "broken",
+          "on_false": {
+            "type": "model",
+            "model": "slimefun:slimefun/magical_armor/bee_armor/elytra/bee_wings"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimefun:slimefun/magical_armor/bee_armor/elytra/broken_bee_wings"
+          }
+        }
+      },
+      "on_true": {
+        "type": "condition",
+        "property": "broken",
+        "on_false": {
+          "type": "model",
+          "model": "slimefun:slimefun/magical_gadgets/elytra/soulbound_elytra"
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/magical_gadgets/elytra/soulbound_broken_elytra"
+        }
+      }
+    },
+    "on_true": {
+      "type": "condition",
+      "property": "broken",
+      "on_false": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_gadgets/elytra/infused_elytra"
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/magical_gadgets/elytra/infused_broken_elytra"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "WITHER_PROOF_OBSIDIAN"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "WITHER_ASSEMBLER"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "MOD_PLATE"
+          }
+        },
+        "on_false": {
+          "type": "model",
+          "model": "block/obsidian"
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimetinker:materials/mod_plate"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/energy/wither_assembler"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/technical_components/wither_proof_obsidian"
+    }
+  }
+}

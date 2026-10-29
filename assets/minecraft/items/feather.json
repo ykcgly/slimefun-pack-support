@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "ELYTRA_SCALE"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "item/feather"
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/magical_gadgets/elytra_scale"
+    }
+  }
+}

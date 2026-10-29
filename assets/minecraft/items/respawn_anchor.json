@@ -1,0 +1,48 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "INFINITY_FORGE"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "IE_INFINITY_WORKBENCH"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "BOTTOMLESS_FLUFFY_BARREL"
+          }
+        },
+        "on_false": {
+          "type": "model",
+          "model": "minecraft:block/respawn_anchor_0"
+        },
+        "on_true": {
+          "type": "model",
+          "model": "fluffymachines:barrels/bottomless_fluffy_barrel"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "infinityexpansion2:machines/infinity_workbench"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "infinityexpansion:machines/infinity_workbench"
+    }
+  }
+}

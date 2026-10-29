@@ -1,0 +1,810 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "MEDICINE"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "APPLE_JUICE"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CARROT_JUICE"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "MELON_JUICE"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "PUMPKIN_JUICE"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "SWEET_BERRY_JUICE"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "GOLDEN_APPLE_JUICE"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "CHRISTMAS_MILK"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "CHRISTMAS_CHOCOLATE_MILK"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "CHRISTMAS_EGG_NOG"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "CHRISTMAS_APPLE_CIDER"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "slimefun:slimefun_item": "CHRISTMAS_HOT_CHOCOLATE"
+                            }
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": {
+                              "PublicBukkitValues": {
+                                "slimefun:slimefun_item": "GLOW_BERRY_JUICE"
+                              }
+                            },
+                            "on_false": {
+                              "type": "minecraft:condition",
+                              "property": "minecraft:component",
+                              "predicate": "minecraft:custom_data",
+                              "value": {
+                                "PublicBukkitValues": {
+                                  "slimefun:slimefun_item": "BLACKBERRY_JUICE"
+                                }
+                              },
+                              "on_false": {
+                                "type": "minecraft:condition",
+                                "property": "minecraft:component",
+                                "predicate": "minecraft:custom_data",
+                                "value": {
+                                  "PublicBukkitValues": {
+                                    "slimefun:slimefun_item": "BLACKBERRY_SMOOTHIE"
+                                  }
+                                },
+                                "on_false": {
+                                  "type": "minecraft:condition",
+                                  "property": "minecraft:component",
+                                  "predicate": "minecraft:custom_data",
+                                  "value": {
+                                    "PublicBukkitValues": {
+                                      "slimefun:slimefun_item": "BLUEBERRY_JUICE"
+                                    }
+                                  },
+                                  "on_false": {
+                                    "type": "minecraft:condition",
+                                    "property": "minecraft:component",
+                                    "predicate": "minecraft:custom_data",
+                                    "value": {
+                                      "PublicBukkitValues": {
+                                        "slimefun:slimefun_item": "BLUEBERRY_SMOOTHIE"
+                                      }
+                                    },
+                                    "on_false": {
+                                      "type": "minecraft:condition",
+                                      "property": "minecraft:component",
+                                      "predicate": "minecraft:custom_data",
+                                      "value": {
+                                        "PublicBukkitValues": {
+                                          "slimefun:slimefun_item": "CHERRY_ICED_TEA"
+                                        }
+                                      },
+                                      "on_false": {
+                                        "type": "minecraft:condition",
+                                        "property": "minecraft:component",
+                                        "predicate": "minecraft:custom_data",
+                                        "value": {
+                                          "PublicBukkitValues": {
+                                            "slimefun:slimefun_item": "CHERRY_JUICE"
+                                          }
+                                        },
+                                        "on_false": {
+                                          "type": "minecraft:condition",
+                                          "property": "minecraft:component",
+                                          "predicate": "minecraft:custom_data",
+                                          "value": {
+                                            "PublicBukkitValues": {
+                                              "slimefun:slimefun_item": "COCONUT_MILK"
+                                            }
+                                          },
+                                          "on_false": {
+                                            "type": "minecraft:condition",
+                                            "property": "minecraft:component",
+                                            "predicate": "minecraft:custom_data",
+                                            "value": {
+                                              "PublicBukkitValues": {
+                                                "slimefun:slimefun_item": "COWBERRY_JUICE"
+                                              }
+                                            },
+                                            "on_false": {
+                                              "type": "minecraft:condition",
+                                              "property": "minecraft:component",
+                                              "predicate": "minecraft:custom_data",
+                                              "value": {
+                                                "PublicBukkitValues": {
+                                                  "slimefun:slimefun_item": "COWBERRY_SMOOTHIE"
+                                                }
+                                              },
+                                              "on_false": {
+                                                "type": "minecraft:condition",
+                                                "property": "minecraft:component",
+                                                "predicate": "minecraft:custom_data",
+                                                "value": {
+                                                  "PublicBukkitValues": {
+                                                    "slimefun:slimefun_item": "CRANBERRY_JUICE"
+                                                  }
+                                                },
+                                                "on_false": {
+                                                  "type": "minecraft:condition",
+                                                  "property": "minecraft:component",
+                                                  "predicate": "minecraft:custom_data",
+                                                  "value": {
+                                                    "PublicBukkitValues": {
+                                                      "slimefun:slimefun_item": "CRANBERRY_SMOOTHIE"
+                                                    }
+                                                  },
+                                                  "on_false": {
+                                                    "type": "minecraft:condition",
+                                                    "property": "minecraft:component",
+                                                    "predicate": "minecraft:custom_data",
+                                                    "value": {
+                                                      "PublicBukkitValues": {
+                                                        "slimefun:slimefun_item": "DRAGON_FRUIT_JUICE"
+                                                      }
+                                                    },
+                                                    "on_false": {
+                                                      "type": "minecraft:condition",
+                                                      "property": "minecraft:component",
+                                                      "predicate": "minecraft:custom_data",
+                                                      "value": {
+                                                        "PublicBukkitValues": {
+                                                          "slimefun:slimefun_item": "ELDERBERRY_JUICE"
+                                                        }
+                                                      },
+                                                      "on_false": {
+                                                        "type": "minecraft:condition",
+                                                        "property": "minecraft:component",
+                                                        "predicate": "minecraft:custom_data",
+                                                        "value": {
+                                                          "PublicBukkitValues": {
+                                                            "slimefun:slimefun_item": "ELDERBERRY_SMOOTHIE"
+                                                          }
+                                                        },
+                                                        "on_false": {
+                                                          "type": "minecraft:condition",
+                                                          "property": "minecraft:component",
+                                                          "predicate": "minecraft:custom_data",
+                                                          "value": {
+                                                            "PublicBukkitValues": {
+                                                              "slimefun:slimefun_item": "GRAPE_JUICE"
+                                                            }
+                                                          },
+                                                          "on_false": {
+                                                            "type": "minecraft:condition",
+                                                            "property": "minecraft:component",
+                                                            "predicate": "minecraft:custom_data",
+                                                            "value": {
+                                                              "PublicBukkitValues": {
+                                                                "slimefun:slimefun_item": "GRAPE_SMOOTHIE"
+                                                              }
+                                                            },
+                                                            "on_false": {
+                                                              "type": "minecraft:condition",
+                                                              "property": "minecraft:component",
+                                                              "predicate": "minecraft:custom_data",
+                                                              "value": {
+                                                                "PublicBukkitValues": {
+                                                                  "slimefun:slimefun_item": "LEMON_ICED_TEA"
+                                                                }
+                                                              },
+                                                              "on_false": {
+                                                                "type": "minecraft:condition",
+                                                                "property": "minecraft:component",
+                                                                "predicate": "minecraft:custom_data",
+                                                                "value": {
+                                                                  "PublicBukkitValues": {
+                                                                    "slimefun:slimefun_item": "LEMON_JUICE"
+                                                                  }
+                                                                },
+                                                                "on_false": {
+                                                                  "type": "minecraft:condition",
+                                                                  "property": "minecraft:component",
+                                                                  "predicate": "minecraft:custom_data",
+                                                                  "value": {
+                                                                    "PublicBukkitValues": {
+                                                                      "slimefun:slimefun_item": "LEMONADE"
+                                                                    }
+                                                                  },
+                                                                  "on_false": {
+                                                                    "type": "minecraft:condition",
+                                                                    "property": "minecraft:component",
+                                                                    "predicate": "minecraft:custom_data",
+                                                                    "value": {
+                                                                      "PublicBukkitValues": {
+                                                                        "slimefun:slimefun_item": "LIME_JUICE"
+                                                                      }
+                                                                    },
+                                                                    "on_false": {
+                                                                      "type": "minecraft:condition",
+                                                                      "property": "minecraft:component",
+                                                                      "predicate": "minecraft:custom_data",
+                                                                      "value": {
+                                                                        "PublicBukkitValues": {
+                                                                          "slimefun:slimefun_item": "LIME_SMOOTHIE"
+                                                                        }
+                                                                      },
+                                                                      "on_false": {
+                                                                        "type": "minecraft:condition",
+                                                                        "property": "minecraft:component",
+                                                                        "predicate": "minecraft:custom_data",
+                                                                        "value": {
+                                                                          "PublicBukkitValues": {
+                                                                            "slimefun:slimefun_item": "OAK_APPLE_JUICE"
+                                                                          }
+                                                                        },
+                                                                        "on_false": {
+                                                                          "type": "minecraft:condition",
+                                                                          "property": "minecraft:component",
+                                                                          "predicate": "minecraft:custom_data",
+                                                                          "value": {
+                                                                            "PublicBukkitValues": {
+                                                                              "slimefun:slimefun_item": "ORANGE_JUICE"
+                                                                            }
+                                                                          },
+                                                                          "on_false": {
+                                                                            "type": "minecraft:condition",
+                                                                            "property": "minecraft:component",
+                                                                            "predicate": "minecraft:custom_data",
+                                                                            "value": {
+                                                                              "PublicBukkitValues": {
+                                                                                "slimefun:slimefun_item": "PEACH_ICED_TEA"
+                                                                              }
+                                                                            },
+                                                                            "on_false": {
+                                                                              "type": "minecraft:condition",
+                                                                              "property": "minecraft:component",
+                                                                              "predicate": "minecraft:custom_data",
+                                                                              "value": {
+                                                                                "PublicBukkitValues": {
+                                                                                  "slimefun:slimefun_item": "PEACH_JUICE"
+                                                                                }
+                                                                              },
+                                                                              "on_false": {
+                                                                                "type": "minecraft:condition",
+                                                                                "property": "minecraft:component",
+                                                                                "predicate": "minecraft:custom_data",
+                                                                                "value": {
+                                                                                  "PublicBukkitValues": {
+                                                                                    "slimefun:slimefun_item": "PEAR_JUICE"
+                                                                                  }
+                                                                                },
+                                                                                "on_false": {
+                                                                                  "type": "minecraft:condition",
+                                                                                  "property": "minecraft:component",
+                                                                                  "predicate": "minecraft:custom_data",
+                                                                                  "value": {
+                                                                                    "PublicBukkitValues": {
+                                                                                      "slimefun:slimefun_item": "PINEAPPLE_JUICE"
+                                                                                    }
+                                                                                  },
+                                                                                  "on_false": {
+                                                                                    "type": "minecraft:condition",
+                                                                                    "property": "minecraft:component",
+                                                                                    "predicate": "minecraft:custom_data",
+                                                                                    "value": {
+                                                                                      "PublicBukkitValues": {
+                                                                                        "slimefun:slimefun_item": "PINEAPPLE_SMOOTHIE"
+                                                                                      }
+                                                                                    },
+                                                                                    "on_false": {
+                                                                                      "type": "minecraft:condition",
+                                                                                      "property": "minecraft:component",
+                                                                                      "predicate": "minecraft:custom_data",
+                                                                                      "value": {
+                                                                                        "PublicBukkitValues": {
+                                                                                          "slimefun:slimefun_item": "PLUM_JUICE"
+                                                                                        }
+                                                                                      },
+                                                                                      "on_false": {
+                                                                                        "type": "minecraft:condition",
+                                                                                        "property": "minecraft:component",
+                                                                                        "predicate": "minecraft:custom_data",
+                                                                                        "value": {
+                                                                                          "PublicBukkitValues": {
+                                                                                            "slimefun:slimefun_item": "POMEGRANATE_JUICE"
+                                                                                          }
+                                                                                        },
+                                                                                        "on_false": {
+                                                                                          "type": "minecraft:condition",
+                                                                                          "property": "minecraft:component",
+                                                                                          "predicate": "minecraft:custom_data",
+                                                                                          "value": {
+                                                                                            "PublicBukkitValues": {
+                                                                                              "slimefun:slimefun_item": "RASPBERRY_ICED_TEA"
+                                                                                            }
+                                                                                          },
+                                                                                          "on_false": {
+                                                                                            "type": "minecraft:condition",
+                                                                                            "property": "minecraft:component",
+                                                                                            "predicate": "minecraft:custom_data",
+                                                                                            "value": {
+                                                                                              "PublicBukkitValues": {
+                                                                                                "slimefun:slimefun_item": "RASPBERRY_JUICE"
+                                                                                              }
+                                                                                            },
+                                                                                            "on_false": {
+                                                                                              "type": "minecraft:condition",
+                                                                                              "property": "minecraft:component",
+                                                                                              "predicate": "minecraft:custom_data",
+                                                                                              "value": {
+                                                                                                "PublicBukkitValues": {
+                                                                                                  "slimefun:slimefun_item": "RASPBERRY_SMOOTHIE"
+                                                                                                }
+                                                                                              },
+                                                                                              "on_false": {
+                                                                                                "type": "minecraft:condition",
+                                                                                                "property": "minecraft:component",
+                                                                                                "predicate": "minecraft:custom_data",
+                                                                                                "value": {
+                                                                                                  "PublicBukkitValues": {
+                                                                                                    "slimefun:slimefun_item": "STRAWBERRY_ICED_TEA"
+                                                                                                  }
+                                                                                                },
+                                                                                                "on_false": {
+                                                                                                  "type": "minecraft:condition",
+                                                                                                  "property": "minecraft:component",
+                                                                                                  "predicate": "minecraft:custom_data",
+                                                                                                  "value": {
+                                                                                                    "PublicBukkitValues": {
+                                                                                                      "slimefun:slimefun_item": "STRAWBERRY_JUICE"
+                                                                                                    }
+                                                                                                  },
+                                                                                                  "on_false": {
+                                                                                                    "type": "minecraft:condition",
+                                                                                                    "property": "minecraft:component",
+                                                                                                    "predicate": "minecraft:custom_data",
+                                                                                                    "value": {
+                                                                                                      "PublicBukkitValues": {
+                                                                                                        "slimefun:slimefun_item": "STRAWBERRY_SMOOTHIE"
+                                                                                                      }
+                                                                                                    },
+                                                                                                    "on_false": {
+                                                                                                      "type": "minecraft:condition",
+                                                                                                      "property": "minecraft:component",
+                                                                                                      "predicate": "minecraft:custom_data",
+                                                                                                      "value": {
+                                                                                                        "PublicBukkitValues": {
+                                                                                                          "slimefun:slimefun_item": "THAI_TEA"
+                                                                                                        }
+                                                                                                      },
+                                                                                                      "on_false": {
+                                                                                                        "type": "minecraft:condition",
+                                                                                                        "property": "minecraft:component",
+                                                                                                        "predicate": "minecraft:custom_data",
+                                                                                                        "value": {
+                                                                                                          "PublicBukkitValues": {
+                                                                                                            "slimefun:slimefun_item": "TOMATO_JUICE"
+                                                                                                          }
+                                                                                                        },
+                                                                                                        "on_false": {
+                                                                                                          "type": "minecraft:condition",
+                                                                                                          "property": "minecraft:component",
+                                                                                                          "predicate": "minecraft:custom_data",
+                                                                                                          "value": {
+                                                                                                            "PublicBukkitValues": {
+                                                                                                              "slimefun:slimefun_item": "WINE"
+                                                                                                            }
+                                                                                                          },
+                                                                                                          "on_false": {
+                                                                                                            "type": "minecraft:condition",
+                                                                                                            "property": "minecraft:component",
+                                                                                                            "predicate": "minecraft:custom_data",
+                                                                                                            "value": {
+                                                                                                              "PublicBukkitValues": {
+                                                                                                                "slimefun:slimefun_item": "XUEBI"
+                                                                                                              }
+                                                                                                            },
+                                                                                                            "on_false": {
+                                                                                                              "type": "minecraft:condition",
+                                                                                                              "property": "minecraft:component",
+                                                                                                              "predicate": "minecraft:custom_data",
+                                                                                                              "value": {
+                                                                                                                "PublicBukkitValues": {
+                                                                                                                  "slimefun:slimefun_item": "KELE"
+                                                                                                                }
+                                                                                                              },
+                                                                                                              "on_false": {
+                                                                                                                "type": "minecraft:condition",
+                                                                                                                "property": "minecraft:component",
+                                                                                                                "predicate": "minecraft:custom_data",
+                                                                                                                "value": {
+                                                                                                                  "PublicBukkitValues": {
+                                                                                                                    "slimefun:slimefun_item": "GN_PEANUT_BUTTER"
+                                                                                                                  }
+                                                                                                                },
+                                                                                                                "on_false": {
+                                                                                                                  "type": "minecraft:condition",
+                                                                                                                  "property": "minecraft:component",
+                                                                                                                  "predicate": "minecraft:custom_data",
+                                                                                                                  "value": {
+                                                                                                                    "PublicBukkitValues": {
+                                                                                                                      "slimefun:slimefun_item": "GN_KETCHUP"
+                                                                                                                    }
+                                                                                                                  },
+                                                                                                                  "on_false": {
+                                                                                                                    "type": "minecraft:condition",
+                                                                                                                    "property": "minecraft:component",
+                                                                                                                    "predicate": "minecraft:custom_data",
+                                                                                                                    "value": {
+                                                                                                                      "PublicBukkitValues": {
+                                                                                                                        "slimefun:slimefun_item": "GN_SOY_SAUCE"
+                                                                                                                      }
+                                                                                                                    },
+                                                                                                                    "on_false": {
+                                                                                                                      "type": "model",
+                                                                                                                      "model": "minecraft:item/potion",
+                                                                                                                      "tints": [
+                                                                                                                        {
+                                                                                                                          "type": "minecraft:potion",
+                                                                                                                          "default": -13083194
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    },
+                                                                                                                    "on_true": {
+                                                                                                                      "type": "model",
+                                                                                                                      "model": "gastronomicon:food/gn_soy_sauce"
+                                                                                                                    }
+                                                                                                                  },
+                                                                                                                  "on_true": {
+                                                                                                                    "type": "model",
+                                                                                                                    "model": "gastronomicon:food/gn_ketchup"
+                                                                                                                  }
+                                                                                                                },
+                                                                                                                "on_true": {
+                                                                                                                  "type": "model",
+                                                                                                                  "model": "gastronomicon:food/gn_peanut_butter"
+                                                                                                                }
+                                                                                                              },
+                                                                                                              "on_true": {
+                                                                                                                "type": "model",
+                                                                                                                "model": "bump:foods/kele"
+                                                                                                              }
+                                                                                                            },
+                                                                                                            "on_true": {
+                                                                                                              "type": "model",
+                                                                                                              "model": "bump:foods/xuebi"
+                                                                                                            }
+                                                                                                          },
+                                                                                                          "on_true": {
+                                                                                                            "type": "model",
+                                                                                                            "model": "exotic_garden:drinks/wine"
+                                                                                                          }
+                                                                                                        },
+                                                                                                        "on_true": {
+                                                                                                          "type": "model",
+                                                                                                          "model": "exotic_garden:drinks/tomato_juice"
+                                                                                                        }
+                                                                                                      },
+                                                                                                      "on_true": {
+                                                                                                        "type": "model",
+                                                                                                        "model": "exotic_garden:drinks/thai_tea"
+                                                                                                      }
+                                                                                                    },
+                                                                                                    "on_true": {
+                                                                                                      "type": "model",
+                                                                                                      "model": "exotic_garden:drinks/strawberry_smoothie"
+                                                                                                    }
+                                                                                                  },
+                                                                                                  "on_true": {
+                                                                                                    "type": "model",
+                                                                                                    "model": "exotic_garden:drinks/strawberry_juice"
+                                                                                                  }
+                                                                                                },
+                                                                                                "on_true": {
+                                                                                                  "type": "model",
+                                                                                                  "model": "exotic_garden:drinks/strawberry_iced_tea"
+                                                                                                }
+                                                                                              },
+                                                                                              "on_true": {
+                                                                                                "type": "model",
+                                                                                                "model": "exotic_garden:drinks/raspberry_smoothie"
+                                                                                              }
+                                                                                            },
+                                                                                            "on_true": {
+                                                                                              "type": "model",
+                                                                                              "model": "exotic_garden:drinks/raspberry_juice"
+                                                                                            }
+                                                                                          },
+                                                                                          "on_true": {
+                                                                                            "type": "model",
+                                                                                            "model": "exotic_garden:drinks/raspberry_iced_tea"
+                                                                                          }
+                                                                                        },
+                                                                                        "on_true": {
+                                                                                          "type": "model",
+                                                                                          "model": "exotic_garden:drinks/pomegranate_juice"
+                                                                                        }
+                                                                                      },
+                                                                                      "on_true": {
+                                                                                        "type": "model",
+                                                                                        "model": "exotic_garden:drinks/plum_juice"
+                                                                                      }
+                                                                                    },
+                                                                                    "on_true": {
+                                                                                      "type": "model",
+                                                                                      "model": "exotic_garden:drinks/pineapple_smoothie"
+                                                                                    }
+                                                                                  },
+                                                                                  "on_true": {
+                                                                                    "type": "model",
+                                                                                    "model": "exotic_garden:drinks/pineapple_juice"
+                                                                                  }
+                                                                                },
+                                                                                "on_true": {
+                                                                                  "type": "model",
+                                                                                  "model": "exotic_garden:drinks/pear_juice"
+                                                                                }
+                                                                              },
+                                                                              "on_true": {
+                                                                                "type": "model",
+                                                                                "model": "exotic_garden:drinks/peach_juice"
+                                                                              }
+                                                                            },
+                                                                            "on_true": {
+                                                                              "type": "model",
+                                                                              "model": "exotic_garden:drinks/peach_iced_tea"
+                                                                            }
+                                                                          },
+                                                                          "on_true": {
+                                                                            "type": "model",
+                                                                            "model": "exotic_garden:drinks/orange_juice"
+                                                                          }
+                                                                        },
+                                                                        "on_true": {
+                                                                          "type": "model",
+                                                                          "model": "exotic_garden:drinks/oak_apple_juice"
+                                                                        }
+                                                                      },
+                                                                      "on_true": {
+                                                                        "type": "model",
+                                                                        "model": "exotic_garden:drinks/lime_smoothie"
+                                                                      }
+                                                                    },
+                                                                    "on_true": {
+                                                                      "type": "model",
+                                                                      "model": "exotic_garden:drinks/lime_juice"
+                                                                    }
+                                                                  },
+                                                                  "on_true": {
+                                                                    "type": "model",
+                                                                    "model": "exotic_garden:drinks/lemonade"
+                                                                  }
+                                                                },
+                                                                "on_true": {
+                                                                  "type": "model",
+                                                                  "model": "exotic_garden:drinks/lemon_juice"
+                                                                }
+                                                              },
+                                                              "on_true": {
+                                                                "type": "model",
+                                                                "model": "exotic_garden:drinks/lemon_iced_tea"
+                                                              }
+                                                            },
+                                                            "on_true": {
+                                                              "type": "model",
+                                                              "model": "exotic_garden:drinks/grape_smoothie"
+                                                            }
+                                                          },
+                                                          "on_true": {
+                                                            "type": "model",
+                                                            "model": "exotic_garden:drinks/grape_juice"
+                                                          }
+                                                        },
+                                                        "on_true": {
+                                                          "type": "model",
+                                                          "model": "exotic_garden:drinks/elderberry_smoothie"
+                                                        }
+                                                      },
+                                                      "on_true": {
+                                                        "type": "model",
+                                                        "model": "exotic_garden:drinks/elderberry_juice"
+                                                      }
+                                                    },
+                                                    "on_true": {
+                                                      "type": "model",
+                                                      "model": "exotic_garden:drinks/dragon_fruit_juice"
+                                                    }
+                                                  },
+                                                  "on_true": {
+                                                    "type": "model",
+                                                    "model": "exotic_garden:drinks/cranberry_smoothie"
+                                                  }
+                                                },
+                                                "on_true": {
+                                                  "type": "model",
+                                                  "model": "exotic_garden:drinks/cranberry_juice"
+                                                }
+                                              },
+                                              "on_true": {
+                                                "type": "model",
+                                                "model": "exotic_garden:drinks/cowberry_smoothie"
+                                              }
+                                            },
+                                            "on_true": {
+                                              "type": "model",
+                                              "model": "exotic_garden:drinks/cowberry_juice"
+                                            }
+                                          },
+                                          "on_true": {
+                                            "type": "model",
+                                            "model": "exotic_garden:drinks/coconut_milk"
+                                          }
+                                        },
+                                        "on_true": {
+                                          "type": "model",
+                                          "model": "exotic_garden:drinks/cherry_juice"
+                                        }
+                                      },
+                                      "on_true": {
+                                        "type": "model",
+                                        "model": "exotic_garden:drinks/cherry_iced_tea"
+                                      }
+                                    },
+                                    "on_true": {
+                                      "type": "model",
+                                      "model": "exotic_garden:drinks/blueberry_smoothie"
+                                    }
+                                  },
+                                  "on_true": {
+                                    "type": "model",
+                                    "model": "exotic_garden:drinks/blueberry_juice"
+                                  }
+                                },
+                                "on_true": {
+                                  "type": "model",
+                                  "model": "exotic_garden:drinks/blackberry_smoothie"
+                                }
+                              },
+                              "on_true": {
+                                "type": "model",
+                                "model": "exotic_garden:drinks/blackberry_juice"
+                              }
+                            },
+                            "on_true": {
+                              "type": "model",
+                              "model": "slimefun:slimefun/food/glow_berry_juice"
+                            }
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "slimefun:slimefun/christmas/christmas_hot_chocolate"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "slimefun:slimefun/christmas/christmas_apple_cider"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "slimefun:slimefun/christmas/christmas_egg_nog"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "slimefun:slimefun/christmas/christmas_chocolate_milk"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "slimefun:slimefun/christmas/christmas_milk"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "slimefun:slimefun/food/golden_apple_juice"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "slimefun:slimefun/food/sweet_berry_juice"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "slimefun:slimefun/food/pumpkin_juice"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimefun:slimefun/food/melon_juice"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/food/carrot_juice"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/food/apple_juice"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/items/medicine"
+    }
+  }
+}

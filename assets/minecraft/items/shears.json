@@ -1,0 +1,104 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "DURALUMIN_MULTI_TOOL"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "SOLDER_MULTI_TOOL"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "BILLON_MULTI_TOOL"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "STEEL_MULTI_TOOL"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "DAMASCUS_STEEL_MULTI_TOOL"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "REINFORCED_ALLOY_MULTI_TOOL"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "CARBONADO_MULTI_TOOL"
+                  }
+                },
+                "on_false": {
+                  "type": "model",
+                  "model": "item/shears"
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "slimefun:slimefun/technical_gadgets/carbonado_multi_tool"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "slimefun:slimefun/technical_gadgets/reinforced_alloy_multi_tool"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "slimefun:slimefun/technical_gadgets/damascus_steel_multi_tool"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "slimefun:slimefun/technical_gadgets/steel_multi_tool"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "slimefun:slimefun/technical_gadgets/billon_multi_tool"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "slimefun:slimefun/technical_gadgets/solder_multi_tool"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "slimefun:slimefun/technical_gadgets/duralumin_multi_tool"
+    }
+  }
+}

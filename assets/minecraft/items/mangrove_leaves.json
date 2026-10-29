@@ -1,0 +1,54 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "CLT_CILANTRO"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "CLT_MINT"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CLT_SHISO"
+          }
+        },
+        "on_false": {
+          "type": "model",
+          "model": "block/mangrove_leaves",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -7158200
+            }
+          ]
+        },
+        "on_true": {
+          "type": "model",
+          "model": "cultivation:products/clt_shiso"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "cultivation:products/clt_mint"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "cultivation:products/clt_cilantro"
+    }
+  }
+}

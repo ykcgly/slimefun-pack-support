@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "SUPREME_CONVEYANCE_MACHINE"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "block/horn_coral_block"
+    },
+    "on_true": {
+      "type": "model",
+      "model": "supreme:components/supreme_conveyance_machine"
+    }
+  }
+}

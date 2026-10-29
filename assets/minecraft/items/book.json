@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "ANCIENT_BOOK"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "item/book"
+    },
+    "on_true": {
+      "type": "model",
+      "model": "fluffymachines:misc/ancient_book"
+    }
+  }
+}

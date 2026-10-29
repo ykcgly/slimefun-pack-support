@@ -1,0 +1,776 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "PublicBukkitValues": {
+        "slimefun:slimefun_item": "OAK_APPLE_SAPLING"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "PublicBukkitValues": {
+          "slimefun:slimefun_item": "BLACK_PEPPER_BUSH"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "BLACKBERRY_BUSH"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "PublicBukkitValues": {
+              "slimefun:slimefun_item": "BLUEBERRY_BUSH"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "CABBAGE_BUSH"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "PublicBukkitValues": {
+                  "slimefun:slimefun_item": "CHERRY_SAPLING"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "PublicBukkitValues": {
+                    "slimefun:slimefun_item": "CILANTRO_BUSH"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "PublicBukkitValues": {
+                      "slimefun:slimefun_item": "COCONUT_SAPLING"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "PublicBukkitValues": {
+                        "slimefun:slimefun_item": "CORN_BUSH"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "PublicBukkitValues": {
+                          "slimefun:slimefun_item": "COWBERRY_BUSH"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "PublicBukkitValues": {
+                            "slimefun:slimefun_item": "CRANBERRY_BUSH"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "PublicBukkitValues": {
+                              "slimefun:slimefun_item": "CURRY_LEAF_BUSH"
+                            }
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:custom_data",
+                            "value": {
+                              "PublicBukkitValues": {
+                                "slimefun:slimefun_item": "DRAGON_FRUIT_SAPLING"
+                              }
+                            },
+                            "on_false": {
+                              "type": "minecraft:condition",
+                              "property": "minecraft:component",
+                              "predicate": "minecraft:custom_data",
+                              "value": {
+                                "PublicBukkitValues": {
+                                  "slimefun:slimefun_item": "ELDERBERRY_BUSH"
+                                }
+                              },
+                              "on_false": {
+                                "type": "minecraft:condition",
+                                "property": "minecraft:component",
+                                "predicate": "minecraft:custom_data",
+                                "value": {
+                                  "PublicBukkitValues": {
+                                    "slimefun:slimefun_item": "GARLIC_BUSH"
+                                  }
+                                },
+                                "on_false": {
+                                  "type": "minecraft:condition",
+                                  "property": "minecraft:component",
+                                  "predicate": "minecraft:custom_data",
+                                  "value": {
+                                    "PublicBukkitValues": {
+                                      "slimefun:slimefun_item": "GRAPE_BUSH"
+                                    }
+                                  },
+                                  "on_false": {
+                                    "type": "minecraft:condition",
+                                    "property": "minecraft:component",
+                                    "predicate": "minecraft:custom_data",
+                                    "value": {
+                                      "PublicBukkitValues": {
+                                        "slimefun:slimefun_item": "LEMON_SAPLING"
+                                      }
+                                    },
+                                    "on_false": {
+                                      "type": "minecraft:condition",
+                                      "property": "minecraft:component",
+                                      "predicate": "minecraft:custom_data",
+                                      "value": {
+                                        "PublicBukkitValues": {
+                                          "slimefun:slimefun_item": "LETTUCE_BUSH"
+                                        }
+                                      },
+                                      "on_false": {
+                                        "type": "minecraft:condition",
+                                        "property": "minecraft:component",
+                                        "predicate": "minecraft:custom_data",
+                                        "value": {
+                                          "PublicBukkitValues": {
+                                            "slimefun:slimefun_item": "LIME_SAPLING"
+                                          }
+                                        },
+                                        "on_false": {
+                                          "type": "minecraft:condition",
+                                          "property": "minecraft:component",
+                                          "predicate": "minecraft:custom_data",
+                                          "value": {
+                                            "PublicBukkitValues": {
+                                              "slimefun:slimefun_item": "MUSTARD_SEED_BUSH"
+                                            }
+                                          },
+                                          "on_false": {
+                                            "type": "minecraft:condition",
+                                            "property": "minecraft:component",
+                                            "predicate": "minecraft:custom_data",
+                                            "value": {
+                                              "PublicBukkitValues": {
+                                                "slimefun:slimefun_item": "ONION_BUSH"
+                                              }
+                                            },
+                                            "on_false": {
+                                              "type": "minecraft:condition",
+                                              "property": "minecraft:component",
+                                              "predicate": "minecraft:custom_data",
+                                              "value": {
+                                                "PublicBukkitValues": {
+                                                  "slimefun:slimefun_item": "ORANGE_SAPLING"
+                                                }
+                                              },
+                                              "on_false": {
+                                                "type": "minecraft:condition",
+                                                "property": "minecraft:component",
+                                                "predicate": "minecraft:custom_data",
+                                                "value": {
+                                                  "PublicBukkitValues": {
+                                                    "slimefun:slimefun_item": "PEACH_SAPLING"
+                                                  }
+                                                },
+                                                "on_false": {
+                                                  "type": "minecraft:condition",
+                                                  "property": "minecraft:component",
+                                                  "predicate": "minecraft:custom_data",
+                                                  "value": {
+                                                    "PublicBukkitValues": {
+                                                      "slimefun:slimefun_item": "PEAR_SAPLING"
+                                                    }
+                                                  },
+                                                  "on_false": {
+                                                    "type": "minecraft:condition",
+                                                    "property": "minecraft:component",
+                                                    "predicate": "minecraft:custom_data",
+                                                    "value": {
+                                                      "PublicBukkitValues": {
+                                                        "slimefun:slimefun_item": "PINEAPPLE_BUSH"
+                                                      }
+                                                    },
+                                                    "on_false": {
+                                                      "type": "minecraft:condition",
+                                                      "property": "minecraft:component",
+                                                      "predicate": "minecraft:custom_data",
+                                                      "value": {
+                                                        "PublicBukkitValues": {
+                                                          "slimefun:slimefun_item": "PLUM_SAPLING"
+                                                        }
+                                                      },
+                                                      "on_false": {
+                                                        "type": "minecraft:condition",
+                                                        "property": "minecraft:component",
+                                                        "predicate": "minecraft:custom_data",
+                                                        "value": {
+                                                          "PublicBukkitValues": {
+                                                            "slimefun:slimefun_item": "POMEGRANATE_SAPLING"
+                                                          }
+                                                        },
+                                                        "on_false": {
+                                                          "type": "minecraft:condition",
+                                                          "property": "minecraft:component",
+                                                          "predicate": "minecraft:custom_data",
+                                                          "value": {
+                                                            "PublicBukkitValues": {
+                                                              "slimefun:slimefun_item": "RASPBERRY_BUSH"
+                                                            }
+                                                          },
+                                                          "on_false": {
+                                                            "type": "minecraft:condition",
+                                                            "property": "minecraft:component",
+                                                            "predicate": "minecraft:custom_data",
+                                                            "value": {
+                                                              "PublicBukkitValues": {
+                                                                "slimefun:slimefun_item": "STRAWBERRY_BUSH"
+                                                              }
+                                                            },
+                                                            "on_false": {
+                                                              "type": "minecraft:condition",
+                                                              "property": "minecraft:component",
+                                                              "predicate": "minecraft:custom_data",
+                                                              "value": {
+                                                                "PublicBukkitValues": {
+                                                                  "slimefun:slimefun_item": "SWEET_POTATO_BUSH"
+                                                                }
+                                                              },
+                                                              "on_false": {
+                                                                "type": "minecraft:condition",
+                                                                "property": "minecraft:component",
+                                                                "predicate": "minecraft:custom_data",
+                                                                "value": {
+                                                                  "PublicBukkitValues": {
+                                                                    "slimefun:slimefun_item": "TEA_LEAF_BUSH"
+                                                                  }
+                                                                },
+                                                                "on_false": {
+                                                                  "type": "minecraft:condition",
+                                                                  "property": "minecraft:component",
+                                                                  "predicate": "minecraft:custom_data",
+                                                                  "value": {
+                                                                    "PublicBukkitValues": {
+                                                                      "slimefun:slimefun_item": "TOMATO_BUSH"
+                                                                    }
+                                                                  },
+                                                                  "on_false": {
+                                                                    "type": "minecraft:condition",
+                                                                    "property": "minecraft:component",
+                                                                    "predicate": "minecraft:custom_data",
+                                                                    "value": {
+                                                                      "PublicBukkitValues": {
+                                                                        "slimefun:slimefun_item": "COAL_PLANT"
+                                                                      }
+                                                                    },
+                                                                    "on_false": {
+                                                                      "type": "minecraft:condition",
+                                                                      "property": "minecraft:component",
+                                                                      "predicate": "minecraft:custom_data",
+                                                                      "value": {
+                                                                        "PublicBukkitValues": {
+                                                                          "slimefun:slimefun_item": "DIAMOND_PLANT"
+                                                                        }
+                                                                      },
+                                                                      "on_false": {
+                                                                        "type": "minecraft:condition",
+                                                                        "property": "minecraft:component",
+                                                                        "predicate": "minecraft:custom_data",
+                                                                        "value": {
+                                                                          "PublicBukkitValues": {
+                                                                            "slimefun:slimefun_item": "EMERALD_PLANT"
+                                                                          }
+                                                                        },
+                                                                        "on_false": {
+                                                                          "type": "minecraft:condition",
+                                                                          "property": "minecraft:component",
+                                                                          "predicate": "minecraft:custom_data",
+                                                                          "value": {
+                                                                            "PublicBukkitValues": {
+                                                                              "slimefun:slimefun_item": "ENDER_PLANT"
+                                                                            }
+                                                                          },
+                                                                          "on_false": {
+                                                                            "type": "minecraft:condition",
+                                                                            "property": "minecraft:component",
+                                                                            "predicate": "minecraft:custom_data",
+                                                                            "value": {
+                                                                              "PublicBukkitValues": {
+                                                                                "slimefun:slimefun_item": "GLOWSTONE_PLANT"
+                                                                              }
+                                                                            },
+                                                                            "on_false": {
+                                                                              "type": "minecraft:condition",
+                                                                              "property": "minecraft:component",
+                                                                              "predicate": "minecraft:custom_data",
+                                                                              "value": {
+                                                                                "PublicBukkitValues": {
+                                                                                  "slimefun:slimefun_item": "GOLD_PLANT"
+                                                                                }
+                                                                              },
+                                                                              "on_false": {
+                                                                                "type": "minecraft:condition",
+                                                                                "property": "minecraft:component",
+                                                                                "predicate": "minecraft:custom_data",
+                                                                                "value": {
+                                                                                  "PublicBukkitValues": {
+                                                                                    "slimefun:slimefun_item": "IRON_PLANT"
+                                                                                  }
+                                                                                },
+                                                                                "on_false": {
+                                                                                  "type": "minecraft:condition",
+                                                                                  "property": "minecraft:component",
+                                                                                  "predicate": "minecraft:custom_data",
+                                                                                  "value": {
+                                                                                    "PublicBukkitValues": {
+                                                                                      "slimefun:slimefun_item": "LAPIS_PLANT"
+                                                                                    }
+                                                                                  },
+                                                                                  "on_false": {
+                                                                                    "type": "minecraft:condition",
+                                                                                    "property": "minecraft:component",
+                                                                                    "predicate": "minecraft:custom_data",
+                                                                                    "value": {
+                                                                                      "PublicBukkitValues": {
+                                                                                        "slimefun:slimefun_item": "OBSIDIAN_PLANT"
+                                                                                      }
+                                                                                    },
+                                                                                    "on_false": {
+                                                                                      "type": "minecraft:condition",
+                                                                                      "property": "minecraft:component",
+                                                                                      "predicate": "minecraft:custom_data",
+                                                                                      "value": {
+                                                                                        "PublicBukkitValues": {
+                                                                                          "slimefun:slimefun_item": "ALUMINUM_PLANT"
+                                                                                        }
+                                                                                      },
+                                                                                      "on_false": {
+                                                                                        "type": "minecraft:condition",
+                                                                                        "property": "minecraft:component",
+                                                                                        "predicate": "minecraft:custom_data",
+                                                                                        "value": {
+                                                                                          "PublicBukkitValues": {
+                                                                                            "slimefun:slimefun_item": "COPPER_PLANT"
+                                                                                          }
+                                                                                        },
+                                                                                        "on_false": {
+                                                                                          "type": "minecraft:condition",
+                                                                                          "property": "minecraft:component",
+                                                                                          "predicate": "minecraft:custom_data",
+                                                                                          "value": {
+                                                                                            "PublicBukkitValues": {
+                                                                                              "slimefun:slimefun_item": "LEAD_PLANT"
+                                                                                            }
+                                                                                          },
+                                                                                          "on_false": {
+                                                                                            "type": "minecraft:condition",
+                                                                                            "property": "minecraft:component",
+                                                                                            "predicate": "minecraft:custom_data",
+                                                                                            "value": {
+                                                                                              "PublicBukkitValues": {
+                                                                                                "slimefun:slimefun_item": "SILVER_PLANT"
+                                                                                              }
+                                                                                            },
+                                                                                            "on_false": {
+                                                                                              "type": "minecraft:condition",
+                                                                                              "property": "minecraft:component",
+                                                                                              "predicate": "minecraft:custom_data",
+                                                                                              "value": {
+                                                                                                "PublicBukkitValues": {
+                                                                                                  "slimefun:slimefun_item": "TIN_PLANT"
+                                                                                                }
+                                                                                              },
+                                                                                              "on_false": {
+                                                                                                "type": "minecraft:condition",
+                                                                                                "property": "minecraft:component",
+                                                                                                "predicate": "minecraft:custom_data",
+                                                                                                "value": {
+                                                                                                  "PublicBukkitValues": {
+                                                                                                    "slimefun:slimefun_item": "QUARTZ_PLANT"
+                                                                                                  }
+                                                                                                },
+                                                                                                "on_false": {
+                                                                                                  "type": "minecraft:condition",
+                                                                                                  "property": "minecraft:component",
+                                                                                                  "predicate": "minecraft:custom_data",
+                                                                                                  "value": {
+                                                                                                    "PublicBukkitValues": {
+                                                                                                      "slimefun:slimefun_item": "REDSTONE_PLANT"
+                                                                                                    }
+                                                                                                  },
+                                                                                                  "on_false": {
+                                                                                                    "type": "minecraft:condition",
+                                                                                                    "property": "minecraft:component",
+                                                                                                    "predicate": "minecraft:custom_data",
+                                                                                                    "value": {
+                                                                                                      "PublicBukkitValues": {
+                                                                                                        "slimefun:slimefun_item": "SLIME_PLANT"
+                                                                                                      }
+                                                                                                    },
+                                                                                                    "on_false": {
+                                                                                                      "type": "minecraft:condition",
+                                                                                                      "property": "minecraft:component",
+                                                                                                      "predicate": "minecraft:custom_data",
+                                                                                                      "value": {
+                                                                                                        "PublicBukkitValues": {
+                                                                                                          "slimefun:slimefun_item": "RED_BELL_PEPPER_BUSH"
+                                                                                                        }
+                                                                                                      },
+                                                                                                      "on_false": {
+                                                                                                        "type": "minecraft:condition",
+                                                                                                        "property": "minecraft:component",
+                                                                                                        "predicate": "minecraft:custom_data",
+                                                                                                        "value": {
+                                                                                                          "PublicBukkitValues": {
+                                                                                                            "slimefun:slimefun_item": "DIRT_PLANT"
+                                                                                                          }
+                                                                                                        },
+                                                                                                        "on_false": {
+                                                                                                          "type": "minecraft:condition",
+                                                                                                          "property": "minecraft:component",
+                                                                                                          "predicate": "minecraft:custom_data",
+                                                                                                          "value": {
+                                                                                                            "PublicBukkitValues": {
+                                                                                                              "slimefun:slimefun_item": "NETHERITE_PLANT"
+                                                                                                            }
+                                                                                                          },
+                                                                                                          "on_false": {
+                                                                                                            "type": "minecraft:condition",
+                                                                                                            "property": "minecraft:component",
+                                                                                                            "predicate": "minecraft:custom_data",
+                                                                                                            "value": {
+                                                                                                              "PublicBukkitValues": {
+                                                                                                                "slimefun:slimefun_item": "GN_BROCCOLI"
+                                                                                                              }
+                                                                                                            },
+                                                                                                            "on_false": {
+                                                                                                              "type": "minecraft:condition",
+                                                                                                              "property": "minecraft:component",
+                                                                                                              "predicate": "minecraft:custom_data",
+                                                                                                              "value": {
+                                                                                                                "PublicBukkitValues": {
+                                                                                                                  "slimefun:slimefun_item": "GN_LYCHEE_SAPLING"
+                                                                                                                }
+                                                                                                              },
+                                                                                                              "on_false": {
+                                                                                                                "type": "minecraft:condition",
+                                                                                                                "property": "minecraft:component",
+                                                                                                                "predicate": "minecraft:custom_data",
+                                                                                                                "value": {
+                                                                                                                  "PublicBukkitValues": {
+                                                                                                                    "slimefun:slimefun_item": "GN_BANANA_SAPLING"
+                                                                                                                  }
+                                                                                                                },
+                                                                                                                "on_false": {
+                                                                                                                  "type": "model",
+                                                                                                                  "model": "item/oak_sapling"
+                                                                                                                },
+                                                                                                                "on_true": {
+                                                                                                                  "type": "model",
+                                                                                                                  "model": "gastronomicon:ingredient/gn_banana_sapling"
+                                                                                                                }
+                                                                                                              },
+                                                                                                              "on_true": {
+                                                                                                                "type": "model",
+                                                                                                                "model": "gastronomicon:ingredient/gn_lychee_sapling"
+                                                                                                              }
+                                                                                                            },
+                                                                                                            "on_true": {
+                                                                                                              "type": "model",
+                                                                                                              "model": "gastronomicon:ingredient/gn_broccoli"
+                                                                                                            }
+                                                                                                          },
+                                                                                                          "on_true": {
+                                                                                                            "type": "model",
+                                                                                                            "model": "exotic_garden:plants/netherite_plant"
+                                                                                                          }
+                                                                                                        },
+                                                                                                        "on_true": {
+                                                                                                          "type": "model",
+                                                                                                          "model": "exotic_garden:plants/dirt_plant"
+                                                                                                        }
+                                                                                                      },
+                                                                                                      "on_true": {
+                                                                                                        "type": "model",
+                                                                                                        "model": "exotic_garden:fruits/red_bell_pepper_bush"
+                                                                                                      }
+                                                                                                    },
+                                                                                                    "on_true": {
+                                                                                                      "type": "model",
+                                                                                                      "model": "exotic_garden:plants/slime_plant"
+                                                                                                    }
+                                                                                                  },
+                                                                                                  "on_true": {
+                                                                                                    "type": "model",
+                                                                                                    "model": "exotic_garden:plants/redstone_plant"
+                                                                                                  }
+                                                                                                },
+                                                                                                "on_true": {
+                                                                                                  "type": "model",
+                                                                                                  "model": "exotic_garden:plants/quartz_plant"
+                                                                                                }
+                                                                                              },
+                                                                                              "on_true": {
+                                                                                                "type": "model",
+                                                                                                "model": "exotic_garden:plants/tin_plant"
+                                                                                              }
+                                                                                            },
+                                                                                            "on_true": {
+                                                                                              "type": "model",
+                                                                                              "model": "exotic_garden:plants/silver_plant"
+                                                                                            }
+                                                                                          },
+                                                                                          "on_true": {
+                                                                                            "type": "model",
+                                                                                            "model": "exotic_garden:plants/lead_plant"
+                                                                                          }
+                                                                                        },
+                                                                                        "on_true": {
+                                                                                          "type": "model",
+                                                                                          "model": "exotic_garden:plants/copper_plant"
+                                                                                        }
+                                                                                      },
+                                                                                      "on_true": {
+                                                                                        "type": "model",
+                                                                                        "model": "exotic_garden:plants/aluminum_plant"
+                                                                                      }
+                                                                                    },
+                                                                                    "on_true": {
+                                                                                      "type": "model",
+                                                                                      "model": "exotic_garden:plants/obsidian_plant"
+                                                                                    }
+                                                                                  },
+                                                                                  "on_true": {
+                                                                                    "type": "model",
+                                                                                    "model": "exotic_garden:plants/lapis_plant"
+                                                                                  }
+                                                                                },
+                                                                                "on_true": {
+                                                                                  "type": "model",
+                                                                                  "model": "exotic_garden:plants/iron_plant"
+                                                                                }
+                                                                              },
+                                                                              "on_true": {
+                                                                                "type": "model",
+                                                                                "model": "exotic_garden:plants/gold_plant"
+                                                                              }
+                                                                            },
+                                                                            "on_true": {
+                                                                              "type": "model",
+                                                                              "model": "exotic_garden:plants/glowstone_plant"
+                                                                            }
+                                                                          },
+                                                                          "on_true": {
+                                                                            "type": "model",
+                                                                            "model": "exotic_garden:plants/ender_plant"
+                                                                          }
+                                                                        },
+                                                                        "on_true": {
+                                                                          "type": "model",
+                                                                          "model": "exotic_garden:plants/emerald_plant"
+                                                                        }
+                                                                      },
+                                                                      "on_true": {
+                                                                        "type": "model",
+                                                                        "model": "exotic_garden:plants/diamond_plant"
+                                                                      }
+                                                                    },
+                                                                    "on_true": {
+                                                                      "type": "model",
+                                                                      "model": "exotic_garden:plants/coal_plant"
+                                                                    }
+                                                                  },
+                                                                  "on_true": {
+                                                                    "type": "model",
+                                                                    "model": "exotic_garden:fruits/tomato_bush"
+                                                                  }
+                                                                },
+                                                                "on_true": {
+                                                                  "type": "model",
+                                                                  "model": "exotic_garden:fruits/tea_leaf_bush"
+                                                                }
+                                                              },
+                                                              "on_true": {
+                                                                "type": "model",
+                                                                "model": "exotic_garden:fruits/sweet_potato_bush"
+                                                              }
+                                                            },
+                                                            "on_true": {
+                                                              "type": "model",
+                                                              "model": "exotic_garden:fruits/strawberry_bush"
+                                                            }
+                                                          },
+                                                          "on_true": {
+                                                            "type": "model",
+                                                            "model": "exotic_garden:fruits/raspberry_bush"
+                                                          }
+                                                        },
+                                                        "on_true": {
+                                                          "type": "model",
+                                                          "model": "exotic_garden:fruits/pomegranate_sapling"
+                                                        }
+                                                      },
+                                                      "on_true": {
+                                                        "type": "model",
+                                                        "model": "exotic_garden:fruits/plum_sapling"
+                                                      }
+                                                    },
+                                                    "on_true": {
+                                                      "type": "model",
+                                                      "model": "exotic_garden:fruits/pineapple_bush"
+                                                    }
+                                                  },
+                                                  "on_true": {
+                                                    "type": "model",
+                                                    "model": "exotic_garden:fruits/pear_sapling"
+                                                  }
+                                                },
+                                                "on_true": {
+                                                  "type": "model",
+                                                  "model": "exotic_garden:fruits/peach_sapling"
+                                                }
+                                              },
+                                              "on_true": {
+                                                "type": "model",
+                                                "model": "exotic_garden:fruits/orange_sapling"
+                                              }
+                                            },
+                                            "on_true": {
+                                              "type": "model",
+                                              "model": "exotic_garden:fruits/onion_bush"
+                                            }
+                                          },
+                                          "on_true": {
+                                            "type": "model",
+                                            "model": "exotic_garden:fruits/mustard_seed_bush"
+                                          }
+                                        },
+                                        "on_true": {
+                                          "type": "model",
+                                          "model": "exotic_garden:fruits/lime_sapling"
+                                        }
+                                      },
+                                      "on_true": {
+                                        "type": "model",
+                                        "model": "exotic_garden:fruits/lettuce_bush"
+                                      }
+                                    },
+                                    "on_true": {
+                                      "type": "model",
+                                      "model": "exotic_garden:fruits/lemon_sapling"
+                                    }
+                                  },
+                                  "on_true": {
+                                    "type": "model",
+                                    "model": "exotic_garden:fruits/grape_bush"
+                                  }
+                                },
+                                "on_true": {
+                                  "type": "model",
+                                  "model": "exotic_garden:fruits/garlic_bush"
+                                }
+                              },
+                              "on_true": {
+                                "type": "model",
+                                "model": "exotic_garden:fruits/elderberry_bush"
+                              }
+                            },
+                            "on_true": {
+                              "type": "model",
+                              "model": "exotic_garden:fruits/dragon_fruit_sapling"
+                            }
+                          },
+                          "on_true": {
+                            "type": "model",
+                            "model": "exotic_garden:fruits/curry_leaf_bush"
+                          }
+                        },
+                        "on_true": {
+                          "type": "model",
+                          "model": "exotic_garden:fruits/cranberry_bush"
+                        }
+                      },
+                      "on_true": {
+                        "type": "model",
+                        "model": "exotic_garden:fruits/cowberry_bush"
+                      }
+                    },
+                    "on_true": {
+                      "type": "model",
+                      "model": "exotic_garden:fruits/corn_bush"
+                    }
+                  },
+                  "on_true": {
+                    "type": "model",
+                    "model": "exotic_garden:fruits/coconut_sapling"
+                  }
+                },
+                "on_true": {
+                  "type": "model",
+                  "model": "exotic_garden:fruits/cilantro_bush"
+                }
+              },
+              "on_true": {
+                "type": "model",
+                "model": "exotic_garden:fruits/cherry_sapling"
+              }
+            },
+            "on_true": {
+              "type": "model",
+              "model": "exotic_garden:fruits/cabbage_bush"
+            }
+          },
+          "on_true": {
+            "type": "model",
+            "model": "exotic_garden:fruits/blueberry_bush"
+          }
+        },
+        "on_true": {
+          "type": "model",
+          "model": "exotic_garden:fruits/blackberry_bush"
+        }
+      },
+      "on_true": {
+        "type": "model",
+        "model": "exotic_garden:fruits/black_pepper_bush"
+      }
+    },
+    "on_true": {
+      "type": "model",
+      "model": "exotic_garden:fruits/oak_apple_sapling"
+    }
+  }
+}
