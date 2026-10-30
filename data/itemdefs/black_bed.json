@@ -1,0 +1,13 @@
+{
+  "base": "black_bed",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:special",
+    "base": "minecraft:item/black_bed",
+    "model": {
+      "type": "minecraft:bed",
+      "texture": "minecraft:black"
+    }
+  }
+}

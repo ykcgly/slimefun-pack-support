@@ -1,0 +1,9 @@
+{
+  "base": "green_candle",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/green_candle"
+  }
+}

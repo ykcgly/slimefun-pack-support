@@ -1,0 +1,9 @@
+{
+  "base": "gray_dye",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/gray_dye"
+  }
+}

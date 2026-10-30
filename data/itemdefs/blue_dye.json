@@ -1,0 +1,14 @@
+{
+  "base": "blue_dye",
+  "generated": true,
+  "entries": [
+    {
+      "id": "NTW_CRAFTING_BLUEPRINT",
+      "model": "network:item/ntw_crafting_blueprint"
+    }
+  ],
+  "tail": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/blue_dye"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "base": "music_disc_5",
+  "generated": true,
+  "entries": [
+    {
+      "id": "LOGITECH_FALSE_",
+      "model": "logi:item/logitech_false_"
+    },
+    {
+      "id": "LOGITECH_TRUE_",
+      "model": "logi:item/logitech_true_"
+    }
+  ],
+  "tail": {
+    "type": "model",
+    "model": "item/music_disc_5"
+  }
+}

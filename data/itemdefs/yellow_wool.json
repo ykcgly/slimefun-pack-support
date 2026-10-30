@@ -1,0 +1,9 @@
+{
+  "base": "yellow_wool",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:model",
+    "model": "minecraft:block/yellow_wool"
+  }
+}

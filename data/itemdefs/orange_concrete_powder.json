@@ -1,0 +1,9 @@
+{
+  "base": "orange_concrete_powder",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:model",
+    "model": "minecraft:block/orange_concrete_powder"
+  }
+}

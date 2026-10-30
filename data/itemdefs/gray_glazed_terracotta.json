@@ -1,0 +1,9 @@
+{
+  "base": "gray_glazed_terracotta",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:model",
+    "model": "minecraft:block/gray_glazed_terracotta"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "base": "white_bed",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:special",
+    "base": "minecraft:item/white_bed",
+    "model": {
+      "type": "minecraft:bed",
+      "texture": "minecraft:white"
+    }
+  }
+}

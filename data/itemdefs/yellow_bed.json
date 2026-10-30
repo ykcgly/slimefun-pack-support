@@ -1,0 +1,13 @@
+{
+  "base": "yellow_bed",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:special",
+    "base": "minecraft:item/yellow_bed",
+    "model": {
+      "type": "minecraft:bed",
+      "texture": "minecraft:yellow"
+    }
+  }
+}

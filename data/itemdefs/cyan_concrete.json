@@ -1,0 +1,9 @@
+{
+  "base": "cyan_concrete",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:model",
+    "model": "minecraft:block/cyan_concrete"
+  }
+}

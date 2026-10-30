@@ -17,6 +17,10 @@
     {
       "id": "GN_BUTTON_MUSHROOM",
       "model": "gastronomicon:ingredient/gn_button_mushroom"
+    },
+    {
+      "id": "WT_MGBZ",
+      "model": "world_tast:item/wt_mgbz"
     }
   ],
   "tail": {

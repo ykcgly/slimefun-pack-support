@@ -1,0 +1,9 @@
+{
+  "base": "brown_harness",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/brown_harness"
+  }
+}

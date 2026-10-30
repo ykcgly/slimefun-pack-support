@@ -1,0 +1,9 @@
+{
+  "base": "yellow_harness",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/yellow_harness"
+  }
+}

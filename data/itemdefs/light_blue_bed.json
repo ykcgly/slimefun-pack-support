@@ -1,0 +1,13 @@
+{
+  "base": "light_blue_bed",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:special",
+    "base": "minecraft:item/light_blue_bed",
+    "model": {
+      "type": "minecraft:bed",
+      "texture": "minecraft:light_blue"
+    }
+  }
+}

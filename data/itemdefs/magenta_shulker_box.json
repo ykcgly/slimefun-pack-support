@@ -1,0 +1,13 @@
+{
+  "base": "magenta_shulker_box",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:special",
+    "base": "minecraft:item/magenta_shulker_box",
+    "model": {
+      "type": "minecraft:shulker_box",
+      "texture": "minecraft:shulker_magenta"
+    }
+  }
+}

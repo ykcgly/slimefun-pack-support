@@ -1,0 +1,9 @@
+{
+  "base": "cyan_glazed_terracotta",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:model",
+    "model": "minecraft:block/cyan_glazed_terracotta"
+  }
+}

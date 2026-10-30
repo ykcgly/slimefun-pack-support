@@ -1,0 +1,13 @@
+{
+  "base": "green_bed",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:special",
+    "base": "minecraft:item/green_bed",
+    "model": {
+      "type": "minecraft:bed",
+      "texture": "minecraft:green"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "base": "cyan_bed",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:special",
+    "base": "minecraft:item/cyan_bed",
+    "model": {
+      "type": "minecraft:bed",
+      "texture": "minecraft:cyan"
+    }
+  }
+}

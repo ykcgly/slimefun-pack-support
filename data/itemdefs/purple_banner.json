@@ -1,0 +1,13 @@
+{
+  "base": "purple_banner",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:special",
+    "base": "minecraft:item/template_banner",
+    "model": {
+      "type": "minecraft:banner",
+      "color": "purple"
+    }
+  }
+}

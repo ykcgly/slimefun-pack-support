@@ -1,0 +1,9 @@
+{
+  "base": "black_wool",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:model",
+    "model": "minecraft:block/black_wool"
+  }
+}

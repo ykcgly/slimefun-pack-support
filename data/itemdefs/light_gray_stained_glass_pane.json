@@ -1,0 +1,9 @@
+{
+  "base": "light_gray_stained_glass_pane",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/light_gray_stained_glass_pane"
+  }
+}

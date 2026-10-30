@@ -1,0 +1,9 @@
+{
+  "base": "music_disc_creator_music_box",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "model",
+    "model": "item/music_disc_creator_music_box"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "base": "cyan_dye",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "model",
+    "model": "item/cyan_dye"
+  }
+}

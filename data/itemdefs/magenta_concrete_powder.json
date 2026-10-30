@@ -1,0 +1,9 @@
+{
+  "base": "magenta_concrete_powder",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:model",
+    "model": "minecraft:block/magenta_concrete_powder"
+  }
+}

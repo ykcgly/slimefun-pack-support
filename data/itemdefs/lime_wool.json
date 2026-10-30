@@ -1,0 +1,9 @@
+{
+  "base": "lime_wool",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:model",
+    "model": "minecraft:block/lime_wool"
+  }
+}

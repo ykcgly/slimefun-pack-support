@@ -1,0 +1,9 @@
+{
+  "base": "gray_stained_glass",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:model",
+    "model": "minecraft:block/gray_stained_glass"
+  }
+}

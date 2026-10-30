@@ -1,0 +1,9 @@
+{
+  "base": "magenta_wool",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:model",
+    "model": "minecraft:block/magenta_wool"
+  }
+}

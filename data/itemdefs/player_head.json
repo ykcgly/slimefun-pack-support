@@ -1285,6 +1285,42 @@
     {
       "id": "CLT_TURNIP",
       "model": "cultivation:products/clt_turnip"
+    },
+    {
+      "id": "WT_FUHUASHI",
+      "model": "world_tast:item/wt_fuhuashi"
+    },
+    {
+      "id": "WT_JIYINFENXIYI",
+      "model": "world_tast:item/wt_jiyinfenxiyi"
+    },
+    {
+      "id": "WT_ZHONGZIJDY",
+      "model": "world_tast:item/wt_zhongzijdy"
+    },
+    {
+      "id": "WT_NGZHONGZIJDY",
+      "model": "world_tast:item/wt_ngzhongzijdy"
+    },
+    {
+      "id": "WT_XIELONG",
+      "model": "world_tast:item/wt_xielong"
+    },
+    {
+      "id": "WT_DIANDONGBUSHUJIA",
+      "model": "world_tast:item/wt_diandongbushujia"
+    },
+    {
+      "id": "WT_HWSCPCLJ",
+      "model": "world_tast:item/wt_hwscpclj"
+    },
+    {
+      "id": "WT_SHUIZUXIANG",
+      "model": "world_tast:item/wt_shuizuxiang"
+    },
+    {
+      "id": "WT_BUYUWANG",
+      "model": "world_tast:item/wt_buyuwang"
     }
   ],
   "tail": {

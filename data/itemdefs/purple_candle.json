@@ -1,0 +1,9 @@
+{
+  "base": "purple_candle",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/purple_candle"
+  }
+}

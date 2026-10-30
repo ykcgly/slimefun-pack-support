@@ -3213,6 +3213,96 @@
           "type": "model",
           "model": "cultivation:products/clt_turnip"
         }
+      },
+      {
+        "when": [
+          "{PublicBukkitValues:{\"slimefun:slimefun_item\":\"WT_FUHUASHI\"}}",
+          "{PublicBukkitValues:'{\"slimefun:slimefun_item\":\"WT_FUHUASHI\"}'}"
+        ],
+        "model": {
+          "type": "model",
+          "model": "world_tast:item/wt_fuhuashi"
+        }
+      },
+      {
+        "when": [
+          "{PublicBukkitValues:{\"slimefun:slimefun_item\":\"WT_JIYINFENXIYI\"}}",
+          "{PublicBukkitValues:'{\"slimefun:slimefun_item\":\"WT_JIYINFENXIYI\"}'}"
+        ],
+        "model": {
+          "type": "model",
+          "model": "world_tast:item/wt_jiyinfenxiyi"
+        }
+      },
+      {
+        "when": [
+          "{PublicBukkitValues:{\"slimefun:slimefun_item\":\"WT_ZHONGZIJDY\"}}",
+          "{PublicBukkitValues:'{\"slimefun:slimefun_item\":\"WT_ZHONGZIJDY\"}'}"
+        ],
+        "model": {
+          "type": "model",
+          "model": "world_tast:item/wt_zhongzijdy"
+        }
+      },
+      {
+        "when": [
+          "{PublicBukkitValues:{\"slimefun:slimefun_item\":\"WT_NGZHONGZIJDY\"}}",
+          "{PublicBukkitValues:'{\"slimefun:slimefun_item\":\"WT_NGZHONGZIJDY\"}'}"
+        ],
+        "model": {
+          "type": "model",
+          "model": "world_tast:item/wt_ngzhongzijdy"
+        }
+      },
+      {
+        "when": [
+          "{PublicBukkitValues:{\"slimefun:slimefun_item\":\"WT_XIELONG\"}}",
+          "{PublicBukkitValues:'{\"slimefun:slimefun_item\":\"WT_XIELONG\"}'}"
+        ],
+        "model": {
+          "type": "model",
+          "model": "world_tast:item/wt_xielong"
+        }
+      },
+      {
+        "when": [
+          "{PublicBukkitValues:{\"slimefun:slimefun_item\":\"WT_DIANDONGBUSHUJIA\"}}",
+          "{PublicBukkitValues:'{\"slimefun:slimefun_item\":\"WT_DIANDONGBUSHUJIA\"}'}"
+        ],
+        "model": {
+          "type": "model",
+          "model": "world_tast:item/wt_diandongbushujia"
+        }
+      },
+      {
+        "when": [
+          "{PublicBukkitValues:{\"slimefun:slimefun_item\":\"WT_HWSCPCLJ\"}}",
+          "{PublicBukkitValues:'{\"slimefun:slimefun_item\":\"WT_HWSCPCLJ\"}'}"
+        ],
+        "model": {
+          "type": "model",
+          "model": "world_tast:item/wt_hwscpclj"
+        }
+      },
+      {
+        "when": [
+          "{PublicBukkitValues:{\"slimefun:slimefun_item\":\"WT_SHUIZUXIANG\"}}",
+          "{PublicBukkitValues:'{\"slimefun:slimefun_item\":\"WT_SHUIZUXIANG\"}'}"
+        ],
+        "model": {
+          "type": "model",
+          "model": "world_tast:item/wt_shuizuxiang"
+        }
+      },
+      {
+        "when": [
+          "{PublicBukkitValues:{\"slimefun:slimefun_item\":\"WT_BUYUWANG\"}}",
+          "{PublicBukkitValues:'{\"slimefun:slimefun_item\":\"WT_BUYUWANG\"}'}"
+        ],
+        "model": {
+          "type": "model",
+          "model": "world_tast:item/wt_buyuwang"
+        }
       }
     ],
     "fallback": {

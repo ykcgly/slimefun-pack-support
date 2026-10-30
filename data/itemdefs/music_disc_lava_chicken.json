@@ -1,0 +1,9 @@
+{
+  "base": "music_disc_lava_chicken",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "model",
+    "model": "item/music_disc_lava_chicken"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "base": "light_gray_banner",
+  "generated": true,
+  "entries": [],
+  "tail": {
+    "type": "minecraft:special",
+    "base": "minecraft:item/template_banner",
+    "model": {
+      "type": "minecraft:banner",
+      "color": "light_gray"
+    }
+  }
+}

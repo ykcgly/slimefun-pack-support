@@ -36,8 +36,22 @@
             }
           },
           "on_false": {
-            "type": "model",
-            "model": "item/brown_mushroom"
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "PublicBukkitValues": {
+                "slimefun:slimefun_item": "WT_MGBZ"
+              }
+            },
+            "on_false": {
+              "type": "model",
+              "model": "item/brown_mushroom"
+            },
+            "on_true": {
+              "type": "model",
+              "model": "world_tast:item/wt_mgbz"
+            }
           },
           "on_true": {
             "type": "model",
