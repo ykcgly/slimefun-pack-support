@@ -16,6 +16,8 @@
 流程:
     1. 自动创建 tools/import/ ，把 PNG 按「Slimefun 物品 ID」命名后放进去
        （例: PORTABLE_CRAFTER.png / DYED_SMALL_BACKPACK_LIME.png）
+       资源子目录只能含小写字母/数字/._-，用 / 分层；大写与反斜杠会自动修正，
+       空格、中文等非法字符会被拒绝（否则游戏里是紫黑块）
     2. 脚本读取 assets/ 下已有的附属命名空间供选择
     3. 选择目标类型（头颅 / 方块 / 物品），物品与方块需再选一个原版基底
     4. 选完立即生成，不再二次确认：
@@ -47,6 +49,10 @@ ID_RE = re.compile(r"^[A-Z][A-Z0-9_]*$")
 PNG_MAGIC = b"\x89PNG\r\n\x1a\n"
 IMAGE_SUFFIXES = {".png"}
 OTHER_IMAGE_SUFFIXES = {".jpg", ".jpeg", ".webp", ".gif", ".bmp", ".tga"}
+
+# Minecraft 资源位置的合法字符：命名空间与每一级路径段都必须匹配，
+# 否则模型/贴图无法被解析，游戏里表现为紫黑块
+RESOURCE_SEG_RE = re.compile(r"^[a-z0-9._-]+$")
 
 # 方块类基底的名字启发式（仅用于菜单归类，选 'a' 可看全部基底）
 BLOCK_HINT = re.compile(
@@ -505,7 +511,51 @@ def default_resource_dir(pack: Pack, ns: str) -> str:
                 counter[parent_dir] = counter.get(parent_dir, 0) + 1
     if not counter:
         return "item"
-    return max(counter.items(), key=lambda kv: (kv[1], -len(kv[0])))[0]
+    best = max(counter.items(), key=lambda kv: (kv[1], -len(kv[0])))[0]
+    # 仓库里若存在大写/中文目录，别把它当推荐值
+    return best if is_valid_path(best) else "item"
+
+
+def path_segments(path: str) -> list[str]:
+    return [seg for seg in (s.strip() for s in path.replace("\\", "/").split("/")) if seg]
+
+
+def is_valid_path(path: str) -> bool:
+    segments = path_segments(path)
+    return bool(segments) and all(
+        RESOURCE_SEG_RE.match(seg) and seg not in {".", ".."} for seg in segments
+    )
+
+
+def normalize_resource_dir(raw: str) -> tuple[str | None, str | None]:
+    """把用户输入的资源子目录规范化成游戏能解析的形式。
+
+    反斜杠 -> 斜杠、大写 -> 小写、去掉空段与误带的命名空间前缀。
+    返回 (子目录, 错误信息)；子目录为 None 表示这条输入不可用。
+    """
+    text = (raw or "").replace("\\", "/").lower()
+    if ":" in text:  # 误带命名空间前缀，脚本会自动补
+        text = text.rsplit(":", 1)[1]
+    segments = path_segments(text)
+    if not segments:
+        return None, "为空"
+    bad = [seg for seg in segments if not (RESOURCE_SEG_RE.match(seg) and seg not in {".", ".."})]
+    if bad:
+        return None, "含非法路径段 " + "、".join(repr(seg) for seg in bad)
+    return "/".join(segments), None
+
+
+def ref_problem(ref: str) -> str | None:
+    """检查 `<ns>:<path>` 引用是否会被游戏拒绝（被拒绝就是紫黑块）。"""
+    ns, _, path = ref.partition(":")
+    if not RESOURCE_SEG_RE.match(ns):
+        return f"命名空间 {ns!r} 不合法（只能小写字母 / 数字 / . _ -）"
+    if not path:
+        return f"资源路径为空（引用 {ref!r}）"
+    bad = [seg for seg in path.split("/") if not (RESOURCE_SEG_RE.match(seg) and seg not in {".", ".."})]
+    if bad:
+        return "路径段 " + "、".join(repr(seg) for seg in bad) + " 不合法（只能小写字母 / 数字 / . _ -）"
+    return None
 
 
 # ---------------------------------------------------------------------- 生成 --
@@ -566,7 +616,15 @@ def generate(
             tex_ref = existing_texture_ref(pack, entry)
             action = "更新"
         else:
-            model_ref = tex_ref = f"{ns}:{resource_dir.strip('/')}/{item_id.lower()}"
+            ref = f"{ns}:{resource_dir.strip('/')}/{item_id.lower()}"
+            problem = ref_problem(ref)
+            if problem:
+                report.add(
+                    "failed",
+                    f"[失败] {item_id}: {problem}，未写入任何文件（请改用小写英文子目录）",
+                )
+                continue
+            model_ref = tex_ref = ref
             action = "新增"
 
         tex_path = pack.texture_file(tex_ref)
@@ -718,13 +776,17 @@ def choose_base(pack: Pack, type_key: str) -> str:
 
 def ask_resource_dir(pack: Pack, ns: str) -> str:
     default = default_resource_dir(pack, ns)
-    prompt = f"\n新条目资源子目录（回车使用 {default}，或输入如 {ns}/items）: "
-    raw = ask(prompt, default=default)
-    raw = raw.strip().strip("/")
-    if ":" in raw:
-        print("  [!] 不要带命名空间前缀，脚本会自动加")
-        raw = raw.split(":", 1)[1].strip("/")
-    return raw or default
+    while True:
+        raw = ask(f"\n新条目资源子目录（回车使用 {default}，或输入如 {ns}/items）: ", default=default)
+        if ":" in raw:
+            print("  [!] 不要带命名空间前缀，脚本会自动加")
+        resource_dir, err = normalize_resource_dir(raw)
+        if resource_dir is not None:
+            return resource_dir
+        print(
+            f"  [!] 子目录{err}：只能用小写字母 / 数字 / . _ - 并用 / 分层\n"
+            f"      （大写会自动转小写；空格、中文、反斜杠请先改成小写英文）"
+        )
 
 
 # --------------------------------------------------------------------- verify --
@@ -863,10 +925,18 @@ def main(argv: list[str] | None = None) -> int:
     # 只为“新条目”询问子目录；全部命中已有条目时不需要
     existing_ids = {e.get("id") for e in manifest_entries(pack.load_manifest(base))}
     packed_ids = {item_id for _, item_id in items}
-    resource_dir = args.resource_dir
-    if packed_ids - existing_ids and not resource_dir:
+    resource_dir: str | None = None
+    if args.resource_dir is not None:
+        resource_dir, err = normalize_resource_dir(args.resource_dir)
+        if resource_dir is None:
+            raise SystemExit(
+                f"[x] --dir 子目录{err}\n"
+                f"    只能用小写字母 / 数字 / . _ - 并用 / 分层，例如: --dir {ns}/items"
+            )
+    if resource_dir is None and packed_ids - existing_ids:
         resource_dir = ask_resource_dir(pack, ns)
-    resource_dir = (resource_dir or default_resource_dir(pack, ns)).strip("/")
+    if resource_dir is None:
+        resource_dir = default_resource_dir(pack, ns)
 
     # ---- 生成（不再二次确认） ----
     print(f"\n执行生成 -> 附属 {ns} / 类型 {type_key} / 基底 {base} / 子目录 {resource_dir}")

@@ -1321,6 +1321,22 @@
     {
       "id": "WT_BUYUWANG",
       "model": "world_tast:item/wt_buyuwang"
+    },
+    {
+      "id": "WT_PANGXIEYOUER",
+      "model": "world_tast:item/wt_pangxieyouer"
+    },
+    {
+      "id": "WT_XIAYOUER",
+      "model": "world_tast:item/wt_xiayouer"
+    },
+    {
+      "id": "WT_LONGXIAYOUER",
+      "model": "world_tast:item/wt_longxiayouer"
+    },
+    {
+      "id": "WT_HAIXINGYOUER",
+      "model": "world_tast:item/wt_haixingyouer"
     }
   ],
   "tail": {

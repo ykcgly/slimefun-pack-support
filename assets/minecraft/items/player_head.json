@@ -3303,6 +3303,46 @@
           "type": "model",
           "model": "world_tast:item/wt_buyuwang"
         }
+      },
+      {
+        "when": [
+          "{PublicBukkitValues:{\"slimefun:slimefun_item\":\"WT_PANGXIEYOUER\"}}",
+          "{PublicBukkitValues:'{\"slimefun:slimefun_item\":\"WT_PANGXIEYOUER\"}'}"
+        ],
+        "model": {
+          "type": "model",
+          "model": "world_tast:item/wt_pangxieyouer"
+        }
+      },
+      {
+        "when": [
+          "{PublicBukkitValues:{\"slimefun:slimefun_item\":\"WT_XIAYOUER\"}}",
+          "{PublicBukkitValues:'{\"slimefun:slimefun_item\":\"WT_XIAYOUER\"}'}"
+        ],
+        "model": {
+          "type": "model",
+          "model": "world_tast:item/wt_xiayouer"
+        }
+      },
+      {
+        "when": [
+          "{PublicBukkitValues:{\"slimefun:slimefun_item\":\"WT_LONGXIAYOUER\"}}",
+          "{PublicBukkitValues:'{\"slimefun:slimefun_item\":\"WT_LONGXIAYOUER\"}'}"
+        ],
+        "model": {
+          "type": "model",
+          "model": "world_tast:item/wt_longxiayouer"
+        }
+      },
+      {
+        "when": [
+          "{PublicBukkitValues:{\"slimefun:slimefun_item\":\"WT_HAIXINGYOUER\"}}",
+          "{PublicBukkitValues:'{\"slimefun:slimefun_item\":\"WT_HAIXINGYOUER\"}'}"
+        ],
+        "model": {
+          "type": "model",
+          "model": "world_tast:item/wt_haixingyouer"
+        }
       }
     ],
     "fallback": {
