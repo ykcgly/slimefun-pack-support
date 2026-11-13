@@ -24,7 +24,7 @@
          - 贴图     -> assets/<附属>/textures/<子目录>/<id>.png
          - 模型     -> assets/<附属>/models/<子目录>/<id>.json   （parent: item/generated）
          - 注册清单 -> data/itemdefs/<基底>.json 追加 { "id", "model" }
-         - 重建产物 -> assets/minecraft/items/<基底>.json（含 1.21.6+ overlay 的 player_head）
+         - 重建产物 -> assets/minecraft/items/<基底>.json（含 1.21.6+ 与 26.1+ 的 player_head overlay）
 """
 
 from __future__ import annotations
@@ -37,6 +37,7 @@ import shutil
 import subprocess
 import sys
 import traceback
+from copy import deepcopy
 from pathlib import Path
 
 # ----------------------------------------------------------------- 常量与路径 --
@@ -70,6 +71,16 @@ BLOCK_HINT = re.compile(
 
 # 模型 JSON 里 parent 为 item/generated 的才被当作“单层图标”
 GENERATED_PARENT = "item/generated"
+
+# 26.1（资源包格式 84+）把特殊模型的内置渲染变换提取到了物品定义的
+# transformation 字段，缺失时头颅等特殊模型位置/角度会异常（1.21.x 由渲染器
+# 自动附加，不需要）。overlay_26_1 里的 fallback 必须带上这个变换。
+TRANSFORMATION_26 = {
+    "left_rotation": [1.0, 0.0, 0.0, -0.0],
+    "right_rotation": [0.0, 0.0, 0.0, 1.0],
+    "scale": [1.0, 1.0, 1.0],
+    "translation": [0.5, 0.0, 0.5],
+}
 
 LOG_FILE = SCRIPT_DIR / "add_texture.log"
 
@@ -259,6 +270,7 @@ class Pack:
         self.itemdefs = root / "data" / "itemdefs"
         self.items_out = self.assets / "minecraft" / "items"
         self.overlay_items = root / "overlay_1_21_6_plus" / "assets" / "minecraft" / "items"
+        self.overlay26_items = root / "overlay_26_1" / "assets" / "minecraft" / "items"
 
     @staticmethod
     def locate(start: Path) -> "Pack":
@@ -400,6 +412,38 @@ def render_item_definition(entries: list[dict], tail) -> tuple[dict, str]:
 def manifest_entries(manifest: dict) -> list[dict]:
     entries = manifest.get("entries")
     return entries if isinstance(entries, list) else []
+
+
+def with_transformation(node):
+    """给物品定义节点补上 26.1 需要的 transformation（overlay_26_1 用）。
+
+    特殊模型节点直接附加；有子节点（select/condition）时附在顶层，
+    子模型变换会与顶层变换组合，效果一致。
+    顺带把历史简写（"special" / "item/template_skull"）补成 26.x 原版
+    使用的完整命名空间，避免 26.x 的 codec 不接受省略写法。
+    """
+    if not isinstance(node, dict):
+        return node
+    out = dict(node)
+    for key in ("type", "base"):
+        value = out.get(key)
+        if isinstance(value, str) and ":" not in value:
+            out[key] = f"minecraft:{value}"
+    out["transformation"] = deepcopy(TRANSFORMATION_26)
+    return out
+
+
+def overlay26_tail(base: str, manifest: dict):
+    """需要 26.1+ overlay 的基底及其尾节点。
+
+    player_head 用 1.21.6 overlay 的 tail_overlay（minecraft:player_head），
+    zombie_head 用基类 tail（minecraft:head / zombie）。其余基底不生成。
+    """
+    if base == "player_head":
+        return manifest.get("tail_overlay")
+    if base == "zombie_head":
+        return manifest.get("tail")
+    return None
 
 
 # ------------------------------------------------------------------- 菜单 UI --
@@ -690,7 +734,7 @@ def existing_texture_ref(pack: Pack, entry: dict) -> str:
 
 
 def rebuild_outputs(pack: Pack, base: str) -> list[str]:
-    """按清单重建 assets/minecraft/items/<base>.json（player_head 含 overlay）。"""
+    """按清单重建产物（头颅额外生成 1.21.6+ 与 26.1+ 的 overlay）。"""
     manifest = pack.load_manifest(base)
     if manifest.get("generated") is not True:
         return []
@@ -708,6 +752,14 @@ def rebuild_outputs(pack: Pack, base: str) -> list[str]:
         ov = pack.overlay_items / f"{base}.json"
         write_json(ov, ov_doc)
         logs.append(f"{ov.relative_to(pack.root).as_posix()} ({ov_structure}, {len(entries)} 条目)")
+
+
+    tail26 = overlay26_tail(base, manifest)
+    if tail26 is not None:
+        ov26_doc, ov26_structure = render_item_definition(entries, with_transformation(tail26))
+        ov26 = pack.overlay26_items / f"{base}.json"
+        write_json(ov26, ov26_doc)
+        logs.append(f"{ov26.relative_to(pack.root).as_posix()} ({ov26_structure}, {len(entries)} 条目)")
     return logs
 
 
@@ -838,10 +890,31 @@ def verify(pack: Pack) -> int:
             if not ov_target.exists() or ov_target.read_text(encoding="utf-8").replace("\r\n", "\n") != json.dumps(ov_doc, indent=2, ensure_ascii=False):
                 print("[x] player_head: overlay 产物与清单不一致")
                 bad += 1
+        tail26 = overlay26_tail(base, manifest)
+        if tail26 is not None:
+            ov26_target = pack.overlay26_items / f"{base}.json"
+            ov26_doc, _ = render_item_definition(
+                manifest_entries(manifest), with_transformation(tail26)
+            )
+            expected26 = json.dumps(ov26_doc, indent=2, ensure_ascii=False)
+            if not ov26_target.exists() or ov26_target.read_text(encoding="utf-8").replace("\r\n", "\n") != expected26:
+                print(f"[x] {base}: overlay_26_1 产物与清单不一致")
+                bad += 1
     for line in overlay_fallback_problems(pack):
         print(line)
         bad += 1
-    print(f"verify: 检查 {checked} 个可重建基底，异常 {bad} 个")
+    try:
+        import overlay26_special as ov26s
+    except ImportError as exc:
+        print(f"[x] 缺少 26.x overlay 生成模块: {exc}")
+        bad += 1
+    else:
+        for rel, doc in ov26s.expected(pack.root).items():
+            target = pack.root / rel
+            if not target.exists() or target.read_text(encoding="utf-8").replace("\r\n", "\n") != ov26s._text(doc):
+                print(f"[x] 26.x overlay 缺失或与基类不一致: {rel}")
+                bad += 1
+    print(f"verify: 检查 {checked} 个可重建基底 + 26.x overlay，异常 {bad} 个")
     return 0 if bad == 0 else 1
 
 

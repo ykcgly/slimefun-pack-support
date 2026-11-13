@@ -3,7 +3,7 @@
     "pack_format":15,
     "description":[
        "§2Slimefun §9Resourcepack §6Remake",
-       "\n§e1.21.5-1.21.11"
+       "\n§e1.21.5-1.21.11 §7/ §e26.1+"
     ],
     "supported_formats":{
       "min_inclusive": 15,
@@ -21,6 +21,24 @@
           "max_inclusive": 999
         },
         "min_format": 55,
+        "max_format": 999
+      },
+      {
+        "directory": "overlay_26_1",
+        "formats":{
+          "min_inclusive": 84,
+          "max_inclusive": 999
+        },
+        "min_format": 84,
+        "max_format": 999
+      },
+      {
+        "directory": "overlay_26_2",
+        "formats":{
+          "min_inclusive": 88,
+          "max_inclusive": 999
+        },
+        "min_format": 88,
         "max_format": 999
       }
     ]
